@@ -1,0 +1,1141 @@
+{
+  "schema": "freefact.graph-view/1",
+  "id": "01-knowledge-map",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "Weighted overview: exact index/table-to-registry references and scoped rule groups, aggregated by 22 chapters. Guideline prose has separate scope. Counts do not measure clinical importance.",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "nodes": [
+    {
+      "id": "family:disease",
+      "label": "Disease index",
+      "category": "Aggregate: index or table",
+      "subjects": 81515,
+      "facts": 253950,
+      "code_links": 56904
+    },
+    {
+      "id": "family:external",
+      "label": "External cause index",
+      "category": "Aggregate: index or table",
+      "subjects": 8090,
+      "facts": 25330,
+      "code_links": 6448
+    },
+    {
+      "id": "family:drug",
+      "label": "Drug table",
+      "category": "Aggregate: index or table",
+      "subjects": 7430,
+      "facts": 58993,
+      "code_links": 40036
+    },
+    {
+      "id": "family:neoplasm",
+      "label": "Neoplasm table",
+      "category": "Aggregate: index or table",
+      "subjects": 1940,
+      "facts": 15276,
+      "code_links": 7928
+    },
+    {
+      "id": "chapter:1",
+      "label": "Certain infectious and parasitic diseases (A00-B99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1309
+    },
+    {
+      "id": "chapter:2",
+      "label": "Neoplasms (C00-D49)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 2178
+    },
+    {
+      "id": "chapter:3",
+      "label": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 401
+    },
+    {
+      "id": "chapter:4",
+      "label": "Endocrine, nutritional and metabolic diseases (E00-E89)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1267
+    },
+    {
+      "id": "chapter:5",
+      "label": "Mental, Behavioral and Neurodevelopmental disorders (F01-F99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1112
+    },
+    {
+      "id": "chapter:6",
+      "label": "Diseases of the nervous system (G00-G99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 932
+    },
+    {
+      "id": "chapter:7",
+      "label": "Diseases of the eye and adnexa (H00-H59)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 3466
+    },
+    {
+      "id": "chapter:8",
+      "label": "Diseases of the ear and mastoid process (H60-H95)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 871
+    },
+    {
+      "id": "chapter:9",
+      "label": "Diseases of the circulatory system (I00-I99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1798
+    },
+    {
+      "id": "chapter:10",
+      "label": "Diseases of the respiratory system (J00-J99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 471
+    },
+    {
+      "id": "chapter:11",
+      "label": "Diseases of the digestive system (K00-K95)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1109
+    },
+    {
+      "id": "chapter:12",
+      "label": "Diseases of the skin and subcutaneous tissue (L00-L99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1206
+    },
+    {
+      "id": "chapter:13",
+      "label": "Diseases of the musculoskeletal system and connective tissue (M00-M99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 8674
+    },
+    {
+      "id": "chapter:14",
+      "label": "Diseases of the genitourinary system (N00-N99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1044
+    },
+    {
+      "id": "chapter:15",
+      "label": "Pregnancy, childbirth and the puerperium (O00-O9A)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 3023
+    },
+    {
+      "id": "chapter:16",
+      "label": "Certain conditions originating in the perinatal period (P00-P96)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 565
+    },
+    {
+      "id": "chapter:17",
+      "label": "Congenital malformations, deformations and chromosomal abnormalities (Q00-QA0)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1086
+    },
+    {
+      "id": "chapter:18",
+      "label": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 962
+    },
+    {
+      "id": "chapter:19",
+      "label": "Injury, poisoning and certain other consequences of external causes (S00-T88)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 54261
+    },
+    {
+      "id": "chapter:20",
+      "label": "External causes of morbidity (V00-Y99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 10602
+    },
+    {
+      "id": "chapter:21",
+      "label": "Factors influencing health status and contact with health services (Z00-Z99)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 1844
+    },
+    {
+      "id": "chapter:22",
+      "label": "Codes for special purposes (U00-U85)",
+      "category": "Clinical chapter",
+      "registry_identifiers": 5
+    },
+    {
+      "id": "predicate:code_first",
+      "label": "Code first",
+      "category": "Aggregate: predicate",
+      "facts": 363
+    },
+    {
+      "id": "predicate:use_additional_code",
+      "label": "Use additional code",
+      "category": "Aggregate: predicate",
+      "facts": 844
+    },
+    {
+      "id": "predicate:excludes1",
+      "label": "Excludes1",
+      "category": "Aggregate: predicate",
+      "facts": 2644
+    },
+    {
+      "id": "predicate:excludes2",
+      "label": "Excludes2",
+      "category": "Aggregate: predicate",
+      "facts": 1165
+    }
+  ],
+  "edges": [
+    {
+      "source": "family:external",
+      "target": "chapter:21",
+      "weight": 3,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "external"
+    },
+    {
+      "source": "family:external",
+      "target": "chapter:19",
+      "weight": 32,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "external"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:22",
+      "weight": 40,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:8",
+      "weight": 167,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:7",
+      "weight": 836,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:16",
+      "weight": 1310,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:2",
+      "weight": 1340,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:3",
+      "weight": 1767,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:12",
+      "weight": 1860,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:10",
+      "weight": 1864,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:15",
+      "weight": 2039,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:18",
+      "weight": 2086,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:13",
+      "weight": 2593,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:6",
+      "weight": 2683,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:14",
+      "weight": 2747,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:9",
+      "weight": 3286,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:11",
+      "weight": 3328,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:4",
+      "weight": 3340,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:5",
+      "weight": 3738,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:21",
+      "weight": 3798,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:17",
+      "weight": 4841,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:1",
+      "weight": 6356,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:external",
+      "target": "chapter:20",
+      "weight": 6413,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "external"
+    },
+    {
+      "source": "family:disease",
+      "target": "chapter:19",
+      "weight": 6885,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "disease"
+    },
+    {
+      "source": "family:neoplasm",
+      "target": "chapter:2",
+      "weight": 7928,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "neoplasm"
+    },
+    {
+      "source": "family:drug",
+      "target": "chapter:19",
+      "weight": 40036,
+      "label": "exact registered-code reference",
+      "kind": "aggregate",
+      "aggregation": "index_code_links",
+      "source_family": "drug"
+    },
+    {
+      "source": "chapter:1",
+      "target": "predicate:code_first",
+      "weight": 7,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:1",
+      "target": "predicate:excludes1",
+      "weight": 86,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:1",
+      "target": "predicate:excludes2",
+      "weight": 39,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:1",
+      "target": "predicate:use_additional_code",
+      "weight": 12,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:10",
+      "target": "predicate:code_first",
+      "weight": 27,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:10",
+      "target": "predicate:excludes1",
+      "weight": 94,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:10",
+      "target": "predicate:excludes2",
+      "weight": 51,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:10",
+      "target": "predicate:use_additional_code",
+      "weight": 42,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:11",
+      "target": "predicate:code_first",
+      "weight": 16,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:11",
+      "target": "predicate:excludes1",
+      "weight": 128,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:11",
+      "target": "predicate:excludes2",
+      "weight": 75,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:11",
+      "target": "predicate:use_additional_code",
+      "weight": 56,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:12",
+      "target": "predicate:code_first",
+      "weight": 10,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:12",
+      "target": "predicate:excludes1",
+      "weight": 53,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:12",
+      "target": "predicate:excludes2",
+      "weight": 54,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:12",
+      "target": "predicate:use_additional_code",
+      "weight": 28,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:13",
+      "target": "predicate:code_first",
+      "weight": 37,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:13",
+      "target": "predicate:excludes1",
+      "weight": 137,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:13",
+      "target": "predicate:excludes2",
+      "weight": 75,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:13",
+      "target": "predicate:use_additional_code",
+      "weight": 38,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:14",
+      "target": "predicate:code_first",
+      "weight": 18,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:14",
+      "target": "predicate:excludes1",
+      "weight": 148,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:14",
+      "target": "predicate:excludes2",
+      "weight": 34,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:14",
+      "target": "predicate:use_additional_code",
+      "weight": 31,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:15",
+      "target": "predicate:code_first",
+      "weight": 4,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:15",
+      "target": "predicate:excludes1",
+      "weight": 86,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:15",
+      "target": "predicate:excludes2",
+      "weight": 43,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:15",
+      "target": "predicate:use_additional_code",
+      "weight": 66,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:16",
+      "target": "predicate:code_first",
+      "weight": 8,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:16",
+      "target": "predicate:excludes1",
+      "weight": 71,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:16",
+      "target": "predicate:excludes2",
+      "weight": 33,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:16",
+      "target": "predicate:use_additional_code",
+      "weight": 15,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:17",
+      "target": "predicate:code_first",
+      "weight": 2,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:17",
+      "target": "predicate:excludes1",
+      "weight": 105,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:17",
+      "target": "predicate:excludes2",
+      "weight": 22,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:17",
+      "target": "predicate:use_additional_code",
+      "weight": 12,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:18",
+      "target": "predicate:code_first",
+      "weight": 19,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:18",
+      "target": "predicate:excludes1",
+      "weight": 186,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:18",
+      "target": "predicate:excludes2",
+      "weight": 49,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:18",
+      "target": "predicate:use_additional_code",
+      "weight": 14,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:19",
+      "target": "predicate:code_first",
+      "weight": 44,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:19",
+      "target": "predicate:excludes1",
+      "weight": 262,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:19",
+      "target": "predicate:excludes2",
+      "weight": 240,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:19",
+      "target": "predicate:use_additional_code",
+      "weight": 151,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:2",
+      "target": "predicate:code_first",
+      "weight": 3,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:2",
+      "target": "predicate:excludes1",
+      "weight": 207,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:2",
+      "target": "predicate:excludes2",
+      "weight": 39,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:2",
+      "target": "predicate:use_additional_code",
+      "weight": 46,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:20",
+      "target": "predicate:code_first",
+      "weight": 5,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:20",
+      "target": "predicate:excludes1",
+      "weight": 245,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:20",
+      "target": "predicate:excludes2",
+      "weight": 40,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:20",
+      "target": "predicate:use_additional_code",
+      "weight": 4,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:21",
+      "target": "predicate:code_first",
+      "weight": 20,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:21",
+      "target": "predicate:excludes1",
+      "weight": 177,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:21",
+      "target": "predicate:excludes2",
+      "weight": 118,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:21",
+      "target": "predicate:use_additional_code",
+      "weight": 36,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:22",
+      "target": "predicate:code_first",
+      "weight": 1,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:22",
+      "target": "predicate:excludes2",
+      "weight": 1,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:22",
+      "target": "predicate:use_additional_code",
+      "weight": 3,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:3",
+      "target": "predicate:code_first",
+      "weight": 14,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:3",
+      "target": "predicate:excludes1",
+      "weight": 71,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:3",
+      "target": "predicate:excludes2",
+      "weight": 22,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:3",
+      "target": "predicate:use_additional_code",
+      "weight": 36,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:4",
+      "target": "predicate:code_first",
+      "weight": 13,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:4",
+      "target": "predicate:excludes1",
+      "weight": 119,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:4",
+      "target": "predicate:excludes2",
+      "weight": 22,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:4",
+      "target": "predicate:use_additional_code",
+      "weight": 70,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:5",
+      "target": "predicate:code_first",
+      "weight": 11,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:5",
+      "target": "predicate:excludes1",
+      "weight": 115,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:5",
+      "target": "predicate:excludes2",
+      "weight": 78,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:5",
+      "target": "predicate:use_additional_code",
+      "weight": 19,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:6",
+      "target": "predicate:code_first",
+      "weight": 43,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:6",
+      "target": "predicate:excludes1",
+      "weight": 104,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:6",
+      "target": "predicate:excludes2",
+      "weight": 28,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:6",
+      "target": "predicate:use_additional_code",
+      "weight": 40,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:7",
+      "target": "predicate:code_first",
+      "weight": 11,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:7",
+      "target": "predicate:excludes1",
+      "weight": 72,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:7",
+      "target": "predicate:excludes2",
+      "weight": 32,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:7",
+      "target": "predicate:use_additional_code",
+      "weight": 13,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:8",
+      "target": "predicate:code_first",
+      "weight": 9,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:8",
+      "target": "predicate:excludes1",
+      "weight": 26,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:8",
+      "target": "predicate:excludes2",
+      "weight": 8,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:8",
+      "target": "predicate:use_additional_code",
+      "weight": 12,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:9",
+      "target": "predicate:code_first",
+      "weight": 41,
+      "label": "code_first",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:9",
+      "target": "predicate:excludes1",
+      "weight": 152,
+      "label": "excludes1",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:9",
+      "target": "predicate:excludes2",
+      "weight": 62,
+      "label": "excludes2",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    },
+    {
+      "source": "chapter:9",
+      "target": "predicate:use_additional_code",
+      "weight": 100,
+      "label": "use_additional_code",
+      "kind": "aggregate",
+      "aggregation": "scoped_rule_count"
+    }
+  ],
+  "facts": [],
+  "notes": {
+    "scoped_predicates": [
+      "code_first",
+      "use_additional_code",
+      "excludes1",
+      "excludes2"
+    ],
+    "registered_reference_links": 111316,
+    "chapter_registry_total": 98186,
+    "all_graph_facts": 809979
+  }
+}

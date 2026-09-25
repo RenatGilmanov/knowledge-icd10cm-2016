@@ -1,0 +1,15 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat index/notation
+.s "disease:6yxzYjk88om4"
+index_notation|"- - pubic ramus [pubis] E83.31 [M90.88]"|["e:7u61","e:d768"]|{"status":"ambiguous"}
+.s "disease:OUrqIlC0gGFc"
+index_notation|"- - - - pubic ramus [pubis] T70.3 [M90.58]"|["e:7v2s","e:d7fp"]|{"status":"ambiguous"}
+.s "disease:PXKk7eVyCmU1"
+index_notation|"- - - - pubic ramus [pubis] D49.2 [M90.68]"|["e:7syb","e:d74p"]|{"status":"ambiguous"}
+.s "disease:h7nTlFsHWUoc"
+index_notation|"- - - - pubic ramus [pubis] D58.2 [M90.58]"|["e:7ux4","e:d6j5"]|{"status":"ambiguous"}
+.end 4 a754174e288d35b90882fdfb4e96a0b65d435503bffba2b8c7406918682f488a

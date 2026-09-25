@@ -1,0 +1,1023 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/seventh_character_applicability
+.s "cm:E08.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E08.32 to designate laterality of the disease:"]|["e:1ubj","e:1ubu"]
+.s "cm:E08.33"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E08.33 to designate laterality of the disease:"]|["e:1ugg","e:1ugs"]
+.s "cm:E08.34"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E08.34 to designate laterality of the disease:"]|["e:1ule","e:1ulp"]
+.s "cm:E08.35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E08.35 to designate laterality of the disease:"]|["e:1uqc","e:1uqn"]
+.s "cm:E08.37"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code E08.37 to designate laterality of the disease:"]|["e:1uzx","e:1v08"]
+.s "cm:E09.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E09.32 to designate laterality of the disease:"]|["e:1wp1","e:1wpc"]
+.s "cm:E09.33"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E09.33 to designate laterality of the disease:"]|["e:1wty","e:1wu9"]
+.s "cm:E09.34"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E09.34 to designate laterality of the disease:"]|["e:1wyw","e:1wz7"]
+.s "cm:E09.35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E09.35 to designate laterality of the disease:"]|["e:1x3t","e:1x44"]
+.s "cm:E09.37"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code E09.37 to designate laterality of the disease:"]|["e:1xdd","e:1xdq"]
+.s "cm:E10.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E10.32 to designate laterality of the disease:"]|["e:1yz3","e:1yze"]
+.s "cm:E10.33"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E10.33 to designate laterality of the disease:"]|["e:1z43","e:1z4e"]
+.s "cm:E10.34"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E10.34 to designate laterality of the disease:"]|["e:1z90","e:1z9b"]
+.s "cm:E10.35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E10.35 to designate laterality of the disease:"]|["e:1zdy","e:1ze9"]
+.s "cm:E10.37"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code E10.37 to designate laterality of the disease:"]|["e:1zni","e:1znt"]
+.s "cm:E11.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E11.32 to designate laterality of the disease:"]|["e:215l","e:215m"]
+.s "cm:E11.33"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E11.33 to designate laterality of the disease:"]|["e:2162","e:2163"]
+.s "cm:E11.34"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E11.34 to designate laterality of the disease:"]|["e:216l","e:216m"]
+.s "cm:E11.35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E11.35 to designate laterality of the disease:"]|["e:2172","e:2174"]
+.s "cm:E11.37"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code E11.37 to designate laterality of the disease:"]|["e:2181","e:2182"]
+.s "cm:E13.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E13.32 to designate laterality of the disease:"]|["e:21ee","e:21ef"]
+.s "cm:E13.33"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E13.33 to designate laterality of the disease:"]|["e:21ew","e:21ex"]
+.s "cm:E13.34"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E13.34 to designate laterality of the disease:"]|["e:21fd","e:21fg"]
+.s "cm:E13.35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory E13.35 to designate laterality of the disease:"]|["e:21fw","e:21fx"]
+.s "cm:E13.37"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code E13.37 to designate laterality of the disease:"]|["e:21gu","e:21gv"]
+.s "cm:H34.81"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory H34.81 to designate the severity of the occlusion:"]|["e:2i91","e:2i92"]
+.s "cm:H34.83"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory H34.83 to designate the severity of the occlusion:"]|["e:2ia9","e:2iaa"]
+.s "cm:H35.31"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory H35.31 to designate the stage of the disease:"]|["e:2ijw","e:2ijx"]
+.s "cm:H35.32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to codes in subcategory H35.32 to designate the stage of the disease:"]|["e:2ikq","e:2ikr"]
+.s "cm:H40.10"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code H40.10 to designate the stage of glaucoma"]|["e:2j03","e:2j06"]
+.s "cm:H40.11"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.11 to designate the stage of glaucoma"]|["e:2j0j","e:2j0k"]
+.s "cm:H40.12"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.12 to designate the stage of glaucoma"]|["e:2j18","e:2j19"]
+.s "cm:H40.13"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.13 to designate the stage of glaucoma"]|["e:2j1x","e:2j1y"]
+.s "cm:H40.14"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.14 to designate the stage of glaucoma"]|["e:2j2n","e:2j2o"]
+.s "cm:H40.20"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code H40.20 to designate the stage of glaucoma"]|["e:2j40","e:2j41"]
+.s "cm:H40.22"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.22 to designate the stage of glaucoma"]|["e:2j4y","e:2j4z"]
+.s "cm:H40.3"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.3 to designate the stage of glaucoma"]|["e:2j6o","e:2j6p"]
+.s "cm:H40.4"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.4 to designate the stage of glaucoma"]|["e:2j7f","e:2j7g"]
+.s "cm:H40.5"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.5 to designate the stage of glaucoma"]|["e:2j87","e:2j88"]
+.s "cm:H40.6"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code in subcategory H40.6 to designate the stage of glaucoma"]|["e:2j8y","e:2j8z"]
+.s "cm:M1A"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category M1A"]|["e:391j","e:391k"]
+.s "cm:M48.4"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M48.4:"]|["e:3g3v","e:3g3w"]
+.s "cm:M48.5"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M48.5:"]|["e:3g5e","e:3g5f"]
+.s "cm:M80"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category M80:"]|["e:3l2c","e:3l2d"]
+.s "cm:M84.3"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M84.3:"]|["e:3lcw","e:3lcx"]
+.s "cm:M84.4"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M84.4:"]|["e:3lhz","e:3li0"]
+.s "cm:M84.5"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M84.5:"]|["e:3lmj","e:3lml"]
+.s "cm:M84.6"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory M84.6:"]|["e:3lqp","e:3lqq"]
+.s "cm:M84.75"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from M84.75:"]|["e:3lus","e:3lut"]
+.s "cm:M97"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category M97"]|["e:3q0d","e:3q0e"]
+.s "cm:O31"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O31.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O31 that has a 7th character of 1 through 9."]|["e:3wxi","e:3wxj"]
+.s "cm:O32"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O32.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O32 that has a 7th character of 1 through 9."]|["e:3x0k","e:3x0l"]
+.s "cm:O33.3"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code O33.3.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning code O33.3 with a 7th character of 1 through 9."]|["e:3x2y","e:3x2z"]
+.s "cm:O33.4"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code O33.4.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning code O33.4 with a 7th character of 1 through 9."]|["e:3x3c","e:3x3d"]
+.s "cm:O33.5"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code O33.5.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning code O33.5 with a 7th character of 1 through 9."]|["e:3x3u","e:3x3v"]
+.s "cm:O33.6"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code O33.6.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning code O33.6 with a 7th character of 1 through 9."]|["e:3x48","e:3x49"]
+.s "cm:O33.7"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to code O33.7.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning code O33.7 with a 7th character of 1 through 9."]|["e:3x4t","e:3x4u"]
+.s "cm:O35"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O35.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O35 that has a 7th character of 1 through 9."]|["e:3xcz","e:3xd0"]
+.s "cm:O36"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O36.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O36 that has a 7th character of 1 through 9."]|["e:3xhj","e:3xhk"]
+.s "cm:O40"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O40.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O40 that has a 7th character of 1 through 9."]|["e:3xq6","e:3xq7"]
+.s "cm:O41"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O41.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O41 that has a 7th character of 1 through 9."]|["e:3xr0","e:3xr1"]
+.s "cm:O60.1"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under subcategory O60.1.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from subcategory O60.1 that has a 7th character of 1 through 9."]|["e:3yf7","e:3yf8"]
+.s "cm:O60.2"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under subcategory O60.2.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from subcategory O60.2 that has a 7th character of 1 through 9."]|["e:3yg2","e:3yg3"]
+.s "cm:O64"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O64.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O64 that has a 7th character of 1 through 9."]|["e:3yjl","e:3yjm"]
+.s "cm:O69"
+seventh_character_applicability|["One of the following 7th characters is to be assigned to each code under category O69.  7th character 0 is for single gestations and multiple gestations where the fetus is unspecified.  7th characters 1 through 9 are for cases of multiple gestations to identify the fetus for which the code applies. The appropriate code from category O30, Multiple gestation, must also be assigned when assigning a code from category O69 that has a 7th character of 1 through 9."]|["e:3ypd","e:3ype"]
+.s "cm:R40.21"
+seventh_character_applicability|["The following appropriate 7th character is to be added to subcategory R40.21-:"]|["e:bhy","e:bhz"]
+.s "cm:R40.22"
+seventh_character_applicability|["The following appropriate 7th character is to be added to subcategory R40.22-:"]|["e:bix","e:biy"]
+.s "cm:R40.23"
+seventh_character_applicability|["The following appropriate 7th character is to be added to subcategory R40.23-:"]|["e:bka","e:bkb"]
+.s "cm:R40.24"
+seventh_character_applicability|["The following appropriate 7th character is to be added to subcategory R40.24-:"]|["e:blw","e:blx"]
+.s "cm:S00"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S00"]|["e:dqw","e:dqx"]
+.s "cm:S01"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S01"]|["e:e57","e:e58"]
+.s "cm:S02"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S02"]|["e:ei7","e:ei8"]
+.s "cm:S03"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S03"]|["e:etg","e:eth"]
+.s "cm:S04"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S04"]|["e:evh","e:evi"]
+.s "cm:S05"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S05"]|["e:f1p","e:f1q"]
+.s "cm:S06"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S06, except as noted below"]|["e:f6q","e:f6r"]
+.s "cm:S07"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S07"]|["e:fy3","e:fy4"]
+.s "cm:S08"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S08"]|["e:fys","e:fyt"]
+.s "cm:S09"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S09"]|["e:g0h","e:g0i"]
+.s "cm:S10"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S10"]|["e:g4w","e:g4x"]
+.s "cm:S11"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S11"]|["e:g8b","e:g8c"]
+.s "cm:S12"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes from subcategories S12.0-S12.6"]|["e:gei","e:gej"]
+.s "cm:S12.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to code S12.8"]|["e:goy","e:goz"]
+.s "cm:S12.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to code S12.9"]|["e:gpc","e:gpd"]
+.s "cm:S13"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S13"]|["e:gpz","e:gq0"]
+.s "cm:S14"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S14"]|["e:guj","e:guk"]
+.s "cm:S15"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S15"]|["e:h1b","e:h1c"]
+.s "cm:S16"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S16"]|["e:h99","e:h9a"]
+.s "cm:S17"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S17"]|["e:ha2","e:ha3"]
+.s "cm:S19"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S19"]|["e:ham","e:han"]
+.s "cm:S20"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S20"]|["e:hcd","e:hce"]
+.s "cm:S21"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S21"]|["e:hpd","e:hpe"]
+.s "cm:S22"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S22"]|["e:i3b","e:i3c"]
+.s "cm:S23"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S23"]|["e:iaw","e:iax"]
+.s "cm:S24"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S24"]|["e:ig8","e:ig9"]
+.s "cm:S25"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S25"]|["e:ikc","e:ikd"]
+.s "cm:S26"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S26"]|["e:iuj","e:iuk"]
+.s "cm:S27"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S27"]|["e:iww","e:iwx"]
+.s "cm:S28"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S28"]|["e:j4c","e:j4d"]
+.s "cm:S29"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S29"]|["e:j5w","e:j5x"]
+.s "cm:S30"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S30"]|["e:j8i","e:j8j"]
+.s "cm:S31"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S31"]|["e:jh0","e:jh1"]
+.s "cm:S32"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S32"]|["e:k52","e:k53"]
+.s "cm:S33"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S33"]|["e:knk","e:knl"]
+.s "cm:S34"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S34"]|["e:kqq","e:kqr"]
+.s "cm:S35"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S35"]|["e:kvz","e:kw0"]
+.s "cm:S36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S36"]|["e:l6y","e:l6z"]
+.s "cm:S37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S37"]|["e:llu","e:llv"]
+.s "cm:S38"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S38"]|["e:lx9","e:lxa"]
+.s "cm:S39"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S39"]|["e:lzw","e:lzx"]
+.s "cm:S40"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S40"]|["e:m35","e:m36"]
+.s "cm:S41"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S41"]|["e:ma8","e:ma9"]
+.s "cm:S42"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes from category S42"]|["e:mfl","e:mfn"]
+.s "cm:S42.27"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S42.27"]|["e:mqw","e:mqx"]
+.s "cm:S42.31"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S42.31"]|["e:msx","e:msy"]
+.s "cm:S42.48"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S42.48"]|["e:n2s","e:n2t"]
+.s "cm:S43"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S43"]|["e:n4w","e:n4y"]
+.s "cm:S44"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S44"]|["e:nj1","e:nj2"]
+.s "cm:S45"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S45"]|["e:nmp","e:nmq"]
+.s "cm:S46"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S46"]|["e:nuc","e:nud"]
+.s "cm:S47"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S47"]|["e:o48","e:o49"]
+.s "cm:S48"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S48"]|["e:o4w","e:o4x"]
+.s "cm:S49"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S49.0 and S49.1"]|["e:o7o","e:o7p"]
+.s "cm:S49.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S49.8"]|["e:ocn","e:oco"]
+.s "cm:S49.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S49.9"]|["e:od7","e:od8"]
+.s "cm:S50"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S50"]|["e:oe2","e:oe3"]
+.s "cm:S51"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S51"]|["e:okz","e:ol0"]
+.s "cm:S52"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes from category S52"]|["e:oql","e:oqn"]
+.s "cm:S52.01"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.01"]|["e:orx","e:ory"]
+.s "cm:S52.11"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.11"]|["e:ovi","e:ovj"]
+.s "cm:S52.21"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.21"]|["e:oyd","e:oye"]
+.s "cm:S52.31"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.31"]|["e:p3v","e:p3x"]
+.s "cm:S52.52"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.52"]|["e:pa6","e:pa7"]
+.s "cm:S52.62"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S52.62"]|["e:pe5","e:pe6"]
+.s "cm:S53"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S53"]|["e:pfw","e:pfy"]
+.s "cm:S54"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S54"]|["e:pr4","e:pr5"]
+.s "cm:S55"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S55"]|["e:pu1","e:pu2"]
+.s "cm:S56"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S56"]|["e:q0h","e:q0i"]
+.s "cm:S57"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S57"]|["e:qhw","e:qhx"]
+.s "cm:S58"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S58"]|["e:qj2","e:qj3"]
+.s "cm:S59"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S59.0, S59.1, and S59.2"]|["e:qlz","e:qm0"]
+.s "cm:S59.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S59.8"]|["e:qt9","e:qta"]
+.s "cm:S59.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S59.9"]|["e:qua","e:qub"]
+.s "cm:S60"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S60"]|["e:qvi","e:qvj"]
+.s "cm:S61"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S61"]|["e:rhz","e:ri1"]
+.s "cm:S62"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S62"]|["e:s5t","e:s5u"]
+.s "cm:S63"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S63"]|["e:t1e","e:t1f"]
+.s "cm:S64"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S64"]|["e:u0v","e:u0w"]
+.s "cm:S65"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S65"]|["e:u4p","e:u4q"]
+.s "cm:S66"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S66"]|["e:ugv","e:ugw"]
+.s "cm:S67"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S67"]|["e:v2k","e:v2l"]
+.s "cm:S68"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S68"]|["e:v69","e:v6a"]
+.s "cm:S69"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S69"]|["e:vep","e:veq"]
+.s "cm:S70"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S70"]|["e:vfx","e:vfy"]
+.s "cm:S71"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S71"]|["e:vmx","e:vmy"]
+.s "cm:S72"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes from category S72"]|["e:vsf","e:vsg"]
+.s "cm:S72.47"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S72.47"]|["e:wal","e:wam"]
+.s "cm:S73"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S73"]|["e:wcy","e:wcz"]
+.s "cm:S74"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S74"]|["e:wif","e:wig"]
+.s "cm:S75"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S75"]|["e:wku","e:wkv"]
+.s "cm:S76"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S76"]|["e:wt4","e:wt5"]
+.s "cm:S77"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S77"]|["e:x31","e:x32"]
+.s "cm:S78"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S78"]|["e:x4k","e:x4l"]
+.s "cm:S79"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S79.0 and S79.1"]|["e:x7g","e:x7h"]
+.s "cm:S79.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S79.8"]|["e:xbm","e:xbn"]
+.s "cm:S79.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S79.9"]|["e:xcm","e:xcn"]
+.s "cm:S80"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S80"]|["e:xdy","e:xdz"]
+.s "cm:S81"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S81"]|["e:xkw","e:xkx"]
+.s "cm:S82"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes from category S82"]|["e:xqf","e:xqg"]
+.s "cm:S82.16"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S82.16"]|["e:xyi","e:xyj"]
+.s "cm:S82.31"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S82.31"]|["e:y4d","e:y4e"]
+.s "cm:S82.81"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S82.81"]|["e:yb4","e:yb5"]
+.s "cm:S82.82"
+seventh_character_applicability|["The appropriate 7th character is to be added to all codes in subcategory S82.82"]|["e:ybs","e:ybt"]
+.s "cm:S83"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S83"]|["e:ygq","e:ygr"]
+.s "cm:S84"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S84"]|["e:yvj","e:yvk"]
+.s "cm:S85"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S85"]|["e:yxv","e:yxx"]
+.s "cm:S86"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S86"]|["e:zad","e:zae"]
+.s "cm:S87"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S87"]|["e:zk7","e:zk8"]
+.s "cm:S88"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S88"]|["e:zlb","e:zld"]
+.s "cm:S89"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S89.0, S89.1, S89.2, and S89.3"]|["e:zo8","e:zo9"]
+.s "cm:S89.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S89.8"]|["e:zwi","e:zwj"]
+.s "cm:S89.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code in subcategory S89.9"]|["e:zx1","e:zx3"]
+.s "cm:S90"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S90"]|["e:zxt","e:zxu"]
+.s "cm:S91"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S91"]|["e:10be","e:10bf"]
+.s "cm:S92"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S92"]|["e:10py","e:10pz"]
+.s "cm:S93"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S93"]|["e:11du","e:11dw"]
+.s "cm:S94"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S94"]|["e:11ru","e:11rv"]
+.s "cm:S95"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S95"]|["e:11um","e:11un"]
+.s "cm:S96"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S96"]|["e:1212","e:1213"]
+.s "cm:S97"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S97"]|["e:1298","e:1299"]
+.s "cm:S98"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category S98"]|["e:12bn","e:12bo"]
+.s "cm:S99.0"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S99.0"]|["e:12gz","e:12h0"]
+.s "cm:S99.1"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S99.1"]|["e:12jn","e:12jo"]
+.s "cm:S99.2"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategories S99.2"]|["e:12m9","e:12ma"]
+.s "cm:S99.8"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory S99.8"]|["e:12ow","e:12ox"]
+.s "cm:S99.9"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from subcategory S99.9"]|["e:12pw","e:12px"]
+.s "cm:T07"
+seventh_character_applicability|["The appropriate 7th character is to be added to code T07"]|["e:12r6","e:12r7"]
+.s "cm:T14"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T14"]|["e:12rl","e:12rm"]
+.s "cm:T15"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T15"]|["e:12t5","e:12t6"]
+.s "cm:T16"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T16"]|["e:12v1","e:12v2"]
+.s "cm:T17"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T17"]|["e:12vk","e:12vm"]
+.s "cm:T18"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T18"]|["e:134o","e:134p"]
+.s "cm:T19"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T19"]|["e:137j","e:137k"]
+.s "cm:T20"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T20"]|["e:139c","e:139d"]
+.s "cm:T21"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T21"]|["e:13kp","e:13kq"]
+.s "cm:T22"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T22"]|["e:13xw","e:13xx"]
+.s "cm:T23"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T23"]|["e:14l5","e:14l6"]
+.s "cm:T24"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T24"]|["e:15dn","e:15do"]
+.s "cm:T25"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T25"]|["e:15u7","e:15u8"]
+.s "cm:T26"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T26"]|["e:168e","e:168f"]
+.s "cm:T27"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T27"]|["e:16de","e:16df"]
+.s "cm:T28"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T28"]|["e:16ev","e:16ew"]
+.s "cm:T33"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T33"]|["e:16v1","e:16v2"]
+.s "cm:T34"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T34"]|["e:170e","e:170f"]
+.s "cm:T36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T36"]|["e:176s","e:176u"]
+.s "cm:T37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T37"]|["e:17fz","e:17g0"]
+.s "cm:T38"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T38"]|["e:17n2","e:17n3"]
+.s "cm:T39"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T39"]|["e:17xs","e:17xt"]
+.s "cm:T40"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T40"]|["e:185a","e:185b"]
+.s "cm:T41"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T41"]|["e:18go","e:18gp"]
+.s "cm:T42"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T42"]|["e:18mq","e:18mr"]
+.s "cm:T43"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T43"]|["e:18un","e:18up"]
+.s "cm:T44"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T44"]|["e:199y","e:199z"]
+.s "cm:T45"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T45"]|["e:19jf","e:19jg"]
+.s "cm:T46"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T46"]|["e:19w9","e:19wa"]
+.s "cm:T47"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T47"]|["e:1a5l","e:1a5n"]
+.s "cm:T48"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T48"]|["e:1adv","e:1adw"]
+.s "cm:T49"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T49"]|["e:1amc","e:1amd"]
+.s "cm:T50"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T50"]|["e:1auj","e:1auk"]
+.s "cm:T51"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T51"]|["e:1b9k","e:1b9l"]
+.s "cm:T52"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T52"]|["e:1bdv","e:1bdw"]
+.s "cm:T53"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T53"]|["e:1biq","e:1bir"]
+.s "cm:T54"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T54"]|["e:1bop","e:1boq"]
+.s "cm:T55"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T55"]|["e:1bs4","e:1bs5"]
+.s "cm:T56"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T56"]|["e:1btv","e:1btw"]
+.s "cm:T57"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T57"]|["e:1c1b","e:1c1c"]
+.s "cm:T58"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T58"]|["e:1c5a","e:1c5b"]
+.s "cm:T59"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T59"]|["e:1c8k","e:1c8l"]
+.s "cm:T60"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T60"]|["e:1cfk","e:1cfl"]
+.s "cm:T61"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T61"]|["e:1ckl","e:1ckm"]
+.s "cm:T62"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T62"]|["e:1co9","e:1coa"]
+.s "cm:T63"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T63"]|["e:1cro","e:1crp"]
+.s "cm:T64"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T64"]|["e:1dbr","e:1dbs"]
+.s "cm:T65"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T65"]|["e:1dcy","e:1dcz"]
+.s "cm:T66"
+seventh_character_applicability|["The appropriate 7th character is to be added to code T66"]|["e:1dn8","e:1dn9"]
+.s "cm:T67"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T67"]|["e:1dnq","e:1dnr"]
+.s "cm:T68"
+seventh_character_applicability|["The appropriate 7th character is to be added to code T68"]|["e:1dq9","e:1dqa"]
+.s "cm:T69"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T69"]|["e:1dqq","e:1dqr"]
+.s "cm:T70"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T70"]|["e:1ds7","e:1ds8"]
+.s "cm:T71"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T71"]|["e:1dua","e:1dub"]
+.s "cm:T73"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T73"]|["e:1e09","e:1e0a"]
+.s "cm:T74"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T74"]|["e:1e1e","e:1e1g"]
+.s "cm:T75"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T75"]|["e:1e4j","e:1e4k"]
+.s "cm:T76"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T76"]|["e:1e7p","e:1e7q"]
+.s "cm:T78"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T78"]|["e:1eak","e:1eal"]
+.s "cm:T79"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T79"]|["e:1eg5","e:1eg6"]
+.s "cm:T80"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T80"]|["e:1el4","e:1el5"]
+.s "cm:T81"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T81"]|["e:1evf","e:1evg"]
+.s "cm:T82"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T82"]|["e:1f7u","e:1f7v"]
+.s "cm:T83"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T83"]|["e:1flu","e:1flv"]
+.s "cm:T84"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T84"]|["e:1fzj","e:1fzk"]
+.s "cm:T85"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T85"]|["e:1gfg","e:1gfh"]
+.s "cm:T88"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category T88"]|["e:1h9w","e:1h9x"]
+.s "cm:V00"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V00"]|["e:1hg5","e:1hg6"]
+.s "cm:V01"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V01"]|["e:1hoz","e:1hp0"]
+.s "cm:V02"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V02"]|["e:1hsr","e:1hss"]
+.s "cm:V03"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V03"]|["e:1hwj","e:1hwk"]
+.s "cm:V04"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V04"]|["e:1i0g","e:1i0h"]
+.s "cm:V05"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V05"]|["e:1i48","e:1i49"]
+.s "cm:V06"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V06"]|["e:1i86","e:1i87"]
+.s "cm:V09"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V09"]|["e:1iby","e:1ibz"]
+.s "cm:V10"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V10"]|["e:1idj","e:1idk"]
+.s "cm:V11"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V11"]|["e:1ieh","e:1iei"]
+.s "cm:V12"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V12"]|["e:1ife","e:1iff"]
+.s "cm:V13"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V13"]|["e:1igb","e:1igc"]
+.s "cm:V14"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V14"]|["e:1ihc","e:1ihd"]
+.s "cm:V15"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V15"]|["e:1ii9","e:1iia"]
+.s "cm:V16"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V16"]|["e:1ij8","e:1ij9"]
+.s "cm:V17"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V17"]|["e:1ik6","e:1ik7"]
+.s "cm:V18"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V18"]|["e:1il7","e:1il8"]
+.s "cm:V19"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V19"]|["e:1im4","e:1im5"]
+.s "cm:V20"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V20"]|["e:1ip8","e:1ip9"]
+.s "cm:V21"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V21"]|["e:1irg","e:1iri"]
+.s "cm:V22"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V22"]|["e:1itq","e:1itr"]
+.s "cm:V23"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V23"]|["e:1ivx","e:1ivy"]
+.s "cm:V24"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V24"]|["e:1iy7","e:1iy8"]
+.s "cm:V25"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V25"]|["e:1j0f","e:1j0h"]
+.s "cm:V26"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V26"]|["e:1j2q","e:1j2r"]
+.s "cm:V27"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V27"]|["e:1j4x","e:1j4y"]
+.s "cm:V28"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V28"]|["e:1j7a","e:1j7b"]
+.s "cm:V29"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V29"]|["e:1j9i","e:1j9j"]
+.s "cm:V30"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V30"]|["e:1jfi","e:1jfj"]
+.s "cm:V31"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V31"]|["e:1jgm","e:1jgn"]
+.s "cm:V32"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V32"]|["e:1jhr","e:1jhs"]
+.s "cm:V33"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V33"]|["e:1jiu","e:1jiv"]
+.s "cm:V34"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V34"]|["e:1jk0","e:1jk1"]
+.s "cm:V35"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V35"]|["e:1jl5","e:1jl6"]
+.s "cm:V36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V36"]|["e:1jma","e:1jmb"]
+.s "cm:V37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V37"]|["e:1jne","e:1jnf"]
+.s "cm:V38"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V38"]|["e:1joo","e:1jop"]
+.s "cm:V39"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V39"]|["e:1jps","e:1jpt"]
+.s "cm:V40"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V40"]|["e:1jsw","e:1jsx"]
+.s "cm:V41"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V41"]|["e:1jtz","e:1ju0"]
+.s "cm:V42"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V42"]|["e:1jv4","e:1jv5"]
+.s "cm:V43"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V43"]|["e:1jw7","e:1jw9"]
+.s "cm:V44"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V44"]|["e:1k0q","e:1k0r"]
+.s "cm:V45"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V45"]|["e:1k1u","e:1k1v"]
+.s "cm:V46"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V46"]|["e:1k2z","e:1k31"]
+.s "cm:V47"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V47"]|["e:1k44","e:1k45"]
+.s "cm:V48"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V48"]|["e:1k5b","e:1k5c"]
+.s "cm:V49"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V49"]|["e:1k6g","e:1k6h"]
+.s "cm:V50"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V50"]|["e:1k9j","e:1k9k"]
+.s "cm:V51"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V51"]|["e:1kam","e:1kan"]
+.s "cm:V52"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V52"]|["e:1kbq","e:1kbr"]
+.s "cm:V53"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V53"]|["e:1kcu","e:1kcv"]
+.s "cm:V54"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V54"]|["e:1ke0","e:1ke1"]
+.s "cm:V55"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V55"]|["e:1kf4","e:1kf5"]
+.s "cm:V56"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V56"]|["e:1kgb","e:1kgc"]
+.s "cm:V57"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V57"]|["e:1khe","e:1khf"]
+.s "cm:V58"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V58"]|["e:1kil","e:1kim"]
+.s "cm:V59"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V59"]|["e:1kjr","e:1kjs"]
+.s "cm:V60"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V60"]|["e:1kmr","e:1kmt"]
+.s "cm:V61"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V61"]|["e:1knv","e:1knw"]
+.s "cm:V62"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V62"]|["e:1kp0","e:1kp1"]
+.s "cm:V63"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V63"]|["e:1kq3","e:1kq4"]
+.s "cm:V64"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V64"]|["e:1kr9","e:1kra"]
+.s "cm:V65"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V65"]|["e:1kse","e:1ksf"]
+.s "cm:V66"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V66"]|["e:1ktj","e:1ktl"]
+.s "cm:V67"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V67"]|["e:1kun","e:1kuo"]
+.s "cm:V68"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V68"]|["e:1kvv","e:1kvw"]
+.s "cm:V69"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V69"]|["e:1kwz","e:1kx0"]
+.s "cm:V70"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V70"]|["e:1kzu","e:1kzv"]
+.s "cm:V71"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V71"]|["e:1l10","e:1l11"]
+.s "cm:V72"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V72"]|["e:1l24","e:1l25"]
+.s "cm:V73"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V73"]|["e:1l38","e:1l39"]
+.s "cm:V74"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V74"]|["e:1l4f","e:1l4g"]
+.s "cm:V75"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V75"]|["e:1l5i","e:1l5j"]
+.s "cm:V76"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V76"]|["e:1l6o","e:1l6p"]
+.s "cm:V77"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V77"]|["e:1l7t","e:1l7u"]
+.s "cm:V78"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V78"]|["e:1l90","e:1l91"]
+.s "cm:V79"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V79"]|["e:1la3","e:1la4"]
+.s "cm:V80"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V80"]|["e:1lcu","e:1lcv"]
+.s "cm:V81"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V81"]|["e:1li4","e:1li5"]
+.s "cm:V82"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V82"]|["e:1lke","e:1lkg"]
+.s "cm:V83"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V83"]|["e:1lmh","e:1lmi"]
+.s "cm:V84"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V84"]|["e:1lnw","e:1lnx"]
+.s "cm:V85"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V85"]|["e:1lpd","e:1lpe"]
+.s "cm:V86"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V86"]|["e:1lqo","e:1lqp"]
+.s "cm:V87"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V87"]|["e:1lym","e:1lyn"]
+.s "cm:V88"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V88"]|["e:1lzy","e:1lzz"]
+.s "cm:V89"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V89"]|["e:1m15","e:1m16"]
+.s "cm:V90"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V90"]|["e:1m2g","e:1m2h"]
+.s "cm:V91"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V91"]|["e:1m9r","e:1m9s"]
+.s "cm:V92"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V92"]|["e:1mhe","e:1mhg"]
+.s "cm:V93"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V93"]|["e:1mmj","e:1mmk"]
+.s "cm:V94"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V94"]|["e:1mw1","e:1mw2"]
+.s "cm:V95"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V95"]|["e:1myt","e:1myu"]
+.s "cm:V96"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V96"]|["e:1n3f","e:1n3g"]
+.s "cm:V97"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V97"]|["e:1n6d","e:1n6e"]
+.s "cm:V98"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category V98"]|["e:1n8v","e:1n8x"]
+.s "cm:V99"
+seventh_character_applicability|["The appropriate 7th character is to be added to code V99"]|["e:1n9v","e:1n9w"]
+.s "cm:W00"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W00"]|["e:1nap","e:1naq"]
+.s "cm:W01"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W01"]|["e:1nbn","e:1nbp"]
+.s "cm:W03"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W03"]|["e:1nda","e:1ndb"]
+.s "cm:W04"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W04"]|["e:1ndm","e:1ndn"]
+.s "cm:W05"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W05"]|["e:1ne0","e:1ne1"]
+.s "cm:W06"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W06"]|["e:1nek","e:1nel"]
+.s "cm:W07"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W07"]|["e:1neu","e:1nev"]
+.s "cm:W08"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W08"]|["e:1nf4","e:1nf5"]
+.s "cm:W09"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W09"]|["e:1nfh","e:1nfi"]
+.s "cm:W10"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W10"]|["e:1ng7","e:1ng8"]
+.s "cm:W11"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W11"]|["e:1nh0","e:1nh1"]
+.s "cm:W12"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W12"]|["e:1nha","e:1nhb"]
+.s "cm:W13"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W13"]|["e:1nhk","e:1nhl"]
+.s "cm:W14"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W14"]|["e:1niu","e:1niv"]
+.s "cm:W15"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W15"]|["e:1nj4","e:1nj5"]
+.s "cm:W16"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W16"]|["e:1njl","e:1njm"]
+.s "cm:W17"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W17"]|["e:1nsu","e:1nsv"]
+.s "cm:W18"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W18"]|["e:1nua","e:1nub"]
+.s "cm:W19"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W19"]|["e:1nwx","e:1nwz"]
+.s "cm:W20"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W20"]|["e:1nxq","e:1nxr"]
+.s "cm:W21"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W21"]|["e:1nym","e:1nyn"]
+.s "cm:W22"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W22"]|["e:1o20","e:1o21"]
+.s "cm:W23"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W23"]|["e:1o41","e:1o43"]
+.s "cm:W24"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W24"]|["e:1o4o","e:1o4q"]
+.s "cm:W25"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W25"]|["e:1o5l","e:1o5n"]
+.s "cm:W26"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W26"]|["e:1o5y","e:1o5z"]
+.s "cm:W27"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W27"]|["e:1o6v","e:1o6w"]
+.s "cm:W28"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W28"]|["e:1o8l","e:1o8m"]
+.s "cm:W29"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W29"]|["e:1o91","e:1o92"]
+.s "cm:W30"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W30"]|["e:1oao","e:1oap"]
+.s "cm:W31"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W31"]|["e:1oc5","e:1oc6"]
+.s "cm:W32"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W32"]|["e:1ofa","e:1ofb"]
+.s "cm:W33"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W33"]|["e:1og8","e:1og9"]
+.s "cm:W34"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W34"]|["e:1oif","e:1oig"]
+.s "cm:W35"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W35"]|["e:1oko","e:1okp"]
+.s "cm:W36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W36"]|["e:1oky","e:1okz"]
+.s "cm:W37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W37"]|["e:1olp","e:1olq"]
+.s "cm:W38"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W38"]|["e:1om5","e:1om6"]
+.s "cm:W39"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W39"]|["e:1omf","e:1omg"]
+.s "cm:W40"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W40"]|["e:1omu","e:1omx"]
+.s "cm:W42"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W42"]|["e:1ooa","e:1oob"]
+.s "cm:W44"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W44"]|["e:1oox","e:1ooy"]
+.s "cm:W45"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W45"]|["e:1ouw","e:1ouy"]
+.s "cm:W46"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W46"]|["e:1ovi","e:1ovk"]
+.s "cm:W49"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W49"]|["e:1ow8","e:1ow9"]
+.s "cm:W50"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W50"]|["e:1oxf","e:1oxg"]
+.s "cm:W51"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W51"]|["e:1oyk","e:1oyl"]
+.s "cm:W52"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W52"]|["e:1oyw","e:1oyy"]
+.s "cm:W53"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W53"]|["e:1oza","e:1ozb"]
+.s "cm:W54"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W54"]|["e:1p0p","e:1p0q"]
+.s "cm:W55"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W55"]|["e:1p1j","e:1p1k"]
+.s "cm:W56"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W56"]|["e:1p4r","e:1p4t"]
+.s "cm:W57"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W57"]|["e:1p7r","e:1p7s"]
+.s "cm:W58"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W58"]|["e:1p81","e:1p82"]
+.s "cm:W59"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W59"]|["e:1p9b","e:1p9c"]
+.s "cm:W60"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W60"]|["e:1pbh","e:1pbi"]
+.s "cm:W61"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W61"]|["e:1pbu","e:1pbv"]
+.s "cm:W62"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W62"]|["e:1pfg","e:1pfh"]
+.s "cm:W64"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W64"]|["e:1pg4","e:1pg5"]
+.s "cm:W65"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W65"]|["e:1pgo","e:1pgp"]
+.s "cm:W67"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W67"]|["e:1ph1","e:1ph2"]
+.s "cm:W69"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W69"]|["e:1phj","e:1phk"]
+.s "cm:W73"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W73"]|["e:1phz","e:1pi0"]
+.s "cm:W74"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W74"]|["e:1pib","e:1pic"]
+.s "cm:W85"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W85"]|["e:1pj0","e:1pj1"]
+.s "cm:W86"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W86"]|["e:1pj9","e:1pjb"]
+.s "cm:W88"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W88"]|["e:1pk8","e:1pk9"]
+.s "cm:W89"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W89"]|["e:1pkx","e:1pky"]
+.s "cm:W90"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W90"]|["e:1plm","e:1pln"]
+.s "cm:W92"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W92"]|["e:1pm9","e:1pma"]
+.s "cm:W93"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W93"]|["e:1pmj","e:1pmk"]
+.s "cm:W94"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category W94"]|["e:1pnq","e:1pnr"]
+.s "cm:W99"
+seventh_character_applicability|["The appropriate 7th character is to be added to code W99"]|["e:1pp9","e:1ppa"]
+.s "cm:X00"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X00"]|["e:1pq0","e:1pq1"]
+.s "cm:X01"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X01"]|["e:1pr3","e:1pr4"]
+.s "cm:X02"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X02"]|["e:1prw","e:1prx"]
+.s "cm:X03"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X03"]|["e:1pt0","e:1pt1"]
+.s "cm:X04"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X04"]|["e:1pty","e:1ptz"]
+.s "cm:X05"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X05"]|["e:1pug","e:1puh"]
+.s "cm:X06"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X06"]|["e:1puw","e:1pux"]
+.s "cm:X08"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X08"]|["e:1pvj","e:1pvk"]
+.s "cm:X10"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X10"]|["e:1px9","e:1pxa"]
+.s "cm:X11"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X11"]|["e:1pxy","e:1pxz"]
+.s "cm:X12"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X12"]|["e:1pyv","e:1pyw"]
+.s "cm:X13"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X13"]|["e:1pz5","e:1pz6"]
+.s "cm:X14"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X14"]|["e:1pzl","e:1pzm"]
+.s "cm:X15"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X15"]|["e:1q07","e:1q08"]
+.s "cm:X16"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X16"]|["e:1q1b","e:1q1c"]
+.s "cm:X17"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X17"]|["e:1q1o","e:1q1p"]
+.s "cm:X18"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X18"]|["e:1q20","e:1q21"]
+.s "cm:X19"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X19"]|["e:1q2c","e:1q2d"]
+.s "cm:X30"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X30"]|["e:1q2x","e:1q2y"]
+.s "cm:X31"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X31"]|["e:1q3i","e:1q3j"]
+.s "cm:X32"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X32"]|["e:1q3w","e:1q3x"]
+.s "cm:X34"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X34"]|["e:1q48","e:1q49"]
+.s "cm:X35"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X35"]|["e:1q4k","e:1q4m"]
+.s "cm:X36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X36"]|["e:1q51","e:1q52"]
+.s "cm:X37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X37"]|["e:1q5h","e:1q5j"]
+.s "cm:X38"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X38"]|["e:1q7i","e:1q7j"]
+.s "cm:X39"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X39"]|["e:1q7s","e:1q7t"]
+.s "cm:X50"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X50"]|["e:1q8m","e:1q8n"]
+.s "cm:X52"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X52"]|["e:1qa3","e:1qa4"]
+.s "cm:X58"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X58"]|["e:1qah","e:1qai"]
+.s "cm:X71"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X71"]|["e:1qaw","e:1qax"]
+.s "cm:X72"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X72"]|["e:1qbw","e:1qbx"]
+.s "cm:X73"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X73"]|["e:1qc8","e:1qc9"]
+.s "cm:X74"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X74"]|["e:1qd0","e:1qd1"]
+.s "cm:X75"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X75"]|["e:1qdz","e:1qe0"]
+.s "cm:X76"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X76"]|["e:1qe9","e:1qea"]
+.s "cm:X77"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X77"]|["e:1qej","e:1qek"]
+.s "cm:X78"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X78"]|["e:1qfc","e:1qfe"]
+.s "cm:X79"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X79"]|["e:1qg4","e:1qg5"]
+.s "cm:X80"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X80"]|["e:1qgg","e:1qgh"]
+.s "cm:X81"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X81"]|["e:1qgq","e:1qgr"]
+.s "cm:X82"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X82"]|["e:1qha","e:1qhb"]
+.s "cm:X83"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X83"]|["e:1qhz","e:1qi0"]
+.s "cm:X92"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X92"]|["e:1qiz","e:1qj0"]
+.s "cm:X93"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X93"]|["e:1qjz","e:1qk0"]
+.s "cm:X94"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X94"]|["e:1qkb","e:1qkc"]
+.s "cm:X95"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X95"]|["e:1ql2","e:1ql3"]
+.s "cm:X96"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X96"]|["e:1qm5","e:1qm6"]
+.s "cm:X97"
+seventh_character_applicability|["The appropriate 7th character is to be added to code X97"]|["e:1qn9","e:1qna"]
+.s "cm:X98"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X98"]|["e:1qnj","e:1qnk"]
+.s "cm:X99"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category X99"]|["e:1qof","e:1qog"]
+.s "cm:Y00"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y00"]|["e:1qpa","e:1qpc"]
+.s "cm:Y01"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y01"]|["e:1qpk","e:1qpl"]
+.s "cm:Y02"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y02"]|["e:1qpu","e:1qpv"]
+.s "cm:Y03"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y03"]|["e:1qqe","e:1qqf"]
+.s "cm:Y04"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y04"]|["e:1qqz","e:1qr0"]
+.s "cm:Y08"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y08"]|["e:1qz1","e:1qz2"]
+.s "cm:Y21"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y21"]|["e:1r0b","e:1r0c"]
+.s "cm:Y22"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y22"]|["e:1r1g","e:1r1h"]
+.s "cm:Y23"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y23"]|["e:1r1s","e:1r1t"]
+.s "cm:Y24"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y24"]|["e:1r2m","e:1r2n"]
+.s "cm:Y25"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y25"]|["e:1r3c","e:1r3d"]
+.s "cm:Y26"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y26"]|["e:1r3m","e:1r3n"]
+.s "cm:Y27"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y27"]|["e:1r3w","e:1r3x"]
+.s "cm:Y28"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y28"]|["e:1r4r","e:1r4s"]
+.s "cm:Y29"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y29"]|["e:1r5h","e:1r5i"]
+.s "cm:Y30"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y30"]|["e:1r5t","e:1r5u"]
+.s "cm:Y31"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y31"]|["e:1r63","e:1r64"]
+.s "cm:Y32"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y32"]|["e:1r6d","e:1r6e"]
+.s "cm:Y33"
+seventh_character_applicability|["The appropriate 7th character is to be added to code Y33"]|["e:1r6n","e:1r6o"]
+.s "cm:Y35"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y35"]|["e:1r71","e:1r72"]
+.s "cm:Y36"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y36"]|["e:1rj7","e:1rj9"]
+.s "cm:Y37"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y37"]|["e:1s0v","e:1s0w"]
+.s "cm:Y38"
+seventh_character_applicability|["The appropriate 7th character is to be added to each code from category Y38"]|["e:1sh4","e:1sh5"]
+.end 508 ac085d901e78474003ddc45cc1d3fdbdfcc3fc355b407f2db78cc6bd560623a5

@@ -1,0 +1,16 @@
+{
+  "id": "00-category-explorer",
+  "svg": "visualizations/00-category-explorer.svg",
+  "png": "visualizations/00-category-explorer.png",
+  "svg_sha256": "4f5bc3c0818edfeaeeb5523455aea8310b2377f83b758413316bd310463cfb5b",
+  "png_sha256": "75a96796cd6b6c543ad59b39cfda96e48d39226937e7fc04b1b411ce2f5607e5",
+  "viewbox": [
+    2640,
+    2350
+  ],
+  "png_pixels": [
+    5280,
+    4700
+  ],
+  "graph_summary_sha256": "bfa310f04d5717ebcf11ac04dd374d44dd32f1ffea1cd045105d5f97957489ab"
+}

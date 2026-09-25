@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this dataset version and the underlying CDC/NCHS ICD-10-CM April 2026 edition."
+type: dataset
+title: "FreeFact ICD-10-CM April 2026 knowledge package"
+version: 3.0.0
+date-released: 2026-09-21
+authors:
+  - name: FreeFact contributors
+abstract: "809,979 canonical FFL facts with a compact category graph containing 21,110 selected facts, measured token effectiveness, and explicit source-audit limits."
+keywords:
+  - ICD-10-CM
+  - FreeFact
+  - knowledge graph
+  - categorized facts
+  - token efficiency

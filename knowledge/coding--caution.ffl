@@ -1,0 +1,13 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat coding/caution
+.s "cm:J90"
+notation_caution|{"issue":"unbalanced_delimiters","text":"malignant pleural effusion (J91.0))"}|"e:2x1r"
+.s "cm:R11.16"
+notation_caution|{"issue":"unbalanced_delimiters","text":"electrolyte imbalance (E87.8}"}|"e:amd"
+.s "cm:Z47.33"
+notation_caution|{"issue":"unbalanced_delimiters","text":"acquired absence of knee joint following prior explantation of knee prosthesis (Z89.52-"}|"e:1wus"
+.end 3 590a1bbe18ace9c30c7062df9e9912143f323ecac71a9f132f13b9b671369e12

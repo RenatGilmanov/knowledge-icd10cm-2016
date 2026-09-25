@@ -1,0 +1,881 @@
+{
+  "schema": "freefact.graph-view/1",
+  "id": "03-diabetes-neighborhood",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "Selected E11.9 neighborhood. All two direct index pointers are shown. The figure selects two scoped instruction groups and their literal code mentions; it does not show every applicable rule.",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "nodes": [
+    {
+      "id": "chapter:4",
+      "label": "Endocrine, nutritional and metabolic diseases (E00-E89)",
+      "category": "entity",
+      "canonical_subject": "chapter:4",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:E11",
+      "label": "E11 · Type 2 diabetes mellitus",
+      "category": "entity",
+      "canonical_subject": "cm:E11",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:E11.9",
+      "label": "E11.9 · Type 2 diabetes mellitus without complications",
+      "category": "entity",
+      "canonical_subject": "cm:E11.9",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:E11.A",
+      "label": "E11.A · Type 2 diabetes mellitus without complications in remission",
+      "category": "entity",
+      "canonical_subject": "cm:E11.A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:Z79.4",
+      "label": "Z79.4 · Long term (current) use of insulin",
+      "category": "entity",
+      "canonical_subject": "cm:Z79.4",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:Z79.84",
+      "label": "Z79.84 · Long term (current) use of oral hypoglycemic drugs",
+      "category": "entity",
+      "canonical_subject": "cm:Z79.84",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:Z79.85",
+      "label": "Z79.85 · Long-term (current) use of injectable non-insulin antidiabetic drugs",
+      "category": "entity",
+      "canonical_subject": "cm:Z79.85",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "disease:8I50MSWBmOzY",
+      "label": "Diabetes, diabetic(mellitus) (sugar) / type 2",
+      "category": "entity",
+      "canonical_subject": "disease:8I50MSWBmOzY",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "disease:Bxwr9AGfbTtT",
+      "label": "Diabetes, diabetic(mellitus) (sugar)",
+      "category": "entity",
+      "canonical_subject": "disease:Bxwr9AGfbTtT",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "rule:5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "label": "excludes1 · cm:E11.9",
+      "category": "scoped_rule",
+      "canonical_subject": "",
+      "fact_id": "5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "value": [
+        "type 2 diabetes mellitus, without complications in remission (E11.A)"
+      ]
+    },
+    {
+      "id": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "label": "use_additional_code · cm:E11",
+      "category": "scoped_rule",
+      "canonical_subject": "",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "value": [
+        "code to identify control using:",
+        "injectable non-insulin antidiabetic drugs (Z79.85)",
+        "insulin (Z79.4)",
+        "oral antidiabetic drugs (Z79.84)",
+        "oral hypoglycemic drugs (Z79.84)"
+      ]
+    },
+    {
+      "id": "section:E08-E13",
+      "label": "Diabetes mellitus (E08-E13)",
+      "category": "entity",
+      "canonical_subject": "section:E08-E13",
+      "fact_id": "",
+      "value": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "disease:Bxwr9AGfbTtT",
+      "target": "cm:E11.9",
+      "weight": 1,
+      "label": "code_reference",
+      "kind": "asserted",
+      "fact_id": "94cf7c51a617dc3e98bd426bc5aee11b798023a977b2ff4359518830e5132bcb",
+      "relationship_id": "edge:24a823cc93374c60f2b94a79610a1290ebc7ee82e272ef2713acd1c7fd91f530",
+      "predicate": "code_reference"
+    },
+    {
+      "source": "cm:E11.9",
+      "target": "cm:E11",
+      "weight": 1,
+      "label": "parent",
+      "kind": "asserted",
+      "fact_id": "bbf060579196b5e9f3315faa82d8a2a730129ed5f5622407d0a1788307cf2d4b",
+      "relationship_id": "edge:2b0cd7a3fd40e56b7a02c58be8aa8abf4e4cd5604f577b106ec0fa85f83c03cf",
+      "predicate": "parent"
+    },
+    {
+      "source": "disease:8I50MSWBmOzY",
+      "target": "disease:Bxwr9AGfbTtT",
+      "weight": 1,
+      "label": "parent",
+      "kind": "asserted",
+      "fact_id": "e84f4fc49ad421ba3302928449f7b7c4d392f37367ab19c41dda1e3c404ed044",
+      "relationship_id": "edge:2f0c1c783d516fab204453b4df0086131bbdb2dc9ca1c69995d681c7c5f8d646",
+      "predicate": "parent"
+    },
+    {
+      "source": "rule:5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "target": "cm:E11.A",
+      "weight": 1,
+      "label": "mentions E11.A",
+      "kind": "literal_mention",
+      "fact_id": "5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "relationship_id": "edge:424a20aa5949f1280b41d604efc736615ea3d62c677d1182cc76a873785872d4",
+      "predicate": "mentions_code"
+    },
+    {
+      "source": "cm:E11",
+      "target": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "weight": 1,
+      "label": "use_additional_code",
+      "kind": "rule_scope",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "relationship_id": "edge:4b6739e0b7b77eeac13447bc031cb858721c8de63a210819f75ed2c5f05653a6",
+      "predicate": "use_additional_code"
+    },
+    {
+      "source": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "target": "cm:Z79.84",
+      "weight": 1,
+      "label": "mentions Z79.84",
+      "kind": "literal_mention",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "relationship_id": "edge:51532157a0cfb07fe3b038270b342c402d0b984f99d9f7d0a623278c562c4346",
+      "predicate": "mentions_code"
+    },
+    {
+      "source": "disease:8I50MSWBmOzY",
+      "target": "cm:E11.9",
+      "weight": 1,
+      "label": "code_reference",
+      "kind": "asserted",
+      "fact_id": "5df9ade895c81128a7ed6cf6de93b435e3d715a66142bf1ec69d846c0d6032c2",
+      "relationship_id": "edge:59c8a2adddb2dfec06fc3b25ebbcbd2d5922f4a23fb38c7371c4eebb480f9b8d",
+      "predicate": "code_reference"
+    },
+    {
+      "source": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "target": "cm:Z79.85",
+      "weight": 1,
+      "label": "mentions Z79.85",
+      "kind": "literal_mention",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "relationship_id": "edge:63d02bbe9136927b019f3aa14b3ba594ef0487e12bbafdab76a4dec7bc3489d2",
+      "predicate": "mentions_code"
+    },
+    {
+      "source": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "target": "cm:Z79.84",
+      "weight": 1,
+      "label": "mentions Z79.84",
+      "kind": "literal_mention",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "relationship_id": "edge:bf2176a0c4a64c06ab6c9481c1f0fe4ef15b7887056d01f9dc8a0f56aec39101",
+      "predicate": "mentions_code"
+    },
+    {
+      "source": "cm:E11",
+      "target": "section:E08-E13",
+      "weight": 1,
+      "label": "parent",
+      "kind": "asserted",
+      "fact_id": "bb6438b8ca205f2e57221fa1a544f43949d4b31ad34c84c6cba23faa324df346",
+      "relationship_id": "edge:c2128edd26f18c653995fa284b4083dfb9d13ab8d3dc11ac54cb0460d2944f65",
+      "predicate": "parent"
+    },
+    {
+      "source": "section:E08-E13",
+      "target": "chapter:4",
+      "weight": 1,
+      "label": "parent",
+      "kind": "asserted",
+      "fact_id": "11ddeeeeca3606f3538e6675419d535b6ff5b9814dd02b7b2a989f615bdf2f17",
+      "relationship_id": "edge:de436e58d1f883227e967364500ada39edcdcfcac215dddea9a88616629a783c",
+      "predicate": "parent"
+    },
+    {
+      "source": "rule:ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "target": "cm:Z79.4",
+      "weight": 1,
+      "label": "mentions Z79.4",
+      "kind": "literal_mention",
+      "fact_id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "relationship_id": "edge:ded6aed0f80f0f75d4a6f88de51a17efcb5154934cdda2092e9da447386e453a",
+      "predicate": "mentions_code"
+    },
+    {
+      "source": "cm:E11.9",
+      "target": "rule:5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "weight": 1,
+      "label": "excludes1",
+      "kind": "rule_scope",
+      "fact_id": "5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "relationship_id": "edge:edd57044a05ce3ba89647319e19be21a2496e925960b1e8b344c902a2e2366f7",
+      "predicate": "excludes1"
+    }
+  ],
+  "facts": [
+    {
+      "id": "31433af86d62a337a7b10f4cba098732500303c52e9e32c8e5b2d3f9bf822b31",
+      "s": "chapter:4",
+      "p": "excludes1",
+      "o": [
+        "transitory endocrine and metabolic disorders specific to newborn (P70-P74)"
+      ],
+      "q": {},
+      "c": "instruction/excludes1"
+    },
+    {
+      "id": "68a525a227674de2f80474869ba46bea468ade0722e65a29b66075158086e778",
+      "s": "chapter:4",
+      "p": "identifier",
+      "o": "4",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "0342eb72c7b3a12e2e8903c4bae201e282059fd3d6df821d58ab800210d4ded6",
+      "s": "chapter:4",
+      "p": "notes",
+      "o": [
+        "All neoplasms, whether functionally active or not, are classified in Chapter 2.  Appropriate codes in this chapter (i.e. E05.8, E07.0, E16-E31, E34.-) may be used as additional codes to indicate either functional activity by neoplasms and ectopic endocrine tissue or hyperfunction and hypofunction of endocrine glands associated with neoplasms and other conditions classified elsewhere."
+      ],
+      "q": {},
+      "c": "instruction/notes"
+    },
+    {
+      "id": "b57730f2f49f61fdac05302e7bab004880fb4f443112d7fc4f8b2d33ab57368e",
+      "s": "chapter:4",
+      "p": "parent",
+      "o": "ICD-10-CM:2026-04-01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "3b852975d14c9ed517f09045eb2a22ccab835a21a1081fccedd53aa3f3c5f031",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E89",
+        "identifier": "E89",
+        "last_category": "E89",
+        "title": "Postprocedural endocrine and metabolic complications and disorders, not elsewhere classified"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "43e66d435c20c85b35022de6428328d335149381bb7aad432520b8d6eab8d405",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E15",
+        "identifier": "E15-E16",
+        "last_category": "E16",
+        "title": "Other disorders of glucose regulation and pancreatic internal secretion"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "459b50c6b1c314e7a08b3194fb9a0a465b4658f9cb0fb7eb110536b9bd601288",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E00",
+        "identifier": "E00-E07",
+        "last_category": "E07",
+        "title": "Disorders of thyroid gland"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "5d63e636f52f6ebc0b2ab57dea4bb742526435d0f5c8ba6e36d1ee40d2e47a38",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E08",
+        "identifier": "E08-E13",
+        "last_category": "E13",
+        "title": "Diabetes mellitus"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "69098f1b4564ed5fa78f9969ab840a45551bbc2da27c1d4b73b9c109d1334212",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E36",
+        "identifier": "E36",
+        "last_category": "E36",
+        "title": "Intraoperative complications of endocrine system"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "87004e846389e08265f0b3ee3da371c8abc1c0d06537480870116380c3ce4f3b",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E40",
+        "identifier": "E40-E46",
+        "last_category": "E46",
+        "title": "Malnutrition"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "9557fca4d00bf24ef6e97f2b38516f67200080eea0b73cbb86e95b682ca0d15e",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E50",
+        "identifier": "E50-E64",
+        "last_category": "E64",
+        "title": "Other nutritional deficiencies"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "a85f5148f1fbe6e02158ec4646c221cea78517de294e7f30623b1d696b3f5d56",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E70",
+        "identifier": "E70-E88",
+        "last_category": "E88",
+        "title": "Metabolic disorders"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "b0f96c744217fd9599fa2c738883ea4470299f7ab42eb12aa91246fac25def3f",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E65",
+        "identifier": "E65-E68",
+        "last_category": "E68",
+        "title": "Overweight, obesity and other hyperalimentation"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "d1b000cad2c3618a6fa3f495e445db17c0c2aa73bcee35010308e0e93643035e",
+      "s": "chapter:4",
+      "p": "section",
+      "o": {
+        "first_category": "E20",
+        "identifier": "E20-E35",
+        "last_category": "E35",
+        "title": "Disorders of other endocrine glands"
+      },
+      "q": {},
+      "c": "classification/sections"
+    },
+    {
+      "id": "a5c5539c50ce48a5002aab792c818348c5d7530d5c01a0e129c55b2aaf976710",
+      "s": "chapter:4",
+      "p": "title",
+      "o": "Endocrine, nutritional and metabolic diseases (E00-E89)",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "7c61d1ff763569f1ba28978dec76a7f202c21ac7e81d3b0bb2ebd0eb092b3c79",
+      "s": "cm:E11",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "E11",
+        "reportable": false,
+        "sequence": 4301
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "daebfecb2094b5c66d622c5cd4452aa0045b2752105523f6d785f26bac2f10ff",
+      "s": "cm:E11",
+      "p": "excludes1",
+      "o": [
+        "diabetes mellitus due to underlying condition (E08.-)",
+        "drug or chemical induced diabetes mellitus (E09.-)",
+        "gestational diabetes (O24.4-)",
+        "neonatal diabetes mellitus (P70.2)",
+        "postpancreatectomy diabetes mellitus (E13.-)",
+        "postprocedural diabetes mellitus (E13.-)",
+        "secondary diabetes mellitus NEC (E13.-)",
+        "type 1 diabetes mellitus (E10.-)"
+      ],
+      "q": {},
+      "c": "instruction/excludes1"
+    },
+    {
+      "id": "3b9bababf9060bbe5b8130aaa215272bc9be48d7a69971038db8356e894890a4",
+      "s": "cm:E11",
+      "p": "identifier",
+      "o": "E11",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "ee5063f2c966c9878a94daaf9e3b215b97c8bb359af6220bfdefade216834e55",
+      "s": "cm:E11",
+      "p": "includes",
+      "o": [
+        "diabetes (mellitus) due to insulin secretory defect",
+        "diabetes NOS",
+        "insulin resistant diabetes (mellitus)"
+      ],
+      "q": {},
+      "c": "instruction/includes"
+    },
+    {
+      "id": "bb6438b8ca205f2e57221fa1a544f43949d4b31ad34c84c6cba23faa324df346",
+      "s": "cm:E11",
+      "p": "parent",
+      "o": "section:E08-E13",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "e23bd614750955f300074d1e21eb320f51b628ca6f912823b3b58381b09b93c3",
+      "s": "cm:E11",
+      "p": "short_title",
+      "o": "Type 2 diabetes mellitus",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "bb0c0f7104be36791461e437f671dc8822c9a1a596c511fc2972616514818693",
+      "s": "cm:E11",
+      "p": "title",
+      "o": "Type 2 diabetes mellitus",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e",
+      "s": "cm:E11",
+      "p": "use_additional_code",
+      "o": [
+        "code to identify control using:",
+        "injectable non-insulin antidiabetic drugs (Z79.85)",
+        "insulin (Z79.4)",
+        "oral antidiabetic drugs (Z79.84)",
+        "oral hypoglycemic drugs (Z79.84)"
+      ],
+      "q": {},
+      "c": "instruction/use_additional_code"
+    },
+    {
+      "id": "fae4be5ad4f8994211ea1a58748f1a56b671d3b12ff673ea9c910b7d3078934e",
+      "s": "cm:E11.9",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "E119",
+        "reportable": true,
+        "sequence": 4416
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "s": "cm:E11.9",
+      "p": "excludes1",
+      "o": [
+        "type 2 diabetes mellitus, without complications in remission (E11.A)"
+      ],
+      "q": {},
+      "c": "instruction/excludes1"
+    },
+    {
+      "id": "f41d2e88cf3ba06d7f78701794a1d80d36a23568977899043a4cb282891931e2",
+      "s": "cm:E11.9",
+      "p": "identifier",
+      "o": "E11.9",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "bbf060579196b5e9f3315faa82d8a2a730129ed5f5622407d0a1788307cf2d4b",
+      "s": "cm:E11.9",
+      "p": "parent",
+      "o": "cm:E11",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "9b36c443efa0405184c3b0ac46842059afaff24e345b10c5926fcb44c7035698",
+      "s": "cm:E11.9",
+      "p": "short_title",
+      "o": "Type 2 diabetes mellitus without complications",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "f77969b1d2874a211026acb5128ed57fa9eb037ea6ef7812c3080fa8cca86134",
+      "s": "cm:E11.9",
+      "p": "title",
+      "o": "Type 2 diabetes mellitus without complications",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "f9c29c4435e61d0acea1b1bbccf647c8d11bfa64db2fa695a4a457fefce38b5e",
+      "s": "cm:E11.A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "E11A",
+        "reportable": true,
+        "sequence": 4417
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "5006d00f291183a741ab56b98437bbf6a00ce3b9c210769e9450b632982fca19",
+      "s": "cm:E11.A",
+      "p": "excludes1",
+      "o": [
+        "type 2 diabetes mellitus, with complications  (E11.0-E11.8)",
+        "type 2 diabetes mellitus, without complications not in remission (E11.9)"
+      ],
+      "q": {},
+      "c": "instruction/excludes1"
+    },
+    {
+      "id": "c58a7c4bca7c76b81ee8ef16b3c4035185f5db09a811c33550336b0cd1daf562",
+      "s": "cm:E11.A",
+      "p": "identifier",
+      "o": "E11.A",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "524a6f9fb3e20bd0508d134bdf1fd713e3d4c5d315529a56419ef5e8c515c4ec",
+      "s": "cm:E11.A",
+      "p": "parent",
+      "o": "cm:E11",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "6908c8e97246b316ff2199105f873b15fca3a8d619355ed584d1d2d90897ee08",
+      "s": "cm:E11.A",
+      "p": "short_title",
+      "o": "Type 2 diabetes mellitus without complications in remission",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "ea353d597ec9e0deaae9ea34c27805f677fac33ab3f4437100c07df22ba30a69",
+      "s": "cm:E11.A",
+      "p": "title",
+      "o": "Type 2 diabetes mellitus without complications in remission",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "c2ba75e6f2b5009c1ebec507a91894c95bb66ddb35d9b0f343106718f225e882",
+      "s": "cm:Z79.4",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "Z794",
+        "reportable": true,
+        "sequence": 97488
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "17e3ec16b8ed489bbbad39013eabbf386457f9359ee396cce2e138c2ff18a771",
+      "s": "cm:Z79.4",
+      "p": "excludes2",
+      "o": [
+        "long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85)",
+        "long term (current) use of oral antidiabetic drugs (Z79.84)",
+        "long term (current) use of oral hypoglycemic drugs (Z79.84)"
+      ],
+      "q": {},
+      "c": "instruction/excludes2"
+    },
+    {
+      "id": "599d8b25e7601d92f810d7176deec60bcd8d4ef5f8ec149e12ced05760406774",
+      "s": "cm:Z79.4",
+      "p": "identifier",
+      "o": "Z79.4",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "9eca56ce59780525aa99eeb3128243818e24f13dd26f1772f28f40d9f41253f8",
+      "s": "cm:Z79.4",
+      "p": "parent",
+      "o": "cm:Z79",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "cc36a65baf291507001f6aa3fdfa5db4f0601cc9daacafe60c6f17fc3ff99c0b",
+      "s": "cm:Z79.4",
+      "p": "short_title",
+      "o": "Long term (current) use of insulin",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "3ae52f967dfaa86e70499ae92c71cacef697009dbd1221a16a1f43d491726b84",
+      "s": "cm:Z79.4",
+      "p": "title",
+      "o": "Long term (current) use of insulin",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "393406a25a113ce38b3206c4ac43463461774328285224dc9d075db3ec7a5f78",
+      "s": "cm:Z79.84",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "Z7984",
+        "reportable": true,
+        "sequence": 97516
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "e7fe6051021a4a02939c430aaf65db3601513fdfba85a380cf9a9b8b85ba8437",
+      "s": "cm:Z79.84",
+      "p": "excludes2",
+      "o": [
+        "long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85)",
+        "long term (current) use of insulin (Z79.4)"
+      ],
+      "q": {},
+      "c": "instruction/excludes2"
+    },
+    {
+      "id": "8fa35989c9077983a097097d4ac5ecaba095d5da7b05f29ed258cc6bed8cb73a",
+      "s": "cm:Z79.84",
+      "p": "identifier",
+      "o": "Z79.84",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "a261f7017adca058a6f0bdd6827c0c2a9ed48a8dde4c94a9d3183f7d4aa589e3",
+      "s": "cm:Z79.84",
+      "p": "inclusion_terms",
+      "o": [
+        "Long term (current) use of oral antidiabetic drugs"
+      ],
+      "q": {},
+      "c": "instruction/inclusion_terms"
+    },
+    {
+      "id": "5d0f4dc61df79b8ebc4988e3b6c4c2b44d9748642135fab68f70986cfd8ac5bf",
+      "s": "cm:Z79.84",
+      "p": "parent",
+      "o": "cm:Z79.8",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "0a36b378afa9fc00dd803400cad073f59c1a1e84672591e5a6473fc8663b8052",
+      "s": "cm:Z79.84",
+      "p": "short_title",
+      "o": "Long term (current) use of oral hypoglycemic drugs",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "b1c49301277b2306e801494079d77ba35ec9cc43a6c86a08e495af25677bf24a",
+      "s": "cm:Z79.84",
+      "p": "title",
+      "o": "Long term (current) use of oral hypoglycemic drugs",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "1005f514266581afffa671ce6d0379dfd424434a83c42b3cc51406bc64f361cd",
+      "s": "cm:Z79.85",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "Z7985",
+        "reportable": true,
+        "sequence": 97517
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "1c1a2797d42d404becc0d8b7d6e0f332250469180662ea58748210e7b066b631",
+      "s": "cm:Z79.85",
+      "p": "excludes2",
+      "o": [
+        "long term (current) use of insulin (Z79.4)",
+        "long term (current) use of oral hypoglycemic drugs (Z79.84)"
+      ],
+      "q": {},
+      "c": "instruction/excludes2"
+    },
+    {
+      "id": "92a0e1ff0e1c3f8a17bcf45c81442d7c52828d3616e8646ba29684c58d4d21fe",
+      "s": "cm:Z79.85",
+      "p": "identifier",
+      "o": "Z79.85",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "ff04028cf1f101248b2f0695ed2b925926f4ce53d6c8cfba4fac33d5fe7dcc48",
+      "s": "cm:Z79.85",
+      "p": "parent",
+      "o": "cm:Z79.8",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "b76cb5d8ac515cd134cc476cec09a04831f372c2dc6a7aacc6dcf97fa429ac60",
+      "s": "cm:Z79.85",
+      "p": "short_title",
+      "o": "Lng trm (crnt) use injectable non-insulin antidiabetic drugs",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "5f569dc94911c99ef7279fe4eea26d2b61bfa54da9ef6ea042a3ec4af9de48ed",
+      "s": "cm:Z79.85",
+      "p": "title",
+      "o": "Long-term (current) use of injectable non-insulin antidiabetic drugs",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "5df9ade895c81128a7ed6cf6de93b435e3d715a66142bf1ec69d846c0d6032c2",
+      "s": "disease:8I50MSWBmOzY",
+      "p": "code_reference",
+      "o": "E11.9",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "e84f4fc49ad421ba3302928449f7b7c4d392f37367ab19c41dda1e3c404ed044",
+      "s": "disease:8I50MSWBmOzY",
+      "p": "parent",
+      "o": "disease:Bxwr9AGfbTtT",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "54d17ef48f52d8492dd88aab7cd4492eb4fe25733d4923e64984cd31a84aaed1",
+      "s": "disease:8I50MSWBmOzY",
+      "p": "title",
+      "o": "type 2",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "94cf7c51a617dc3e98bd426bc5aee11b798023a977b2ff4359518830e5132bcb",
+      "s": "disease:Bxwr9AGfbTtT",
+      "p": "code_reference",
+      "o": "E11.9",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "422d0a3b1f1ad98ec9476648a6f1217c8fc2c72a4f403428489972962f1035ba",
+      "s": "disease:Bxwr9AGfbTtT",
+      "p": "nonessential_modifier",
+      "o": "(mellitus) (sugar)",
+      "q": {},
+      "c": "index/modifier"
+    },
+    {
+      "id": "6d56a1d0e1bc1cf394aba0ddce447764078f84a5c8e28445832300a6e162fa8d",
+      "s": "disease:Bxwr9AGfbTtT",
+      "p": "parent",
+      "o": "index:disease",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "d3cd819fda4f65c770b17606d6350817f2aea57b2657f4651a99ff0b35adc9e3",
+      "s": "disease:Bxwr9AGfbTtT",
+      "p": "title",
+      "o": "Diabetes, diabetic(mellitus) (sugar)",
+      "q": {},
+      "c": "index/disease"
+    },
+    {
+      "id": "4d6987956f4236ecd2b853982e787f08be0283ec096fa51115993cee586f350a",
+      "s": "section:E08-E13",
+      "p": "identifier",
+      "o": "E08-E13",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "11ddeeeeca3606f3538e6675419d535b6ff5b9814dd02b7b2a989f615bdf2f17",
+      "s": "section:E08-E13",
+      "p": "parent",
+      "o": "chapter:4",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "3f375cd2ea4f037114ccf9ec866aee69f19153da8643cfee93dc774ff4f328cc",
+      "s": "section:E08-E13",
+      "p": "title",
+      "o": "Diabetes mellitus (E08-E13)",
+      "q": {},
+      "c": "classification/title"
+    }
+  ],
+  "notes": {
+    "all_incoming_index_terms": 2,
+    "selected_rule_fact_ids": [
+      "5284083e24853a4d49105484677508278b4b99bdbc0926d60d93e3761b061ccc",
+      "ecd8ca806563d39cd1ac4eb37a764589748a86e7155ff7761db194845271f77e"
+    ],
+    "parallel_mention_note": "Two Z79.84 text occurrences share one drawn route; both distinct edges remain in the view CSV."
+  }
+}

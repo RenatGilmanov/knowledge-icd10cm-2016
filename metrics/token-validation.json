@@ -1,0 +1,187 @@
+{
+  "schema": "freefact.token-validation/1",
+  "passed": true,
+  "generated_utc": "2026-09-20T16:10:05.817709+00:00",
+  "metrics_sha256": "9ae2108fa1748d1bdf53508987e437593d17ed1f38bb73850df0970feed15174",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "knowledge_manifest_sha256": "5cab2dea193161e3bb0e38f9bbb772d961cb21748fa398c099f6a29da11de02b",
+  "canonical_validation_sha256": "a39b0dd332dd3fbb29bd6b2b5c95c558df4420ccc2edf3d9641dce84166bce67",
+  "tokenizer": {
+    "name": "cl100k_base",
+    "tiktoken_version": "0.14.0",
+    "definition_sha256": "cecc6fb8317095508239c4d84d53a0480ff22671a73d4168388fab470f91de5a",
+    "counter": "uint32 token buffer; ordinary text; checked against encode_ordinary",
+    "python_version": "3.13.7",
+    "mode": "ordinary text; special-token-looking strings count as literal text"
+  },
+  "independent_counter": "len(tiktoken.Encoding.encode_ordinary(complete_text))",
+  "facts_compared": 809979,
+  "registry_identifiers_compared": 98186,
+  "category_files_compared": 41,
+  "representations_recounted": 123,
+  "missing_or_altered_facts": 0,
+  "totals": {
+    "facts": 809979,
+    "jsonl_tokens": 52408526,
+    "jsonl_bytes": 129654502,
+    "ffl2_tokens": 25438374,
+    "ffl2_bytes": 66967955,
+    "ffl3_tokens": 23719770,
+    "ffl3_bytes": 60405076,
+    "ffl3_tokens_per_fact": 29.28442589252314,
+    "ffl3_facts_per_1000_tokens": 34.147843760711005,
+    "saved_vs_jsonl_tokens": 28688756,
+    "saved_vs_jsonl_pct": 54.74062750782191,
+    "saved_vs_ffl2_tokens": 1718604,
+    "saved_vs_ffl2_pct": 6.755950675149284
+  },
+  "categories_with_negative_jsonl_savings": [
+    "coding/caution",
+    "index/book",
+    "index/caution",
+    "index/synonym",
+    "instruction/neoplasm_table",
+    "release/edition",
+    "table/visual_impairment"
+  ],
+  "contexts": [
+    {
+      "id": "diabetes",
+      "facts": 44,
+      "subjects": 5,
+      "ffl3_tokens": 1907,
+      "passed": true
+    },
+    {
+      "id": "seventh-character",
+      "facts": 80,
+      "subjects": 8,
+      "ffl3_tokens": 3226,
+      "passed": true
+    },
+    {
+      "id": "visual-acuity",
+      "facts": 49,
+      "subjects": 5,
+      "ffl3_tokens": 2493,
+      "passed": true
+    },
+    {
+      "id": "aspirin",
+      "facts": 23,
+      "subjects": 3,
+      "ffl3_tokens": 972,
+      "passed": true
+    },
+    {
+      "id": "excludes1",
+      "facts": 11,
+      "subjects": 4,
+      "ffl3_tokens": 673,
+      "passed": true
+    },
+    {
+      "id": "poa",
+      "facts": 2,
+      "subjects": 1,
+      "ffl3_tokens": 117,
+      "passed": true
+    }
+  ],
+  "csv_files": [
+    {
+      "path": "metrics/token-categories.csv",
+      "rows": 41,
+      "sha256": "007acd44eea44d71edada0f384d771e2f7cdd2341b667f375e6c32ef7fc49444"
+    },
+    {
+      "path": "metrics/token-families.csv",
+      "rows": 7,
+      "sha256": "af76e279e42739ef8dee4bc8d4b6f313250f7827102519ad221ccd3f8834985d"
+    },
+    {
+      "path": "metrics/token-formats.csv",
+      "rows": 3,
+      "sha256": "d07c8d952f404f83ca3b47ea23918e6b23a83086fe5a55d6a539aa6453efc060"
+    },
+    {
+      "path": "metrics/token-contexts.csv",
+      "rows": 6,
+      "sha256": "41ad59ece990c1870a29535d3a544b6e9e979e77cdc8be6074b6eb1dcb39eecc"
+    }
+  ],
+  "figures": [
+    {
+      "id": "06-token-efficiency",
+      "group": "token_effectiveness",
+      "svg": "visualizations/06-token-efficiency.svg",
+      "png": "visualizations/06-token-efficiency.png",
+      "svg_sha256": "ffc90cb1e8ebfdea810887ec3ebdd79afa12b64bead33879cec6d4fc3f14fed2",
+      "png_sha256": "a5aff45d25837105191b1d3fc9333b73919238d862cf99936043074b19d03cc0",
+      "viewbox": [
+        2640,
+        1920
+      ],
+      "png_pixels": [
+        5280,
+        3840
+      ],
+      "scope": "Full corpus; all 41 complete category files. Savings compare identical seven-field canonical fact content, including evidence and qualifiers.",
+      "numeric_labels_verified": 7,
+      "bars_verified": 3,
+      "rows_verified": 3,
+      "text_lines": 44,
+      "passed": true
+    },
+    {
+      "id": "07-token-profile",
+      "group": "token_effectiveness",
+      "svg": "visualizations/07-token-profile.svg",
+      "png": "visualizations/07-token-profile.png",
+      "svg_sha256": "676a2ff7e2a3fe930196af31cabce224ace97f9bd52d65958c24d79aabce2b1e",
+      "png_sha256": "88bb6d18fd6c02f96b85b98f990f142075c3c9681e5b2227e2fcefee7062f683",
+      "viewbox": [
+        2700,
+        2840
+      ],
+      "png_pixels": [
+        5400,
+        5680
+      ],
+      "scope": "All 41 primary categories. Bars share a linear, zero-based scale. Tokens/fact and saving percentages use each category’s own denominators.",
+      "numeric_labels_verified": 164,
+      "bars_verified": 41,
+      "rows_verified": 41,
+      "text_lines": 272,
+      "passed": true
+    },
+    {
+      "id": "08-context-token-cost",
+      "group": "token_effectiveness",
+      "svg": "visualizations/08-context-token-cost.svg",
+      "png": "visualizations/08-context-token-cost.png",
+      "svg_sha256": "2f282adf77fc8c605044134aaebc4b317f2b8691acc2d32945a5203d4528d23a",
+      "png_sha256": "4609d7c9829c560b0f0ff322487234413d42327825ec08dc728a6a3a8c41900c",
+      "viewbox": [
+        2640,
+        2210
+      ],
+      "png_pixels": [
+        5280,
+        4420
+      ],
+      "scope": "Six fixed illustrative selections, not a representative workload. Each contains exact subject and structural ancestor facts; complete clinical guideline applicability is not established.",
+      "numeric_labels_verified": 21,
+      "bars_verified": 12,
+      "rows_verified": 6,
+      "text_lines": 58,
+      "passed": true
+    }
+  ],
+  "limits": "Validates serialization counts and exact extracted-fact preservation, not LLM answer accuracy or clinical source completeness.",
+  "validator": {
+    "path": "scripts/verify_token_effectiveness.py",
+    "sha256": "cd4fbb1474b8764c917a95fd31dff125089caf30df8e3fbb5f6d13c03d0feb29",
+    "elapsed_seconds": 43.921
+  }
+}

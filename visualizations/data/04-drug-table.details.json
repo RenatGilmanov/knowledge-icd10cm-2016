@@ -1,0 +1,1492 @@
+{
+  "schema": "freefact.graph-view/1",
+  "id": "04-drug-table",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "A complete six-cell row for the top-level Aspirin(aluminum) (soluble) drug-table subject. Each circumstance is an edge qualifier. The 18 encounter-specific descendants are exact seventh_character_of relationships.",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "nodes": [
+    {
+      "id": "drug:zW-HjSDZA6Ru",
+      "label": "Aspirin(aluminum) (soluble)",
+      "category": "entity",
+      "canonical_subject": "drug:zW-HjSDZA6Ru",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.011",
+      "label": "T39.011 · Poisoning by aspirin, accidental (unintentional)",
+      "category": "entity",
+      "canonical_subject": "cm:T39.011",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.011A",
+      "label": "T39.011A · Poisoning by aspirin, accidental (unintentional), initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.011A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.011D",
+      "label": "T39.011D · Poisoning by aspirin, accidental (unintentional), subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.011D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.011S",
+      "label": "T39.011S · Poisoning by aspirin, accidental (unintentional), sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.011S",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.012",
+      "label": "T39.012 · Poisoning by aspirin, intentional self-harm",
+      "category": "entity",
+      "canonical_subject": "cm:T39.012",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.012A",
+      "label": "T39.012A · Poisoning by aspirin, intentional self-harm, initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.012A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.012D",
+      "label": "T39.012D · Poisoning by aspirin, intentional self-harm, subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.012D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.012S",
+      "label": "T39.012S · Poisoning by aspirin, intentional self-harm, sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.012S",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.013",
+      "label": "T39.013 · Poisoning by aspirin, assault",
+      "category": "entity",
+      "canonical_subject": "cm:T39.013",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.013A",
+      "label": "T39.013A · Poisoning by aspirin, assault, initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.013A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.013D",
+      "label": "T39.013D · Poisoning by aspirin, assault, subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.013D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.013S",
+      "label": "T39.013S · Poisoning by aspirin, assault, sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.013S",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.014",
+      "label": "T39.014 · Poisoning by aspirin, undetermined",
+      "category": "entity",
+      "canonical_subject": "cm:T39.014",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.014A",
+      "label": "T39.014A · Poisoning by aspirin, undetermined, initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.014A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.014D",
+      "label": "T39.014D · Poisoning by aspirin, undetermined, subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.014D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.014S",
+      "label": "T39.014S · Poisoning by aspirin, undetermined, sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.014S",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.015",
+      "label": "T39.015 · Adverse effect of aspirin",
+      "category": "entity",
+      "canonical_subject": "cm:T39.015",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.015A",
+      "label": "T39.015A · Adverse effect of aspirin, initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.015A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.015D",
+      "label": "T39.015D · Adverse effect of aspirin, subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.015D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.015S",
+      "label": "T39.015S · Adverse effect of aspirin, sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.015S",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.016",
+      "label": "T39.016 · Underdosing of aspirin",
+      "category": "entity",
+      "canonical_subject": "cm:T39.016",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.016A",
+      "label": "T39.016A · Underdosing of aspirin, initial encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.016A",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.016D",
+      "label": "T39.016D · Underdosing of aspirin, subsequent encounter",
+      "category": "entity",
+      "canonical_subject": "cm:T39.016D",
+      "fact_id": "",
+      "value": null
+    },
+    {
+      "id": "cm:T39.016S",
+      "label": "T39.016S · Underdosing of aspirin, sequela",
+      "category": "entity",
+      "canonical_subject": "cm:T39.016S",
+      "fact_id": "",
+      "value": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.011",
+      "weight": 1,
+      "label": "code_for · Poisoning Accidental (unintentional)",
+      "kind": "asserted",
+      "fact_id": "5649e358d9b925c7129cb482348ad71f85d539a478c33f41a0bca76a0d77630f",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Poisoning Accidental (unintentional)"
+      }
+    },
+    {
+      "source": "cm:T39.011A",
+      "target": "cm:T39.011",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "63bee019a008b3c7bbed79817f4f5b412d57f56a90b35f2de2b4773d25ba5378",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.011D",
+      "target": "cm:T39.011",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "5395139a8d4514c6d2a116afdb8ebc4d0649c4784e555f9658cadc8b45fe71c5",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.011S",
+      "target": "cm:T39.011",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "990679648b3888ed52bcbcee860a7e5d80e67426d14e398eb1b806351778e37c",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.012",
+      "weight": 1,
+      "label": "code_for · Poisoning Intentional self-harm",
+      "kind": "asserted",
+      "fact_id": "28158027b62dc30334ef692911c7eb724915aaec22501a21cf647024bf992a6c",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Poisoning Intentional self-harm"
+      }
+    },
+    {
+      "source": "cm:T39.012A",
+      "target": "cm:T39.012",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "ab4ff15e9f53e5b9c12689e50c38cff1b7d458042191322c89a34fa37e6bc2fa",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.012D",
+      "target": "cm:T39.012",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "0174e7ca82853baea26ebbc14e460e3df1473f6789374085385823e2d2f859d5",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.012S",
+      "target": "cm:T39.012",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "2bd920b0ecf17017725732f405a64e368429eed2eaaf483206ebeb2be2a6ad09",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.013",
+      "weight": 1,
+      "label": "code_for · Poisoning Assault",
+      "kind": "asserted",
+      "fact_id": "412e33069bf0e57b15bdb2ec597f4a8b79dc59688b14f84ef66f89a8db62fe53",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Poisoning Assault"
+      }
+    },
+    {
+      "source": "cm:T39.013A",
+      "target": "cm:T39.013",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "3b22ef2dd316b610e0954b60db62a12af73e4d555b9fb226783f2767dfc93d83",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.013D",
+      "target": "cm:T39.013",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "3153cfbd00690b8fff3b3e357ec2154d024f6c6bd4cd13362500de81a906e596",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.013S",
+      "target": "cm:T39.013",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "21f35629551df709c512ccec3eb6a8a4d8378a49cc371aa09bf74ad917ebb844",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.014",
+      "weight": 1,
+      "label": "code_for · Poisoning Undetermined",
+      "kind": "asserted",
+      "fact_id": "2939f031beb47108fd07a01a4d6f9c3b7137adce3f8d6bf8bff0fc086e7278b0",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Poisoning Undetermined"
+      }
+    },
+    {
+      "source": "cm:T39.014A",
+      "target": "cm:T39.014",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "a57e00fa92b10a0b34872b71966a403d937508158b396818e53373775816bd7e",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.014D",
+      "target": "cm:T39.014",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "da48de8fe6875adb135a9dbf6581c8f57efc00f412d45ed4af9ae14dae47c69d",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.014S",
+      "target": "cm:T39.014",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "82288e0ff62bd46a1cb222dc174cd46f622d91c402d09c847a22ba6b83f831f6",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.015",
+      "weight": 1,
+      "label": "code_for · Adverse effect",
+      "kind": "asserted",
+      "fact_id": "80267526d5dfbd973ff98afa84a9aeb73875f23e966a5017601f332606a319d1",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Adverse effect"
+      }
+    },
+    {
+      "source": "cm:T39.015A",
+      "target": "cm:T39.015",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "62585b066e5c1fb58705b2981fcd48031e2dc95605173a22abbff74b4575f44b",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.015D",
+      "target": "cm:T39.015",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "0f1f5bbd8b8e9080ab84df130128b97807305996c363e52b4254c02168926e08",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.015S",
+      "target": "cm:T39.015",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "4e95dcdee5b8d08cc10a347fb1798d96725e72505276eb991a5662cd4d23661a",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "drug:zW-HjSDZA6Ru",
+      "target": "cm:T39.016",
+      "weight": 1,
+      "label": "code_for · Underdosing",
+      "kind": "asserted",
+      "fact_id": "8f0d7ed27645296f9906d8d811450b12001b65affeed1cbcccd7b902f6ac9619",
+      "predicate": "code_for",
+      "qualifiers": {
+        "circumstance": "Underdosing"
+      }
+    },
+    {
+      "source": "cm:T39.016A",
+      "target": "cm:T39.016",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "bed9a6ec2694ad0031fe56e6f61506597991799ca82561d7805d47f82c519a69",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.016D",
+      "target": "cm:T39.016",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "ea11d56f1eeb06225fd0b5ea08e7aa5481423103b5de70f100a37c25f0cde51a",
+      "predicate": "seventh_character_of"
+    },
+    {
+      "source": "cm:T39.016S",
+      "target": "cm:T39.016",
+      "weight": 1,
+      "label": "seventh_character_of",
+      "kind": "asserted",
+      "fact_id": "55a909e93d211414ddacfdd1e5fc2a26749a238f10e25993c0ebc15900ea0685",
+      "predicate": "seventh_character_of"
+    }
+  ],
+  "facts": [
+    {
+      "id": "28158027b62dc30334ef692911c7eb724915aaec22501a21cf647024bf992a6c",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.012",
+      "q": {
+        "circumstance": "Poisoning Intentional self-harm"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "2939f031beb47108fd07a01a4d6f9c3b7137adce3f8d6bf8bff0fc086e7278b0",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.014",
+      "q": {
+        "circumstance": "Poisoning Undetermined"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "412e33069bf0e57b15bdb2ec597f4a8b79dc59688b14f84ef66f89a8db62fe53",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.013",
+      "q": {
+        "circumstance": "Poisoning Assault"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "5649e358d9b925c7129cb482348ad71f85d539a478c33f41a0bca76a0d77630f",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.011",
+      "q": {
+        "circumstance": "Poisoning Accidental (unintentional)"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "80267526d5dfbd973ff98afa84a9aeb73875f23e966a5017601f332606a319d1",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.015",
+      "q": {
+        "circumstance": "Adverse effect"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "8f0d7ed27645296f9906d8d811450b12001b65affeed1cbcccd7b902f6ac9619",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "code_for",
+      "o": "T39.016",
+      "q": {
+        "circumstance": "Underdosing"
+      },
+      "c": "table/drug"
+    },
+    {
+      "id": "5e414e099fb2d119b0ff7e94b03a753932e980522d111218bf9fc522ab7e579a",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "nonessential_modifier",
+      "o": "(aluminum) (soluble)",
+      "q": {},
+      "c": "index/modifier"
+    },
+    {
+      "id": "90a10236e0b0f13ff62f31691e925d834e9ff924383b587ea36253b6a1b63069",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "parent",
+      "o": "index:drug",
+      "q": {},
+      "c": "index/drug"
+    },
+    {
+      "id": "b738482a8d96973c95758482f4aacbe84fe3cf413063fe8ef9eaa7cd5e064bee",
+      "s": "drug:zW-HjSDZA6Ru",
+      "p": "title",
+      "o": "Aspirin(aluminum) (soluble)",
+      "q": {},
+      "c": "index/drug"
+    },
+    {
+      "id": "8ac31a44d8baf7b2df74bbbb1f16a6157db058bf27f5d9d24fdc584f2616bbd5",
+      "s": "cm:T39.012",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39012",
+        "reportable": false,
+        "sequence": 76474
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "8349868b8ddc622e90896a740124ccc09eccbfe5f41eb7a99f6e917a177a1a1b",
+      "s": "cm:T39.012",
+      "p": "identifier",
+      "o": "T39.012",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "27af7d923051c2da2116f6fc7adc2c1839e447205e778fec1a8115b7726b59a3",
+      "s": "cm:T39.012",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "952dc68b3c2824e8c0d15c2148bf547658e72fa2a33c34bfd313379970f04942",
+      "s": "cm:T39.012",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, intentional self-harm",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "2e98a1e438658671155f8af2fb0c6c94f0fabc2071e76acb4da5e72468bf51be",
+      "s": "cm:T39.012",
+      "p": "title",
+      "o": "Poisoning by aspirin, intentional self-harm",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "e7babd1408c7682b9b4563fb1cfc03e57017d86ccd7d1e9a19c477330f11fb9c",
+      "s": "cm:T39.014",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39014",
+        "reportable": false,
+        "sequence": 76482
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "08faf146e418e1b7298597b0fd746867e8c22d993cd97090eab0e11fa3f1734c",
+      "s": "cm:T39.014",
+      "p": "identifier",
+      "o": "T39.014",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "15332ae31647fab1be3841889cc7f7a3096338d552590c3fcb357a1472545321",
+      "s": "cm:T39.014",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "d35a660c5dd0960a93fc09a439f692db1aca9780ac7bc81225447f8a8c8eb8c0",
+      "s": "cm:T39.014",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, undetermined",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "ebb69b728f5081d79e79a7b478ee986e123b02d05d9a1d24fedd736e7daf0dd4",
+      "s": "cm:T39.014",
+      "p": "title",
+      "o": "Poisoning by aspirin, undetermined",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "633251df4e887dbc095595cfbccd6179620aff8fbc6f5fdc32451952b0398ac9",
+      "s": "cm:T39.013",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39013",
+        "reportable": false,
+        "sequence": 76478
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "f7c32ad2aba49faa3d4f6c9819bbfd92bd7e08dcb6309e32f8bc5a9c52128fa4",
+      "s": "cm:T39.013",
+      "p": "identifier",
+      "o": "T39.013",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "80ea1081b3af1a2bec6bb502ed4f75924f07440dc2def702488e82682a24d80a",
+      "s": "cm:T39.013",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "1cb91fd513ed26891b50c9831f166003f0cf93fc30fc31e0287976592cb3945f",
+      "s": "cm:T39.013",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, assault",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "c994b8985b72048eca50062568d6508c73cd46b52b9d6768d5a27edd937c67ed",
+      "s": "cm:T39.013",
+      "p": "title",
+      "o": "Poisoning by aspirin, assault",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "458515f28475f788eb681c06ea2a423c76680f6fb717a465642c6433e9776dcb",
+      "s": "cm:T39.011",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39011",
+        "reportable": false,
+        "sequence": 76470
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "d0f68b27ada6b8b1f9673a8694bed02f61de8719e71427f7960e5a4f3411ca81",
+      "s": "cm:T39.011",
+      "p": "identifier",
+      "o": "T39.011",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "b6d9a21f322f7c88141990d9d8bfd41c741bd29f6b34c48f16d6550a9dc9a179",
+      "s": "cm:T39.011",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "ca9ef29cf4eec48b5aa63dc74bf1abdc7c76d29ef2d93bc29469ea7e04ca5ae9",
+      "s": "cm:T39.011",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, accidental (unintentional)",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "865f97cf67ec568e1bbf43be91864a26fe50bdc4fc0ddd0a41bf6c1b613dc762",
+      "s": "cm:T39.011",
+      "p": "title",
+      "o": "Poisoning by aspirin, accidental (unintentional)",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "8d5e83469722e36a29730fb8425d395d27210d0b8c21f25872b8aca648375846",
+      "s": "cm:T39.015",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39015",
+        "reportable": false,
+        "sequence": 76486
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "36237fedfa17ecdc3f0405e4001edbf28baa79a88883cbc388cd497b7685194c",
+      "s": "cm:T39.015",
+      "p": "identifier",
+      "o": "T39.015",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "c931cb012a94fb4569605dc2f1018402c02fffa978ca645cb2975d3ab28255f7",
+      "s": "cm:T39.015",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "db6af0d1bbff35b4ca19fbedaa3f21acfd34de17c7147e52b0bf37cd6ffa405a",
+      "s": "cm:T39.015",
+      "p": "short_title",
+      "o": "Adverse effect of aspirin",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "21c61c7d14655ef4333865115071beaefed2ad7a4573d8bc73c186017d3e7f0e",
+      "s": "cm:T39.015",
+      "p": "title",
+      "o": "Adverse effect of aspirin",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "7d34e6a8c05268db9bc788b5bd54ff76797166ffabad44b6edba621fde231617",
+      "s": "cm:T39.016",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39016",
+        "reportable": false,
+        "sequence": 76490
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "9c8ac575b3f71cc4c998b79c39ac438181bea8678b762ed23195b63647366bcf",
+      "s": "cm:T39.016",
+      "p": "identifier",
+      "o": "T39.016",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "2411ba362f9d9e4611df04a31b8b667cd6fa491c65fd4196d8ff53621bacb737",
+      "s": "cm:T39.016",
+      "p": "parent",
+      "o": "cm:T39.01",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "d326329c04fcf78c76a759ce3f738b55da36defd1218d737ce192a2fb5ce8e1b",
+      "s": "cm:T39.016",
+      "p": "short_title",
+      "o": "Underdosing of aspirin",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "98b608db78308b9127868cd0fb8a0c9b7764b408bd37c7146942401ced6d9ccc",
+      "s": "cm:T39.016",
+      "p": "title",
+      "o": "Underdosing of aspirin",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "aa00ba7c54bdcd6b9a806c4d221ffdee4734e905bf339f80a5b5f64b4e14586c",
+      "s": "cm:T39.012A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39012A",
+        "reportable": true,
+        "sequence": 76475
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "ab4ff15e9f53e5b9c12689e50c38cff1b7d458042191322c89a34fa37e6bc2fa",
+      "s": "cm:T39.012A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.012",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "aaff2daf9abdb54c0441b5faa53e0e1057f9a2dd96850c0ab33d4488e2db3286",
+      "s": "cm:T39.012A",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, intentional self-harm, init encntr",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "6deb886cac2267906f6ba830c72eadfe51ae97f9d02eb029a8d5ed269583414c",
+      "s": "cm:T39.012A",
+      "p": "title",
+      "o": "Poisoning by aspirin, intentional self-harm, initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "769b4c732cf889b861cf5642da48b1b84e2025e507019152b7a2350d73cf2cbf",
+      "s": "cm:T39.012D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39012D",
+        "reportable": true,
+        "sequence": 76476
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "0174e7ca82853baea26ebbc14e460e3df1473f6789374085385823e2d2f859d5",
+      "s": "cm:T39.012D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.012",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "3afd74a9ced73ecf28cc2f569638c32408d3b45498d6f5d04c508b49da07b2ae",
+      "s": "cm:T39.012D",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, intentional self-harm, subs encntr",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "0dd39d24fb13250a10cd3b392fbff4184ad9ec5af4c95b628881ca7fae49be8e",
+      "s": "cm:T39.012D",
+      "p": "title",
+      "o": "Poisoning by aspirin, intentional self-harm, subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "7c45a0951c55e6719d813a0c7219ae11aaf41f5d05951a6fc99be5a2a6807c45",
+      "s": "cm:T39.012S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39012S",
+        "reportable": true,
+        "sequence": 76477
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "2bd920b0ecf17017725732f405a64e368429eed2eaaf483206ebeb2be2a6ad09",
+      "s": "cm:T39.012S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.012",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "81d212862cc37dc6c6704f5f41f41f3c8be09369cbb6c415f77f72893933e85c",
+      "s": "cm:T39.012S",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, intentional self-harm, sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "0ccaab7ee3c8ce01d92805cd2161d964fe78f550db0d9d7bac2bf62d6fa1f7d9",
+      "s": "cm:T39.012S",
+      "p": "title",
+      "o": "Poisoning by aspirin, intentional self-harm, sequela",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "36dc8538cd423c3e37c895502eeb090c4fd9d337b287d8074a65ea17098794b7",
+      "s": "cm:T39.014A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39014A",
+        "reportable": true,
+        "sequence": 76483
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "a57e00fa92b10a0b34872b71966a403d937508158b396818e53373775816bd7e",
+      "s": "cm:T39.014A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.014",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "d12fe7e759182d80d5606dcf873096797183fa4026e7838cdd1ef6250a8b6695",
+      "s": "cm:T39.014A",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, undetermined, initial encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "502a4b01cb92f2bccea1236ef94bed3b5bc8c622225161a8d307107ca8003f54",
+      "s": "cm:T39.014A",
+      "p": "title",
+      "o": "Poisoning by aspirin, undetermined, initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "37cf761d373cd08bb529e43906df4816e2d9e74ba4bfc155a9600655ea20ce27",
+      "s": "cm:T39.014D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39014D",
+        "reportable": true,
+        "sequence": 76484
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "da48de8fe6875adb135a9dbf6581c8f57efc00f412d45ed4af9ae14dae47c69d",
+      "s": "cm:T39.014D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.014",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "c20a9848fe64532bee8a039e5c685e3beb35f524553f469fd302b8c14da7c247",
+      "s": "cm:T39.014D",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, undetermined, subsequent encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "565ff8205fad318e42847e66857cc4aabf32d94d870a069d6d4991084d2139cb",
+      "s": "cm:T39.014D",
+      "p": "title",
+      "o": "Poisoning by aspirin, undetermined, subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "403ef3a7f947752b193f8267872fa188588fa439bc339c9ecc66a7957e3492bf",
+      "s": "cm:T39.014S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39014S",
+        "reportable": true,
+        "sequence": 76485
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "82288e0ff62bd46a1cb222dc174cd46f622d91c402d09c847a22ba6b83f831f6",
+      "s": "cm:T39.014S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.014",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "6ab2ad30b58a9e4217f1c663f035fcf7eff0b4b865f5e98dec6a4a396e622418",
+      "s": "cm:T39.014S",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, undetermined, sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "59e973d9a6753e5c827c24f366fed69fc1d3513cd33c96cffa79d1799af0261b",
+      "s": "cm:T39.014S",
+      "p": "title",
+      "o": "Poisoning by aspirin, undetermined, sequela",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "e740eec1af0a5da8a632beb731293ae0f27172174b7a93b6619fc197a723b116",
+      "s": "cm:T39.013A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39013A",
+        "reportable": true,
+        "sequence": 76479
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "3b22ef2dd316b610e0954b60db62a12af73e4d555b9fb226783f2767dfc93d83",
+      "s": "cm:T39.013A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.013",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "632f97702ce77f82fd312341bc8b71106cc30a07cb1c1f99483471e3231d2392",
+      "s": "cm:T39.013A",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, assault, initial encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "43789ba9a3b65a2d8b002086fd6c6810b215925440ad3c74d194015b4ff83830",
+      "s": "cm:T39.013A",
+      "p": "title",
+      "o": "Poisoning by aspirin, assault, initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "8fb2bc132a91ab2b545350cede684fc41498d10a07b4cbb1e64571866c42be89",
+      "s": "cm:T39.013D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39013D",
+        "reportable": true,
+        "sequence": 76480
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "3153cfbd00690b8fff3b3e357ec2154d024f6c6bd4cd13362500de81a906e596",
+      "s": "cm:T39.013D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.013",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "ba7580b45d85e1604ea087cfe3f25b0376e1ed129164dcb9b3cb29209d614a61",
+      "s": "cm:T39.013D",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, assault, subsequent encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "56143e71314f2292b399c758f9cc920681982bcd5584ce39e98dae39cbdcc5a8",
+      "s": "cm:T39.013D",
+      "p": "title",
+      "o": "Poisoning by aspirin, assault, subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "7145988dc71d339a578c68ff312cd58fb841dbdf6f33dea986d36b3ac34f8ac9",
+      "s": "cm:T39.013S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39013S",
+        "reportable": true,
+        "sequence": 76481
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "21f35629551df709c512ccec3eb6a8a4d8378a49cc371aa09bf74ad917ebb844",
+      "s": "cm:T39.013S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.013",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "9190b4088c38b4a028e32b78b27ff485eede974b43b19a49dfee8b8cbae2dfc0",
+      "s": "cm:T39.013S",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, assault, sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "8f9116d24b451e2b6ecfb0c51fd6a8641335b8433bec340b14b6a8e5921b547f",
+      "s": "cm:T39.013S",
+      "p": "title",
+      "o": "Poisoning by aspirin, assault, sequela",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "3d1139892be93b6e3eb2477902d6d45ff89486a471915b22b7c5b7eaf52b18e2",
+      "s": "cm:T39.011A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39011A",
+        "reportable": true,
+        "sequence": 76471
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "63bee019a008b3c7bbed79817f4f5b412d57f56a90b35f2de2b4773d25ba5378",
+      "s": "cm:T39.011A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.011",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "f473f8e680fa61cf635baa6db9450707a678439126a9832c391d773a2ff89d29",
+      "s": "cm:T39.011A",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, accidental (unintentional), init",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "0a0ce2469f2cd09f5be3289ab6fe29b0ada8b92215a50777e0e009077124fb14",
+      "s": "cm:T39.011A",
+      "p": "title",
+      "o": "Poisoning by aspirin, accidental (unintentional), initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "09ecbd87300dcb26a01588c52452dc925f8c22591a1ce9aedafe9be4ea0b4fad",
+      "s": "cm:T39.011D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39011D",
+        "reportable": true,
+        "sequence": 76472
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "5395139a8d4514c6d2a116afdb8ebc4d0649c4784e555f9658cadc8b45fe71c5",
+      "s": "cm:T39.011D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.011",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "bad428e9f0e0016bf33ead63521200095a300de68aab40a2c72915e15e445e4f",
+      "s": "cm:T39.011D",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, accidental (unintentional), subs",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "e473d96b9c7520dc082b9e544757bd5d8c0fc5e0e35f517fd14335eed9876a84",
+      "s": "cm:T39.011D",
+      "p": "title",
+      "o": "Poisoning by aspirin, accidental (unintentional), subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "94b4c6f2b05ff1985d085635f1282bb7de7f3d7929f37749167abbe36724630a",
+      "s": "cm:T39.011S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39011S",
+        "reportable": true,
+        "sequence": 76473
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "990679648b3888ed52bcbcee860a7e5d80e67426d14e398eb1b806351778e37c",
+      "s": "cm:T39.011S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.011",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "dc1ae23421210b7080b0392e5768400dc309ccbf85bace77bd6020d4aca02f95",
+      "s": "cm:T39.011S",
+      "p": "short_title",
+      "o": "Poisoning by aspirin, accidental (unintentional), sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "2186672794bcefcb7c1b2222976771f6abbdd76488650bacd4ad9c344b7c0bf3",
+      "s": "cm:T39.011S",
+      "p": "title",
+      "o": "Poisoning by aspirin, accidental (unintentional), sequela",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "60f8897f412e4ba916fbcdd4caa7f9e81e20b40269728fd06e0ca2c953081bcc",
+      "s": "cm:T39.015A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39015A",
+        "reportable": true,
+        "sequence": 76487
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "62585b066e5c1fb58705b2981fcd48031e2dc95605173a22abbff74b4575f44b",
+      "s": "cm:T39.015A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.015",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "97b0a888cfe175ae01d01f90163686061b31f49c23aebd4074d06fadba9430dd",
+      "s": "cm:T39.015A",
+      "p": "short_title",
+      "o": "Adverse effect of aspirin, initial encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "271c7a8fd83d36e35dae0c4418a7c775a415da1b5ecffd080f34f2b1e49f7fea",
+      "s": "cm:T39.015A",
+      "p": "title",
+      "o": "Adverse effect of aspirin, initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "fdbde57eaac16a6bf8f07a19685eafddb7c45b92983583fd575fcbb2e443abbd",
+      "s": "cm:T39.015D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39015D",
+        "reportable": true,
+        "sequence": 76488
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "0f1f5bbd8b8e9080ab84df130128b97807305996c363e52b4254c02168926e08",
+      "s": "cm:T39.015D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.015",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "a17e9fd85d833c5c84b6c78560e49ef3d472d3b14948404da19815a9941a21ff",
+      "s": "cm:T39.015D",
+      "p": "short_title",
+      "o": "Adverse effect of aspirin, subsequent encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "70a7537ce5065bc8eb202fd9e26a6a588bc87a5b15e2e775d13a5cb993f00f21",
+      "s": "cm:T39.015D",
+      "p": "title",
+      "o": "Adverse effect of aspirin, subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "f29ba1a7ddb28362cc503f4dad831ceda50743f5c2be1df538e5c41a7be9cf4f",
+      "s": "cm:T39.015S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39015S",
+        "reportable": true,
+        "sequence": 76489
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "4e95dcdee5b8d08cc10a347fb1798d96725e72505276eb991a5662cd4d23661a",
+      "s": "cm:T39.015S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.015",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "737e54b1f35ed5fcd2f6a455ddf5eef8f3638327c17859f243f29ef29942ca7d",
+      "s": "cm:T39.015S",
+      "p": "short_title",
+      "o": "Adverse effect of aspirin, sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "554f54c0867acb5df7ce85cab6206aff971870746447f3883761e5f6570f8882",
+      "s": "cm:T39.015S",
+      "p": "title",
+      "o": "Adverse effect of aspirin, sequela",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "df45cb7d7f7f01dcbf648e41925a2a71321747951dfdcd235f9c5525c994ab6b",
+      "s": "cm:T39.016A",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39016A",
+        "reportable": true,
+        "sequence": 76491
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "bed9a6ec2694ad0031fe56e6f61506597991799ca82561d7805d47f82c519a69",
+      "s": "cm:T39.016A",
+      "p": "seventh_character_of",
+      "o": "cm:T39.016",
+      "q": {
+        "character": "A"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "40d7d10e6d0fcc238d5375a71ddfa315be9e0c64ab77b40af63583617e08ed42",
+      "s": "cm:T39.016A",
+      "p": "short_title",
+      "o": "Underdosing of aspirin, initial encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "b87c6069977b1009411d0b965413cff3a64635a38bc0000c769ea51dd6fdf5c5",
+      "s": "cm:T39.016A",
+      "p": "title",
+      "o": "Underdosing of aspirin, initial encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "79e6164c2811dd015214990c568500b50a15158d5ef42ab810b561af4883cfed",
+      "s": "cm:T39.016D",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39016D",
+        "reportable": true,
+        "sequence": 76492
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "ea11d56f1eeb06225fd0b5ea08e7aa5481423103b5de70f100a37c25f0cde51a",
+      "s": "cm:T39.016D",
+      "p": "seventh_character_of",
+      "o": "cm:T39.016",
+      "q": {
+        "character": "D"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "6c91d53c187c145eadd52a5e6e826ccabe3870a8f64df72b9a24d5e0fbdad005",
+      "s": "cm:T39.016D",
+      "p": "short_title",
+      "o": "Underdosing of aspirin, subsequent encounter",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "827de7e3d879e14788558db47f1677824b33b8620235e12d16a5ebcb5f71c5d5",
+      "s": "cm:T39.016D",
+      "p": "title",
+      "o": "Underdosing of aspirin, subsequent encounter",
+      "q": {},
+      "c": "classification/title"
+    },
+    {
+      "id": "9cdcc5977899574d8109cf400d5da2c0be71071c250178746e86fce799b7de04",
+      "s": "cm:T39.016S",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "T39016S",
+        "reportable": true,
+        "sequence": 76493
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "55a909e93d211414ddacfdd1e5fc2a26749a238f10e25993c0ebc15900ea0685",
+      "s": "cm:T39.016S",
+      "p": "seventh_character_of",
+      "o": "cm:T39.016",
+      "q": {
+        "character": "S"
+      },
+      "c": "classification/seventh_character"
+    },
+    {
+      "id": "716d160704e76c7b8e9def733d82d59d8ff71225077cb0de5f2aaf982104e6df",
+      "s": "cm:T39.016S",
+      "p": "short_title",
+      "o": "Underdosing of aspirin, sequela",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "7e312ecdfca5d875c7868872a8c4cdf731ef551cab7312abd80ac9be8c56e49d",
+      "s": "cm:T39.016S",
+      "p": "title",
+      "o": "Underdosing of aspirin, sequela",
+      "q": {},
+      "c": "classification/title"
+    }
+  ],
+  "notes": {
+    "all_table_cells": 6,
+    "all_exact_descendants": 18,
+    "qualifier_order": [
+      "Poisoning Accidental (unintentional)",
+      "Poisoning Intentional self-harm",
+      "Poisoning Assault",
+      "Poisoning Undetermined",
+      "Adverse effect",
+      "Underdosing"
+    ],
+    "dimension_fact_id": "d17115a75104af43c2c4283bcd196b7336e49b891e3e20ec8011af3246792df9"
+  }
+}

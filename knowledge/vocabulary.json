@@ -1,0 +1,1431 @@
+{
+  "release": "ICD-10-CM:2026-04-01",
+  "profile": "ICD-10-CM standard knowledge 1",
+  "rules": [
+    "Read every assertion in its release, category, subject and qualifier scope.",
+    "Keep ordered instruction groups and guideline paragraphs together.",
+    "Ancestor context does not override stated conditions or explicit exceptions.",
+    "Code references and clinical synonyms do not independently establish reportability.",
+    "Check the Tabular List and applicable guidelines before assigning a clinical code.",
+    "Absence of an assertion does not establish that the opposite is true."
+  ],
+  "predicates": [
+    {
+      "predicate": "acuity_criteria",
+      "meaning": "Visual-impairment categories defined by best-corrected visual acuity.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with measure (string) and ordered categories. Each category has category (string) and either ranges (array of objects with less_than and optional at_least strings) or condition (string). Fractions, decimal equivalents and named conditions retain their exact meaning."
+      },
+      "qualifier_contract": {},
+      "scope": "The lower bound is inclusive and the upper bound exclusive. Read the whole category; an omitted bound is not zero.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "table/visual_impairment"
+      ],
+      "category_counts": {
+        "table/visual_impairment": 1
+      },
+      "example": {
+        "subject": "cm:H54.8",
+        "category": "table/visual_impairment",
+        "value": {
+          "categories": [
+            {
+              "category": "1",
+              "ranges": [
+                {
+                  "at_least": "6/60",
+                  "less_than": "6/18"
+                },
+                {
+                  "at_least": "1/10(0.1)",
+                  "less_than": "3/10(0.3)"
+                },
+                {
+                  "at_least": "20/200",
+                  "less_than": "20/70"
+                }
+              ]
+            },
+            {
+              "category": "2",
+              "ranges": [
+                {
+                  "at_least": "3/60",
+                  "less_than": "6/60"
+                },
+                {
+                  "at_least": "1/20(0.05)",
+                  "less_than": "1/10(0.1)"
+                },
+                {
+                  "at_least": "20/400",
+                  "less_than": "20/200"
+                }
+              ]
+            },
+            {
+              "category": "3",
+              "ranges": [
+                {
+                  "at_least": "1/60(finger counting at one meter)",
+                  "less_than": "3/60"
+                },
+                {
+                  "at_least": "1/50(0.02)",
+                  "less_than": "1/20(0.05)"
+                },
+                {
+                  "at_least": "5/300(20/1200)",
+                  "less_than": "20/400"
+                }
+              ]
+            },
+            {
+              "category": "4",
+              "ranges": [
+                {
+                  "at_least": "Light perception",
+                  "less_than": "1/60(finger counting at one meter)"
+                },
+                {
+                  "less_than": "1/50(0.02)"
+                },
+                {
+                  "less_than": "5/300"
+                }
+              ]
+            },
+            {
+              "category": "5",
+              "condition": "No light perception"
+            },
+            {
+              "category": "9",
+              "condition": "Undetermined or unspecified"
+            }
+          ],
+          "measure": "Visual acuity with best possible correction"
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "changes",
+      "meaning": "Ordered additions, deletions and revisions affecting the named classification or index topic.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered objects with action (add, delete, revise_from or revise_to) and text (string); optional rule identifies the instruction type and optional term_path is an ordered array of ancestor terms."
+      },
+      "qualifier_contract": {
+        "effective": "Required effective date in YYYY-MM-DD form."
+      },
+      "scope": "Interpret the entire change group at its effective date and clinical scope. Do not infer revision pairings or apply an old statement as a current rule.",
+      "entity_reference": false,
+      "count": 38,
+      "categories": [
+        "release/change"
+      ],
+      "category_counts": {
+        "release/change": 38
+      },
+      "example": {
+        "subject": "change:index:YAseL7dfeaER",
+        "category": "release/change",
+        "value": [
+          {
+            "action": "add",
+            "text": "Parkinson's disease - see Disease, Parkinson's"
+          }
+        ],
+        "qualifiers": {
+          "effective": "2026-04-01"
+        }
+      }
+    },
+    {
+      "predicate": "classification_dimensions",
+      "meaning": "Named classification dimensions for the Table of Drugs and Chemicals or Table of Neoplasms.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with subject (string) and exactly one ordered array: circumstances for drugs or behaviors for neoplasms."
+      },
+      "qualifier_contract": {},
+      "scope": "Use these names to interpret code_for qualifiers. Drug circumstances and neoplasm behaviors are different dimensions.",
+      "entity_reference": false,
+      "count": 2,
+      "categories": [
+        "table/drug",
+        "table/neoplasm"
+      ],
+      "category_counts": {
+        "table/drug": 1,
+        "table/neoplasm": 1
+      },
+      "example": {
+        "subject": "index:neoplasm",
+        "category": "table/neoplasm",
+        "value": {
+          "behaviors": [
+            "Malignant Primary",
+            "Malignant Secondary",
+            "Ca in situ",
+            "Benign",
+            "Uncertain Behavior",
+            "Unspecified Behavior"
+          ],
+          "subject": "Neoplasm"
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "classification_entry",
+      "meaning": "The classification entry's reportable status, undotted identifier and position in the Tabular List.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with reportable (boolean), code_without_decimal (string) and sequence (integer)."
+      },
+      "qualifier_contract": {},
+      "scope": "A nonreportable heading still belongs to the classification. Reportability alone does not establish clinical appropriateness or satisfy other instructions.",
+      "entity_reference": false,
+      "count": 98186,
+      "categories": [
+        "classification/status"
+      ],
+      "category_counts": {
+        "classification/status": 98186
+      },
+      "example": {
+        "subject": "cm:A00.0",
+        "category": "classification/status",
+        "value": {
+          "code_without_decimal": "A000",
+          "reportable": true,
+          "sequence": 2
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_also",
+      "meaning": "An instruction identifying another code that may be needed to describe the condition fully.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. This instruction alone does not specify sequencing and is distinct from code_first.",
+      "entity_reference": false,
+      "count": 320,
+      "categories": [
+        "instruction/code_also"
+      ],
+      "category_counts": {
+        "instruction/code_also": 320
+      },
+      "example": {
+        "subject": "cm:Q85.83",
+        "category": "instruction/code_also",
+        "value": [
+          "manifestations"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_first",
+      "meaning": "An instruction to sequence the indicated condition before the owning code.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. Preserve any condition that limits the sequencing requirement.",
+      "entity_reference": false,
+      "count": 363,
+      "categories": [
+        "instruction/code_first"
+      ],
+      "category_counts": {
+        "instruction/code_first": 363
+      },
+      "example": {
+        "subject": "cm:Z16",
+        "category": "instruction/code_first",
+        "value": [
+          "the infection"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_for",
+      "meaning": "Code associated with the owning drug or neoplasm term under a named circumstance or behavior.",
+      "value_contract": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "A code string, possibly requiring additional characters, or null when status is not_listed."
+      },
+      "qualifier_contract": {
+        "behavior": "Neoplasm behavior; mutually exclusive with circumstance.",
+        "circumstance": "Drug circumstance; mutually exclusive with behavior.",
+        "status": "Present as not_listed when the value is null; omitted for a listed code."
+      },
+      "scope": "A not_listed relationship states that no code is listed for this term and dimension; it does not establish that the clinical condition is impossible. A reference does not establish reportability or completeness. Verify the complete code and applicable instructions in the Tabular List.",
+      "entity_reference": false,
+      "count": 54162,
+      "categories": [
+        "table/drug",
+        "table/neoplasm"
+      ],
+      "category_counts": {
+        "table/drug": 43224,
+        "table/neoplasm": 10938
+      },
+      "example": {
+        "subject": "neoplasm:4AXfe-XwMXa7",
+        "category": "table/neoplasm",
+        "value": "C58",
+        "qualifiers": {
+          "behavior": "Malignant Primary"
+        }
+      }
+    },
+    {
+      "predicate": "code_length",
+      "meaning": "Allowed length of ICD-10-CM identifiers and treatment of the decimal point when counting characters.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with minimum and maximum (integers) and decimal_point_counted (boolean)."
+      },
+      "qualifier_contract": {},
+      "scope": "Length is a general convention. A correctly sized identifier is not necessarily a valid or reportable code.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": {
+          "decimal_point_counted": false,
+          "maximum": 7,
+          "minimum": 3
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_reference",
+      "meaning": "The code target named by an Alphabetic Index entry.",
+      "value_contract": {
+        "type": "string",
+        "description": "Code reference text, including meaningful decimal points, placeholders or trailing hyphens."
+      },
+      "qualifier_contract": {},
+      "scope": "A reference does not establish reportability or completeness. Verify the complete code and applicable instructions in the Tabular List.",
+      "entity_reference": false,
+      "count": 69813,
+      "categories": [
+        "index/disease",
+        "index/external"
+      ],
+      "category_counts": {
+        "index/disease": 63142,
+        "index/external": 6671
+      },
+      "example": {
+        "subject": "disease:-9m-Hd4fYWhT",
+        "category": "index/disease",
+        "value": "A09",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_selection",
+      "meaning": "Guidance for choosing the applicable neoplasm behavior and completing the indicated code.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies to the Table of Neoplasms. Preserve the conditions under which a stated descriptor takes precedence over other index guidance.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "instruction/neoplasm_table"
+      ],
+      "category_counts": {
+        "instruction/neoplasm_table": 1
+      },
+      "example": {
+        "subject": "index:neoplasm",
+        "category": "instruction/neoplasm_table",
+        "value": [
+          "The list below gives the code numbers for neoplasms by anatomical site. For each site there are six possible code numbers according to whether the neoplasm in question is malignant, benign, in situ, of uncertain behavior, or of unspecified nature.The description of the neoplasm will often indicate which of the six columns is appropriate; e.g., malignant melanoma of skin, benign fibroadenoma of breast, carcinoma in situ of cervix uteri.",
+          "Where such descriptors are not present, the remainder of the Index should be consulted where guidance is given to the appropriate column for each morphological (histological) variety listed; e.g., Mesonephroma -see Neoplasm, malignant; Embryoma -see also Neoplasm, uncertain behavior; Disease, Bowen's -see Neoplasm, skin, in situ. However, the guidance in the Index can be overridden if one of the descriptors mentioned above is present; e.g., malignant adenoma of colon is coded to C18.9 and not to D12.6 as the adjective 'malignant' overrides the Index entry 'Adenoma - see also Neoplasm, benign.'",
+          "Codes listed with a dash (-) following the code have a required additional character for laterality. The Tabular must be reviewed for the complete code."
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "code_set_changes",
+      "meaning": "Release totals and counts of additions, deletions and description revisions for headings and reportable codes.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with nonreportable_headings and reportable_codes. Each contains integer totals and change counts: total, added, deleted, revised, both_titles_revised, full_title_revised and short_title_revised."
+      },
+      "qualifier_contract": {},
+      "scope": "These counts concern code-set entries and their descriptions. Zero code changes does not imply that all coding instructions or guidelines are unchanged.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "release/summary"
+      ],
+      "category_counts": {
+        "release/summary": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "release/summary",
+        "value": {
+          "nonreportable_headings": {
+            "added": 0,
+            "both_titles_revised": 0,
+            "deleted": 0,
+            "full_title_revised": 0,
+            "revised": 0,
+            "short_title_revised": 0,
+            "total": 23467
+          },
+          "reportable_codes": {
+            "added": 0,
+            "both_titles_revised": 0,
+            "deleted": 0,
+            "full_title_revised": 0,
+            "revised": 0,
+            "short_title_revised": 0,
+            "total": 74719
+          }
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "convention",
+      "meaning": "A general convention explaining how classification notation or instructions should be interpreted.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions.",
+      "entity_reference": false,
+      "count": 7,
+      "categories": [
+        "instruction/convention"
+      ],
+      "category_counts": {
+        "instruction/convention": 7
+      },
+      "example": {
+        "subject": "convention:hlaVk_jrJd7Y",
+        "category": "instruction/convention",
+        "value": [
+          "The word 'Includes' appears immediately under certain categories to further define, or give examples of, the content of the category."
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "definition",
+      "meaning": "The meaning of the owning present-on-admission indicator.",
+      "value_contract": {
+        "type": "string",
+        "description": "Exact indicator definition."
+      },
+      "qualifier_contract": {},
+      "scope": "Interpret with the indicator label and applicable present-on-admission guidance; it is not a diagnosis code.",
+      "entity_reference": false,
+      "count": 4,
+      "categories": [
+        "guideline/poa"
+      ],
+      "category_counts": {
+        "guideline/poa": 4
+      },
+      "example": {
+        "subject": "poa:Y",
+        "category": "guideline/poa",
+        "value": "present at the time of inpatient admission",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "edition",
+      "meaning": "The named edition of the classification.",
+      "value_contract": {
+        "type": "string",
+        "description": "Edition designation."
+      },
+      "qualifier_contract": {},
+      "scope": "The edition belongs to the release subject. Use the release and guideline period to distinguish updates within a year.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "release/edition"
+      ],
+      "category_counts": {
+        "release/edition": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "release/edition",
+        "value": "2026",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "excludes1",
+      "meaning": "An Excludes1 instruction restricting reporting of the listed conditions with the owning category.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. Preserve the Excludes1 designation and applicable guideline exceptions; do not substitute Excludes2 semantics.",
+      "entity_reference": false,
+      "count": 2644,
+      "categories": [
+        "instruction/excludes1"
+      ],
+      "category_counts": {
+        "instruction/excludes1": 2644
+      },
+      "example": {
+        "subject": "section:X00-X08",
+        "category": "instruction/excludes1",
+        "value": [
+          "arson (X97)"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "excludes2",
+      "meaning": "An Excludes2 instruction identifying conditions outside the meaning of the owning category.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. The patient may have both conditions; any separate reporting remains subject to applicable instructions and encounter circumstances.",
+      "entity_reference": false,
+      "count": 1165,
+      "categories": [
+        "instruction/excludes2"
+      ],
+      "category_counts": {
+        "instruction/excludes2": 1165
+      },
+      "example": {
+        "subject": "cm:X37.8",
+        "category": "instruction/excludes2",
+        "value": [
+          "flood (X38)"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "guideline_period",
+      "meaning": "The effective period of the coding guidelines.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with from and through dates in YYYY-MM-DD form."
+      },
+      "qualifier_contract": {},
+      "scope": "The dates bound the guideline edition. Do not apply them as a patient-specific encounter date.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "release/edition"
+      ],
+      "category_counts": {
+        "release/edition": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "release/edition",
+        "value": {
+          "from": "2026-04-01",
+          "through": "2026-09-30"
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "identifier",
+      "meaning": "The exact identifier assigned to the owning classification component.",
+      "value_contract": {
+        "type": "string",
+        "description": "Identifier text; may name a chapter, category, subcategory or code according to the subject."
+      },
+      "qualifier_contract": {},
+      "scope": "Keep its spelling and punctuation. An identifier assertion alone does not establish reportability.",
+      "entity_reference": false,
+      "count": 47200,
+      "categories": [
+        "classification/identifier"
+      ],
+      "category_counts": {
+        "classification/identifier": 47200
+      },
+      "example": {
+        "subject": "chapter:1",
+        "category": "classification/identifier",
+        "value": "1",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "includes",
+      "meaning": "Statements that define or illustrate the content of the owning category.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. Examples do not necessarily enumerate every condition included by the category.",
+      "entity_reference": false,
+      "count": 415,
+      "categories": [
+        "instruction/includes"
+      ],
+      "category_counts": {
+        "instruction/includes": 415
+      },
+      "example": {
+        "subject": "cm:K64",
+        "category": "instruction/includes",
+        "value": [
+          "piles"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "inclusion_terms",
+      "meaning": "Named conditions or terms included under the owning code or category.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. The list is not necessarily exhaustive and does not override other instructions.",
+      "entity_reference": false,
+      "count": 6809,
+      "categories": [
+        "instruction/inclusion_terms"
+      ],
+      "category_counts": {
+        "instruction/inclusion_terms": 6809
+      },
+      "example": {
+        "subject": "cm:A81.83",
+        "category": "instruction/inclusion_terms",
+        "value": [
+          "FFI"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "index_notation",
+      "meaning": "An index expression whose combination of terms and code references has an ambiguous interpretation.",
+      "value_contract": {
+        "type": "string",
+        "description": "Complete clinical expression retaining its terms, brackets and code references."
+      },
+      "qualifier_contract": {
+        "status": "Required value ambiguous."
+      },
+      "scope": "Preserve the ambiguity. Do not treat the entire expression as a single code or infer underlying-condition and manifestation roles.",
+      "entity_reference": false,
+      "count": 4,
+      "categories": [
+        "index/notation"
+      ],
+      "category_counts": {
+        "index/notation": 4
+      },
+      "example": {
+        "subject": "disease:6yxzYjk88om4",
+        "category": "index/notation",
+        "value": "- - pubic ramus [pubis] E83.31 [M90.88]",
+        "qualifiers": {
+          "status": "ambiguous"
+        }
+      }
+    },
+    {
+      "predicate": "label",
+      "meaning": "The short label of the owning present-on-admission indicator.",
+      "value_contract": {
+        "type": "string",
+        "description": "Indicator label."
+      },
+      "qualifier_contract": {},
+      "scope": "Read with its definition and applicable present-on-admission guidance.",
+      "entity_reference": false,
+      "count": 5,
+      "categories": [
+        "guideline/poa"
+      ],
+      "category_counts": {
+        "guideline/poa": 5
+      },
+      "example": {
+        "subject": "poa:N",
+        "category": "guideline/poa",
+        "value": "No",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "manifestation_code",
+      "meaning": "A manifestation-code reference associated with the owning index term.",
+      "value_contract": {
+        "type": "string",
+        "description": "Code reference text; a partial code can retain a trailing hyphen."
+      },
+      "qualifier_contract": {},
+      "scope": "A reference does not establish reportability or completeness. Verify the complete code and applicable instructions in the Tabular List. A manifestation reference does not independently establish sequencing or permit standalone reporting.",
+      "entity_reference": false,
+      "count": 764,
+      "categories": [
+        "index/disease"
+      ],
+      "category_counts": {
+        "index/disease": 764
+      },
+      "example": {
+        "subject": "disease:-540Y8x0X6Oy",
+        "category": "index/disease",
+        "value": "I43",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "nonessential_modifier",
+      "meaning": "A parenthetical modifier associated with the owning index term.",
+      "value_contract": {
+        "type": "string",
+        "description": "Modifier text, including meaningful parentheses."
+      },
+      "qualifier_contract": {},
+      "scope": "Read within the complete term and its ancestor path. A modifier does not establish that the patient has the described feature.",
+      "entity_reference": false,
+      "count": 15275,
+      "categories": [
+        "index/modifier"
+      ],
+      "category_counts": {
+        "index/modifier": 15275
+      },
+      "example": {
+        "subject": "disease:03r-Xh87PXmz",
+        "category": "index/modifier",
+        "value": "(s)",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "notation_caution",
+      "meaning": "A caution that a clinical expression contains unbalanced delimiters.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with text (the expression) and issue (unbalanced_delimiters)."
+      },
+      "qualifier_contract": {},
+      "scope": "The caution identifies uncertain notation; it does not supply a corrected expression or change the indicated code.",
+      "entity_reference": false,
+      "count": 3,
+      "categories": [
+        "coding/caution"
+      ],
+      "category_counts": {
+        "coding/caution": 3
+      },
+      "example": {
+        "subject": "cm:R11.16",
+        "category": "coding/caution",
+        "value": {
+          "issue": "unbalanced_delimiters",
+          "text": "electrolyte imbalance (E87.8}"
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "notes",
+      "meaning": "Instructions or explanatory notes under the owning classification subject.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions.",
+      "entity_reference": false,
+      "count": 86,
+      "categories": [
+        "instruction/notes"
+      ],
+      "category_counts": {
+        "instruction/notes": 86
+      },
+      "example": {
+        "subject": "cm:S14",
+        "category": "instruction/notes",
+        "value": [
+          "Code to highest level of cervical cord injury"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "parent",
+      "meaning": "The direct parent of a classification entry, index term, index book or guideline section.",
+      "value_contract": {
+        "type": "string",
+        "description": "Subject identifier of the direct parent."
+      },
+      "qualifier_contract": {},
+      "scope": "Following parent links supplies context. An ancestor instruction still retains its conditions and exceptions; hierarchy does not imply unconditional applicability.",
+      "entity_reference": true,
+      "count": 146684,
+      "categories": [
+        "classification/hierarchy",
+        "guideline/section",
+        "index/disease",
+        "index/drug",
+        "index/external",
+        "index/neoplasm"
+      ],
+      "category_counts": {
+        "classification/hierarchy": 47213,
+        "guideline/section": 496,
+        "index/disease": 81515,
+        "index/drug": 7430,
+        "index/external": 8090,
+        "index/neoplasm": 1940
+      },
+      "example": {
+        "subject": "cm:A00.0",
+        "category": "classification/hierarchy",
+        "value": "cm:A00",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "range_membership",
+      "meaning": "The convention for interpreting inclusive ranges of classification codes.",
+      "value_contract": {
+        "type": "string",
+        "description": "Statement defining range endpoints and membership using Tabular List order."
+      },
+      "qualifier_contract": {},
+      "scope": "Use tabular positions for both endpoints; alphabetic or numeric string ordering can give different membership.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": "A range written as two codes joined by a dash (for example C43-C449) includes codes whose tabular order lies between the endpoint orders, including both endpoints.",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "referenced_codes",
+      "meaning": "The distinct code references present in an ambiguous clinical index expression.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of code reference strings."
+      },
+      "qualifier_contract": {},
+      "scope": "The list records which codes are referenced without assigning their clinical roles. Read the accompanying index_notation and do not infer a sequencing relationship.",
+      "entity_reference": false,
+      "count": 4,
+      "categories": [
+        "index/reference"
+      ],
+      "category_counts": {
+        "index/reference": 4
+      },
+      "example": {
+        "subject": "disease:OUrqIlC0gGFc",
+        "category": "index/reference",
+        "value": [
+          "T70.3",
+          "M90.58"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "reportability",
+      "meaning": "The distinction between reportable codes and nonreportable headings.",
+      "value_contract": {
+        "type": "string",
+        "description": "Statement defining reportability for the classification."
+      },
+      "qualifier_contract": {},
+      "scope": "Apply classification_entry.reportable to individual entries. Reportability is separate from clinical appropriateness for a particular encounter.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": "Reportable codes are valid for submission for HIPAA-covered transactions; headings are not.",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "requires_placeholder",
+      "meaning": "The owning classification entry is marked as using the placeholder character X.",
+      "value_contract": {
+        "type": "boolean",
+        "description": "True for an entry marked as using placeholder X."
+      },
+      "qualifier_contract": {},
+      "scope": "Preserve X in the positions given by the official code spelling. This designation does not define an algorithm for inserting X into other codes.",
+      "entity_reference": false,
+      "count": 246,
+      "categories": [
+        "classification/notation"
+      ],
+      "category_counts": {
+        "classification/notation": 246
+      },
+      "example": {
+        "subject": "cm:H21.1X",
+        "category": "classification/notation",
+        "value": true,
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "section",
+      "meaning": "A named classification section and its category range.",
+      "value_contract": {
+        "type": "object",
+        "description": "Object with identifier, title, first_category and last_category, all strings."
+      },
+      "qualifier_contract": {},
+      "scope": "The range describes category membership in the section. It does not make each possible character combination a reportable code.",
+      "entity_reference": false,
+      "count": 289,
+      "categories": [
+        "classification/sections"
+      ],
+      "category_counts": {
+        "classification/sections": 289
+      },
+      "example": {
+        "subject": "chapter:11",
+        "category": "classification/sections",
+        "value": {
+          "first_category": "K40",
+          "identifier": "K40-K46",
+          "last_category": "K46",
+          "title": "Hernia"
+        },
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "see",
+      "meaning": "An instruction to consult another Alphabetic Index term.",
+      "value_contract": {
+        "type": "string",
+        "description": "Cross-reference wording identifying the term to consult."
+      },
+      "qualifier_contract": {},
+      "scope": "Follow the cross-reference before selecting the code. The wording is an index instruction, not necessarily a subject identifier.",
+      "entity_reference": false,
+      "count": 13096,
+      "categories": [
+        "index/disease",
+        "index/drug",
+        "index/external",
+        "index/neoplasm"
+      ],
+      "category_counts": {
+        "index/disease": 12141,
+        "index/drug": 97,
+        "index/external": 791,
+        "index/neoplasm": 67
+      },
+      "example": {
+        "subject": "disease:1_k4JpxVjb4P",
+        "category": "index/disease",
+        "value": "Web",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "see_also",
+      "meaning": "An additional Alphabetic Index cross-reference that may supply useful coding information.",
+      "value_contract": {
+        "type": "string",
+        "description": "Cross-reference wording identifying an additional term."
+      },
+      "qualifier_contract": {},
+      "scope": "Preserve the distinction from see and apply the relevant index convention; a see_also target is not an automatic substitute.",
+      "entity_reference": false,
+      "count": 2316,
+      "categories": [
+        "index/disease",
+        "index/drug",
+        "index/external",
+        "index/neoplasm"
+      ],
+      "category_counts": {
+        "index/disease": 2063,
+        "index/drug": 35,
+        "index/external": 98,
+        "index/neoplasm": 120
+      },
+      "example": {
+        "subject": "drug:j-ca0mmL_F4N",
+        "category": "index/drug",
+        "value": "Gas",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "see_category",
+      "meaning": "An index cross-reference directing attention to a classification category.",
+      "value_contract": {
+        "type": "string",
+        "description": "Category-reference wording or identifier."
+      },
+      "qualifier_contract": {},
+      "scope": "A reference does not establish reportability or completeness. Verify the complete code and applicable instructions in the Tabular List.",
+      "entity_reference": false,
+      "count": 19,
+      "categories": [
+        "index/disease",
+        "index/external"
+      ],
+      "category_counts": {
+        "index/disease": 15,
+        "index/external": 4
+      },
+      "example": {
+        "subject": "disease:0Ycs_AyUVX5T",
+        "category": "index/disease",
+        "value": "G26",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "seventh_character_applicability",
+      "meaning": "Instructions defining where seventh characters apply and any exceptions.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. These instructions can exclude otherwise plausible character combinations, including S06 encounter-character exceptions.",
+      "entity_reference": false,
+      "count": 508,
+      "categories": [
+        "instruction/seventh_character_applicability"
+      ],
+      "category_counts": {
+        "instruction/seventh_character_applicability": 508
+      },
+      "example": {
+        "subject": "cm:T07",
+        "category": "instruction/seventh_character_applicability",
+        "value": [
+          "The appropriate 7th character is to be added to code T07"
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "seventh_character_of",
+      "meaning": "A complete code's relationship to the classification pattern that supplies its seventh character.",
+      "value_contract": {
+        "type": "string",
+        "description": "Subject identifier of the base pattern."
+      },
+      "qualifier_contract": {
+        "character": "Required single-character seventh-character designation."
+      },
+      "scope": "The relationship describes the complete code. Its character meaning, applicability and exceptions remain governed by the base and ancestor instructions.",
+      "entity_reference": true,
+      "count": 51305,
+      "categories": [
+        "classification/seventh_character"
+      ],
+      "category_counts": {
+        "classification/seventh_character": 51305
+      },
+      "example": {
+        "subject": "cm:S06.1X7A",
+        "category": "classification/seventh_character",
+        "value": "cm:S06.1X7",
+        "qualifiers": {
+          "character": "A"
+        }
+      }
+    },
+    {
+      "predicate": "seventh_characters",
+      "meaning": "Permitted seventh-character designations and their meanings under the owning pattern.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array whose entries are either objects with character and meaning strings or objects with a note string. Preserve notes in their stated position."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. A listed character does not imply that every base pattern accepts every designation.",
+      "entity_reference": false,
+      "count": 508,
+      "categories": [
+        "instruction/seventh_character"
+      ],
+      "category_counts": {
+        "instruction/seventh_character": 508
+      },
+      "example": {
+        "subject": "cm:M1A",
+        "category": "instruction/seventh_character",
+        "value": [
+          {
+            "character": "0",
+            "meaning": "without tophus (tophi)"
+          },
+          {
+            "character": "1",
+            "meaning": "with tophus (tophi)"
+          }
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "short_title",
+      "meaning": "The abbreviated description of the owning classification entry.",
+      "value_contract": {
+        "type": "string",
+        "description": "Abbreviated description text."
+      },
+      "qualifier_contract": {},
+      "scope": "An abbreviation may omit detail. Read the full title and instructions before reasoning about applicability.",
+      "entity_reference": false,
+      "count": 98186,
+      "categories": [
+        "classification/short_title"
+      ],
+      "category_counts": {
+        "classification/short_title": 98186
+      },
+      "example": {
+        "subject": "cm:A00.0",
+        "category": "classification/short_title",
+        "value": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "states",
+      "meaning": "Ordered coding-guideline paragraphs belonging to the named section.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Preserve section ownership, paragraph order, lead-ins, conditions and exceptions. A paragraph is not an unconditional executable rule.",
+      "entity_reference": false,
+      "count": 439,
+      "categories": [
+        "guideline/rule"
+      ],
+      "category_counts": {
+        "guideline/rule": 439
+      },
+      "example": {
+        "subject": "guideline:I.C.1.d.1.b",
+        "category": "guideline/rule",
+        "value": [
+          "The coding of severe sepsis requires a minimum of 2 codes: first a code for the underlying systemic infection, followed by a code from subcategory R65.2, Severe sepsis. If the causal organism is not documented, assign code A41.9, Sepsis, unspecified organism, for the infection. Additional code(s) for the associated acute organ dysfunction are also required.",
+          "Due to the complex nature of severe sepsis, some cases may require querying the provider prior to assignment of the codes."
+        ],
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "subcategory_reference",
+      "meaning": "A reference to a more specific classification subcategory from an index term.",
+      "value_contract": {
+        "type": "string",
+        "description": "Subcategory-reference text."
+      },
+      "qualifier_contract": {},
+      "scope": "A reference does not establish reportability or completeness. Verify the complete code and applicable instructions in the Tabular List.",
+      "entity_reference": false,
+      "count": 141,
+      "categories": [
+        "index/disease",
+        "index/external"
+      ],
+      "category_counts": {
+        "index/disease": 130,
+        "index/external": 11
+      },
+      "example": {
+        "subject": "disease:-edkXOhEZeCB",
+        "category": "index/disease",
+        "value": "M43.5",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "synonym",
+      "meaning": "An alternate clinical expression or abbreviation for the owning index term.",
+      "value_contract": {
+        "type": "string",
+        "description": "Synonym or abbreviation text."
+      },
+      "qualifier_contract": {},
+      "scope": "Its equivalence is scoped to this term and path. Do not infer equivalence between unrelated entries or interpret a non-code abbreviation as a diagnosis identifier.",
+      "entity_reference": false,
+      "count": 2,
+      "categories": [
+        "index/synonym"
+      ],
+      "category_counts": {
+        "index/synonym": 2
+      },
+      "example": {
+        "subject": "disease:GuOM0ubSy93i",
+        "category": "index/synonym",
+        "value": "SCFE",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "tabular_order",
+      "meaning": "The convention that classification entries follow the order of the Tabular List.",
+      "value_contract": {
+        "type": "string",
+        "description": "Statement defining the relevant ordering."
+      },
+      "qualifier_contract": {},
+      "scope": "Tabular order can differ from alphanumeric code order.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": "Codes follow the Tabular List order, which differs from alphanumeric order.",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "tabular_order_may_change_between_releases",
+      "meaning": "Whether classification order can change between releases.",
+      "value_contract": {
+        "type": "boolean",
+        "description": "True when tabular position is not guaranteed to remain stable across releases."
+      },
+      "qualifier_contract": {},
+      "scope": "Use positions from the same release when comparing entries or evaluating ranges.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": true,
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "tabular_precedence",
+      "meaning": "The relation between tabular positions when deciding which classification entry precedes another.",
+      "value_contract": {
+        "type": "string",
+        "description": "Statement defining precedence by tabular order."
+      },
+      "qualifier_contract": {},
+      "scope": "Tabular precedence is an ordering convention; it does not independently determine diagnosis sequencing for an encounter.",
+      "entity_reference": false,
+      "count": 1,
+      "categories": [
+        "coding/convention"
+      ],
+      "category_counts": {
+        "coding/convention": 1
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "coding/convention",
+        "value": "A code with a lower tabular order precedes a code with a higher tabular order, regardless of the characters forming the codes.",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "title",
+      "meaning": "The full name of the owning classification entry, index term, guideline section or release-change topic.",
+      "value_contract": {
+        "type": "string",
+        "description": "Title text; the category and owning subject identify its role."
+      },
+      "qualifier_contract": {},
+      "scope": "The title names the subject. It does not replace its instructions, establish reportability or include every applicable guideline.",
+      "entity_reference": false,
+      "count": 198110,
+      "categories": [
+        "classification/title",
+        "guideline/section",
+        "index/book",
+        "index/disease",
+        "index/drug",
+        "index/external",
+        "index/neoplasm",
+        "release/change"
+      ],
+      "category_counts": {
+        "classification/title": 98623,
+        "guideline/section": 501,
+        "index/book": 2,
+        "index/disease": 81515,
+        "index/drug": 7430,
+        "index/external": 8090,
+        "index/neoplasm": 1940,
+        "release/change": 9
+      },
+      "example": {
+        "subject": "cm:A00.0",
+        "category": "classification/title",
+        "value": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "unchanged",
+      "meaning": "A declaration that a named standard component has no changes in the release update.",
+      "value_contract": {
+        "type": "string",
+        "description": "Subject identifier of the unchanged component."
+      },
+      "qualifier_contract": {},
+      "scope": "The declaration applies only to the named component and release; it is not a claim that the entire classification is unchanged.",
+      "entity_reference": true,
+      "count": 3,
+      "categories": [
+        "release/summary"
+      ],
+      "category_counts": {
+        "release/summary": 3
+      },
+      "example": {
+        "subject": "ICD-10-CM:2026-04-01",
+        "category": "release/summary",
+        "value": "index:drug",
+        "qualifiers": {}
+      }
+    },
+    {
+      "predicate": "unresolved_code",
+      "meaning": "An index code reference that is absent from this release's classification entries.",
+      "value_contract": {
+        "type": "string",
+        "description": "The unresolved code reference exactly as stated."
+      },
+      "qualifier_contract": {
+        "status": "Required value absent_from_release."
+      },
+      "scope": "Do not invent a replacement, assume a typographical correction or treat the reference as reportable.",
+      "entity_reference": false,
+      "count": 3,
+      "categories": [
+        "index/caution"
+      ],
+      "category_counts": {
+        "index/caution": 3
+      },
+      "example": {
+        "subject": "disease:T0NCOCn6c6cV",
+        "category": "index/caution",
+        "value": "Z15.08",
+        "qualifiers": {
+          "status": "absent_from_release"
+        }
+      }
+    },
+    {
+      "predicate": "use_additional_code",
+      "meaning": "An instruction to report an additional code for the indicated cause, manifestation or other detail.",
+      "value_contract": {
+        "type": "array",
+        "description": "Ordered array of strings; preserve the group, including its introductory text and continuations."
+      },
+      "qualifier_contract": {},
+      "scope": "Applies at the owning subject and only under its stated conditions. Review ancestor instructions and explicit exceptions. Preserve any stated sequence, conditional wording and purpose of the additional code.",
+      "entity_reference": false,
+      "count": 844,
+      "categories": [
+        "instruction/use_additional_code"
+      ],
+      "category_counts": {
+        "instruction/use_additional_code": 844
+      },
+      "example": {
+        "subject": "cm:O21.8",
+        "category": "instruction/use_additional_code",
+        "value": [
+          "code, to identify cause."
+        ],
+        "qualifiers": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "schema": "freefact.graph-view/1",
+  "id": "05-visual-acuity",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "Exact visual-acuity criteria attached to H54.8. The six category cards are object-value projections of one canonical fact, not new code entities or extra canonical facts. Lower bounds are inclusive; upper bounds are exclusive.",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "nodes": [
+    {
+      "id": "cm:H54.8",
+      "label": "Legal blindness, as defined in USA",
+      "category": "Classification code",
+      "canonical_subject": "cm:H54.8"
+    },
+    {
+      "id": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "label": "acuity_criteria",
+      "category": "Scoped rule",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "value": {
+        "categories": [
+          {
+            "category": "1",
+            "ranges": [
+              {
+                "at_least": "6/60",
+                "less_than": "6/18"
+              },
+              {
+                "at_least": "1/10(0.1)",
+                "less_than": "3/10(0.3)"
+              },
+              {
+                "at_least": "20/200",
+                "less_than": "20/70"
+              }
+            ]
+          },
+          {
+            "category": "2",
+            "ranges": [
+              {
+                "at_least": "3/60",
+                "less_than": "6/60"
+              },
+              {
+                "at_least": "1/20(0.05)",
+                "less_than": "1/10(0.1)"
+              },
+              {
+                "at_least": "20/400",
+                "less_than": "20/200"
+              }
+            ]
+          },
+          {
+            "category": "3",
+            "ranges": [
+              {
+                "at_least": "1/60(finger counting at one meter)",
+                "less_than": "3/60"
+              },
+              {
+                "at_least": "1/50(0.02)",
+                "less_than": "1/20(0.05)"
+              },
+              {
+                "at_least": "5/300(20/1200)",
+                "less_than": "20/400"
+              }
+            ]
+          },
+          {
+            "category": "4",
+            "ranges": [
+              {
+                "at_least": "Light perception",
+                "less_than": "1/60(finger counting at one meter)"
+              },
+              {
+                "less_than": "1/50(0.02)"
+              },
+              {
+                "less_than": "5/300"
+              }
+            ]
+          },
+          {
+            "category": "5",
+            "condition": "No light perception"
+          },
+          {
+            "category": "9",
+            "condition": "Undetermined or unspecified"
+          }
+        ],
+        "measure": "Visual acuity with best possible correction"
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/0",
+      "label": "Category 1",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/0",
+      "value": {
+        "category": "1",
+        "ranges": [
+          {
+            "at_least": "6/60",
+            "less_than": "6/18"
+          },
+          {
+            "at_least": "1/10(0.1)",
+            "less_than": "3/10(0.3)"
+          },
+          {
+            "at_least": "20/200",
+            "less_than": "20/70"
+          }
+        ]
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/1",
+      "label": "Category 2",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/1",
+      "value": {
+        "category": "2",
+        "ranges": [
+          {
+            "at_least": "3/60",
+            "less_than": "6/60"
+          },
+          {
+            "at_least": "1/20(0.05)",
+            "less_than": "1/10(0.1)"
+          },
+          {
+            "at_least": "20/400",
+            "less_than": "20/200"
+          }
+        ]
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/2",
+      "label": "Category 3",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/2",
+      "value": {
+        "category": "3",
+        "ranges": [
+          {
+            "at_least": "1/60(finger counting at one meter)",
+            "less_than": "3/60"
+          },
+          {
+            "at_least": "1/50(0.02)",
+            "less_than": "1/20(0.05)"
+          },
+          {
+            "at_least": "5/300(20/1200)",
+            "less_than": "20/400"
+          }
+        ]
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/3",
+      "label": "Category 4",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/3",
+      "value": {
+        "category": "4",
+        "ranges": [
+          {
+            "at_least": "Light perception",
+            "less_than": "1/60(finger counting at one meter)"
+          },
+          {
+            "less_than": "1/50(0.02)"
+          },
+          {
+            "less_than": "5/300"
+          }
+        ]
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/4",
+      "label": "Category 5",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/4",
+      "value": {
+        "category": "5",
+        "condition": "No light perception"
+      }
+    },
+    {
+      "id": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/5",
+      "label": "Category 9",
+      "category": "Object value: acuity category",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/5",
+      "value": {
+        "category": "9",
+        "condition": "Undetermined or unspecified"
+      }
+    },
+    {
+      "id": "rule:b62718f6b1c738cf38144e3e789dc98e95bdc6abec17dca9df8d7db7954ac3ce",
+      "label": "Excludes1 · H54.8",
+      "category": "Scoped rule",
+      "fact_id": "b62718f6b1c738cf38144e3e789dc98e95bdc6abec17dca9df8d7db7954ac3ce",
+      "value": [
+        "legal blindness with specification of impairment level (H54.0-H54.7)"
+      ]
+    },
+    {
+      "id": "rule:f460f3eab957bbdd2fcd8f01bbf65339cc1df57252e0770008c74ab6b3f29b6d",
+      "label": "Notes · H54.8",
+      "category": "Scoped rule",
+      "fact_id": "f460f3eab957bbdd2fcd8f01bbf65339cc1df57252e0770008c74ab6b3f29b6d",
+      "value": [
+        "The table below gives a classification of severity of visual impairment recommended by a WHO Study Group on the Prevention of Blindness, Geneva, 6-10 November 1972.",
+        "The term 'low vision' in category H54 comprises categories 1 and 2 of the table, the term 'blindness' categories 3, 4 and 5, and the term 'unqualified visual loss' category 9.",
+        "If the extent of the visual field is taken into account, patients with a field no greater than 10 but greater than 5 around central fixation should be placed in category 3 and patients with a field no greater than 5 around central fixation should be placed in category 4, even if the central acuity is not impaired."
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "cm:H54.8",
+      "target": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "weight": 1,
+      "label": "acuity_criteria",
+      "kind": "rule_scope",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "predicate": "acuity_criteria"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/0",
+      "weight": 1,
+      "label": "category 1",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/0"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/1",
+      "weight": 1,
+      "label": "category 2",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/1"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/2",
+      "weight": 1,
+      "label": "category 3",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/2"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/3",
+      "weight": 1,
+      "label": "category 4",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/3"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/4",
+      "weight": 1,
+      "label": "category 5",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/4"
+    },
+    {
+      "source": "rule:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "target": "value:435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092:/categories/5",
+      "weight": 1,
+      "label": "category 9",
+      "kind": "object_projection",
+      "fact_id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "object_path": "/categories/5"
+    },
+    {
+      "source": "cm:H54.8",
+      "target": "rule:b62718f6b1c738cf38144e3e789dc98e95bdc6abec17dca9df8d7db7954ac3ce",
+      "weight": 1,
+      "label": "excludes1",
+      "kind": "rule_scope",
+      "fact_id": "b62718f6b1c738cf38144e3e789dc98e95bdc6abec17dca9df8d7db7954ac3ce",
+      "predicate": "excludes1",
+      "display": "scoped annotation panel"
+    },
+    {
+      "source": "cm:H54.8",
+      "target": "rule:f460f3eab957bbdd2fcd8f01bbf65339cc1df57252e0770008c74ab6b3f29b6d",
+      "weight": 1,
+      "label": "notes",
+      "kind": "rule_scope",
+      "fact_id": "f460f3eab957bbdd2fcd8f01bbf65339cc1df57252e0770008c74ab6b3f29b6d",
+      "predicate": "notes",
+      "display": "scoped annotation panel"
+    }
+  ],
+  "facts": [
+    {
+      "id": "435df1984f7fcd54b07e85ddfce717de59e98f0baa71b8b174ef5e64a1b9e092",
+      "s": "cm:H54.8",
+      "p": "acuity_criteria",
+      "o": {
+        "categories": [
+          {
+            "category": "1",
+            "ranges": [
+              {
+                "at_least": "6/60",
+                "less_than": "6/18"
+              },
+              {
+                "at_least": "1/10(0.1)",
+                "less_than": "3/10(0.3)"
+              },
+              {
+                "at_least": "20/200",
+                "less_than": "20/70"
+              }
+            ]
+          },
+          {
+            "category": "2",
+            "ranges": [
+              {
+                "at_least": "3/60",
+                "less_than": "6/60"
+              },
+              {
+                "at_least": "1/20(0.05)",
+                "less_than": "1/10(0.1)"
+              },
+              {
+                "at_least": "20/400",
+                "less_than": "20/200"
+              }
+            ]
+          },
+          {
+            "category": "3",
+            "ranges": [
+              {
+                "at_least": "1/60(finger counting at one meter)",
+                "less_than": "3/60"
+              },
+              {
+                "at_least": "1/50(0.02)",
+                "less_than": "1/20(0.05)"
+              },
+              {
+                "at_least": "5/300(20/1200)",
+                "less_than": "20/400"
+              }
+            ]
+          },
+          {
+            "category": "4",
+            "ranges": [
+              {
+                "at_least": "Light perception",
+                "less_than": "1/60(finger counting at one meter)"
+              },
+              {
+                "less_than": "1/50(0.02)"
+              },
+              {
+                "less_than": "5/300"
+              }
+            ]
+          },
+          {
+            "category": "5",
+            "condition": "No light perception"
+          },
+          {
+            "category": "9",
+            "condition": "Undetermined or unspecified"
+          }
+        ],
+        "measure": "Visual acuity with best possible correction"
+      },
+      "q": {},
+      "c": "table/visual_impairment"
+    },
+    {
+      "id": "86958da4801e5ba661e5a7e66d7305babf0520ba6f10e1a853a7c8d5067e0530",
+      "s": "cm:H54.8",
+      "p": "classification_entry",
+      "o": {
+        "code_without_decimal": "H548",
+        "reportable": true,
+        "sequence": 10534
+      },
+      "q": {},
+      "c": "classification/status"
+    },
+    {
+      "id": "b62718f6b1c738cf38144e3e789dc98e95bdc6abec17dca9df8d7db7954ac3ce",
+      "s": "cm:H54.8",
+      "p": "excludes1",
+      "o": [
+        "legal blindness with specification of impairment level (H54.0-H54.7)"
+      ],
+      "q": {},
+      "c": "instruction/excludes1"
+    },
+    {
+      "id": "ef2e6a03be50c2d33b43414fb63bcb04488bb39a9e0a3f4c5737baed30fed0bc",
+      "s": "cm:H54.8",
+      "p": "identifier",
+      "o": "H54.8",
+      "q": {},
+      "c": "classification/identifier"
+    },
+    {
+      "id": "82660ced793526d837c31b213c49a8caf4fd26aac56f139ad16469c2bcfe01cb",
+      "s": "cm:H54.8",
+      "p": "inclusion_terms",
+      "o": [
+        "Blindness NOS according to USA definition"
+      ],
+      "q": {},
+      "c": "instruction/inclusion_terms"
+    },
+    {
+      "id": "f460f3eab957bbdd2fcd8f01bbf65339cc1df57252e0770008c74ab6b3f29b6d",
+      "s": "cm:H54.8",
+      "p": "notes",
+      "o": [
+        "The table below gives a classification of severity of visual impairment recommended by a WHO Study Group on the Prevention of Blindness, Geneva, 6-10 November 1972.",
+        "The term 'low vision' in category H54 comprises categories 1 and 2 of the table, the term 'blindness' categories 3, 4 and 5, and the term 'unqualified visual loss' category 9.",
+        "If the extent of the visual field is taken into account, patients with a field no greater than 10 but greater than 5 around central fixation should be placed in category 3 and patients with a field no greater than 5 around central fixation should be placed in category 4, even if the central acuity is not impaired."
+      ],
+      "q": {},
+      "c": "instruction/notes"
+    },
+    {
+      "id": "5c381381885816406d6720fde9f7f084d63e66ee3d6f9c340e5f231e4cbd1cd3",
+      "s": "cm:H54.8",
+      "p": "parent",
+      "o": "cm:H54",
+      "q": {},
+      "c": "classification/hierarchy"
+    },
+    {
+      "id": "7d217479a1aea105e4dccbf72f89b5fba27f46d8c63b0b510278eb4aa53cc156",
+      "s": "cm:H54.8",
+      "p": "short_title",
+      "o": "Legal blindness, as defined in USA",
+      "q": {},
+      "c": "classification/short_title"
+    },
+    {
+      "id": "dc77a096a55960860141a51b685f78497a3a1fa6e8b04957c02a55f0497048e8",
+      "s": "cm:H54.8",
+      "p": "title",
+      "o": "Legal blindness, as defined in USA",
+      "q": {},
+      "c": "classification/title"
+    }
+  ],
+  "notes": {
+    "canonical_acuity_facts": 1,
+    "projected_categories": 6,
+    "threshold_ranges": 12,
+    "lower_bounds_present": 10,
+    "upper_bounds_present": 12,
+    "conditions": 2,
+    "empty_bound_display": "—",
+    "ordered_notes": [
+      "The table below gives a classification of severity of visual impairment recommended by a WHO Study Group on the Prevention of Blindness, Geneva, 6-10 November 1972.",
+      "The term 'low vision' in category H54 comprises categories 1 and 2 of the table, the term 'blindness' categories 3, 4 and 5, and the term 'unqualified visual loss' category 9.",
+      "If the extent of the visual field is taken into account, patients with a field no greater than 10 but greater than 5 around central fixation should be placed in category 3 and patients with a field no greater than 5 around central fixation should be placed in category 4, even if the central acuity is not impaired."
+    ]
+  }
+}

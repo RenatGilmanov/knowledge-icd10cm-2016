@@ -1,0 +1,177 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/notes
+.s "chapter:10"
+notes|["When a respiratory condition is described as occurring in more than one site and is not specifically indexed, it should be classified to the lower anatomic site (e.g. tracheobronchitis to bronchitis in J40)."]|["e:2v18","e:2v19"]
+.s "chapter:13"
+notes|["Use an external cause code following the code for the musculoskeletal condition, if applicable, to identify the cause of the musculoskeletal condition"]|["e:36df","e:36dg"]
+.s "chapter:15"
+notes|["CODES FROM THIS CHAPTER ARE FOR USE ONLY ON MATERNAL RECORDS, NEVER ON NEWBORN RECORDS","Codes from this chapter are for use for conditions related to or aggravated by the pregnancy, childbirth, or by the puerperium (maternal causes or obstetric causes)","Trimesters are counted from the first day of the last menstrual period.  They are defined as follows:","1st trimester- less than 14 weeks 0 days","2nd trimester- 14 weeks 0 days to less than 28 weeks 0 days","3rd trimester- 28 weeks 0 days until delivery"]|["e:3ue7","e:3ue8","e:3ue9","e:3ueb","e:3uec","e:3ued","e:3uee"]
+.s "chapter:16"
+notes|["Codes from this chapter are for use on newborn records only, never on maternal records"]|["e:3o8","e:3o9"]
+.s "chapter:17"
+notes|["Codes from this chapter are not for use on maternal records"]|["e:5tn","e:5to"]
+.s "chapter:18"
+notes|["This chapter includes symptoms, signs, abnormal results of clinical or other investigative procedures, and ill-defined conditions regarding which no diagnosis classifiable elsewhere is recorded.","Signs and symptoms that point rather definitely to a given diagnosis have been assigned to a category in other chapters of the classification. In general, categories in this chapter include the less well-defined conditions and symptoms that, without the necessary study of the case to establish a final diagnosis, point perhaps equally to two or more diseases or to two or more systems of the body. Practically all categories in the chapter could be designated 'not otherwise specified', 'unknown etiology' or 'transient'.  The Alphabetical Index should be consulted to determine which symptoms and signs are to be allocated here and which to other chapters.  The residual subcategories, numbered .8, are generally provided for other relevant symptoms that cannot be allocated elsewhere in the classification.","The conditions and signs or symptoms included in categories R00-R94 consist of:","(a) cases for which no more specific diagnosis can be made even after all the facts bearing on the case have been investigated;","(b) signs or symptoms existing at the time of initial encounter that proved to be transient and whose causes could not be determined;","(c) provisional diagnosis in a patient who failed to return for further investigation or care;","(d) cases referred elsewhere for investigation or treatment before the diagnosis was made;","(e) cases in which a more precise diagnosis was not available for any other reason;","(f) certain symptoms, for which supplementary information is provided, that represent important problems in medical care in their own right."]|["e:a0n","e:a0p","e:a0q","e:a0r","e:a0s","e:a0t","e:a0u","e:a0v","e:a0w","e:a0x"]
+.s "chapter:19"
+notes|["The chapter uses the S-section for coding different types of injuries related to single body regions and the T-section to cover injuries to unspecified body regions as well as poisoning and certain other consequences of external causes."]|["e:dpr","e:dps"]
+notes|["Use secondary code(s) from Chapter 20, External causes of morbidity, to indicate cause of injury.  Codes within the T section that include the external cause do not require an additional external cause code"]|["e:dou","e:dov"]
+.s "chapter:2"
+notes|["Functional activity","All neoplasms are classified in this chapter, whether they are functionally active or not.  An additional code from Chapter 4 may be used, to identify functional activity associated with any neoplasm.","Morphology [Histology]","Chapter 2 classifies neoplasms primarily by site (topography), with broad groupings for behavior, malignant, in situ, benign, etc.  The Table of Neoplasms should be used to identify the correct topography code.  In a few cases, such as for malignant melanoma and certain neuroendocrine tumors, the morphology (histologic type) is included in the category and codes.","Primary malignant neoplasms overlapping site boundaries","A primary malignant neoplasm that overlaps two or more contiguous (next to each other) sites should be classified to the subcategory/code .8 ('overlapping lesion'), unless the combination is specifically indexed elsewhere.  For multiple neoplasms of the same site that are not contiguous, such as tumors in different quadrants of the same breast, codes for each site should be assigned.","Malignant neoplasm of ectopic tissue","Malignant neoplasms of ectopic tissue are to be coded to the site mentioned, e.g., ectopic pancreatic malignant neoplasms are coded to pancreas, unspecified (C25.9)."]|["e:2zhn","e:2zhy","e:2zi9","e:2zik","e:2ziv","e:2zj6","e:2zjh","e:2zjt","e:2zk4"]
+.s "chapter:20"
+notes|["This chapter permits the classification of environmental events and circumstances as the cause of injury, and other adverse effects. Where a code from this section is applicable, it is intended that it shall be used secondary to a code from another chapter of the Classification indicating the nature of the condition. Most often, the condition will be classifiable to Chapter 19, Injury, poisoning and certain other consequences of external causes (S00-T88).  Other conditions that may be stated to be due to external causes are classified in Chapters I to XVIII. For these conditions, codes from Chapter 20 should be used to provide additional information as to the cause of the condition."]|["e:1hcy","e:1hcz"]
+.s "chapter:21"
+notes|["Z codes represent reasons for encounters. A corresponding procedure code must accompany a Z code if a procedure is performed.  Categories Z00-Z99 are provided for occasions when circumstances other than a disease, injury or external cause classifiable to categories A00-Y89 are recorded as 'diagnoses' or 'problems'. This can arise in two main ways:","(a)\tWhen a person who may or may not be sick encounters the health services for some specific purpose, such as to receive limited care or service for a current condition, to donate an organ or tissue, to receive prophylactic vaccination (immunization), or to discuss a problem which is in itself not a disease or injury.","(b)\tWhen some circumstance or problem is present which influences the person's health status but is not in itself a current illness or injury."]|["e:1ud3","e:1ud4","e:1ud5","e:1ud6"]
+.s "chapter:4"
+notes|["All neoplasms, whether functionally active or not, are classified in Chapter 2.  Appropriate codes in this chapter (i.e. E05.8, E07.0, E16-E31, E34.-) may be used as additional codes to indicate either functional activity by neoplasms and ectopic endocrine tissue or hyperfunction and hypofunction of endocrine glands associated with neoplasms and other conditions classified elsewhere."]|["e:1qt0","e:1qtb"]
+.s "chapter:7"
+notes|["Use an external cause code following the code for the eye condition, if applicable, to identify the cause of the eye condition"]|["e:2crt","e:2cru"]
+.s "chapter:8"
+notes|["Use an external cause code following the code for the ear condition, if applicable, to identify the cause of the ear condition"]|["e:2lvo","e:2lvp"]
+.s "cm:B03"
+notes|["In 1980 the 33rd World Health Assembly declared that smallpox had been eradicated.","The classification is maintained for surveillance purposes."]|["e:2ebm","e:2ebx","e:2ec8"]
+.s "cm:C84.Z"
+notes|["If T-cell lineage or involvement is mentioned in conjunction with a specific lymphoma, code to the more specific description."]|["e:879","e:87k"]
+.s "cm:C85.1"
+notes|["If B-cell lineage or involvement is mentioned in conjunction with a specific lymphoma, code to the more specific description."]|["e:8zy","e:909"]
+.s "cm:C91.0"
+notes|["Codes in subcategory C91.0- should only be used for T-cell and B-cell precursor leukemia"]|["e:d6w","e:d77"]
+.s "cm:D49"
+notes|["Category D49 classifies by site neoplasms of unspecified morphology and behavior.  The term 'mass', unless otherwise stated, is not to be regarded as a neoplastic growth."]|["e:15ib","e:15in"]
+.s "cm:E64"
+notes|["This category is to be used to indicate conditions in categories E43, E44, E46, E50-E63 as the cause of sequelae, which are themselves classified elsewhere.  The 'sequelae' include conditions specified as such; they also include the late effects of diseases classifiable to the above categories if the disease itself is no longer present"]|["e:22jr","e:22js"]
+.s "cm:G09"
+notes|["Category G09 is to be used to indicate conditions whose primary classification is to G00-G08 as the cause of sequelae, themselves classifiable elsewhere. The 'sequelae' include conditions specified as residuals."]|["e:295p","e:295q"]
+.s "cm:G40"
+notes|["the following terms are to be considered equivalent to intractable: pharmacoresistant (pharmacologically resistant), treatment resistant, refractory (medically) and poorly controlled"]|["e:29ug","e:29uh"]
+.s "cm:G43"
+notes|["the following terms are to be considered equivalent to intractable: pharmacoresistant (pharmacologically resistant), treatment resistant, refractory (medically) and poorly controlled"]|["e:2a6t","e:2a6v"]
+.s "cm:G81"
+notes|["This category is to be used only when hemiplegia (complete)(incomplete) is reported without further specification, or is stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these types of hemiplegia resulting from any cause."]|["e:2bwf","e:2bwg"]
+.s "cm:G82"
+notes|["This category is to be used only when the listed conditions are reported without further specification, or are stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these conditions resulting from any cause"]|["e:2byb","e:2byc"]
+.s "cm:G83"
+notes|["This category is to be used only when the listed conditions are reported without further specification, or are stated to be old or longstanding but of unspecified cause. The category is also for use in multiple coding to identify these conditions resulting from any cause."]|["e:2bzn","e:2bzp"]
+.s "cm:H54"
+notes|["For definition of visual impairment categories see table below"]|["e:2l8b","e:2l8c"]
+.s "cm:H54.8"
+notes|["The table below gives a classification of severity of visual impairment recommended by a WHO Study Group on the Prevention of Blindness, Geneva, 6-10 November 1972.","The term 'low vision' in category H54 comprises categories 1 and 2 of the table, the term 'blindness' categories 3, 4 and 5, and the term 'unqualified visual loss' category 9.","If the extent of the visual field is taken into account, patients with a field no greater than 10 but greater than 5 around central fixation should be placed in category 3 and patients with a field no greater than 5 around central fixation should be placed in category 4, even if the central acuity is not impaired."]|["e:2lg2","e:2lg4","e:2lg5","e:2lg6"]
+.s "cm:I69"
+notes|["Category I69 is to be used to indicate conditions in I60-I67 as the cause of sequelae. The 'sequelae' include conditions specified as such or as residuals which may occur at any time after the onset of the causal condition"]|["e:2r6j","e:2r6l"]
+.s "cm:M21.7"
+notes|["The site used should correspond to the shorter limb"]|["e:3c1a","e:3c1b"]
+.s "cm:M99"
+notes|["This category should not be used if the condition can be classified elsewhere."]|["e:3q2i","e:3q2j"]
+.s "cm:O03"
+notes|["Incomplete abortion includes retained products of conception following spontaneous abortion"]|["e:3ukt","e:3uku"]
+.s "cm:O94"
+notes|["This category is to be used to indicate conditions in O00-O77.-, O85-O94 and O98-O9A.- as the cause of late effects.  The sequelae include conditions specified as such, or as late effects, which may occur at any time after the puerperium"]|["e:2wn","e:2wo"]
+.s "cm:P07"
+notes|["When both birth weight and gestational age of the newborn are available, both should be coded with birth weight sequenced before gestational age"]|["e:44o","e:44p"]
+.s "cm:P08"
+notes|["When both birth weight and gestational age of the newborn are available, priority of assignment should be given to birth weight"]|["e:496","e:497"]
+.s "cm:R03.0"
+notes|["This category is to be used to record an episode of elevated blood pressure in a patient in whom no formal diagnosis of hypertension has been made, or as an isolated incidental finding."]|["e:a3t","e:a3u"]
+.s "cm:R40.2"
+notes|["One code from each subcategory, R40.21-R40.23, is required to complete the coma scale"]|["e:bhm","e:bhn"]
+.s "cm:R40.24"
+notes|["Assign a code from subcategory R40.24, when only the total coma score is documented"]|["e:blu","e:blv"]
+.s "cm:S02"
+notes|["A fracture not indicated as open or closed should be coded to closed"]|["e:ei2","e:ei4"]
+.s "cm:S06"
+notes|["7th characters D and S do not apply to codes in category S06 with 6th character 7 - death due to brain injury prior to regaining consciousness, or 8 - death due to other cause prior to regaining consciousness."]|["e:f6x","e:f6y"]
+.s "cm:S12"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed"]|["e:ge4","e:ge5","e:ge6"]
+.s "cm:S14"
+notes|["Code to highest level of cervical cord injury"]|["e:gub","e:guc"]
+.s "cm:S22"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed"]|["e:i2o","e:i2p","e:i2q"]
+.s "cm:S24"
+notes|["Code to highest level of thoracic spinal cord injury","Injuries to the spinal cord (S24.0 and S24.1) refer to the cord level and not bone level injury, and can affect nerve roots at and below the level given."]|["e:ifx","e:ify","e:ifz"]
+.s "cm:S32"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as opened or closed should be coded to closed"]|["e:k4m","e:k4n","e:k4o"]
+.s "cm:S34"
+notes|["Code to highest level of lumbar cord injury","Injuries to the spinal cord (S34.0 and S34.1) refer to the cord level and not bone level injury, and can affect nerve roots at and below the level given."]|["e:kqh","e:kqj","e:kqk"]
+.s "cm:S42"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed"]|["e:mfe","e:mff","e:mfg"]
+.s "cm:S52"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed","The open fracture designations are based on the Gustilo open fracture classification"]|["e:oqc","e:oqd","e:oqe","e:oqf"]
+.s "cm:S62"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed"]|["e:s5l","e:s5m","e:s5n"]
+.s "cm:S72"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed","The open fracture designations are based on the Gustilo open fracture classification"]|["e:vs4","e:vs5","e:vs6","e:vs7"]
+.s "cm:S79"
+notes|["A fracture not indicated as open or closed should be coded to closed"]|["e:x7e","e:x7f"]
+.s "cm:S82"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed","The open fracture designations are based on the Gustilo open fracture classification"]|["e:xq1","e:xq2","e:xq4","e:xq5"]
+.s "cm:S89"
+notes|["A fracture not indicated as open or closed should be coded to closed"]|["e:zo3","e:zo5"]
+.s "cm:S92"
+notes|["A fracture not indicated as displaced or nondisplaced should be coded to displaced","A fracture not indicated as open or closed should be coded to closed"]|["e:10pp","e:10pq","e:10pt"]
+.s "cm:T31"
+notes|["This category is to be used as the primary code only when the site of the burn is unspecified. It should be used as a supplementary code with categories T20-T25 when the site is specified."]|["e:16i2","e:16i3"]
+.s "cm:T32"
+notes|["This category is to be used as the primary code only when the site of the corrosion is unspecified. It may be used as a supplementary code with categories T20-T25 when the site is specified."]|["e:16op","e:16oq"]
+.s "cm:U09.9"
+notes|["This code enables establishment of a link with COVID-19.","This code is not to be used in cases that are still presenting with active COVID-19.  However, an exception is made in cases of re-infection with COVID-19, occurring with a condition related to prior COVID-19."]|["e:2144","e:2145","e:2146"]
+.s "cm:V91.1"
+notes|["select the specified type of watercraft that the victim was on at the time of the collision"]|["e:1mbg","e:1mbh"]
+.s "cm:V91.2"
+notes|["select the specified type of watercraft that the victim was on at the time of the collision"]|["e:1mcx","e:1mcy"]
+.s "cm:Y07"
+notes|["Codes from this category are for use only in cases of confirmed abuse (T74.-)","Selection of the correct perpetrator code is based on the relationship between the perpetrator and the victim"]|["e:1qro","e:1qrp","e:1qrq"]
+.s "cm:Y38.9"
+notes|["This code is for use to identify conditions occurring subsequent to a terrorist attack not those that are due to the initial terrorist attack"]|["e:1snx","e:1so0"]
+.s "cm:Y93"
+notes|["Category Y93 is provided for use to indicate the activity of the person seeking healthcare for an injury or health condition, such as a heart attack while shoveling snow, which resulted from, or was contributed to, by the activity.  These codes are appropriate for use for both acute injuries, such as those from chapter 19, and conditions that are due to the long-term, cumulative effects of an activity, such as those from chapter 13.  They are also appropriate for use with external cause codes for cause and intent if identifying the activity provides additional information on the event.  These codes should be used in conjunction with codes for external cause status (Y99) and place of occurrence (Y92).","This section contains the following broad activity categories:","Y93.0\tActivities involving walking and running","Y93.1\tActivities involving water and water craft","Y93.2\tActivities involving ice and snow","Y93.3\tActivities involving climbing, rappelling, and jumping off","Y93.4\tActivities involving dancing and other rhythmic movement","Y93.5\tActivities involving other sports and athletics played individually","Y93.6\tActivities involving other sports and athletics played as a team or group","Y93.7\tActivities involving other specified sports and athletics","Y93.A\tActivities involving other cardiorespiratory exercise","Y93.B\tActivities involving other muscle strengthening exercises","Y93.C\tActivities involving computer technology and electronic devices","Y93.D\tActivities involving arts and handcrafts","Y93.E\tActivities involving personal hygiene and interior property and clothing maintenance","Y93.F\tActivities involving caregiving","Y93.G\tActivities involving food preparation, cooking and grilling","Y93.H\tActivities involving exterior property and land maintenance, building and construction","Y93.I\tActivities involving roller coasters and other types of external motion","Y93.J\tActivities involving playing musical instrument","Y93.K\tActivities involving animal care","Y93.L\tOther outdoor activity","Y93.8\tActivities, other specified","Y93.9\tActivity, unspecified"]|["e:1tuc","e:1tud","e:1tue","e:1tuf","e:1tug","e:1tuh","e:1tui","e:1tuk","e:1tul","e:1tum","e:1tun","e:1tuo","e:1tup","e:1tuq","e:1tur","e:1tus","e:1tut","e:1tuv","e:1tuw","e:1tux","e:1tuy","e:1tuz","e:1tv0","e:1tv1","e:1tv2"]
+.s "cm:Y99"
+notes|["A single code from category Y99 should be used in conjunction with the external cause code(s) assigned to a record to indicate the status of the person at the time the event occurred."]|["e:1ubv","e:1ubw"]
+.s "cm:Z01"
+notes|["Codes from category Z01 represent the reason for the encounter.  A separate procedure code is required to identify any examinations or procedures performed"]|["e:1uh8","e:1uh9"]
+.s "cm:Z16"
+notes|["The codes in this category are provided for use as additional codes to identify the resistance and non-responsiveness of a condition to antimicrobial drugs."]|["e:1vad","e:1vaf"]
+.s "cm:Z17"
+notes|["Use one code, as available, for each receptor: Z17.0, Z17.1, Z17.2-, Z17.3-"]|["e:1vdp","e:1vdq"]
+.s "cm:Z17.4"
+notes|["Assign a code from subcategory Z17.4- when only a combined receptor status is documented"]|["e:1vez","e:1vf0"]
+.s "cm:Z23"
+notes|["procedure codes are required to identify the types of immunizations given"]|["e:1vpd","e:1vpe"]
+.s "cm:Z28.31"
+notes|["These codes should not be used for individuals who are not eligible for the COVID-19 vaccines, as determined by the healthcare provider."]|["e:1vr4","e:1vr5"]
+.s "cm:Z3A"
+notes|["Codes from category Z3A are for use, only on the maternal record, to indicate the weeks of gestation of the pregnancy, if known."]|["e:1w6b","e:1w6c"]
+.s "cm:Z68"
+notes|["BMI adult codes are for use for persons 20 years of age or older","BMI pediatric codes are for use for persons 2-19 years of age.","These percentiles are based on the growth charts published by the Centers for Disease Control and Prevention (CDC)"]|["e:1xv4","e:1xv5","e:1xv6","e:1xv7"]
+.s "section:B90-B94"
+notes|["Categories B90-B94 are to be used to indicate conditions in categories A00-B89 as the cause of sequelae, which are themselves classified elsewhere. The 'sequelae' include conditions specified as such; they also include residuals of diseases classifiable to the above categories if there is evidence that the disease itself is no longer present. Codes from these categories are not to be used for chronic infections. Code chronic current infections to active infectious disease as appropriate."]|["e:2wxd","e:2wxo"]
+.s "section:B95-B97"
+notes|["These categories are provided for use as supplementary or additional codes to identify the infectious agent(s) in diseases classified elsewhere."]|["e:2xen","e:2xey"]
+.s "section:D37-D48"
+notes|["Categories D37-D44, and D48 classify by site neoplasms of uncertain behavior, i.e., histologic confirmation whether the neoplasm is malignant or benign cannot be made."]|["e:zr7","e:zri"]
+.s "section:F01-F09"
+notes|["This block comprises a range of mental disorders grouped together on the basis of their having in common a demonstrable etiology in cerebral disease, brain injury, or other insult leading to cerebral dysfunction. The dysfunction may be primary, as in diseases, injuries, and insults that affect the brain directly and selectively; or secondary, as in systemic diseases and disorders that attack the brain only as one of the multiple organs or systems of the body that are involved."]|["e:247n","e:247o"]
+.s "section:F90-F98"
+notes|["Codes within categories F90-F98 may be used regardless of the age of a patient.  These disorders generally have onset within the childhood or adolescent years, but may continue throughout life or not be diagnosed until adulthood"]|["e:28my","e:28mz"]
+.s "section:K40-K46"
+notes|["Hernia with both gangrene and obstruction is classified to hernia with gangrene."]|["e:2z9h","e:2z9i"]
+.s "section:L20-L30"
+notes|["In this block the terms dermatitis and eczema are used synonymously and interchangeably."]|["e:331g","e:331h"]
+.s "section:M00-M02"
+notes|["This block comprises arthropathies due to microbiological agents.  Distinction is made between the following types of etiological relationship:","a) direct infection of joint, where organisms invade synovial tissue and microbial antigen is present in the joint;","b) indirect infection, which may be of two types: a reactive arthropathy, where microbial infection of the body is established but neither organisms nor antigens can be identified in the joint, and a postinfective arthropathy, where microbial antigen is present but recovery of an organism is inconstant and evidence of local multiplication is lacking."]|["e:36en","e:36eo","e:36er","e:36es"]
+.s "section:P00-P04"
+notes|["These codes are for use when the listed maternal conditions are specified as the cause of confirmed morbidity or potential morbidity which have their origin in the perinatal period (before birth through the first 28 days after birth)."]|["e:3p0","e:3p1"]
+.s "section:T36-T50"
+notes|["The drug giving rise to the adverse effect should be identified by use of codes from categories T36-T50 with fifth or sixth character 5."]|["e:1763","e:1764"]
+.s "section:T51-T65"
+notes|["When no intent is indicated code to accidental.  Undetermined intent is only for use when there is specific documentation in the record that the intent of the toxic effect cannot be determined."]|["e:1b96","e:1b97"]
+.s "section:V00-V99"
+notes|["This section is structured in 12 groups. Those relating to land transport accidents (V00-V89) reflect the victim's mode of transport and are subdivided to identify the victim's 'counterpart' or the type of event. The vehicle of which the injured person is an occupant is identified in the first two characters since it is seen as the most important factor to identify for prevention purposes. A transport accident is one in which the vehicle involved must be moving or running or in use for transport purposes at the time of the accident."]|["e:1he7","e:1he8"]
+notes|["Definitions related to transport accidents:","(a) A transport accident (V00-V99) is any accident involving a device designed primarily for, or used at the time primarily for, conveying persons or good from one place to another.","(b) A public highway [trafficway] or street is the entire width between property lines (or other boundary lines) of land open to the public as a matter of right or custom for purposes of moving persons or property from one place to another.  A roadway is that part of the public highway designed, improved and customarily used for vehicular traffic.","(c) A traffic accident is any vehicle accident occurring on the public highway [i.e. originating on, terminating on, or involving a vehicle partially on the highway].  A vehicle accident is assumed to have occurred on the public highway unless another place is specified, except in the case of accidents involving only off-road motor vehicles, which are classified as nontraffic accidents unless the contrary is stated.","(d) A nontraffic accident is any vehicle accident that occurs entirely in any place other than a public highway.","(e) A pedestrian is any person involved in an accident who was not at the time of the accident riding in or on a motor vehicle, railway train, streetcar or animal-drawn or other vehicle, or on a pedal cycle or animal.  This includes, a person changing a tire, working on a parked car, or a person on foot. It also includes the user of a pedestrian conveyance such as a baby stroller, ice-skates, skis, sled, roller skates, a skateboard, nonmotorized or motorized wheelchair, motorized mobility scooter, or nonmotorized scooter.","(f) A driver is an occupant of a transport vehicle who is operating or intending to operate it.","(g) A passenger is any occupant of a transport vehicle other than the driver, except a person traveling on the outside of the vehicle.","(h) A person on the outside of a vehicle is any person being transported by a vehicle but not occupying the space normally reserved for the driver or passengers, or the space intended for the transport of property.  This includes a person travelling on the bodywork, bumper, fender, roof, running board or step of a vehicle, as well as, hanging on the outside of the vehicle.","(i) A pedal cycle is any land transport vehicle operated solely by nonmotorized pedals including a bicycle or tricycle.","(j) A pedal cyclist is any person riding a pedal cycle or in a sidecar or trailer attached to a pedal cycle.","(k) A motorcycle is a two-wheeled motor vehicle with one or two riding saddles and sometimes with a third wheel for the support of a sidecar.  The sidecar is considered part of the motorcycle.  This includes a moped, motor scooter, or motorized bicycle.","(l) A motorcycle rider is any person riding a motorcycle or in a sidecar or trailer attached to the motorcycle.","(m) A three-wheeled motor vehicle is a motorized tricycle designed primarily for on-road use.  This includes a motor-driven tricycle, a motorized rickshaw, or a three-wheeled motor car.","(n) A car [automobile] is a four-wheeled motor vehicle designed primarily for carrying up to 7 persons. A trailer being towed by the car is considered part of the car.  It does not include a van or minivan - see definition (o)","(o) A pick-up truck or van is a four or six-wheeled motor vehicle designed for carrying passengers as well as property or cargo weighing less than the local limit for classification as a heavy goods vehicle, and not requiring a special driver's license.  This includes a minivan and a sport-utility vehicle (SUV).","(p) A heavy transport vehicle is a motor vehicle designed primarily for carrying property, meeting local criteria for classification as a heavy goods vehicle in terms of weight and requiring a special driver's license.","(q) A bus (coach) is a motor vehicle designed or adapted primarily for carrying more than 10 passengers, and requiring a special driver's license.","(r) A railway train or railway vehicle is any device, with or without freight or passenger cars couple to it, designed for traffic on a railway track.  This includes subterranean (subways) or elevated trains.","(s) A streetcar, is a device designed and used primarily for transporting passengers within a municipality, running on rails, usually subject to normal traffic control signals, and operated principally on a right-of-way that forms part of the roadway.  This includes a tram or trolley that runs on rails.  A trailer being towed by a streetcar is considered part of the streetcar.","(t) A special vehicle mainly used on industrial premises is a motor vehicle designed primarily for use within the buildings and premises of industrial or commercial establishments.  This includes battery-powered airport passenger vehicles or baggage/mail trucks, forklifts, coal-cars in a coal mine, logging cars and trucks used in mines or quarries.","(u) A special vehicle mainly used in agriculture is a motor vehicle designed specifically for use in farming and agriculture (horticulture), to work the land, tend and harvest crops and transport materials on the farm.  This includes harvesters, farm machinery and tractor and trailers.","(v) A special construction vehicle is a motor vehicle designed specifically for use on construction and demolition sites.  This includes bulldozers, diggers, earth levellers, dump trucks. backhoes, front-end loaders, pavers, and mechanical shovels.","(w) A special all-terrain vehicle is a motor vehicle of special design to enable it to negotiate over rough or soft terrain, snow or sand.  Examples of special design are high construction, special wheels and tires, tracks, and support on a cushion of air.  This includes snow mobiles, All-terrain vehicles (ATV), and dune buggies.  It does not include passenger vehicle designated as Sport Utility Vehicles. (SUV)","(x) A watercraft is any device designed for transporting passengers or goods on water.  This includes motor or sail boats, ships, and hovercraft.","(y) An aircraft is any device for transporting passengers or goods in the air.  This includes hot-air balloons, gliders, helicopters and airplanes.","(z) A military vehicle is any motorized vehicle operating on a public roadway owned by the military and being operated by a member of the military."]|["e:1hen","e:1heo","e:1heq","e:1her","e:1hes","e:1het","e:1heu","e:1hev","e:1hew","e:1hex","e:1hey","e:1hez","e:1hf1","e:1hf2","e:1hf3","e:1hf4","e:1hf5","e:1hf6","e:1hf7","e:1hf8","e:1hf9","e:1hfa","e:1hfc","e:1hfd","e:1hfe","e:1hff","e:1hfg","e:1hfh"]
+.s "section:Y90-Y99"
+notes|["These categories may be used to provide supplementary information concerning causes of morbidity.  They are not to be used for single-condition coding."]|["e:1t2d","e:1t2e"]
+.s "section:Z00-Z13"
+notes|["Nonspecific abnormal findings disclosed at the time of these examinations are classified to categories R70-R94."]|["e:1uds","e:1udt"]
+.end 86 6713b454d68db36d4c98669c3fbe4d5de758fbcdf8df0fa6f1997c30aff81c35

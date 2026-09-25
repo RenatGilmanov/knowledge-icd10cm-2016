@@ -1,0 +1,14 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat coding/convention
+.s "ICD-10-CM:2026-04-01"
+code_length|{"decimal_point_counted":false,"maximum":7,"minimum":3}|"e:bk4x"
+range_membership|"A range written as two codes joined by a dash (for example C43-C449) includes codes whose tabular order lies between the endpoint orders, including both endpoints."|"e:bk5b"
+reportability|"Reportable codes are valid for submission for HIPAA-covered transactions; headings are not."|["e:bk5e","e:bk5k","e:bk5m"]
+tabular_order|"Codes follow the Tabular List order, which differs from alphanumeric order."|["e:bk51","e:bk5e"]
+tabular_order_may_change_between_releases|true|"e:bk5e"
+tabular_precedence|"A code with a lower tabular order precedes a code with a higher tabular order, regardless of the characters forming the codes."|"e:bk5h"
+.end 6 864667f9cf8c3f70a9e9ab6f760d29599f28f6a449f42c79c9c800f8c3d4a1dc

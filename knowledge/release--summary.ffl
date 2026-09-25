@@ -1,0 +1,12 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat release/summary
+.s "ICD-10-CM:2026-04-01"
+code_set_changes|{"nonreportable_headings":{"added":0,"both_titles_revised":0,"deleted":0,"full_title_revised":0,"revised":0,"short_title_revised":0,"total":23467},"reportable_codes":{"added":0,"both_titles_revised":0,"deleted":0,"full_title_revised":0,"revised":0,"short_title_revised":0,"total":74719}}|["e:d68q","e:d68r","e:d68s","e:d68t","e:d68u","e:fcd4","e:fcd5","e:fcd8","e:fcd9","e:fcda","e:fcdb","e:fcdc","e:fcdf","e:fcdg","e:fcdh","e:fcdi","e:fcdj","e:fcdk","e:fcdl","e:fcdm","e:fcdo"]
+unchanged|"index:neoplasm"|"e:bk7a"
+unchanged|"index:external"|"e:bk5v"
+unchanged|"index:drug"|"e:bk5r"
+.end 4 f4ce5bfec4c72c52d59329603f27eeb6a7c042a33b7f2794fc71f8c8b4f311e2

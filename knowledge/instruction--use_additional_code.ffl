@@ -1,0 +1,1657 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/use_additional_code
+.s "chapter:1"
+use_additional_code|["code to identify resistance to antimicrobial drugs (Z16.-)"]|["e:2lhm","e:2mch"]
+.s "chapter:10"
+use_additional_code|["code, where applicable, to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2v1a","e:2v1b","e:2v1c","e:2v1d","e:2v1e","e:2v1f","e:2v1g","e:2v1i"]
+.s "chapter:15"
+use_additional_code|["code, if applicable, from category Z3A, Weeks of gestation, to identify the specific week of the pregnancy, if known."]|["e:3uef","e:3ueg"]
+.s "chapter:19"
+use_additional_code|["code to identify any retained foreign body, if applicable (Z18.-)"]|["e:dow","e:dox"]
+.s "cm:A48.3"
+use_additional_code|["code to identify the organism (B95, B96)"]|["e:1dqx","e:1du0"]
+.s "cm:A48.52"
+use_additional_code|["code for associated wound"]|["e:1fw2","e:1fz5"]
+.s "cm:A50.4"
+use_additional_code|["code to identify any associated mental disorder"]|["e:1q3c","e:1q6f"]
+.s "cm:A81"
+use_additional_code|["code, if applicable, to identify:","dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4)","dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-)","dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3)","dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2)","dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0)","mild neurocognitive disorder due to known physiological condition (F06.7-)"]|["e:28z1","e:28zc","e:28zn","e:28zy","e:2909","e:290k","e:290v","e:2916"]
+.s "cm:A92.32"
+use_additional_code|["code to specify the neurologic manifestation"]|["e:2bfb","e:2bfm"]
+.s "cm:A92.39"
+use_additional_code|["code to specify the other conditions"]|["e:2bgv","e:2bh6"]
+.s "cm:B18"
+use_additional_code|["code, if applicable, for ascites (R18.8)"]|["e:2hdt","e:2he4"]
+.s "cm:B20"
+use_additional_code|["code(s) to identify all manifestations of HIV infection"]|["e:2hze","e:2hzp"]
+.s "cm:B33.4"
+use_additional_code|["code to identify any associated acute kidney failure (N17.9)"]|["e:2jzn","e:2jzy"]
+.s "cm:B39"
+use_additional_code|["code for any associated manifestations, such as:","endocarditis (I39)","meningitis (G02)","pericarditis (I32)","retinitis (H32)"]|["e:2mfx","e:2mg8","e:2mgj","e:2mgu","e:2mh5","e:2mhg"]
+.s "cm:C00"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2zn7","e:2zni","e:2znt","e:2zo4","e:2zof","e:2zoq"]
+.s "cm:C01"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:308i","e:308t","e:3094","e:309f","e:309q","e:30a1"]
+.s "cm:C02"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:30b9","e:30bl","e:30bw","e:30c7","e:30ci","e:30ct"]
+.s "cm:C03"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:30qd","e:30qo","e:30r0","e:30rb","e:30rm","e:30rx"]
+.s "cm:C04"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:30wj","e:30wu","e:30x8","e:30xj","e:30xu","e:30y5"]
+.s "cm:C05"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:313p","e:3140","e:314b","e:314m","e:314x","e:3158"]
+.s "cm:C06"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","history of tobacco dependence (Z87.891)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:31cy","e:31d9","e:31dk","e:31dv","e:31e6","e:31eh"]
+.s "cm:C07"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:31pl","e:31pw","e:31q7","e:31qi","e:31qt","e:31r4","e:31rf","e:31rq","e:31s3"]
+.s "cm:C08"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:31tx","e:31u8","e:31uj","e:31uu","e:31v6","e:31vh","e:31vs","e:31w3","e:31we"]
+.s "cm:C09"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:3236","e:323h","e:323s","e:3243","e:324f","e:324q","e:3251","e:325c","e:325n"]
+.s "cm:C10"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:32cq","e:32d1","e:32dc","e:32do","e:32dz","e:32ea","e:32el","e:32ew","e:32f7"]
+.s "cm:C11"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:32qc","e:32qn","e:32qy","e:32r9","e:32rk","e:32rv","e:32s6","e:32sh"]
+.s "cm:C12"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:334t","e:3354","e:335g","e:335r","e:3362","e:336d","e:336o","e:336z"]
+.s "cm:C13"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:3387","e:338j","e:338u","e:3395","e:339g","e:339r","e:33a2","e:33ad"]
+.s "cm:C14"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:33jn","e:33jy","e:33k9","e:33kk","e:33kw","e:33l7","e:33li","e:33lt","e:33m4"]
+.s "cm:C15"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:33tt","e:33u5","e:33ug"]
+.s "cm:C16"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:340x","e:3418","e:341j"]
+.s "cm:C22"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","hepatitis B (B16.-, B18.0-B18.1)","hepatitis C (B17.1-, B18.2)"]|["e:35gs","e:35h3","e:35he","e:35hp","e:35i0"]
+.s "cm:C25"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:362p","e:3630","e:363b"]
+.s "cm:C25.4"
+use_additional_code|["code to identify any functional activity."]|["e:368v","e:3696"]
+.s "cm:C32"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:375k","e:375v","e:3766","e:376i","e:376t","e:3774","e:377f","e:377q","e:3781"]
+.s "cm:C33"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:37jr","e:37k2","e:37kd","e:37ko","e:37kz","e:37la","e:37ll","e:37lx"]
+.s "cm:C34"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:37n5","e:37ng","e:37nr","e:37o2","e:37od","e:37oo","e:37p0","e:37pb"]
+.s "cm:C39"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:38mb","e:38mm","e:38mz","e:38na","e:38nl","e:38nw","e:38o7","e:38oi"]
+.s "cm:C40"
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:38vl","e:38vw"]
+.s "cm:C50"
+use_additional_code|["code to identify estrogen, and other hormones and factors receptor status (Z17.-)"]|["e:3ifr","e:3ig2"]
+.s "cm:C56"
+use_additional_code|["code to identify any functional activity"]|["e:3lcz","e:3lda"]
+.s "cm:C61"
+use_additional_code|["code, if applicable, to identify:","hormone sensitivity status (Z19.1-Z19.2)","rising PSA following treatment for malignant neoplasm of prostate (R97.21)"]|["e:3mf9","e:3mfk","e:3mfw","e:3mg7"]
+.s "cm:C62"
+use_additional_code|["code to identify any functional activity"]|["e:3mi1","e:3mic"]
+.s "cm:C73"
+use_additional_code|["code to identify any functional activity"]|["e:3qfz","e:3qga"]
+.s "cm:C7A"
+use_additional_code|["code to identify any associated endocrine syndrome, such as:","carcinoid syndrome (E34.00)"]|["e:3r69","e:3r6k","e:3r6v"]
+.s "cm:C7B"
+use_additional_code|["code to identify any functional activity"]|["e:3s0i","e:3s0t"]
+.s "cm:C80.2"
+use_additional_code|["code to identify the specific malignancy"]|["e:3uvk","e:3uvv"]
+.s "cm:C84.7A"
+use_additional_code|["code to identify:","breast implant status (Z98.82)","personal history of breast implant removal (Z98.86)"]|["e:7t2","e:7td","e:7tp","e:7u0"]
+.s "cm:D00.0"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:j2x","e:j38","e:j3j","e:j3u","e:j45","e:j4g","e:j4r","e:j53"]
+.s "cm:D02"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:jz1","e:jzc","e:jzn","e:jzz","e:k0a","e:k0l","e:k0w","e:k17"]
+.s "cm:D13.7"
+use_additional_code|["code to identify any functional activity."]|["e:pee","e:pep"]
+.s "cm:D27"
+use_additional_code|["code to identify any functional activity."]|["e:v0v","e:v16"]
+.s "cm:D29.2"
+use_additional_code|["code to identify any functional activity."]|["e:vkx","e:vl8"]
+.s "cm:D34"
+use_additional_code|["code to identify any functional activity"]|["e:y2f","e:y2q"]
+.s "cm:D35"
+use_additional_code|["code to identify any functional activity"]|["e:y3y","e:y49"]
+.s "cm:D39.1"
+use_additional_code|["code to identify any functional activity."]|["e:110x","e:1118"]
+.s "cm:D3A"
+use_additional_code|["code to identify any associated endocrine syndrome, such as:","carcinoid syndrome (E34.00)"]|["e:yz4","e:yzf","e:yzq"]
+.s "cm:D44.1"
+use_additional_code|["code to identify any functional activity."]|["e:12j9","e:12jk"]
+.s "cm:D44.3"
+use_additional_code|["code to identify any functional activity."]|["e:12oh","e:12ot"]
+.s "cm:D46"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:12wi","e:12wt"]
+.s "cm:D52.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:173f","e:173q"]
+.s "cm:D56.0"
+use_additional_code|["code, if applicable, for hydrops fetalis due to alpha thalassemia (P56.99)"]|["e:1838","e:183j"]
+.s "cm:D57"
+use_additional_code|["code for any associated fever (R50.81)"]|["e:18tr","e:18u2"]
+.s "cm:D57.09"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:193x","e:1949","e:194k","e:194v"]
+.s "cm:D57.218"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:19gn","e:19gy","e:19h9","e:19hk"]
+.s "cm:D57.418"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:19wd","e:19wo","e:19wz","e:19xa"]
+.s "cm:D57.438"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:1ac4","e:1acf","e:1acq","e:1ad1"]
+.s "cm:D57.458"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:1asg","e:1asr","e:1at2","e:1atd"]
+.s "cm:D57.818"
+use_additional_code|["code to identify complications, such as:","cholelithiasis (K80.-)","priapism (N48.32)"]|["e:1b54","e:1b5f","e:1b5q","e:1b61"]
+.s "cm:D59.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1bnx","e:1bo8"]
+.s "cm:D59.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1c0l","e:1c0w"]
+.s "cm:D59.31"
+use_additional_code|["code to identify associated infection, such as :","E. coli infection (B96.2-)","Human immunodeficiency virus [HIV] disease (B20)","Pneumococcal meningitis (G00.1)","Pneumococcal pneumonia (J13)","Sepsis due to Streptococcus pneumoniae (A40.3)","Shigella dysenteriae (A03.9)","Streptococcus pneumoniae as the cause of diseases classified elsewhere (B95.3)"]|["e:1c6r","e:1c72","e:1c7e","e:1c7p","e:1c80","e:1c8b","e:1c8m","e:1c8x","e:1c98"]
+.s "cm:D59.39"
+use_additional_code|["code, if applicable, for adverse effect to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1chk","e:1chv"]
+.s "cm:D59.6"
+use_additional_code|["code (Chapter 20) to identify external cause"]|["e:1co1","e:1coc"]
+.s "cm:D61.02"
+use_additional_code|["code, if applicable, for genetic susceptibility to other malignant neoplasm (Z15.09)"]|["e:1d6k","e:1d6v"]
+.s "cm:D61.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1dc4","e:1dcf"]
+.s "cm:D64.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1ee2","e:1eed"]
+.s "cm:D68.32"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T45.515, T45.525)"]|["e:1gaa","e:1gal"]
+.s "cm:D70"
+use_additional_code|["code for any associated:","fever (R50.81)"]|["e:1i27","e:1i2i","e:1i2t"]
+.s "cm:D70.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T45.1X5)"]|["e:1i8d","e:1i8o"]
+.s "cm:D70.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1i9w","e:1ia7"]
+.s "cm:D72.12"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1j52","e:1j5e"]
+.s "cm:D75.81"
+use_additional_code|["code, if applicable, for associated therapy-related myelodysplastic syndrome (D46.-)"]|["e:1l34","e:1l3f"]
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T45.1X5)"]|["e:1l3q","e:1l41"]
+.s "cm:D75.82"
+use_additional_code|["code, if applicable, for adverse effect of heparin (T45.515-)"]|["e:1l7r","e:1l82"]
+.s "cm:D75.84"
+use_additional_code|["code, if applicable, for adverse effect of other viral vaccine (T50.B95-)"]|["e:1ln7","e:1lni"]
+.s "cm:D76.2"
+use_additional_code|["code to identify infectious agent or disease."]|["e:1lzu","e:1m05"]
+.s "cm:D78.8"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:1mna","e:1mnl"]
+.s "cm:D84.821"
+use_additional_code|["code, if applicable, for associated long term (current) drug therapy drug or medication such as:","long term (current) drug therapy systemic steroids (Z79.52)","other long term (current) drug therapy (Z79.899)"]|["e:1ot3","e:1ote","e:1otp","e:1ou0"]
+use_additional_code|["code for adverse effect if applicable, to identify adverse effect of drug (T36-T50 with fifth or six character 5)"]|["e:1osf","e:1osq"]
+.s "cm:D84.822"
+use_additional_code|["code for external cause such as:","exposure to ionizing radiation (W88)"]|["e:1ovu","e:1ow6","e:1owh"]
+.s "cm:D89.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1pq3","e:1pqe"]
+.s "cm:D89.44"
+use_additional_code|["code, if applicable, for:","allergy status, other than to drugs and biological substances (Z91.0-)","personal history of anaphylaxis (Z87.892)"]|["e:1q24","e:1q2f","e:1q2q","e:1q31"]
+.s "cm:D89.81"
+use_additional_code|["code to identify associated manifestations, such as:","desquamative dermatitis (L30.8)","diarrhea (R19.7)","elevated bilirubin (R17)","hair loss (L65.9)"]|["e:1q7z","e:1q8a","e:1q8l","e:1q8w","e:1q97","e:1q9j"]
+.s "cm:D89.83"
+use_additional_code|["code to identify associated manifestations"]|["e:1qh8","e:1qhj"]
+use_additional_code|["code for adverse effect, if applicable, to identify immune checkpoint inhibitors and immunostimulant drugs (T45.AX5)"]|["e:1qgm","e:1qgx"]
+.s "cm:E00"
+use_additional_code|["code (F70-F79) to identify associated intellectual disabilities."]|["e:1qz6","e:1qzh"]
+.s "cm:E03.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1rnk","e:1rnv"]
+.s "cm:E06.0"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:1sx8","e:1sxj"]
+.s "cm:E06.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1t6i","e:1t6t"]
+.s "cm:E08"
+use_additional_code|["code to identify control using:","injectable non-insulin antidiabetic drugs (Z79.85)","insulin (Z79.4)","oral antidiabetic drugs (Z79.84)","oral hypoglycemic drugs (Z79.84)"]|["e:1tpx","e:1tq8","e:1tqj","e:1tqu","e:1tr5","e:1trg"]
+.s "cm:E08.22"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:1u44","e:1u4g"]
+.s "cm:E08.39"
+use_additional_code|["code to identify manifestation, such as:","diabetic glaucoma (H40-H42)"]|["e:1v30","e:1v3b","e:1v3m"]
+.s "cm:E08.621"
+use_additional_code|["code to identify site of ulcer (L97.4-, L97.5-)"]|["e:1vnn","e:1vo0"]
+.s "cm:E08.622"
+use_additional_code|["code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)"]|["e:1vp8","e:1vpj"]
+.s "cm:E08.64"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:1vuh","e:1vus"]
+.s "cm:E08.69"
+use_additional_code|["code to identify complication"]|["e:1vys","e:1vz3"]
+.s "cm:E09"
+use_additional_code|["code to identify control using:","injectable non-insulin antidiabetic drugs (Z79.85)","insulin (Z79.4)","oral antidiabetic drugs (Z79.84)","oral hypoglycemic drugs (Z79.84)"]|["e:1w3f","e:1w3q","e:1w41","e:1w4c","e:1w4n","e:1w4y"]
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1w2s","e:1w33"]
+.s "cm:E09.22"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:1whl","e:1whw"]
+.s "cm:E09.39"
+use_additional_code|["code to identify manifestation, such as:","diabetic glaucoma (H40-H42)"]|["e:1xgh","e:1xgt","e:1xh4"]
+.s "cm:E09.621"
+use_additional_code|["code to identify site of ulcer (L97.4-, L97.5-)"]|["e:1y15","e:1y1g"]
+.s "cm:E09.622"
+use_additional_code|["code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)"]|["e:1y2p","e:1y30"]
+.s "cm:E09.64"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:1y7x","e:1y88"]
+.s "cm:E09.69"
+use_additional_code|["code to identify complication"]|["e:1yca","e:1ycl"]
+.s "cm:E10.22"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:1yrp","e:1ys0"]
+.s "cm:E10.39"
+use_additional_code|["code to identify manifestation, such as:","diabetic glaucoma (H40-H42)"]|["e:1zql","e:1zqw","e:1zr7"]
+.s "cm:E10.621"
+use_additional_code|["code to identify site of ulcer (L97.4-, L97.5-)"]|["e:20ba","e:20bl"]
+.s "cm:E10.622"
+use_additional_code|["code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)"]|["e:20ct","e:20d4"]
+.s "cm:E10.64"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:20i2","e:20id"]
+.s "cm:E10.69"
+use_additional_code|["code to identify complication"]|["e:20md","e:20mo"]
+.s "cm:E11"
+use_additional_code|["code to identify control using:","injectable non-insulin antidiabetic drugs (Z79.85)","insulin (Z79.4)","oral antidiabetic drugs (Z79.84)","oral hypoglycemic drugs (Z79.84)"]|["e:20wl","e:20ww","e:20x7","e:20xi","e:20xt","e:20y4"]
+.s "cm:E11.22"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:214u","e:214v"]
+.s "cm:E11.39"
+use_additional_code|["code to identify manifestation, such as:","diabetic glaucoma (H40-H42)"]|["e:218c","e:218d","e:218e"]
+.s "cm:E11.621"
+use_additional_code|["code to identify site of ulcer (L97.4-, L97.5-)"]|["e:21ae","e:21af"]
+.s "cm:E11.622"
+use_additional_code|["code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)"]|["e:21ak","e:21al"]
+.s "cm:E11.64"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:21b2","e:21b4"]
+.s "cm:E11.69"
+use_additional_code|["code to identify complication"]|["e:21bi","e:21bj"]
+.s "cm:E13"
+use_additional_code|["code to identify control using:","injectable non-insulin antidiabetic drugs (Z79.85)","insulin (Z79.4)","oral antidiabetic drugs (Z79.84)","oral hypoglycemic drugs (Z79.84)"]|["e:21c9","e:21ca","e:21cd","e:21ce","e:21cf","e:21cg"]
+.s "cm:E13.22"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:21do","e:21dp"]
+.s "cm:E13.39"
+use_additional_code|["code to identify manifestation, such as:","diabetic glaucoma (H40-H42)"]|["e:21h5","e:21h6","e:21h7"]
+.s "cm:E13.621"
+use_additional_code|["code to identify site of ulcer (L97.4-, L97.5-)"]|["e:21j8","e:21j9"]
+.s "cm:E13.622"
+use_additional_code|["code to identify site of ulcer (L97.1-L97.9, L98.41-L98.49)"]|["e:21jd","e:21je"]
+.s "cm:E13.64"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:21jw","e:21jx"]
+.s "cm:E13.69"
+use_additional_code|["code to identify complication"]|["e:21kb","e:21kd"]
+.s "cm:E16.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21l3","e:21l4"]
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:21l5","e:21l6"]
+.s "cm:E16.1"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:21lg","e:21lh"]
+.s "cm:E16.2"
+use_additional_code|["code for hypoglycemia level, if applicable (E16.A-)"]|["e:21lr","e:21ls"]
+.s "cm:E22.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21r2","e:21r3"]
+.s "cm:E23.0"
+use_additional_code|["code, if applicable, for associated cachexia (E88.A)"]|["e:21sc","e:21sd"]
+.s "cm:E23.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21si","e:21sj"]
+.s "cm:E24.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21tp","e:21tq"]
+.s "cm:E25.8"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21uy","e:21uz"]
+.s "cm:E27.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21xa","e:21xc"]
+.s "cm:E28.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21ys","e:21yt"]
+.s "cm:E28.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:21z0","e:21z1"]
+.s "cm:E29.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:220x","e:220y"]
+.s "cm:E35"
+use_additional_code|["code, if applicable, to identify:","sequelae of tuberculosis of other organs (B90.8)"]|["e:228p","e:228r","e:228s"]
+.s "cm:E36.8"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:229z","e:22a0"]
+.s "cm:E61"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:22hu","e:22hv"]
+.s "cm:E66"
+use_additional_code|["code to identify body mass index (BMI), if known, for adults (Z68.1-Z68.45) or pediatrics (Z68.5-)"]|["e:22kv","e:22kw"]
+.s "cm:E66.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:22li","e:22lj"]
+.s "cm:E72.03"
+use_additional_code|["code for associated glaucoma (H42)"]|["e:22y8","e:22y9"]
+.s "cm:E83.19"
+use_additional_code|["code, if applicable, for idiopathic pulmonary hemosiderosis (J84.03)"]|["e:23o5","e:23o6"]
+.s "cm:E84.0"
+use_additional_code|["code to identify any infectious organism present, such as:","Pseudomonas (B96.5)"]|["e:23s8","e:23s9","e:23sa"]
+.s "cm:E86"
+use_additional_code|["code(s) for any associated disorders of electrolyte and acid-base balance (E87.-)"]|["e:23um","e:23un"]
+.s "cm:E88"
+use_additional_code|["codes for associated conditions"]|["e:23yg","e:23yi"]
+.s "cm:E88.02"
+use_additional_code|["code for associated findings, such as:","hydrocephalus (G91.4)","otitis media (H67.-)","respiratory disorder related to plasminogen deficiency (J99)"]|["e:23zb","e:23zc","e:23zd","e:23zf","e:23zg"]
+.s "cm:E88.14"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T37.5X5-)"]|["e:240r","e:240s"]
+.s "cm:E88.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T45.1X5)"]|["e:241a","e:241b"]
+.s "cm:E88.81"
+use_additional_code|["codes for associated manifestations, such as:","obesity (E66.-)"]|["e:242r","e:242t","e:242u"]
+.s "cm:E88.82"
+use_additional_code|["code to identify body mass index (BMI), if known (Z68.-)"]|["e:243j","e:243k"]
+use_additional_code|["code, if applicable, to identify associated manifestations, such as polyphagia (R63.2)"]|["e:243h","e:243i"]
+.s "cm:E89.1"
+use_additional_code|["code, if applicable, to identify:","acquired absence of pancreas (Z90.41-)","insulin use (Z79.4)"]|["e:244w","e:244x","e:244z","e:2450"]
+.s "cm:E89.89"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:246y","e:246z"]
+.s "cm:F01.518"
+use_additional_code|["code, if applicable, to identify wandering in vascular dementia (Z91.83)"]|["e:248u","e:248v"]
+.s "cm:F01.A18"
+use_additional_code|["code, if applicable, to identify wandering in vascular dementia (Z91.83)"]|["e:24ab","e:24ac"]
+.s "cm:F01.B18"
+use_additional_code|["code, if applicable, to identify wandering in vascular dementia (Z91.83)"]|["e:24bo","e:24bp"]
+.s "cm:F01.C18"
+use_additional_code|["code, if applicable, to identify wandering in vascular dementia (Z91.83)"]|["e:24d4","e:24d5"]
+.s "cm:F02.818"
+use_additional_code|["code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)"]|["e:24fn","e:24fo"]
+.s "cm:F02.A18"
+use_additional_code|["code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)"]|["e:24h3","e:24h4"]
+.s "cm:F02.B18"
+use_additional_code|["code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)"]|["e:24ig","e:24ih"]
+.s "cm:F02.C18"
+use_additional_code|["code, if applicable, to identify wandering in dementia in conditions classified elsewhere (Z91.83)"]|["e:24jv","e:24jw"]
+.s "cm:F03.918"
+use_additional_code|["code, if applicable, to identify wandering in unspecified dementia (Z91.83)"]|["e:24lj","e:24lk"]
+.s "cm:F03.A18"
+use_additional_code|["code, if applicable, to identify wandering in unspecified dementia (Z91.83)"]|["e:24mr","e:24ms"]
+.s "cm:F03.B18"
+use_additional_code|["code, if applicable, to identify wandering in unspecified dementia (Z91.83)"]|["e:24nw","e:24nx"]
+.s "cm:F03.C18"
+use_additional_code|["code, if applicable, to identify wandering in unspecified dementia (Z91.83)"]|["e:24p2","e:24p3"]
+.s "cm:F07.81"
+use_additional_code|["code to identify associated post-traumatic headache, if applicable (G44.3-)"]|["e:24vk","e:24vl"]
+.s "cm:F10"
+use_additional_code|["code for blood alcohol level, if applicable (Y90.-)"]|["e:24wm","e:24wn"]
+.s "cm:F20"
+use_additional_code|["code, if applicable, to identify:","other specified cognitive deficit (R41.84-)"]|["e:26xe","e:26xf","e:26xg"]
+.s "cm:F64.1"
+use_additional_code|["code to identify sex reassignment status (Z87.890)"]|["e:28a9","e:28aa"]
+.s "cm:F84.3"
+use_additional_code|["code to identify any associated neurological condition."]|["e:28lr","e:28ls"]
+.s "cm:F94.1"
+use_additional_code|["code to identify any associated failure to thrive or growth retardation"]|["e:28ql","e:28qm"]
+.s "cm:F98.1"
+use_additional_code|["code to identify the cause of any coexisting constipation."]|["e:28t0","e:28t1"]
+.s "cm:G00.2"
+use_additional_code|["code to further identify organism (B95.0-B95.5)"]|["e:28wu","e:28ww"]
+.s "cm:G00.3"
+use_additional_code|["code to further identify organism (B95.61-B95.8)"]|["e:28x0","e:28x1"]
+.s "cm:G00.8"
+use_additional_code|["code to further identify organism (B96.-)"]|["e:28xa","e:28xb"]
+.s "cm:G04.02"
+use_additional_code|["code to identify the vaccine (T50.A-, T50.B-, T50.Z-)"]|["e:290s","e:290t"]
+.s "cm:G04.32"
+use_additional_code|["code to identify the vaccine (T50.A-, T50.B-, T50.Z-)"]|["e:291g","e:291i"]
+.s "cm:G06"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:293u","e:293v"]
+.s "cm:G10"
+use_additional_code|["code, if applicable, to identify:","dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4)","dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-)","dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3)","dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2)","dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0)","mild neurocognitive disorder due to known physiological condition (F06.7-)"]|["e:2962","e:2963","e:2965","e:2966","e:2967","e:2968","e:2969","e:296a"]
+.s "cm:G20"
+use_additional_code|["code, if applicable, to identify:","dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4)","dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-)","dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3)","dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2)","dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0)","mild neurocognitive disorder due to known physiological condition (F06.7-)"]|["e:29b6","e:29b7","e:29b8","e:29b9","e:29ba","e:29bb","e:29be","e:29bf"]
+.s "cm:G21.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T43.3X5, T43.4X5, T43.505, T43.595)"]|["e:29cz","e:29d0"]
+.s "cm:G21.11"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T43.3X5, T43.4X5, T43.505, T43.595)"]|["e:29da","e:29db"]
+.s "cm:G21.19"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29dk","e:29dl"]
+.s "cm:G24.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29fg","e:29fh"]
+.s "cm:G25.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29hx","e:29hy"]
+.s "cm:G25.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29ib","e:29ic"]
+.s "cm:G25.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29ik","e:29il"]
+.s "cm:G25.61"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29j4","e:29j5"]
+.s "cm:G25.7"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:29jh","e:29ji"]
+.s "cm:G30"
+use_additional_code|["code, if applicable, to identify:","delirium, if applicable (F05)","dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4)","dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-)","dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3)","dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2)","dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0)","mild neurocognitive disorder due to known physiological condition (F06.7-)"]|["e:29kv","e:29kw","e:29kx","e:29kz","e:29l0","e:29l1","e:29l2","e:29l3","e:29l4"]
+.s "cm:G31"
+use_additional_code|["code, if applicable, for codes G31.0-G31.83, G31.85-G31.9, to identify:","dementia with anxiety (F02.84, F02.A4, F02.B4, F02.C4)","dementia with behavioral disturbance (F02.81-, F02.A1-, F02.B1-, F02.C1-)","dementia with mood disturbance (F02.83, F02.A3, F02.B3, F02.C3)","dementia with psychotic disturbance (F02.82, F02.A2, F02.B2, F02.C2)","dementia without behavioral disturbance (F02.80, F02.A0, F02.B0, F02.C0)","mild neurocognitive disorder due to known physiological condition (F06.7-)"]|["e:29lq","e:29lr","e:29ls","e:29lt","e:29lu","e:29lw","e:29lx","e:29ly"]
+.s "cm:G31.09"
+use_additional_code|["code, if applicable, to identify mild neurocognitive disorders due to known physiological condition (F06.7-)"]|["e:29mg","e:29mi"]
+.s "cm:G31.83"
+use_additional_code|["code, if applicable, to identify mild neurocognitive disorders due to known physiological condition (F06.7-)"]|["e:29nr","e:29ns"]
+.s "cm:G31.84"
+use_additional_code|["code to identify presence of:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","hypertension (I10-I1A)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:29nz","e:29o0","e:29o2","e:29o3","e:29o4","e:29o5","e:29o6","e:29o7","e:29o8"]
+.s "cm:G40.42"
+use_additional_code|["code, if known, to identify associated manifestations, such as:","cortical blindness (H47.61-)","global developmental delay (F88)"]|["e:2a1u","e:2a1v","e:2a1x","e:2a1y"]
+.s "cm:G40.5"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2a2b","e:2a2c"]
+.s "cm:G43"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2a6w","e:2a6x"]
+.s "cm:G44.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2ao0","e:2ao1"]
+.s "cm:G61.1"
+use_additional_code|["code for adverse effect, if applicable, to identify serum (T50.-)"]|["e:2bh2","e:2bh3"]
+.s "cm:G62.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2bhu","e:2bhv"]
+.s "cm:G62.82"
+use_additional_code|["external cause code (W88-W90, X39.0-) to identify cause"]|["e:2bih","e:2bii"]
+.s "cm:G71.14"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2bq3","e:2bq5"]
+.s "cm:G72.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2bsf","e:2bsg"]
+.s "cm:G72.1"
+use_additional_code|["code to identify alcoholism (F10.-)"]|["e:2bsl","e:2bsm"]
+.s "cm:G90.4"
+use_additional_code|["code to identify the cause, such as:","fecal impaction (K56.41)","pressure ulcer (pressure area) (L89.-)","urinary tract infection (N39.0)"]|["e:2c77","e:2c78","e:2c79","e:2c7a","e:2c7b"]
+.s "cm:G90.81"
+use_additional_code|["code for adverse effect, if applicable, to identify drug, such as:","linezolid (T36.8X5)","monoamine oxidase inhibitors (T43.1X5)","selective serotonin and norepinephrine reuptake inhibitors [SSNRI] (T43.215)","selective serotonin reuptake inhibitors [SSRI] (T43.225)"]|["e:2c97","e:2c98","e:2c9a","e:2c9b","e:2c9c","e:2c9d"]
+use_additional_code|["code, if applicable, to identify:","disseminated intravascular coagulation (D65)","hypertensive crisis (I16.-)","metabolic acidosis (E87.2-)","shock, not elsewhere classified (R57.-)","toxic encephalopathy (G92.-)","ventricular tachycardia (I47.2-)"]|["e:2c9e","e:2c9f","e:2c9g","e:2c9h","e:2c9i","e:2c9j","e:2c9l","e:2c9m"]
+.s "cm:G92.8"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2ccx","e:2ccz"]
+.s "cm:G92.9"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2cd5","e:2cd6"]
+.s "cm:G93.3"
+use_additional_code|["code, if applicable, for post COVID-19 condition, unspecified (U09.9)"]|["e:2ce4","e:2ce5"]
+.s "cm:G93.7"
+use_additional_code|["code for adverse effect due to salicylates, if applicable (T39.0-, with sixth character 5)"]|["e:2cgp","e:2cgq"]
+.s "cm:G97.8"
+use_additional_code|["code to further specify disorder"]|["e:2cpe","e:2cpf"]
+.s "cm:H02.81"
+use_additional_code|["code to identify the type of retained foreign body (Z18.-)"]|["e:2dq5","e:2dq6"]
+.s "cm:H05.5"
+use_additional_code|["code to identify the type of retained foreign body (Z18.-)"]|["e:2emi","e:2emj"]
+.s "cm:H20.1"
+use_additional_code|["code for any associated cataract (H26.21-)"]|["e:2gn0","e:2gn1"]
+.s "cm:H21.81"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2h1m","e:2h1n"]
+.s "cm:H26.1"
+use_additional_code|["code (Chapter 20) to identify external cause"]|["e:2h9l","e:2h9m"]
+.s "cm:H26.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2hdj","e:2hdk"]
+.s "cm:H35.38"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2inh","e:2ini"]
+.s "cm:H40.6"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2j8w","e:2j8x"]
+.s "cm:H44.0"
+use_additional_code|["code to identify organism"]|["e:2jgu","e:2jgv"]
+.s "cm:H44.2A"
+use_additional_code|["code for any associated choroid disorders (H31.-)"]|["e:2jkn","e:2jko"]
+.s "cm:H44.2C"
+use_additional_code|["code to identify the retinal detachment (H33.-)"]|["e:2jlm","e:2jln"]
+.s "cm:H44.6"
+use_additional_code|["code to identify magnetic foreign body (Z18.11)"]|["e:2jse","e:2jsf"]
+.s "cm:H44.7"
+use_additional_code|["code to identify nonmagnetic foreign body (Z18.01-Z18.10, Z18.12, Z18.2-Z18.9)"]|["e:2jvz","e:2jw0"]
+.s "cm:H65"
+use_additional_code|["code, if applicable, to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","infectious agent (B95-B97)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2mfs","e:2mft","e:2mfu","e:2mfv","e:2mfw","e:2mfy","e:2mfz","e:2mg0","e:2mg1"]
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mfq","e:2mfr"]
+.s "cm:H66"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2mm9","e:2mma","e:2mmb","e:2mmc","e:2mmd","e:2mmf","e:2mmg","e:2mmh"]
+.s "cm:H66.1"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mof","e:2mog"]
+.s "cm:H66.2"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mp1","e:2mp2"]
+.s "cm:H66.3"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mpm","e:2mpn"]
+.s "cm:H66.4"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mqc","e:2mqd"]
+.s "cm:H66.9"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mqz","e:2mr1"]
+.s "cm:H67"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2mrn","e:2mro"]
+.s "cm:H91.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2nxc","e:2nxd"]
+.s "cm:H95.88"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:2oe8","e:2oea"]
+.s "cm:H95.89"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:2oee","e:2oef"]
+.s "cm:I09.81"
+use_additional_code|["code to identify type of heart failure (I50.-)"]|["e:2om4","e:2om5"]
+.s "cm:I11.0"
+use_additional_code|["code to identify type of heart failure (I50.-)"]|["e:2onm","e:2onn"]
+.s "cm:I12.0"
+use_additional_code|["code to identify the stage of chronic kidney disease (N18.5, N18.6)"]|["e:2ooe","e:2oof"]
+.s "cm:I12.9"
+use_additional_code|["code to identify the stage of chronic kidney disease (N18.1-N18.4, N18.9)"]|["e:2oon","e:2ooo"]
+.s "cm:I13.0"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.4, N18.9)"]|["e:2op3","e:2op4"]
+use_additional_code|["code to identify type of heart failure (I50.-)"]|["e:2op0","e:2op1"]
+.s "cm:I13.10"
+use_additional_code|["code to identify the stage of chronic kidney disease (N18.1-N18.4, N18.9)"]|["e:2ope","e:2opf"]
+.s "cm:I13.11"
+use_additional_code|["code to identify the stage of chronic kidney disease (N18.5, N18.6)"]|["e:2opj","e:2opk"]
+.s "cm:I13.2"
+use_additional_code|["code to identify type of heart failure (I50.-)"]|["e:2opp","e:2opq"]
+use_additional_code|["code to identify the stage of chronic kidney disease (N18.5, N18.6)"]|["e:2opr","e:2ops"]
+.s "cm:I20"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2os0","e:2os1","e:2os2","e:2os3","e:2os4","e:2os6","e:2os7"]
+.s "cm:I20.8"
+use_additional_code|["code(s) for symptoms associated with angina equivalent"]|["e:2ot3","e:2ot4"]
+.s "cm:I21"
+use_additional_code|["code, if applicable, to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility (Z92.82)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2ou6","e:2ou7","e:2ou8","e:2ou9","e:2oua","e:2ouc","e:2oud","e:2oue"]
+.s "cm:I22"
+use_additional_code|["code, if applicable, to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility (Z92.82)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2oyx","e:2oyz","e:2oz0","e:2oz1","e:2oz2","e:2oz3","e:2oz4","e:2oz5"]
+.s "cm:I25"
+use_additional_code|["code to identify:","chronic total occlusion of coronary artery (I25.82)","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2p3d","e:2p3e","e:2p3f","e:2p3g","e:2p3h","e:2p3i","e:2p3j","e:2p3k"]
+.s "cm:I25.1"
+use_additional_code|["code, if applicable, to identify:","coronary atherosclerosis due to calcified coronary lesion (I25.84)","coronary atherosclerosis due to lipid rich plaque (I25.83)"]|["e:2p3y","e:2p3z","e:2p40","e:2p41"]
+.s "cm:I25.7"
+use_additional_code|["code, if applicable, to identify:","coronary atherosclerosis due to calcified coronary lesion (I25.84)","coronary atherosclerosis due to lipid rich plaque (I25.83)"]|["e:2p6a","e:2p6b","e:2p6e","e:2p6f"]
+.s "cm:I25.81"
+use_additional_code|["code, if applicable, to identify:","coronary atherosclerosis due to calcified coronary lesion (I25.84)","coronary atherosclerosis due to lipid rich plaque (I25.83)"]|["e:2pc3","e:2pc4","e:2pc5","e:2pc6"]
+.s "cm:I27.82"
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:2pk5","e:2pk6"]
+.s "cm:I27.848"
+use_additional_code|["code to specify the Fontan associated condition"]|["e:2pl7","e:2pl8"]
+.s "cm:I30.1"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:2pne","e:2pnf"]
+.s "cm:I33.0"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:2pqd","e:2pqf"]
+.s "cm:I40.0"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:2pw5","e:2pw6"]
+.s "cm:I42.7"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2pyw","e:2pyx"]
+.s "cm:I47.21"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2q57","e:2q59"]
+.s "cm:I60"
+use_additional_code|["code, if known, to indicate National Institutes of Health Stroke Scale (NIHSS) score (R29.7-)"]|["e:2qie","e:2qif"]
+.s "cm:I61"
+use_additional_code|["code, if known, to indicate National Institutes of Health Stroke Scale (NIHSS) score (R29.7-)"]|["e:2ql1","e:2ql2"]
+.s "cm:I62"
+use_additional_code|["code, if known, to indicate National Institutes of Health Stroke Scale (NIHSS) score (R29.7-)"]|["e:2qm8","e:2qm9"]
+.s "cm:I63"
+use_additional_code|["code, if applicable, to identify status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility (Z92.82)"]|["e:2qn9","e:2qna"]
+use_additional_code|["code, if known, to indicate National Institutes of Health Stroke Scale (NIHSS) score (R29.7-)"]|["e:2qnb","e:2qnc"]
+.s "cm:I69.06"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2ra5","e:2ra6","e:2ra7","e:2ra8"]
+.s "cm:I69.091"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2rb8","e:2rb9"]
+.s "cm:I69.098"
+use_additional_code|["code to identify the sequelae"]|["e:2rbq","e:2rbr"]
+.s "cm:I69.16"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2rf6","e:2rf8","e:2rf9","e:2rfa"]
+.s "cm:I69.191"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2rg9","e:2rga"]
+.s "cm:I69.198"
+use_additional_code|["code to identify the sequelae"]|["e:2rgr","e:2rgs"]
+.s "cm:I69.26"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2rk8","e:2rk9","e:2rka","e:2rkb"]
+.s "cm:I69.291"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2rlb","e:2rlc"]
+.s "cm:I69.298"
+use_additional_code|["code to identify the sequelae"]|["e:2rlt","e:2rlu"]
+.s "cm:I69.36"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2rpg","e:2rph","e:2rpi","e:2rpj"]
+.s "cm:I69.391"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2rqi","e:2rqj"]
+.s "cm:I69.398"
+use_additional_code|["code to identify the sequelae"]|["e:2rr1","e:2rr2"]
+.s "cm:I69.86"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2ruj","e:2ruk","e:2rul","e:2rum"]
+.s "cm:I69.891"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2rvm","e:2rvn"]
+.s "cm:I69.898"
+use_additional_code|["code to identify the sequelae"]|["e:2rw3","e:2rw4"]
+.s "cm:I69.96"
+use_additional_code|["code to identify type of paralytic syndrome, such as:","locked-in state (G83.5)","quadriplegia (G82.5-)"]|["e:2rzn","e:2rzo","e:2rzp","e:2rzq"]
+.s "cm:I69.991"
+use_additional_code|["code to identify the type of dysphagia, if known (R13.11-R13.19)"]|["e:2s0q","e:2s0r"]
+.s "cm:I69.998"
+use_additional_code|["code to identify the sequelae"]|["e:2s18","e:2s19"]
+.s "cm:I70"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2s1s","e:2s1t","e:2s1u","e:2s1v","e:2s1w","e:2s1x","e:2s1y"]
+.s "cm:I70.2"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2s2q","e:2s2r"]
+.s "cm:I70.23"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2s4x","e:2s4y"]
+.s "cm:I70.24"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2s5y","e:2s5z"]
+.s "cm:I70.25"
+use_additional_code|["code to identify the severity of the ulcer (L98.49-)"]|["e:2s6y","e:2s70"]
+.s "cm:I70.26"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2s78","e:2s79"]
+.s "cm:I70.3"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2s8e","e:2s8f"]
+.s "cm:I70.33"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2sal","e:2sam"]
+.s "cm:I70.34"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2sbn","e:2sbo"]
+.s "cm:I70.35"
+use_additional_code|["code to identify severity of ulcer (L98.49-)"]|["e:2scp","e:2scq"]
+.s "cm:I70.36"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2scz","e:2sd0"]
+.s "cm:I70.4"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2se5","e:2se6"]
+.s "cm:I70.43"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2sg9","e:2sgb"]
+.s "cm:I70.44"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2shb","e:2shc"]
+.s "cm:I70.45"
+use_additional_code|["code to identify severity of ulcer (L98.49)"]|["e:2sia","e:2sib"]
+.s "cm:I70.46"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2sik","e:2sil"]
+.s "cm:I70.5"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2sjr","e:2sjs"]
+.s "cm:I70.53"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2slw","e:2slx"]
+.s "cm:I70.54"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2smx","e:2smy"]
+.s "cm:I70.55"
+use_additional_code|["code to identify severity of ulcer (L98.49)"]|["e:2snw","e:2snx"]
+.s "cm:I70.56"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2so6","e:2so7"]
+.s "cm:I70.6"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2spd","e:2spe"]
+.s "cm:I70.63"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2srh","e:2sri"]
+.s "cm:I70.64"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2ssj","e:2ssk"]
+.s "cm:I70.65"
+use_additional_code|["code to identify severity of ulcer (L98.49)"]|["e:2sti","e:2stk"]
+.s "cm:I70.66"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2sts","e:2stt"]
+.s "cm:I70.7"
+use_additional_code|["code, if applicable, to identify chronic total occlusion of artery of extremity (I70.92)"]|["e:2suy","e:2suz"]
+.s "cm:I70.73"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2sx3","e:2sx4"]
+.s "cm:I70.74"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2sy4","e:2sy7"]
+.s "cm:I70.75"
+use_additional_code|["code to identify severity of ulcer (L98.49)"]|["e:2sz5","e:2sz6"]
+.s "cm:I70.76"
+use_additional_code|["code to identify the severity of any ulcer (L97.-, L98.49-), if applicable"]|["e:2szf","e:2szg"]
+.s "cm:I75.81"
+use_additional_code|["code for any associated acute kidney failure and chronic kidney disease (N17.-, N18.-)"]|["e:2tcb","e:2tcc"]
+.s "cm:I76"
+use_additional_code|["code to identify the site of the embolism (I74.-)"]|["e:2tcp","e:2tcq"]
+.s "cm:I82.5"
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:2twg","e:2twh"]
+.s "cm:I82.7"
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:2u3q","e:2u3r"]
+.s "cm:I82.8"
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:2u8n","e:2u8o"]
+.s "cm:I83.0"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2ua5","e:2ua6"]
+.s "cm:I83.2"
+use_additional_code|["code to identify severity of ulcer (L97.-)"]|["e:2ud9","e:2uda"]
+.s "cm:I85"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2uhs","e:2uht","e:2uhu"]
+.s "cm:I87.01"
+use_additional_code|["code to specify site and severity of ulcer (L97.-)"]|["e:2ukr","e:2uku"]
+.s "cm:I87.03"
+use_additional_code|["code to specify site and severity of ulcer (L97.-)"]|["e:2uls","e:2ult"]
+.s "cm:I87.2"
+use_additional_code|["code, if applicable, to specify site and severity of ulcer (L97.-)"]|["e:2un2","e:2un3"]
+.s "cm:I87.31"
+use_additional_code|["code to specify site and severity of ulcer (L97.-)"]|["e:2uob","e:2uoc"]
+.s "cm:I87.33"
+use_additional_code|["code to specify site and severity of ulcer (L97.-)"]|["e:2upa","e:2upb"]
+.s "cm:I95.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2utd","e:2ute"]
+.s "cm:I97.13"
+use_additional_code|["code to identify the heart failure (I50.-)"]|["e:2uvj","e:2uvk"]
+.s "cm:I97.19"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:2uvv","e:2uvx"]
+.s "cm:I97.190"
+use_additional_code|["code, if applicable, for type 4 or type 5 myocardial infarction, to further specify disorder"]|["e:2uw1","e:2uw2"]
+.s "cm:I97.79"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:2uzp","e:2uzq"]
+.s "cm:I97.8"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:2v01","e:2v02"]
+.s "cm:J01"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2v3d","e:2v3e"]
+.s "cm:J02.8"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:2v6c","e:2v6d"]
+.s "cm:J03.8"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2v7p","e:2v7q"]
+.s "cm:J04"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2v8w","e:2v8x"]
+.s "cm:J05"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2vas","e:2vat"]
+.s "cm:J06.9"
+use_additional_code|["code (B95-B97) to identify infectious agent, if known, such as:","respiratory syncytial virus (RSV) (B97.4)"]|["e:2vbw","e:2vbx","e:2vbz"]
+.s "cm:J09.X2"
+use_additional_code|["code, if applicable, for associated:","pleural effusion (J91.8)","sinusitis (J01.-)"]|["e:2vdg","e:2vdh","e:2vdj","e:2vdk"]
+.s "cm:J09.X9"
+use_additional_code|["code to identify manifestation"]|["e:2ve0","e:2ve1"]
+.s "cm:J10.1"
+use_additional_code|["code for associated sinusitis, if applicable (J01.-)"]|["e:2vf7","e:2vf8"]
+use_additional_code|["code for associated pleural effusion, if applicable (J91.8)"]|["e:2vf5","e:2vf6"]
+.s "cm:J10.83"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2vfv","e:2vfw"]
+.s "cm:J10.89"
+use_additional_code|["codes to identify the manifestations"]|["e:2vg1","e:2vg2"]
+.s "cm:J11.1"
+use_additional_code|["code for associated pleural effusion, if applicable (J91.8)"]|["e:2vgv","e:2vgx"]
+use_additional_code|["code for associated sinusitis, if applicable (J01.-)"]|["e:2vgy","e:2vgz"]
+.s "cm:J11.83"
+use_additional_code|["code for any associated perforated tympanic membrane (H72.-)"]|["e:2vhr","e:2vhs"]
+.s "cm:J11.89"
+use_additional_code|["codes to identify the manifestations"]|["e:2vhx","e:2vhy"]
+.s "cm:J32"
+use_additional_code|["code to identify:","infectious agent (B95-B97)"]|["e:2vvn","e:2vvo","e:2vvp"]
+.s "cm:J36"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2w2h","e:2w2j"]
+.s "cm:J37"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","infectious agent (B95-B97)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2w2s","e:2w2u","e:2w2v","e:2w2w","e:2w2x","e:2w2y","e:2w2z","e:2w30","e:2w31"]
+.s "cm:J40"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2w7q","e:2w7s","e:2w7t","e:2w7u","e:2w7v","e:2w7w","e:2w7x","e:2w7y"]
+.s "cm:J41"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2w88","e:2w89","e:2w8a","e:2w8b","e:2w8c","e:2w8e","e:2w8f","e:2w8g"]
+.s "cm:J42"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2w92","e:2w93","e:2w94","e:2w95","e:2w96","e:2w97","e:2w98","e:2w99"]
+.s "cm:J45"
+use_additional_code|["code to identify:","eosinophilic asthma (J82.83)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2we2","e:2we3","e:2we4","e:2we5","e:2we6","e:2we7","e:2we9","e:2wea","e:2web"]
+.s "cm:J47"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2whl","e:2whn","e:2who","e:2whp","e:2whq","e:2whr","e:2whs","e:2wht"]
+.s "cm:J65"
+use_additional_code|["code, if applicable, for associated cachexia (E88.A)"]|["e:2wkq","e:2wkr"]
+.s "cm:J68"
+use_additional_code|["code to identify associated respiratory conditions, such as:","acute respiratory failure (J96.0-)"]|["e:2wnq","e:2wnr","e:2wns"]
+.s "cm:J70.0"
+use_additional_code|["code (W88-W90, X39.0-) to identify the external cause"]|["e:2wqf","e:2wqg"]
+.s "cm:J70.1"
+use_additional_code|["code (W88-W90, X39.0-) to identify the external cause"]|["e:2wqn","e:2wqo"]
+.s "cm:J70.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2wqs","e:2wqt"]
+.s "cm:J70.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2wr1","e:2wr2"]
+.s "cm:J70.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2wra","e:2wrb"]
+.s "cm:J81"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2wsc","e:2wsd","e:2wse","e:2wsg","e:2wsh","e:2wsi","e:2wsj"]
+.s "cm:J84.89"
+use_additional_code|["code, for adverse effect, to identify drug (T36-T50 with fifth or sixth character 5), if drug-induced"]|["e:2wzb","e:2wzc"]
+.s "cm:J85"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2wzt","e:2wzv"]
+.s "cm:J86"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:2x0h","e:2x0i"]
+.s "cm:J95.02"
+use_additional_code|["code to identify type of infection, such as:","cellulitis of neck (L03.221)","sepsis (A40, A41.-)"]|["e:2x64","e:2x65","e:2x66","e:2x67"]
+.s "cm:J95.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T41.- with fifth or sixth character 5)"]|["e:2x7a","e:2x7b"]
+.s "cm:J95.851"
+use_additional_code|["code to identify the organism, if known (B95.-, B96.-, B97.-)"]|["e:2x9s","e:2x9t"]
+.s "cm:J95.89"
+use_additional_code|["code to identify disorder, such as:","aspiration pneumonia (J69.-)","bacterial or viral pneumonia (J12-J18)"]|["e:2xat","e:2xau","e:2xav","e:2xaw"]
+.s "cm:J98"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2xd7","e:2xd8","e:2xd9","e:2xda","e:2xdb","e:2xdc","e:2xdd","e:2xdf"]
+.s "cm:K05"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2xsd","e:2xse","e:2xsf","e:2xsg","e:2xsh","e:2xsi","e:2xsk","e:2xsl","e:2xsm"]
+.s "cm:K06.2"
+use_additional_code|["code (Chapter 20) to identify external cause or denture status (Z97.2)"]|["e:2xyo","e:2xyq"]
+.s "cm:K08.55"
+use_additional_code|["code to identify the specific type of allergy"]|["e:2y8t","e:2y8u"]
+.s "cm:K11"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2yb9","e:2yba","e:2ybb","e:2ybd","e:2ybe","e:2ybf","e:2ybg","e:2ybh","e:2ybi"]
+.s "cm:K12"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2ye0","e:2ye1","e:2ye2","e:2ye3","e:2ye4","e:2ye6","e:2ye7","e:2ye8","e:2ye9"]
+.s "cm:K12.31"
+use_additional_code|["code for adverse effect, if applicable, to identify antineoplastic and immunosuppressive drugs (T45.1X5)"]|["e:2yfx","e:2yfy"]
+use_additional_code|["code for other antineoplastic therapy, such as:","radiological procedure and radiotherapy (Y84.2)"]|["e:2yfz","e:2yg1","e:2yg2"]
+.s "cm:K12.32"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2yg6","e:2yg7"]
+.s "cm:K12.33"
+use_additional_code|["external cause code (W88-W90, X39.0-) to identify cause"]|["e:2ygc","e:2ygd"]
+.s "cm:K13"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","exposure to tobacco smoke in the perinatal period (P96.81)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2ygp","e:2ygq","e:2ygr","e:2ygs","e:2ygt","e:2ygu","e:2ygv","e:2ygw","e:2ygy"]
+.s "cm:K14"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2yk4","e:2yk5","e:2yk6","e:2yk7","e:2yk8","e:2yk9","e:2yka","e:2ykc"]
+.s "cm:K20"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2ymo","e:2ymp","e:2ymq"]
+.s "cm:K22.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2yp8","e:2ypa"]
+.s "cm:K25"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2ysw","e:2ysx","e:2ysz"]
+.s "cm:K26"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2yu4","e:2yu5","e:2yu7"]
+.s "cm:K27"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2yvb","e:2yvc","e:2yvd"]
+.s "cm:K28"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2ywm","e:2ywo","e:2ywp"]
+.s "cm:K29.0"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2yxw","e:2yxx","e:2yxy"]
+.s "cm:K29.2"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:2yyc","e:2yyd","e:2yye"]
+.s "cm:K50"
+use_additional_code|["code to identify manifestations, such as:","pyoderma gangrenosum (L88)"]|["e:2zl4","e:2zl5","e:2zl6"]
+use_additional_code|["code to identify any associated fistulas, if applicable:","anal fistula (K60.3-)","anorectal fistula (K60.5-)","rectal fistula (K60.4-)"]|["e:2zky","e:2zkz","e:2zl0","e:2zl2","e:2zl3"]
+.s "cm:K51"
+use_additional_code|["code to identify any associated fistulas, if applicable:","anal fistula (K60.3-)","anorectal fistula (K60.5-)","rectal fistula (K60.4-)"]|["e:2zp9","e:2zpa","e:2zpb","e:2zpd","e:2zpe"]
+use_additional_code|["code to identify manifestations, such as:","pyoderma gangrenosum (L88)"]|["e:2zpf","e:2zpg","e:2zph"]
+.s "cm:K52.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:2zwd","e:2zwe"]
+.s "cm:K52.2"
+use_additional_code|["code to identify type of food allergy (Z91.01-, Z91.02-)"]|["e:2zwl","e:2zwm"]
+.s "cm:K52.21"
+use_additional_code|["code for hypovolemic shock, if present (R57.1)"]|["e:2zwy","e:2zwz"]
+.s "cm:K59.03"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:30de","e:30dg"]
+.s "cm:K62.7"
+use_additional_code|["code to identify the type of radiation (W88.-)","or radiation therapy (Y84.2)"]|["e:30p8","e:30p9","e:30pa"]
+.s "cm:K62.81"
+use_additional_code|["code for any associated fecal incontinence (R15.-)"]|["e:30pm","e:30pn"]
+.s "cm:K62.89"
+use_additional_code|["code for any associated fecal incontinence (R15.-)"]|["e:30qc","e:30qe"]
+.s "cm:K65"
+use_additional_code|["code (B95-B97), to identify infectious agent, if known"]|["e:30ve","e:30vf"]
+.s "cm:K70"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:310k","e:310l","e:310n"]
+.s "cm:K71"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3128","e:3129"]
+.s "cm:K72"
+use_additional_code|["code, if applicable, for ascites (R18.8)"]|["e:314a","e:314c"]
+.s "cm:K73"
+use_additional_code|["code, if applicable, for ascites (R18.8)"]|["e:315q","e:315r"]
+.s "cm:K75.81"
+use_additional_code|["code, if applicable, hepatic fibrosis (K74.0-)"]|["e:31ae","e:31af"]
+.s "cm:K76.6"
+use_additional_code|["code for any associated complications, such as:","portal hypertensive gastropathy (K31.89)"]|["e:31c9","e:31ca","e:31cc"]
+.s "cm:K80.0"
+use_additional_code|["code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)"]|["e:31ew","e:31ex"]
+.s "cm:K80.1"
+use_additional_code|["code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)"]|["e:31f8","e:31f9"]
+.s "cm:K80.4"
+use_additional_code|["code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)"]|["e:31hh","e:31hi"]
+.s "cm:K80.6"
+use_additional_code|["code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)"]|["e:31iw","e:31ix"]
+.s "cm:K81"
+use_additional_code|["code if applicable for associated gangrene of gallbladder (K82.A1), or perforation of gallbladder (K82.A2)"]|["e:31kb","e:31kd"]
+.s "cm:K85.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:31qu","e:31qv"]
+use_additional_code|["code to identify drug abuse and dependence (F11.-F17.-)"]|["e:31qw","e:31qx"]
+.s "cm:K86.0"
+use_additional_code|["code to identify:","alcohol abuse and dependence (F10.-)"]|["e:31sd","e:31sf","e:31sg"]
+.s "cm:K90.0"
+use_additional_code|["code for associated disorders including:","dermatitis herpetiformis (L13.0)","gluten ataxia (G32.81)"]|["e:31ui","e:31uk","e:31ul","e:31um"]
+.s "cm:K90.822"
+use_additional_code|["code, if applicable, for colostomy status (Z93.3)"]|["e:31wk","e:31wl"]
+.s "cm:K91.89"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:320q","e:320r"]
+.s "cm:K94.02"
+use_additional_code|["code to specify type of infection, such as:","cellulitis of abdominal wall (L03.311)","sepsis (A40.-, A41.-)"]|["e:322q","e:322r","e:322s","e:322t"]
+.s "cm:K94.12"
+use_additional_code|["code to specify type of infection, such as:","cellulitis of abdominal wall (L03.311)","sepsis (A40.-, A41.-)"]|["e:323g","e:323i","e:323j","e:323k"]
+.s "cm:K94.22"
+use_additional_code|["code to specify type of infection, such as:","cellulitis of abdominal wall (L03.311)","sepsis (A40.-, A41.-)"]|["e:3247","e:3248","e:3249","e:324a"]
+.s "cm:K94.32"
+use_additional_code|["code to identify the infection"]|["e:324y","e:324z"]
+.s "cm:K95.01"
+use_additional_code|["code to specify type of infection or organism, such as:","bacterial and viral infectious agents (B95.-, B96.-)","cellulitis of abdominal wall (L03.311)","sepsis (A40.-, A41.-)"]|["e:325j","e:325k","e:325l","e:325m","e:325o"]
+.s "cm:K95.09"
+use_additional_code|["code, if applicable, to further specify complication"]|["e:325s","e:325t"]
+.s "cm:K95.81"
+use_additional_code|["code to specify type of infection or organism, such as:","bacterial and viral infectious agents (B95.-, B96.-)","cellulitis of abdominal wall (L03.311)","sepsis (A40.-, A41.-)"]|["e:3263","e:3264","e:3265","e:3266","e:3267"]
+.s "cm:K95.89"
+use_additional_code|["code, if applicable, to further specify complication"]|["e:326c","e:326d"]
+.s "cm:L00"
+use_additional_code|["code to identify percentage of skin exfoliation (L49.-)"]|["e:327v","e:327w"]
+.s "cm:L02"
+use_additional_code|["code to identify organism (B95-B96)"]|["e:329d","e:329e"]
+.s "cm:L10.5"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:32ya","e:32yb"]
+.s "cm:L12.31"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3306","e:3308"]
+.s "cm:L23.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:334k","e:334l"]
+.s "cm:L24.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:336y","e:3370"]
+.s "cm:L24.B"
+use_additional_code|["code to identify any artificial opening status (Z93.-), if applicable, for contact dermatitis related to stoma secretions"]|["e:3390","e:3391"]
+.s "cm:L25.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33ag","e:33ah"]
+.s "cm:L27.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33c5","e:33c6"]
+.s "cm:L27.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33cb","e:33cc"]
+.s "cm:L29.81"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33e4","e:33e5"]
+.s "cm:L43.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33is","e:33it"]
+.s "cm:L51"
+use_additional_code|["code to identify percentage of skin exfoliation (L49.-)"]|["e:33nh","e:33ni"]
+use_additional_code|["code to identify associated manifestations, such as:","arthropathy associated with dermatological disorders (M14.8-)","conjunctival edema (H11.42)","conjunctivitis (H10.22-)","corneal scars and opacities (H17.-)","corneal ulcer (H16.0-)","edema of eyelid (H02.84-)","inflammation of eyelid (H01.8-)","keratoconjunctivitis sicca (H16.22-)","mechanical lagophthalmos (H02.22-)","stomatitis (K12.-)","symblepharon (H11.23-)"]|["e:33n3","e:33n4","e:33n5","e:33n6","e:33n7","e:33n8","e:33n9","e:33na","e:33nb","e:33nd","e:33ne","e:33nf","e:33ng"]
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33n0","e:33n2"]
+.s "cm:L53.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33oy","e:33oz"]
+.s "cm:L56"
+use_additional_code|["code to identify the source of the ultraviolet radiation (W89, X32)"]|["e:33qd","e:33qe"]
+.s "cm:L56.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33qj","e:33qk"]
+.s "cm:L56.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33qo","e:33qp"]
+.s "cm:L57"
+use_additional_code|["code to identify the source of the ultraviolet radiation (W89), or other nonionizing radiation (W90)"]|["e:33rf","e:33rg"]
+.s "cm:L58"
+use_additional_code|["code to identify the source of the radiation (W88, W90)"]|["e:33sm","e:33sn"]
+.s "cm:L64.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33vc","e:33ve"]
+.s "cm:L65"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:33vp","e:33vq"]
+.s "cm:L71"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:340o","e:340p"]
+.s "cm:L76.8"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:346t","e:346u"]
+.s "cm:L92.3"
+use_additional_code|["code to identify the type of retained foreign body (Z18.-)"]|["e:359s","e:359t"]
+.s "cm:L93"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:35a6","e:35a7"]
+.s "cm:M00.0"
+use_additional_code|["code (B95.61-B95.8) to identify bacterial agent"]|["e:36f2","e:36f3"]
+.s "cm:M00.2"
+use_additional_code|["code (B95.0-B95.2, B95.4-B95.5) to identify bacterial agent"]|["e:36le","e:36lf"]
+.s "cm:M00.8"
+use_additional_code|["code (B96) to identify bacteria"]|["e:36om","e:36on"]
+.s "cm:M10"
+use_additional_code|["code to identify:","Autonomic neuropathy in diseases classified elsewhere (G99.0)","Calculus of urinary tract in diseases classified elsewhere (N22)","Cardiomyopathy in diseases classified elsewhere (I43)","Disorders of external ear in diseases classified elsewhere (H61.1-, H62.8-)","Disorders of iris and ciliary body in diseases classified elsewhere (H22)","Glomerular disorders in diseases classified elsewhere (N08)"]|["e:39h5","e:39h7","e:39h8","e:39h9","e:39ha","e:39hb","e:39hc","e:39hd"]
+.s "cm:M10.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:39no","e:39nq"]
+.s "cm:M1A"
+use_additional_code|["code to identify:","Autonomic neuropathy in diseases classified elsewhere (G99.0)","Calculus of urinary tract in diseases classified elsewhere (N22)","Cardiomyopathy in diseases classified elsewhere (I43)","Disorders of external ear in diseases classified elsewhere (H61.1-, H62.8-)","Disorders of iris and ciliary body in diseases classified elsewhere (H22)","Glomerular disorders in diseases classified elsewhere (N08)"]|["e:3916","e:3917","e:3918","e:3919","e:391a","e:391b","e:391c","e:391d"]
+.s "cm:M1A.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:397u","e:397v"]
+.s "cm:M27.2"
+use_additional_code|["code (W88-W90, X39.0) to identify radiation, if radiation-induced"]|["e:3ej6","e:3ej7"]
+.s "cm:M31.11"
+use_additional_code|["code to identify specific organ dysfunction, such as:","acute kidney failure (N17.-)","acute respiratory distress syndrome (J80)","capillary leak syndrome (I78.8)","diffuse alveolar hemorrhage (R04.89)","encephalopathy (metabolic) (septic) (G93.41)","fluid overload, unspecified (E87.70)","graft versus host disease (D89.81-)","hemolytic uremic syndrome (D59.3-)","hepatic failure (K72.-)","hepatic veno-occlusive disease (K76.5)","idiopathic interstitial pneumonia (J84.11-)","sinusoidal obstruction syndrome (K76.5)"]|["e:3eo0","e:3eo1","e:3eo2","e:3eo3","e:3eo4","e:3eo5","e:3eo6","e:3eo7","e:3eo8","e:3eoa","e:3eob","e:3eoc","e:3eod","e:3eoe"]
+.s "cm:M32.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3eq5","e:3eq6"]
+.s "cm:M32.19"
+use_additional_code|["code(s) to identify organ or system involvement, such as encephalitis (G05.3)"]|["e:3er6","e:3er7"]
+.s "cm:M34.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3euh","e:3eui"]
+.s "cm:M35.0"
+use_additional_code|["code to identify associated manifestations"]|["e:3evi","e:3evj"]
+.s "cm:M35.81"
+use_additional_code|["code, if applicable, for:","exposure to COVID-19 or SARS-CoV-2 infection (Z20.822)","personal history of COVID-19 (Z86.16)","post COVID-19 condition (U09.9)"]|["e:3eyt","e:3eyu","e:3eyv","e:3eyw","e:3eyx"]
+.s "cm:M46.3"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:3fp3","e:3fp4"]
+.s "cm:M60.0"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:3gv7","e:3gva"]
+.s "cm:M60.2"
+use_additional_code|["code to identify the type of retained foreign body (Z18.-)"]|["e:3h32","e:3h33"]
+.s "cm:M65.0"
+use_additional_code|["code (B95-B96) to identify bacterial agent."]|["e:3idt","e:3idu"]
+.s "cm:M70"
+use_additional_code|["external cause code to identify activity causing disorder (Y93.-)"]|["e:3joz","e:3jp0"]
+.s "cm:M71.0"
+use_additional_code|["code (B95.-, B96.-) to identify causative organism"]|["e:3jz2","e:3jz3"]
+.s "cm:M71.1"
+use_additional_code|["code (B95.-, B96.-) to identify causative organism"]|["e:3k22","e:3k24"]
+.s "cm:M72.6"
+use_additional_code|["code (B95.-, B96.-) to identify causative organism"]|["e:3khb","e:3khc"]
+.s "cm:M72.8"
+use_additional_code|["code to (B95.-, B96.-) identify causative organism"]|["e:3khl","e:3khm"]
+.s "cm:M80"
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:3l23","e:3l24"]
+.s "cm:M80.8"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3l6k","e:3l6l"]
+.s "cm:M81"
+use_additional_code|["code to identify:","major osseous defect, if applicable (M89.7-)","personal history of (healed) osteoporosis fracture, if applicable (Z87.310)"]|["e:3la2","e:3la3","e:3la4","e:3la5"]
+.s "cm:M81.8"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3laz","e:3lb0"]
+.s "cm:M83.5"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3lbz","e:3lc0"]
+.s "cm:M84.3"
+use_additional_code|["external cause code(s) to identify the cause of the stress fracture"]|["e:3lcm","e:3lcn"]
+.s "cm:M86"
+use_additional_code|["code (B95-B97) to identify infectious agent"]|["e:3ml5","e:3ml6"]
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:3ml7","e:3ml8"]
+.s "cm:M87"
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:3n7u","e:3n7v"]
+.s "cm:M87.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3nd1","e:3nd2"]
+.s "cm:M89.5"
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:3ogl","e:3ogm"]
+.s "cm:M89.6"
+use_additional_code|["code (B91) to identify previous poliomyelitis"]|["e:3ojo","e:3ojp"]
+.s "cm:M93.0"
+use_additional_code|["code for associated chondrolysis (M94.3)"]|["e:3pbd","e:3pbe"]
+.s "cm:M96.89"
+use_additional_code|["code, if applicable, to further specify disorder"]|["e:3pze","e:3pzf"]
+.s "cm:M97.8"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:3q27","e:3q28"]
+.s "cm:N04.22"
+use_additional_code|["code, if applicable, for adverse effect of drug causing membranous nephropathy"]|["e:3qms","e:3qmt"]
+.s "cm:N06.22"
+use_additional_code|["code, if applicable, for adverse effect of drug causing membranous nephropathy"]|["e:3qrt","e:3qru"]
+.s "cm:N10"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3qwu","e:3qwv"]
+.s "cm:N11"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3qx4","e:3qx5"]
+.s "cm:N13.6"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3r07","e:3r08"]
+.s "cm:N14"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:3r1y","e:3r1z"]
+.s "cm:N18"
+use_additional_code|["code, if applicable, to identify:","associated cachexia (E88.A)","kidney transplant status (Z94.0)"]|["e:3r63","e:3r64","e:3r65","e:3r66"]
+.s "cm:N18.6"
+use_additional_code|["code to identify dialysis status (Z99.2)"]|["e:3r75","e:3r77"]
+.s "cm:N30"
+use_additional_code|["code to identify infectious agent (B95-B97)"]|["e:3res","e:3ret"]
+.s "cm:N31"
+use_additional_code|["code to identify any associated urinary incontinence (N39.3-N39.4-)"]|["e:3rh6","e:3rh7"]
+.s "cm:N34"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3rk7","e:3rk8"]
+.s "cm:N36.4"
+use_additional_code|["code to identify associated urinary stress incontinence (N39.3)"]|["e:3rq1","e:3rq2"]
+.s "cm:N39.0"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3rrn","e:3rro"]
+.s "cm:N40.1"
+use_additional_code|["code for associated symptoms, when specified:","incomplete bladder emptying (R39.14)","nocturia (R35.1)","straining on urination (R39.16)","urinary frequency (R35.0)","urinary hesitancy (R39.11)","urinary incontinence (N39.4-)","urinary obstruction (N13.8)","urinary retention (R33.8)","urinary urgency (R39.15)","weak urinary stream (R39.12)"]|["e:3ruw","e:3rux","e:3ruz","e:3rv0","e:3rv1","e:3rv2","e:3rv3","e:3rv4","e:3rv5","e:3rv6","e:3rv7","e:3rv8"]
+.s "cm:N40.3"
+use_additional_code|["code for associated symptoms, when specified:","incomplete bladder emptying (R39.14)","nocturia (R35.1)","straining on urination (R39.16)","urinary frequency (R35.0)","urinary hesitancy (R39.11)","urinary incontinence (N39.4-)","urinary obstruction (N13.8)","urinary retention (R33.8)","urinary urgency (R39.15)","weak urinary stream (R39.12)"]|["e:3rvi","e:3rvj","e:3rvl","e:3rvm","e:3rvn","e:3rvo","e:3rvp","e:3rvq","e:3rvr","e:3rvs","e:3rvt","e:3rvu"]
+.s "cm:N41"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3rvz","e:3rw0"]
+.s "cm:N43.1"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3ryw","e:3ryx"]
+.s "cm:N45"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3s0o","e:3s0p"]
+.s "cm:N47.6"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3s4c","e:3s4d"]
+.s "cm:N47.7"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3s4k","e:3s4l"]
+.s "cm:N48.1"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3s56","e:3s57"]
+.s "cm:N48.2"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3s5i","e:3s5j"]
+.s "cm:N49"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3s7r","e:3s7s"]
+.s "cm:N70"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3snr","e:3sns"]
+.s "cm:N71"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3spd","e:3spe"]
+.s "cm:N72"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3sq0","e:3sq1"]
+.s "cm:N73"
+use_additional_code|["code (B95-B97), to identify infectious agent."]|["e:3sq8","e:3sq9"]
+.s "cm:N76"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3ssr","e:3sss"]
+.s "cm:N81.6"
+use_additional_code|["code for any associated fecal incontinence, if applicable (R15.-)"]|["e:3tgp","e:3tgq"]
+.s "cm:N95.1"
+use_additional_code|["code for associated symptoms"]|["e:3u63","e:3u64"]
+.s "cm:N99.0"
+use_additional_code|["code to type of kidney disease"]|["e:3u8z","e:3u90"]
+.s "cm:O00"
+use_additional_code|["code from category O08 to identify any associated complication"]|["e:3ufb","e:3ufc"]
+.s "cm:O01"
+use_additional_code|["code from category O08 to identify any associated complication."]|["e:3uil","e:3uin"]
+.s "cm:O02"
+use_additional_code|["code from category O08 to identify any associated complication."]|["e:3uja","e:3ujb"]
+.s "cm:O03.37"
+use_additional_code|["code to identify severe sepsis, if applicable (R65.2-)"]|["e:3ung","e:3unh"]
+use_additional_code|["code to identify infectious agent (B95-B97)"]|["e:3une","e:3unf"]
+.s "cm:O03.87"
+use_additional_code|["code to identify infectious agent (B95-B97)"]|["e:3uqe","e:3uqf"]
+use_additional_code|["code to identify severe sepsis, if applicable (R65.2-)"]|["e:3uqg","e:3uqh"]
+.s "cm:O04.87"
+use_additional_code|["code to identify infectious agent (B95-B97)"]|["e:3utq","e:3utr"]
+use_additional_code|["code to identify severe sepsis, if applicable (R65.2-)"]|["e:3uts","e:3utt"]
+.s "cm:O07.37"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3uwv","e:3uww"]
+use_additional_code|["code (R65.2-) to identify severe sepsis, if applicable"]|["e:3uwx","e:3uwy"]
+.s "cm:O08.82"
+use_additional_code|["code (R65.2-) to identify severe sepsis, if applicable"]|["e:3v02","e:3v03"]
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3v00","e:3v01"]
+.s "cm:O10.1"
+use_additional_code|["code from I11 to identify the type of hypertensive heart disease"]|["e:3va9","e:3vaa"]
+.s "cm:O10.2"
+use_additional_code|["code from I12 to identify the type of hypertensive chronic kidney disease"]|["e:3vb4","e:3vb5"]
+.s "cm:O10.3"
+use_additional_code|["code from I13 to identify the type of hypertensive heart and chronic kidney disease"]|["e:3vbz","e:3vc0"]
+.s "cm:O10.4"
+use_additional_code|["code from I15 to identify the type of secondary hypertension"]|["e:3vct","e:3vcw"]
+.s "cm:O11"
+use_additional_code|["code from O10 to identify the type of hypertension"]|["e:3veh","e:3vei"]
+.s "cm:O21.8"
+use_additional_code|["code, to identify cause."]|["e:3vnd","e:3vne"]
+.s "cm:O22.2"
+use_additional_code|["code to identify the superficial thrombophlebitis (I80.0-)"]|["e:3vp9","e:3vpa"]
+.s "cm:O22.3"
+use_additional_code|["code to identify the deep vein thrombosis (I82.4-, I82.5-, I82.62-, I82.72-)"]|["e:3vpu","e:3vpv"]
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:3vpw","e:3vpx"]
+.s "cm:O23"
+use_additional_code|["code to identify organism (B95.-, B96.-)"]|["e:3vsk","e:3vsl"]
+.s "cm:O24.0"
+use_additional_code|["code from category E10 to further identify any manifestations"]|["e:3vxk","e:3vxl"]
+.s "cm:O24.1"
+use_additional_code|["code (for):","from category E11 to further identify any manifestations","injectable non-insulin antidiabetic drugs (Z79.85)","long-term (current) use of insulin (Z79.4)"]|["e:3vye","e:3vyf","e:3vyi","e:3vyj","e:3vyk"]
+.s "cm:O24.3"
+use_additional_code|["code (for):","from category E11 to further identify any manifestation","injectable non-insulin antidiabetic drugs (Z79.85)","long-term (current) use of insulin (Z79.4)"]|["e:3vzb","e:3vzc","e:3vzd","e:3vzf","e:3vzg"]
+.s "cm:O24.8"
+use_additional_code|["code (for):","from categories E08, E09 and E13 to further identify any manifestation","injectable non-insulin antidiabetic drugs (Z79.85)","long-term (current) use of insulin (Z79.4)"]|["e:3w1z","e:3w20","e:3w21","e:3w22","e:3w23"]
+.s "cm:O24.9"
+use_additional_code|["code (for):","from categories E08, E09 and E13 to further identify any manifestation","injectable non-insulin antidiabetic drugs (Z79.85)","long-term (current) use of insulin (Z79.4)"]|["e:3w2v","e:3w2w","e:3w2x","e:3w2y","e:3w2z"]
+.s "cm:O26.6"
+use_additional_code|["code to identify the specific disorder"]|["e:3w7h","e:3w7i"]
+.s "cm:O26.64"
+use_additional_code|["code for hepatic obstruction (K76.89)"]|["e:3w8d","e:3w8e"]
+.s "cm:O26.83"
+use_additional_code|["code to identify the specific disorder"]|["e:3wao","e:3wap"]
+.s "cm:O26.89"
+use_additional_code|["code, if applicable, to identify specific condition such as insulin resistance (E88.81-)"]|["e:3wcs","e:3wct"]
+.s "cm:O29"
+use_additional_code|["code, if necessary, to identify the complication"]|["e:3weq","e:3wer"]
+.s "cm:O34"
+use_additional_code|["code for specific condition"]|["e:3x5p","e:3x5q"]
+.s "cm:O65.5"
+use_additional_code|["code to identify abnormality of pelvic organs O34.-"]|["e:3ym0","e:3ym1"]
+.s "cm:O66.3"
+use_additional_code|["code to identify cause of obstruction"]|["e:3yn0","e:3yn1"]
+.s "cm:O66.8"
+use_additional_code|["code to identify cause of obstruction"]|["e:3ynr","e:3yns"]
+.s "cm:O74"
+use_additional_code|["code, if applicable, to identify specific complication"]|["e:3yxk","e:3yxl"]
+.s "cm:O75.3"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3yzb","e:3yzc"]
+.s "cm:O75.4"
+use_additional_code|["code to identify specific complication"]|["e:3yzm","e:3yzn"]
+.s "cm:O80"
+use_additional_code|["code to indicate outcome of delivery (Z37.0)"]|["e:3z25","e:3z27"]
+.s "cm:O82"
+use_additional_code|["code to indicate outcome of delivery (Z37.0)"]|["e:3z2b","e:3z2c"]
+.s "cm:O85"
+use_additional_code|["code (R65.2-) to identify severe sepsis, if applicable"]|["e:3z2u","e:3z2v"]
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3z2r","e:3z2t"]
+.s "cm:O86"
+use_additional_code|["code (B95-B97), to identify infectious agent"]|["e:3z38","e:3z39"]
+.s "cm:O86.04"
+use_additional_code|["code to identify the sepsis"]|["e:3z4f","e:3z4g"]
+.s "cm:O87.0"
+use_additional_code|["code, if applicable, to identify the superficial vein thrombosis, such as thrombosis of superficial vessels of lower extremities (I80.0-)"]|["e:3z6m","e:3z6n"]
+.s "cm:O87.1"
+use_additional_code|["code to identify the deep vein thrombosis (I82.4-, I82.5-, I82.62-, I82.72-)"]|["e:3z6v","e:3z6w"]
+use_additional_code|["code, if applicable, for associated long-term (current) use of anticoagulants (Z79.01)"]|["e:3z6x","e:3z6y"]
+.s "cm:O89"
+use_additional_code|["code, if applicable, to identify specific complication"]|["e:2mn","e:2mp"]
+.s "cm:O91"
+use_additional_code|["code to identify infection"]|["e:2q7","e:2q8"]
+.s "cm:O98"
+use_additional_code|["code (Chapter 1), to identify specific infectious or parasitic disease"]|["e:2wx","e:2wy"]
+.s "cm:O98.7"
+use_additional_code|["code to identify the type of HIV disease:","Acquired immune deficiency syndrome (AIDS) (B20)","Asymptomatic HIV status (Z21)","HIV positive NOS (Z21)","Symptomatic HIV disease (B20)"]|["e:32y","e:32z","e:331","e:332","e:333","e:334"]
+.s "cm:O99"
+use_additional_code|["code to identify specific condition"]|["e:35f","e:35g"]
+.s "cm:O99.21"
+use_additional_code|["code to identify the type of obesity (E66.-)"]|["e:37r","e:37s"]
+.s "cm:O99.31"
+use_additional_code|["code(s) from F10 to identify manifestations of the alcohol use"]|["e:397","e:398"]
+.s "cm:O99.32"
+use_additional_code|["code(s) from F11-F16 and F18-F19 to identify manifestations of the drug use"]|["e:39w","e:39x"]
+.s "cm:O99.33"
+use_additional_code|["code from category F17 to identify type of tobacco nicotine dependence"]|["e:3ao","e:3ap"]
+.s "cm:O99.8"
+use_additional_code|["code to identify condition"]|["e:3gp","e:3gq"]
+.s "cm:O99.83"
+use_additional_code|["code to identify the carrier state (Z22.-)"]|["e:3hx","e:3hy"]
+.s "cm:O9A.1"
+use_additional_code|["code to identify neoplasm"]|["e:3jn","e:3jo"]
+.s "cm:O9A.2"
+use_additional_code|["code(s) to identify the injury or poisoning"]|["e:3kl","e:3kn"]
+.s "cm:O9A.3"
+use_additional_code|["code (if applicable):","to identify any associated current injury due to physical abuse","to identify the perpetrator of abuse (Y07.-)"]|["e:3li","e:3lk","e:3ll","e:3lm"]
+.s "cm:O9A.4"
+use_additional_code|["code (if applicable):","to identify any associated current injury due to sexual abuse","to identify the perpetrator of abuse (Y07.-)"]|["e:3mj","e:3mk","e:3ml","e:3mm"]
+.s "cm:O9A.5"
+use_additional_code|["code to identify the perpetrator of abuse (Y07.-)"]|["e:3ng","e:3nh"]
+.s "cm:P00.89"
+use_additional_code|["code to identify infectious agent, if known"]|["e:3rm","e:3rn"]
+.s "cm:P23.0"
+use_additional_code|["code (B97) to identify organism"]|["e:4jb","e:4jc"]
+.s "cm:P23.6"
+use_additional_code|["code (B95-B96) to identify organism"]|["e:4k5","e:4k6"]
+.s "cm:P24.01"
+use_additional_code|["code to identify any secondary pulmonary hypertension, if applicable (I27.2-)"]|["e:4l4","e:4l5"]
+.s "cm:P24.11"
+use_additional_code|["code to identify any secondary pulmonary hypertension, if applicable (I27.2-)"]|["e:4lo","e:4lp"]
+.s "cm:P24.21"
+use_additional_code|["code to identify any secondary pulmonary hypertension, if applicable (I27.2-)"]|["e:4m5","e:4m6"]
+.s "cm:P24.31"
+use_additional_code|["code to identify any secondary pulmonary hypertension, if applicable (I27.2-)"]|["e:4mp","e:4mq"]
+.s "cm:P24.81"
+use_additional_code|["code to identify any secondary pulmonary hypertension, if applicable (I27.2-)"]|["e:4n9","e:4na"]
+.s "cm:P35.4"
+use_additional_code|["code to identify manifestations of congenital Zika virus disease"]|["e:4va","e:4vb"]
+.s "cm:P36"
+use_additional_code|["code(s), if applicable, to identify severe sepsis (R65.2-) and associated acute organ dysfunction(s)"]|["e:4vq","e:4vr"]
+.s "cm:P36.8"
+use_additional_code|["code from category B96 to identify organism"]|["e:4wu","e:4wv"]
+.s "cm:P39"
+use_additional_code|["code to identify organism or specific infection"]|["e:4yn","e:4yo"]
+.s "cm:P58.4"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:56t","e:56u"]
+.s "cm:P93.8"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:5qq","e:5qr"]
+.s "cm:P96.89"
+use_additional_code|["code to specify condition"]|["e:5tc","e:5td"]
+.s "cm:Q05"
+use_additional_code|["code for any associated paraplegia (paraparesis) (G82.2-)"]|["e:5z3","e:5z4"]
+.s "cm:Q13.1"
+use_additional_code|["code for associated glaucoma (H42)"]|["e:66i","e:66j"]
+.s "cm:Q13.81"
+use_additional_code|["code for associated glaucoma (H42)"]|["e:67j","e:67k"]
+.s "cm:Q87"
+use_additional_code|["code(s) to identify all associated manifestations"]|["e:9gq","e:9gr"]
+.s "cm:Q87.81"
+use_additional_code|["code to identify stage of chronic kidney disease (N18.1-N18.6)"]|["e:9jc","e:9jd"]
+.s "cm:Q87.87"
+use_additional_code|["code, if applicable, for associated conditions such as:","autism spectrum disorder (F84.0)","developmental speech disorder (F80.-)","epilepsy, by specific type (G40.-)","intellectual disabilities (F70-F79)","pervasive developmental disorders (F84.-)"]|["e:9kb","e:9kd","e:9ke","e:9kf","e:9kg","e:9kh","e:9ki"]
+.s "cm:Q87.88"
+use_additional_code|["code, if applicable, for associated conditions such as:","cerebral palsy (G80.-)","congenital heart malformations (Q20.0-Q24.9)","developmental disorder of speech and language (F80.-)","exudative retinopathy (H35.02-)","intellectual disability (F70-F79)","microcephaly (Q02)"]|["e:9km","e:9ko","e:9kp","e:9kq","e:9kr","e:9ks","e:9kt","e:9ku"]
+.s "cm:Q89.8"
+use_additional_code|["code(s) to identify all associated manifestations"]|["e:9mx","e:9my"]
+.s "cm:Q90"
+use_additional_code|["code(s) to identify any associated degree of intellectual disabilities (F70-F79)"]|["e:9nr","e:9ns"]
+.s "cm:Q93.52"
+use_additional_code|["code(s) to identify any associated conditions, such as:","autism spectrum disorder (F84.0)","degree of intellectual disabilities (F70-F79)","epilepsy and recurrent seizures (G40.-)","lymphedema (I89.0)"]|["e:9rs","e:9rt","e:9ru","e:9rv","e:9rw","e:9rx"]
+.s "cm:Q99.81"
+use_additional_code|["code to identify any auditory and visual manifestations"]|["e:9x9","e:9xb"]
+.s "cm:R00.1"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:a2g","e:a2h"]
+.s "cm:R33.0"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:bbj","e:bbk"]
+.s "cm:R50.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:c05","e:c06"]
+.s "cm:R63.6"
+use_additional_code|["code to identify body mass index (BMI), if known (Z68.-)"]|["e:ced","e:cee"]
+.s "cm:R65.11"
+use_additional_code|["code to identify specific acute organ dysfunction, such as:","acute kidney failure (N17.-)","acute respiratory failure (J96.0-)","critical illness myopathy (G72.81)","critical illness polyneuropathy (G62.81)","disseminated intravascular coagulopathy [DIC] (D65)","encephalopathy (metabolic) (septic) (G93.41)","hepatic failure (K72.0-)"]|["e:cfi","e:cfj","e:cfk","e:cfl","e:cfm","e:cfn","e:cfo","e:cfp","e:cfr"]
+.s "cm:R65.2"
+use_additional_code|["code to identify specific acute organ dysfunction, such as:","acute kidney failure (N17.-)","acute respiratory failure (J96.0-)","critical illness myopathy (G72.81)","critical illness polyneuropathy (G62.81)","disseminated intravascular coagulopathy [DIC] (D65)","encephalopathy (metabolic) (septic) (G93.41)","hepatic failure (K72.0-)"]|["e:cgb","e:cge","e:cgf","e:cgg","e:cgh","e:cgi","e:cgj","e:cgk","e:cgl"]
+.s "cm:R68.13"
+use_additional_code|["code(s) for associated signs and symptoms if no confirmed diagnosis established, or if signs and symptoms are not associated routinely with confirmed diagnosis, or provide additional information for cause of ALTE"]|["e:ci1","e:ci2"]
+.s "cm:R78"
+use_additional_code|["code to identify the any retained foreign body, if applicable (Z18.-)"]|["e:cps","e:cpt"]
+.s "cm:R78.0"
+use_additional_code|["external cause code (Y90.-), for detail regarding alcohol level."]|["e:cq0","e:cq1"]
+.s "cm:R79"
+use_additional_code|["code to identify any retained foreign body, if applicable (Z18.-)"]|["e:crj","e:crk"]
+.s "cm:R82"
+use_additional_code|["code to identify any retained foreign body, if applicable (Z18.-)"]|["e:cuw","e:cux"]
+.s "cm:R85.82"
+use_additional_code|["code for associated human papillomavirus (B97.7)"]|["e:d3z","e:d40"]
+.s "cm:R87.62"
+use_additional_code|["code to identify acquired absence of uterus and cervix, if applicable (Z90.71-)"]|["e:d8d","e:d8e"]
+.s "cm:R87.82"
+use_additional_code|["code for associated human papillomavirus (B97.7)"]|["e:db1","e:db2"]
+.s "cm:S04.0"
+use_additional_code|["code to identify any visual field defect or blindness (H53.4-, H54.-)"]|["e:evr","e:evs"]
+.s "cm:S06"
+use_additional_code|["code, if applicable, to identify mild neurocognitive disorders due to known physiological condition (F06.7-)"]|["e:f6m","e:f6n"]
+.s "cm:S06.2"
+use_additional_code|["code, if applicable, for traumatic brain compression or herniation (S06.A-)"]|["e:f9d","e:f9e"]
+.s "cm:S06.3"
+use_additional_code|["code, if applicable, for traumatic brain compression or herniation (S06.A-)"]|["e:fau","e:fav"]
+.s "cm:S06.5"
+use_additional_code|["code, if applicable, for traumatic brain compression or herniation (S06.A-)"]|["e:fnt","e:fnu"]
+.s "cm:S06.6"
+use_additional_code|["code, if applicable, for traumatic brain compression or herniation (S06.A-)"]|["e:fp6","e:fp7"]
+.s "cm:S07"
+use_additional_code|["code for all associated injuries, such as:","intracranial injuries (S06.-)","skull fractures (S02.-)"]|["e:fxz","e:fy0","e:fy1","e:fy2"]
+.s "cm:S17"
+use_additional_code|["code for all associated injuries, such as:","injury of blood vessels (S15.-)","open wound of neck (S11.-)","spinal cord injury (S14.0, S14.1-)","vertebral fracture (S12.0--S12.3-)"]|["e:h9w","e:h9x","e:h9y","e:h9z","e:ha0","e:ha1"]
+.s "cm:S28.0"
+use_additional_code|["code for all associated injuries"]|["e:j4m","e:j4n"]
+.s "cm:S30.842"
+use_additional_code|["cause code to identify the constricting item (W49.0-)"]|["e:jcb","e:jcc"]
+.s "cm:S38.0"
+use_additional_code|["code for any associated injuries"]|["e:lxj","e:lxk"]
+.s "cm:S38.1"
+use_additional_code|["code for all associated injuries, such as:","fracture of thoracic or lumbar spine and pelvis (S22.0-, S32.-)","injury to intra-abdominal organs (S36.-)","injury to urinary and pelvic organs (S37.-)","open wound of abdominal wall (S31.-)","spinal cord injury (S34.0, S34.1-)"]|["e:ly8","e:ly9","e:lya","e:lyc","e:lyd","e:lye","e:lyf"]
+.s "cm:S47"
+use_additional_code|["code for all associated injuries"]|["e:o42","e:o45"]
+.s "cm:S57"
+use_additional_code|["code(s) for all associated injuries"]|["e:qhr","e:qhs"]
+.s "cm:S60.34"
+use_additional_code|["cause code to identify the constricting item (W49.0-)"]|["e:r1r","e:r1s"]
+.s "cm:S60.44"
+use_additional_code|["cause code to identify the constricting item (W49.0-)"]|["e:r63","e:r64"]
+.s "cm:S67"
+use_additional_code|["code for all associated injuries, such as:","fracture of wrist and hand (S62.-)","open wound of wrist and hand (S61.-)"]|["e:v2g","e:v2h","e:v2i","e:v2j"]
+.s "cm:S77"
+use_additional_code|["code(s) for all associated injuries"]|["e:x2v","e:x2w"]
+.s "cm:S87"
+use_additional_code|["code(s) for all associated injuries"]|["e:zk2","e:zk3"]
+.s "cm:S97"
+use_additional_code|["code(s) for all associated injuries"]|["e:1296","e:1297"]
+.s "cm:T20.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:139m","e:139n"]
+.s "cm:T20.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13ay","e:13az"]
+.s "cm:T20.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13ca","e:13cb"]
+.s "cm:T20.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13dn","e:13do"]
+.s "cm:T20.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13f0","e:13f2"]
+.s "cm:T20.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13ge","e:13gf"]
+.s "cm:T20.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13hs","e:13hu"]
+.s "cm:T20.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13j6","e:13j7"]
+.s "cm:T21.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13kz","e:13l0"]
+.s "cm:T21.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13mj","e:13mk"]
+.s "cm:T21.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13o4","e:13o5"]
+.s "cm:T21.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13po","e:13pp"]
+.s "cm:T21.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13rb","e:13rc"]
+.s "cm:T21.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13sz","e:13t0"]
+.s "cm:T21.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13ul","e:13um"]
+.s "cm:T21.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:13w8","e:13w9"]
+.s "cm:T22.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:13y6","e:13y7"]
+.s "cm:T22.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:1410","e:1411"]
+.s "cm:T22.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:143u","e:143v"]
+.s "cm:T22.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:146o","e:146p"]
+.s "cm:T22.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:149m","e:149n"]
+.s "cm:T22.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:14ci","e:14cj"]
+.s "cm:T22.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:14fe","e:14ff"]
+.s "cm:T22.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:14ib","e:14ic"]
+.s "cm:T23.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:14lf","e:14lg"]
+.s "cm:T23.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:14ow","e:14ox"]
+.s "cm:T23.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:14sd","e:14sf"]
+.s "cm:T23.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:14vv","e:14vw"]
+.s "cm:T23.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:14ze","e:14zf"]
+.s "cm:T23.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:152y","e:152z"]
+.s "cm:T23.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:156j","e:156k"]
+.s "cm:T23.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:15a3","e:15a4"]
+.s "cm:T24.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15dx","e:15dy"]
+.s "cm:T24.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15fy","e:15fz"]
+.s "cm:T24.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15hx","e:15hy"]
+.s "cm:T24.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15jy","e:15jz"]
+.s "cm:T24.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:15m0","e:15m2"]
+.s "cm:T24.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:15o2","e:15o3"]
+.s "cm:T24.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:15q5","e:15q6"]
+.s "cm:T24.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:15s8","e:15s9"]
+.s "cm:T25.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15uh","e:15ui"]
+.s "cm:T25.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15w6","e:15w8"]
+.s "cm:T25.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15xv","e:15xw"]
+.s "cm:T25.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:15zl","e:15zn"]
+.s "cm:T25.4"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:161d","e:161e"]
+.s "cm:T25.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:1634","e:1635"]
+.s "cm:T25.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:164w","e:164x"]
+.s "cm:T25.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:166m","e:166n"]
+.s "cm:T26.0"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:168o","e:168p"]
+.s "cm:T26.1"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:1693","e:1694"]
+.s "cm:T26.2"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:169j","e:169k"]
+.s "cm:T26.3"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:169y","e:169z"]
+.s "cm:T26.4"
+use_additional_code|["external cause code to identify the source, place and intent of the burn (X00-X19, X75-X77, X96-X98, Y92)"]|["e:16ad","e:16ag"]
+.s "cm:T26.5"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16aw","e:16ax"]
+.s "cm:T26.6"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16be","e:16bf"]
+.s "cm:T26.7"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16bv","e:16bw"]
+.s "cm:T26.8"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16cd","e:16ce"]
+.s "cm:T26.9"
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16cu","e:16cw"]
+.s "cm:T27"
+use_additional_code|["external cause code to identify the source and intent of the burn (X00-X19, X75-X77, X96-X98)"]|["e:16da","e:16db"]
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16dc","e:16dd"]
+.s "cm:T28"
+use_additional_code|["external cause code to identify the source and intent of the burn (X00-X19, X75-X77, X96-X98)"]|["e:16er","e:16es"]
+use_additional_code|["external cause code to identify place (Y92)"]|["e:16et","e:16eu"]
+.s "cm:T56"
+use_additional_code|["code to identify any retained metal foreign body, if applicable (Z18.0-, T18.1-)"]|["e:1btp","e:1btq"]
+.s "cm:T63.4"
+use_additional_code|["code, if applicable, for anaphylactic shock (T78.2)"]|["e:1d1h","e:1d1i"]
+.s "cm:T65.22"
+use_additional_code|["code for exposure to second hand tobacco smoke (Z57.31, Z77.22)"]|["e:1dfa","e:1dfb"]
+.s "cm:T65.84"
+use_additional_code|["code(s) for all associated manifestations, such as:","cellulitis and acute lymphangitis (L03.-)","cutaneous abscess, furuncle and carbuncle (L02.-)","non-pressure chronic ulcer of lower limb, not elsewhere classified (L97.-)","non-pressure chronic ulcer of skin, not elsewhere classified (L98.4-)"]|["e:1dky","e:1dkz","e:1dl0","e:1dl1","e:1dl3","e:1dl4"]
+.s "cm:T67.0"
+use_additional_code|["code(s) to identify any associated complications of heatstroke, such as:","coma and stupor (R40.-)","rhabdomyolysis (M62.82)","systemic inflammatory response syndrome (R65.1-)"]|["e:1do2","e:1do3","e:1do4","e:1do5","e:1do7"]
+.s "cm:T68"
+use_additional_code|["code to identify source of exposure:","Exposure to excessive cold of man-made origin (W93)","Exposure to excessive cold of natural origin (X31)"]|["e:1dpy","e:1dpz","e:1dq1","e:1dq2"]
+.s "cm:T69"
+use_additional_code|["code to identify source of exposure:","Exposure to excessive cold of man-made origin (W93)","Exposure to excessive cold of natural origin (X31)"]|["e:1dqj","e:1dqk","e:1dql","e:1dqn"]
+.s "cm:T71.16"
+use_additional_code|["code for any associated injuries, such as:","crushing injury of neck (S17.-)","fracture of cervical vertebrae (S12.0-S12.2-)","open wound of neck (S11.-)"]|["e:1dxb","e:1dxc","e:1dxd","e:1dxe","e:1dxg"]
+.s "cm:T71.21"
+use_additional_code|["code for any associated cataclysm (X34-X38)"]|["e:1dys","e:1dyt"]
+.s "cm:T74"
+use_additional_code|["code, if applicable, to identify any associated current injury"]|["e:1e17","e:1e18"]
+use_additional_code|["external cause code to identify perpetrator, if known (Y07.-)"]|["e:1e19","e:1e1a"]
+.s "cm:T75.09"
+use_additional_code|["code for other effects of lightning"]|["e:1e57","e:1e58"]
+.s "cm:T75.3"
+use_additional_code|["external cause code to identify vehicle or type of motion (Y92.81-)"]|["e:1e6a","e:1e6b"]
+.s "cm:T75.83"
+use_additional_code|["code to identify associated manifestations"]|["e:1e6x","e:1e6y"]
+.s "cm:T76"
+use_additional_code|["code, if applicable, to identify any associated current injury"]|["e:1e7f","e:1e7g"]
+.s "cm:T78.1"
+use_additional_code|["code to identify the type of reaction, if applicable"]|["e:1ecv","e:1ecw"]
+.s "cm:T80.1"
+use_additional_code|["code to identify the vascular complication"]|["e:1eli","e:1elj"]
+.s "cm:T80.2"
+use_additional_code|["code (R65.2-) to identify severe sepsis, if applicable"]|["e:1elx","e:1ely"]
+use_additional_code|["code to identify the specific infection, such as:","sepsis (A41.9)"]|["e:1elu","e:1elv","e:1elw"]
+.s "cm:T80.82"
+use_additional_code|["code to identify the specific complication, such as:","cytokine release syndrome (D89.83-)","immune effector cell-associated neurotoxicity syndrome (G92.0-)"]|["e:1etm","e:1etn","e:1eto","e:1etp"]
+.s "cm:T80.89"
+use_additional_code|["code to identify graft-versus-host reaction, if applicable, (D89.81-)"]|["e:1etw","e:1etx"]
+.s "cm:T81"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1eux","e:1euy"]
+.s "cm:T81.12"
+use_additional_code|["code, to identify any associated acute organ dysfunction, if applicable"]|["e:1ewk","e:1ewm"]
+.s "cm:T81.4"
+use_additional_code|["code to identify infection"]|["e:1eyt","e:1eyu"]
+use_additional_code|["code (R65.2-) to identify severe sepsis, if applicable"]|["e:1eyv","e:1eyw"]
+.s "cm:T81.44"
+use_additional_code|["code to identify the sepsis"]|["e:1ezu","e:1ezv"]
+.s "cm:T81.83"
+use_additional_code|["code, if known, for site of fistula such as:","anal fistula (K60.3-)","anorectal fistula (K60.5-)","bladder fistula (N32.2)","other female intestinal-genital tract fistulae (N82.4)"]|["e:1f77","e:1f78","e:1f79","e:1f7a","e:1f7b","e:1f7c"]
+.s "cm:T81.89"
+use_additional_code|["code to specify complication, such as:","postprocedural delirium (F05)"]|["e:1f7i","e:1f7j","e:1f7k"]
+.s "cm:T82.6"
+use_additional_code|["code to identify infection"]|["e:1fiz","e:1fj0"]
+.s "cm:T82.7"
+use_additional_code|["code to identify infection"]|["e:1fj5","e:1fj6"]
+.s "cm:T83.5"
+use_additional_code|["code to identify infection"]|["e:1ful","e:1fum"]
+.s "cm:T83.6"
+use_additional_code|["code to identify infection"]|["e:1fw5","e:1fw6"]
+.s "cm:T84.018"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g0i","e:1g0j"]
+.s "cm:T84.028"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g1a","e:1g1c"]
+.s "cm:T84.038"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g22","e:1g23"]
+.s "cm:T84.05"
+use_additional_code|["code to identify major osseous defect, if applicable (M89.7-)"]|["e:1g2c","e:1g2d"]
+.s "cm:T84.058"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g2u","e:1g2w"]
+.s "cm:T84.068"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g3k","e:1g3l"]
+.s "cm:T84.098"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1g4b","e:1g4c"]
+.s "cm:T84.5"
+use_additional_code|["code to identify infection"]|["e:1gbs","e:1gbt"]
+.s "cm:T84.6"
+use_additional_code|["code to identify infection"]|["e:1gci","e:1gcj"]
+.s "cm:T84.7"
+use_additional_code|["code to identify infection"]|["e:1gee","e:1gef"]
+.s "cm:T85.7"
+use_additional_code|["code to identify infection"]|["e:1gru","e:1grw"]
+.s "cm:T86"
+use_additional_code|["code to identify other transplant complications, such as:","graft-versus-host disease (D89.81-)","malignancy associated with organ transplant (C80.2)","post-transplant lymphoproliferative disorders (PTLD) (D47.Z1)"]|["e:1gvp","e:1gvq","e:1gvr","e:1gvs","e:1gvt"]
+.s "cm:T86.13"
+use_additional_code|["code to specify infection"]|["e:1gwv","e:1gww"]
+.s "cm:T86.23"
+use_additional_code|["code to specify infection"]|["e:1gxm","e:1gxn"]
+.s "cm:T86.33"
+use_additional_code|["code to specify infection"]|["e:1gyh","e:1gyi"]
+.s "cm:T86.43"
+use_additional_code|["code to identify infection, such as:","Cytomegalovirus (CMV) infection (B25.-)"]|["e:1gz3","e:1gz4","e:1gz5"]
+.s "cm:T86.812"
+use_additional_code|["code to specify infection"]|["e:1gzz","e:1h00"]
+.s "cm:T86.822"
+use_additional_code|["code to specify infection"]|["e:1h0o","e:1h0p"]
+.s "cm:T86.832"
+use_additional_code|["code to specify infection"]|["e:1h1c","e:1h1d"]
+.s "cm:T86.842"
+use_additional_code|["code to specify infection"]|["e:1h2r","e:1h2s"]
+.s "cm:T86.852"
+use_additional_code|["code to specify infection"]|["e:1h4i","e:1h4k"]
+.s "cm:T86.892"
+use_additional_code|["code to specify infection"]|["e:1h57","e:1h58"]
+.s "cm:T86.93"
+use_additional_code|["code to specify infection"]|["e:1h5w","e:1h5x"]
+.s "cm:T88.2"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T41.- with fifth or sixth character 5)"]|["e:1har","e:1has"]
+.s "cm:T88.3"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T41.- with fifth or sixth character 5)"]|["e:1hb3","e:1hb4"]
+.s "cm:T88.5"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T41.- with fifth or sixth character 5)"]|["e:1hbc","e:1hbd"]
+.s "cm:T88.6"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1hc4","e:1hc5"]
+.s "cm:T88.7"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1hcg","e:1hch"]
+.s "cm:T88.8"
+use_additional_code|["code to identify the complication"]|["e:1hcp","e:1hcq"]
+.s "cm:U07.0"
+use_additional_code|["code to identify manifestations, such as:","abdominal pain (R10.84)","acute respiratory distress syndrome (J80)","diarrhea (R19.7)","drug-induced interstitial lung disorder (J70.4)","lipoid pneumonia (J69.1)","weight loss (R63.4)"]|["e:212x","e:212y","e:212z","e:2130","e:2131","e:2133","e:2134","e:2135"]
+.s "cm:U07.1"
+use_additional_code|["code to identify pneumonia or other manifestations, such as:","pneumonia due to COVID-19 (J12.82)"]|["e:2139","e:213a","e:213b"]
+use_additional_code|["code, if applicable, for associated conditions such as:","COVID-19 associated coagulopathy (D68.8)","disseminated intravascular coagulation (D65)","hypercoagulable states (D68.69)","thrombophilia (D68.69)"]|["e:213c","e:213e","e:213f","e:213g","e:213h","e:213i"]
+.s "cm:V00"
+use_additional_code|["place of occurrence and activity external cause codes, if known (Y92.-, Y93.-)"]|["e:1hfw","e:1hfx"]
+.s "cm:W21.4"
+use_additional_code|["code for subsequent falling into water, if applicable (W16.-)"]|["e:1o1f","e:1o1g"]
+.s "cm:Y38"
+use_additional_code|["code for place of occurrence (Y92.-)"]|["e:1sh2","e:1sh3"]
+.s "cm:Z00.01"
+use_additional_code|["code to identify abnormal findings"]|["e:1uen","e:1ueo"]
+.s "cm:Z00.11"
+use_additional_code|["code to identify any abnormal findings"]|["e:1uey","e:1uez"]
+.s "cm:Z00.121"
+use_additional_code|["code to identify abnormal findings"]|["e:1ufv","e:1ufw"]
+.s "cm:Z00.71"
+use_additional_code|["code to identify abnormal findings"]|["e:1ugv","e:1ugw"]
+.s "cm:Z01.01"
+use_additional_code|["code to identify abnormal findings"]|["e:1uhw","e:1uhx"]
+.s "cm:Z01.021"
+use_additional_code|["code to identify abnormal findings"]|["e:1uic","e:1uid"]
+.s "cm:Z01.118"
+use_additional_code|["code to identify abnormal findings"]|["e:1uiw","e:1uiy"]
+.s "cm:Z01.21"
+use_additional_code|["code to identify abnormal findings"]|["e:1uje","e:1ujf"]
+.s "cm:Z01.31"
+use_additional_code|["code to identify abnormal findings"]|["e:1ujs","e:1ujt"]
+.s "cm:Z01.41"
+use_additional_code|["code:","for screening for human papillomavirus, if applicable, (Z11.51)","for screening vaginal pap smear, if applicable (Z12.72)","to identify acquired absence of uterus, if applicable (Z90.71-)"]|["e:1uka","e:1ukb","e:1ukc","e:1ukd","e:1uke"]
+.s "cm:Z01.411"
+use_additional_code|["code to identify abnormal findings"]|["e:1ukm","e:1ukn"]
+.s "cm:Z02.83"
+use_additional_code|["code for findings of alcohol or drugs in blood (R78.-)"]|["e:1uo1","e:1uo2"]
+.s "cm:Z08"
+use_additional_code|["code to identify any acquired absence of organs (Z90.-)"]|["e:1uwm","e:1uwn"]
+use_additional_code|["code to identify the personal history of malignant neoplasm (Z85.-)"]|["e:1uwo","e:1uwp"]
+.s "cm:Z09"
+use_additional_code|["code to identify any applicable history of disease code (Z86.-, Z87.-)"]|["e:1uwy","e:1uwz"]
+.s "cm:Z12"
+use_additional_code|["code to identify any family history of malignant neoplasm (Z80.-)"]|["e:1uz4","e:1uz5"]
+.s "cm:Z12.72"
+use_additional_code|["code to identify acquired absence of uterus (Z90.71-)"]|["e:1v13","e:1v14"]
+.s "cm:Z15"
+use_additional_code|["code, if applicable, for any associated family history of the disease (Z80-Z84)"]|["e:1v7o","e:1v7p"]
+.s "cm:Z15.0"
+use_additional_code|["code, if applicable, for any personal history of malignant neoplasm (Z85.-)"]|["e:1v7y","e:1v7z"]
+.s "cm:Z15.2"
+use_additional_code|["code to identify body mass index (BMI), if known (Z68.-)"]|["e:1v9o","e:1v9p"]
+.s "cm:Z28.3"
+use_additional_code|["code, if applicable, to identify:","immunization not carried out because of contraindication (Z28.0-)","immunization not carried out because of patient decision for other and unspecified reason (Z28.2-)","immunization not carried out because of patient decision for reasons of belief or group pressure (Z28.1)","immunization not carried out for other reason (Z28.8-)"]|["e:1vqt","e:1vqu","e:1vqv","e:1vqw","e:1vqx","e:1vqy"]
+.s "cm:Z31.43"
+use_additional_code|["code for recurrent pregnancy loss, if applicable (N96, O26.2-)"]|["e:1vy7","e:1vy8"]
+.s "cm:Z31.83"
+use_additional_code|["code to identify the type of infertility"]|["e:1w05","e:1w06"]
+.s "cm:Z40.0"
+use_additional_code|["code to identify risk factor, such as genetic  susceptibility to malignant neoplasm Z15.-"]|["e:1wg1","e:1wg3"]
+.s "cm:Z47.1"
+use_additional_code|["code to identify the joint (Z96.6-)"]|["e:1wtt","e:1wtu"]
+.s "cm:Z47.81"
+use_additional_code|["code to identify the limb amputated (Z89.-)"]|["e:1wv1","e:1wv2"]
+.s "cm:Z48.3"
+use_additional_code|["code to identify the neoplasm"]|["e:1wxh","e:1wxi"]
+.s "cm:Z71.3"
+use_additional_code|["code to identify body mass index (BMI), if known (Z68.-)"]|["e:1y34","e:1y35"]
+use_additional_code|["code for any associated underlying medical condition"]|["e:1y32","e:1y33"]
+.s "cm:Z71.4"
+use_additional_code|["code for alcohol abuse or dependence (F10.-)"]|["e:1y39","e:1y3a"]
+.s "cm:Z71.5"
+use_additional_code|["code for drug abuse or dependence (F11-F16, F18-F19)"]|["e:1y3o","e:1y3p"]
+.s "cm:Z71.6"
+use_additional_code|["code for nicotine dependence (F17.-)"]|["e:1y42","e:1y43"]
+.s "cm:Z79.81"
+use_additional_code|["code, if applicable, to identify:","estrogen receptor positive status (Z17.0)","family history of breast cancer (Z80.3)","genetic susceptibility to malignant neoplasm (cancer) (Z15.0-)","personal history of breast cancer (Z85.3)","personal history of prostate cancer (Z85.46)","postmenopausal status (Z78.0)"]|["e:1yp4","e:1yp5","e:1yp6","e:1yp7","e:1yp9","e:1ypa","e:1ypb","e:1ypc"]
+.s "cm:Z85"
+use_additional_code|["code to identify:","alcohol use and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:1z24","e:1z25","e:1z27","e:1z28","e:1z29","e:1z2a","e:1z2b","e:1z2c"]
+.s "cm:Z90.41"
+use_additional_code|["code to identify any associated:","diabetes mellitus, postpancreatectomy (E13.-)","insulin use (Z79.4)"]|["e:202i","e:202j","e:202k","e:202l"]
+.s "cm:Z98.4"
+use_additional_code|["code to identify intraocular lens implant status (Z96.1)"]|["e:20x6","e:20x8"]
+.s "section:A15-A19"
+use_additional_code|["code, if applicable, for associated cachexia (E88.A)"]|["e:2qz5","e:2r28"]
+.s "section:I10-I1A"
+use_additional_code|["code to identify:","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2omm","e:2omn","e:2omo","e:2omp","e:2omq","e:2omr","e:2oms"]
+.s "section:I60-I69"
+use_additional_code|["code to identify presence of:","alcohol abuse and dependence (F10.-)","exposure to environmental tobacco smoke (Z77.22)","history of tobacco dependence (Z87.891)","hypertension (I10-I1A)","occupational exposure to environmental tobacco smoke (Z57.31)","tobacco dependence (F17.-)","tobacco use (Z72.0)"]|["e:2qhz","e:2qi0","e:2qi1","e:2qi2","e:2qi3","e:2qi4","e:2qi5","e:2qi7","e:2qi8"]
+.s "section:J09-J18"
+use_additional_code|["code, if applicable, to identify resistance to antimicrobial drugs (Z16.-)"]|["e:2vc2","e:2vc3"]
+.s "section:L00-L08"
+use_additional_code|["code (B95-B97) to identify infectious agent."]|["e:3277","e:3278"]
+.s "section:Q35-Q37"
+use_additional_code|["code to identify associated malformation of the nose (Q30.2)"]|["e:71s","e:71t"]
+.s "section:T15-T19"
+use_additional_code|["code, if known, for foreign body entering into or through a natural orifice (W44.-)"]|["e:12sn","e:12so"]
+.s "section:T20-T25"
+use_additional_code|["code from category T31 or T32 to identify extent of body surface involved"]|["e:1392","e:1393"]
+.s "section:T36-T50"
+use_additional_code|["code(s) to specify:","manifestations of poisoning","underdosing or failure in dosage during medical and surgical care (Y63.6, Y63.8-Y63.9)","underdosing of medication regimen (Z91.12-, Z91.13-)"]|["e:1765","e:1766","e:1768","e:1769","e:176a"]
+.s "section:T51-T65"
+use_additional_code|["code(s):","for all associated manifestations of toxic effect, such as: respiratory conditions due to external agents (J60-J70)","personal history of foreign body fully removed (Z87.821)","to identify any retained foreign body, if applicable (Z18.-)"]|["e:1b98","e:1b99","e:1b9a","e:1b9b","e:1b9c"]
+.s "section:T80-T88"
+use_additional_code|["code for adverse effect, if applicable, to identify drug (T36-T50 with fifth or sixth character 5)"]|["e:1ejv","e:1ejw"]
+use_additional_code|["code(s) to identify the specified condition resulting from the complication"]|["e:1ejx","e:1ejz"]
+use_additional_code|["code to identify devices involved and details of circumstances (Y62-Y82)"]|["e:1ek0","e:1ek1"]
+.s "section:V00-V99"
+use_additional_code|["code to identify:","Airbag injury (W22.1)","Type of street or road (Y92.4-)","Use of cellular telephone and other electronic equipment at the time of the transport accident (Y93.C-)"]|["e:1he9","e:1hea","e:1heb","e:1hec","e:1hed"]
+.end 844 175f7ebec28dc6b26caeb2ece02bbe2d9003877c6577337f18218d550a435434

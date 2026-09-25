@@ -1,0 +1,9 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/neoplasm_table
+.s "index:neoplasm"
+code_selection|["The list below gives the code numbers for neoplasms by anatomical site. For each site there are six possible code numbers according to whether the neoplasm in question is malignant, benign, in situ, of uncertain behavior, or of unspecified nature.The description of the neoplasm will often indicate which of the six columns is appropriate; e.g., malignant melanoma of skin, benign fibroadenoma of breast, carcinoma in situ of cervix uteri.","Where such descriptors are not present, the remainder of the Index should be consulted where guidance is given to the appropriate column for each morphological (histological) variety listed; e.g., Mesonephroma -see Neoplasm, malignant; Embryoma -see also Neoplasm, uncertain behavior; Disease, Bowen's -see Neoplasm, skin, in situ. However, the guidance in the Index can be overridden if one of the descriptors mentioned above is present; e.g., malignant adenoma of colon is coded to C18.9 and not to D12.6 as the adjective 'malignant' overrides the Index entry 'Adenoma - see also Neoplasm, benign.'","Codes listed with a dash (-) following the code have a required additional character for laterality. The Tabular must be reviewed for the complete code."]|["e:d7p6","e:d7q8","e:d8b7"]
+.end 1 1daa1adff74a5abbfb1aab26dae63bfc366f8332f7e4a25c79f8ed25f228ed42

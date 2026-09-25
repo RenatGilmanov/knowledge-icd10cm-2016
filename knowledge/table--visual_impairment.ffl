@@ -1,0 +1,9 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat table/visual_impairment
+.s "cm:H54.8"
+acuity_criteria|{"categories":[{"category":"1","ranges":[{"at_least":"6/60","less_than":"6/18"},{"at_least":"1/10(0.1)","less_than":"3/10(0.3)"},{"at_least":"20/200","less_than":"20/70"}]},{"category":"2","ranges":[{"at_least":"3/60","less_than":"6/60"},{"at_least":"1/20(0.05)","less_than":"1/10(0.1)"},{"at_least":"20/400","less_than":"20/200"}]},{"category":"3","ranges":[{"at_least":"1/60(finger counting at one meter)","less_than":"3/60"},{"at_least":"1/50(0.02)","less_than":"1/20(0.05)"},{"at_least":"5/300(20/1200)","less_than":"20/400"}]},{"category":"4","ranges":[{"at_least":"Light perception","less_than":"1/60(finger counting at one meter)"},{"less_than":"1/50(0.02)"},{"less_than":"5/300"}]},{"category":"5","condition":"No light perception"},{"category":"9","condition":"Undetermined or unspecified"}],"measure":"Visual acuity with best possible correction"}|"e:2lg7"
+.end 1 af483fa4ba1ceca04baa0072a4b42d258c53e3bb80b0dd9b0de67de068359eb7

@@ -1,0 +1,2047 @@
+{
+  "schema": "freefact.graph-view/1",
+  "id": "02-rule-connections",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "All 22 chapters. The 24 strongest of 315 directed cross-chapter pairs are drawn; each weight counts literal occurrences of registered codes in scoped rule text. These are textual references, not patient associations or inferred coding rules.",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "nodes": [
+    {
+      "id": "chapter:1",
+      "label": "Certain infectious and parasitic diseases (A00-B99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 227,
+      "incoming_mentions": 588
+    },
+    {
+      "id": "chapter:2",
+      "label": "Neoplasms (C00-D49)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 483,
+      "incoming_mentions": 473
+    },
+    {
+      "id": "chapter:3",
+      "label": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 242,
+      "incoming_mentions": 174
+    },
+    {
+      "id": "chapter:4",
+      "label": "Endocrine, nutritional and metabolic diseases (E00-E89)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 295,
+      "incoming_mentions": 351
+    },
+    {
+      "id": "chapter:5",
+      "label": "Mental, Behavioral and Neurodevelopmental disorders (F01-F99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 309,
+      "incoming_mentions": 482
+    },
+    {
+      "id": "chapter:6",
+      "label": "Diseases of the nervous system (G00-G99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 434,
+      "incoming_mentions": 214
+    },
+    {
+      "id": "chapter:7",
+      "label": "Diseases of the eye and adnexa (H00-H59)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 110,
+      "incoming_mentions": 58
+    },
+    {
+      "id": "chapter:8",
+      "label": "Diseases of the ear and mastoid process (H60-H95)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 51,
+      "incoming_mentions": 17
+    },
+    {
+      "id": "chapter:9",
+      "label": "Diseases of the circulatory system (I00-I99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 478,
+      "incoming_mentions": 350
+    },
+    {
+      "id": "chapter:10",
+      "label": "Diseases of the respiratory system (J00-J99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 401,
+      "incoming_mentions": 314
+    },
+    {
+      "id": "chapter:11",
+      "label": "Diseases of the digestive system (K00-K95)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 417,
+      "incoming_mentions": 285
+    },
+    {
+      "id": "chapter:12",
+      "label": "Diseases of the skin and subcutaneous tissue (L00-L99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 233,
+      "incoming_mentions": 156
+    },
+    {
+      "id": "chapter:13",
+      "label": "Diseases of the musculoskeletal system and connective tissue (M00-M99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 333,
+      "incoming_mentions": 238
+    },
+    {
+      "id": "chapter:14",
+      "label": "Diseases of the genitourinary system (N00-N99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 326,
+      "incoming_mentions": 236
+    },
+    {
+      "id": "chapter:15",
+      "label": "Pregnancy, childbirth and the puerperium (O00-O9A)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 251,
+      "incoming_mentions": 305
+    },
+    {
+      "id": "chapter:16",
+      "label": "Certain conditions originating in the perinatal period (P00-P96)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 130,
+      "incoming_mentions": 251
+    },
+    {
+      "id": "chapter:17",
+      "label": "Congenital malformations, deformations and chromosomal abnormalities (Q00-QA0)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 166,
+      "incoming_mentions": 267
+    },
+    {
+      "id": "chapter:18",
+      "label": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 383,
+      "incoming_mentions": 306
+    },
+    {
+      "id": "chapter:19",
+      "label": "Injury, poisoning and certain other consequences of external causes (S00-T88)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 685,
+      "incoming_mentions": 633
+    },
+    {
+      "id": "chapter:20",
+      "label": "External causes of morbidity (V00-Y99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 561,
+      "incoming_mentions": 637
+    },
+    {
+      "id": "chapter:21",
+      "label": "Factors influencing health status and contact with health services (Z00-Z99)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 321,
+      "incoming_mentions": 509
+    },
+    {
+      "id": "chapter:22",
+      "label": "Codes for special purposes (U00-U85)",
+      "category": "Clinical chapter",
+      "outgoing_mentions": 16,
+      "incoming_mentions": 8
+    }
+  ],
+  "edges": [
+    {
+      "source": "chapter:7",
+      "target": "chapter:4",
+      "weight": 27,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:6",
+      "target": "chapter:19",
+      "weight": 27,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:18",
+      "target": "chapter:6",
+      "weight": 27,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:18",
+      "target": "chapter:14",
+      "weight": 27,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:9",
+      "target": "chapter:17",
+      "weight": 29,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:21",
+      "target": "chapter:19",
+      "weight": 29,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:14",
+      "target": "chapter:18",
+      "weight": 30,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:5",
+      "target": "chapter:18",
+      "weight": 32,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:6",
+      "target": "chapter:18",
+      "weight": 33,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:3",
+      "target": "chapter:2",
+      "weight": 36,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:18",
+      "target": "chapter:16",
+      "weight": 36,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:10",
+      "target": "chapter:21",
+      "weight": 38,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:21",
+      "target": "chapter:2",
+      "weight": 42,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:9",
+      "target": "chapter:21",
+      "weight": 44,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:9",
+      "target": "chapter:1",
+      "weight": 44,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:13",
+      "target": "chapter:1",
+      "weight": 45,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:18",
+      "target": "chapter:5",
+      "weight": 48,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:10",
+      "target": "chapter:1",
+      "weight": 51,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:11",
+      "target": "chapter:1",
+      "weight": 54,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:6",
+      "target": "chapter:1",
+      "weight": 59,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:19",
+      "target": "chapter:20",
+      "weight": 69,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:14",
+      "target": "chapter:1",
+      "weight": 69,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:2",
+      "target": "chapter:21",
+      "weight": 85,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    },
+    {
+      "source": "chapter:6",
+      "target": "chapter:5",
+      "weight": 142,
+      "label": "literal mentions of registered codes",
+      "kind": "aggregate",
+      "aggregation": "chapter_rule_mentions"
+    }
+  ],
+  "facts": [],
+  "notes": {
+    "selection": "Top 24 directed cross-chapter pairs by count; lexical source/target breaks ties.",
+    "available_cross_pairs": 315,
+    "all_registered_mentions": 6852,
+    "cross_mentions": 3144,
+    "drawn_mentions": 1123,
+    "all_aggregates": [
+      {
+        "source": "chapter:1",
+        "target": "chapter:1",
+        "count": 136
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:10",
+        "count": 14
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:11",
+        "count": 4
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:12",
+        "count": 2
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:14",
+        "count": 2
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:15",
+        "count": 15
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:16",
+        "count": 12
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:18",
+        "count": 8
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:19",
+        "count": 1
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:2",
+        "count": 4
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:21",
+        "count": 2
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:22",
+        "count": 2
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:4",
+        "count": 1
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:5",
+        "count": 16
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:6",
+        "count": 5
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:7",
+        "count": 1
+      },
+      {
+        "source": "chapter:1",
+        "target": "chapter:9",
+        "count": 2
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:1",
+        "count": 51
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:10",
+        "count": 217
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:11",
+        "count": 2
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:12",
+        "count": 1
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:13",
+        "count": 8
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:14",
+        "count": 1
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:15",
+        "count": 10
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:16",
+        "count": 24
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:17",
+        "count": 4
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:18",
+        "count": 9
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:19",
+        "count": 18
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:2",
+        "count": 2
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:20",
+        "count": 1
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:21",
+        "count": 38
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:22",
+        "count": 1
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:3",
+        "count": 2
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:4",
+        "count": 4
+      },
+      {
+        "source": "chapter:10",
+        "target": "chapter:9",
+        "count": 8
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:1",
+        "count": 54
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:11",
+        "count": 190
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:12",
+        "count": 8
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:13",
+        "count": 2
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:14",
+        "count": 12
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:15",
+        "count": 6
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:16",
+        "count": 11
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:17",
+        "count": 26
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:18",
+        "count": 17
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:19",
+        "count": 7
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:2",
+        "count": 15
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:20",
+        "count": 3
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:21",
+        "count": 23
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:3",
+        "count": 3
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:4",
+        "count": 19
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:5",
+        "count": 10
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:6",
+        "count": 2
+      },
+      {
+        "source": "chapter:11",
+        "target": "chapter:9",
+        "count": 6
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:1",
+        "count": 11
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:10",
+        "count": 6
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:11",
+        "count": 10
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:12",
+        "count": 94
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:13",
+        "count": 8
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:14",
+        "count": 14
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:15",
+        "count": 1
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:16",
+        "count": 3
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:17",
+        "count": 14
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:18",
+        "count": 2
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:19",
+        "count": 7
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:2",
+        "count": 1
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:20",
+        "count": 6
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:3",
+        "count": 2
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:4",
+        "count": 26
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:5",
+        "count": 3
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:7",
+        "count": 9
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:8",
+        "count": 2
+      },
+      {
+        "source": "chapter:12",
+        "target": "chapter:9",
+        "count": 14
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:1",
+        "count": 45
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:10",
+        "count": 6
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:11",
+        "count": 7
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:12",
+        "count": 11
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:13",
+        "count": 132
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:14",
+        "count": 9
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:15",
+        "count": 1
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:16",
+        "count": 2
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:17",
+        "count": 23
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:18",
+        "count": 7
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:19",
+        "count": 10
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:2",
+        "count": 4
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:20",
+        "count": 1
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:21",
+        "count": 7
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:22",
+        "count": 2
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:3",
+        "count": 12
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:4",
+        "count": 17
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:5",
+        "count": 6
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:6",
+        "count": 20
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:7",
+        "count": 2
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:8",
+        "count": 1
+      },
+      {
+        "source": "chapter:13",
+        "target": "chapter:9",
+        "count": 8
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:1",
+        "count": 69
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:11",
+        "count": 3
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:13",
+        "count": 10
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:14",
+        "count": 114
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:15",
+        "count": 20
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:16",
+        "count": 8
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:17",
+        "count": 11
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:18",
+        "count": 30
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:19",
+        "count": 3
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:2",
+        "count": 12
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:20",
+        "count": 1
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:21",
+        "count": 4
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:3",
+        "count": 4
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:4",
+        "count": 21
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:5",
+        "count": 7
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:6",
+        "count": 3
+      },
+      {
+        "source": "chapter:14",
+        "target": "chapter:9",
+        "count": 3
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:1",
+        "count": 6
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:11",
+        "count": 2
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:13",
+        "count": 2
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:15",
+        "count": 182
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:16",
+        "count": 2
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:18",
+        "count": 2
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:19",
+        "count": 8
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:2",
+        "count": 2
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:21",
+        "count": 20
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:4",
+        "count": 10
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:5",
+        "count": 6
+      },
+      {
+        "source": "chapter:15",
+        "target": "chapter:9",
+        "count": 9
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:1",
+        "count": 11
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:12",
+        "count": 7
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:15",
+        "count": 3
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:16",
+        "count": 77
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:17",
+        "count": 6
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:18",
+        "count": 5
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:21",
+        "count": 7
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:3",
+        "count": 2
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:4",
+        "count": 8
+      },
+      {
+        "source": "chapter:16",
+        "target": "chapter:6",
+        "count": 1
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:1",
+        "count": 1
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:10",
+        "count": 1
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:12",
+        "count": 4
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:13",
+        "count": 2
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:14",
+        "count": 5
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:16",
+        "count": 6
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:17",
+        "count": 98
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:18",
+        "count": 1
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:2",
+        "count": 4
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:3",
+        "count": 1
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:4",
+        "count": 11
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:5",
+        "count": 3
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:6",
+        "count": 11
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:7",
+        "count": 4
+      },
+      {
+        "source": "chapter:17",
+        "target": "chapter:9",
+        "count": 14
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:1",
+        "count": 13
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:10",
+        "count": 14
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:11",
+        "count": 22
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:12",
+        "count": 2
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:13",
+        "count": 11
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:14",
+        "count": 27
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:15",
+        "count": 13
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:16",
+        "count": 36
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:17",
+        "count": 5
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:18",
+        "count": 89
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:19",
+        "count": 18
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:2",
+        "count": 10
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:21",
+        "count": 3
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:3",
+        "count": 7
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:4",
+        "count": 18
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:5",
+        "count": 48
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:6",
+        "count": 27
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:7",
+        "count": 2
+      },
+      {
+        "source": "chapter:18",
+        "target": "chapter:9",
+        "count": 18
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:1",
+        "count": 2
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:10",
+        "count": 11
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:11",
+        "count": 18
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:12",
+        "count": 18
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:13",
+        "count": 16
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:14",
+        "count": 3
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:15",
+        "count": 14
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:16",
+        "count": 1
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:18",
+        "count": 12
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:19",
+        "count": 476
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:2",
+        "count": 2
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:20",
+        "count": 69
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:21",
+        "count": 11
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:3",
+        "count": 3
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:4",
+        "count": 5
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:5",
+        "count": 12
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:6",
+        "count": 4
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:7",
+        "count": 3
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:8",
+        "count": 2
+      },
+      {
+        "source": "chapter:19",
+        "target": "chapter:9",
+        "count": 3
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:1",
+        "count": 3
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:11",
+        "count": 4
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:14",
+        "count": 7
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:15",
+        "count": 2
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:16",
+        "count": 14
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:17",
+        "count": 10
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:18",
+        "count": 3
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:2",
+        "count": 332
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:21",
+        "count": 85
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:3",
+        "count": 17
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:4",
+        "count": 2
+      },
+      {
+        "source": "chapter:2",
+        "target": "chapter:8",
+        "count": 1
+      },
+      {
+        "source": "chapter:20",
+        "target": "chapter:19",
+        "count": 2
+      },
+      {
+        "source": "chapter:20",
+        "target": "chapter:20",
+        "count": 554
+      },
+      {
+        "source": "chapter:20",
+        "target": "chapter:21",
+        "count": 4
+      },
+      {
+        "source": "chapter:20",
+        "target": "chapter:5",
+        "count": 1
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:1",
+        "count": 8
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:10",
+        "count": 2
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:11",
+        "count": 2
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:13",
+        "count": 1
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:14",
+        "count": 4
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:15",
+        "count": 5
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:16",
+        "count": 4
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:18",
+        "count": 6
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:19",
+        "count": 29
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:2",
+        "count": 42
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:21",
+        "count": 199
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:22",
+        "count": 1
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:4",
+        "count": 5
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:5",
+        "count": 8
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:6",
+        "count": 1
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:7",
+        "count": 2
+      },
+      {
+        "source": "chapter:21",
+        "target": "chapter:9",
+        "count": 2
+      },
+      {
+        "source": "chapter:22",
+        "target": "chapter:10",
+        "count": 6
+      },
+      {
+        "source": "chapter:22",
+        "target": "chapter:13",
+        "count": 1
+      },
+      {
+        "source": "chapter:22",
+        "target": "chapter:18",
+        "count": 5
+      },
+      {
+        "source": "chapter:22",
+        "target": "chapter:3",
+        "count": 4
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:1",
+        "count": 17
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:11",
+        "count": 2
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:12",
+        "count": 2
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:13",
+        "count": 5
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:14",
+        "count": 7
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:15",
+        "count": 10
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:16",
+        "count": 12
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:17",
+        "count": 4
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:18",
+        "count": 15
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:19",
+        "count": 6
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:2",
+        "count": 36
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:20",
+        "count": 2
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:21",
+        "count": 5
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:22",
+        "count": 1
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:3",
+        "count": 97
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:4",
+        "count": 11
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:6",
+        "count": 2
+      },
+      {
+        "source": "chapter:3",
+        "target": "chapter:9",
+        "count": 5
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:1",
+        "count": 14
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:10",
+        "count": 7
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:11",
+        "count": 3
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:14",
+        "count": 8
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:15",
+        "count": 3
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:16",
+        "count": 21
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:17",
+        "count": 14
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:18",
+        "count": 16
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:19",
+        "count": 4
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:2",
+        "count": 4
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:21",
+        "count": 17
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:3",
+        "count": 11
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:4",
+        "count": 148
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:6",
+        "count": 16
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:7",
+        "count": 3
+      },
+      {
+        "source": "chapter:4",
+        "target": "chapter:9",
+        "count": 6
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:1",
+        "count": 4
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:12",
+        "count": 2
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:13",
+        "count": 1
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:14",
+        "count": 2
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:15",
+        "count": 1
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:18",
+        "count": 32
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:21",
+        "count": 23
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:4",
+        "count": 5
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:5",
+        "count": 217
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:6",
+        "count": 18
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:8",
+        "count": 2
+      },
+      {
+        "source": "chapter:5",
+        "target": "chapter:9",
+        "count": 2
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:1",
+        "count": 59
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:11",
+        "count": 4
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:13",
+        "count": 23
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:14",
+        "count": 8
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:15",
+        "count": 5
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:16",
+        "count": 8
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:17",
+        "count": 7
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:18",
+        "count": 33
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:19",
+        "count": 27
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:21",
+        "count": 4
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:22",
+        "count": 1
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:3",
+        "count": 6
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:4",
+        "count": 8
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:5",
+        "count": 142
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:6",
+        "count": 82
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:7",
+        "count": 6
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:8",
+        "count": 1
+      },
+      {
+        "source": "chapter:6",
+        "target": "chapter:9",
+        "count": 7
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:1",
+        "count": 21
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:13",
+        "count": 1
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:16",
+        "count": 4
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:17",
+        "count": 14
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:18",
+        "count": 1
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:19",
+        "count": 3
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:21",
+        "count": 5
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:3",
+        "count": 1
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:4",
+        "count": 27
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:6",
+        "count": 6
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:7",
+        "count": 25
+      },
+      {
+        "source": "chapter:7",
+        "target": "chapter:9",
+        "count": 2
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:1",
+        "count": 19
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:10",
+        "count": 3
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:16",
+        "count": 2
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:17",
+        "count": 2
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:18",
+        "count": 2
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:19",
+        "count": 1
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:2",
+        "count": 1
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:21",
+        "count": 8
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:4",
+        "count": 1
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:5",
+        "count": 3
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:6",
+        "count": 1
+      },
+      {
+        "source": "chapter:8",
+        "target": "chapter:8",
+        "count": 8
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:1",
+        "count": 44
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:10",
+        "count": 9
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:11",
+        "count": 12
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:12",
+        "count": 5
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:13",
+        "count": 15
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:14",
+        "count": 13
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:15",
+        "count": 14
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:16",
+        "count": 4
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:17",
+        "count": 29
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:18",
+        "count": 11
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:19",
+        "count": 13
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:2",
+        "count": 2
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:21",
+        "count": 44
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:3",
+        "count": 2
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:4",
+        "count": 4
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:6",
+        "count": 15
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:7",
+        "count": 1
+      },
+      {
+        "source": "chapter:9",
+        "target": "chapter:9",
+        "count": 241
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat release/edition
+.s "ICD-10-CM:2026-04-01"
+edition|"2026"|["e:22ml","e:47sd","e:5hcv","e:863l","e:bda1"]
+guideline_period|{"from":"2026-04-01","through":"2026-09-30"}|"e:26r"
+.end 2 26287f9e50760b6719156d333eaaf8c1d243045c472b3692d92424923880a5e1

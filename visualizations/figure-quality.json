@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "method": "Actual Pango glyph widths with Arial, measured per SVG text line; canvas bounds and pairwise text collision checks. Complemented by manual review of all five raster figures.",
+  "figures": [
+    {
+      "id": "01-knowledge-map",
+      "text_lines": 123,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "02-rule-connections",
+      "text_lines": 134,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "03-diabetes-neighborhood",
+      "text_lines": 65,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "04-drug-table",
+      "text_lines": 72,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "05-visual-acuity",
+      "text_lines": 86,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    }
+  ],
+  "rasterization": {
+    "renderer": "D3 7.9 + Sharp/libvips; embedded styling, local fonts, no external assets",
+    "versions": {
+      "aom": "3.13.1",
+      "archive": "3.8.2",
+      "cairo": "1.18.4",
+      "cgif": "0.5.0",
+      "exif": "0.6.25",
+      "expat": "2.7.3",
+      "ffi": "3.5.2",
+      "fontconfig": "2.17.1",
+      "freetype": "2.14.1",
+      "fribidi": "1.0.16",
+      "glib": "2.86.1",
+      "harfbuzz": "12.1.0",
+      "heif": "1.20.2",
+      "highway": "1.3.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.17",
+      "mozjpeg": "0826579",
+      "pango": "1.57.0",
+      "pixman": "0.46.4",
+      "png": "1.6.50",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.61.2",
+      "spng": "0.7.4",
+      "tiff": "4.7.1",
+      "vips": "8.17.3",
+      "webp": "1.6.0",
+      "xml2": "2.15.1",
+      "zlib-ng": "2.2.5",
+      "sharp": "0.34.5"
+    },
+    "figures": [
+      {
+        "id": "01-knowledge-map",
+        "svg": "visualizations/01-knowledge-map.svg",
+        "png": "visualizations/01-knowledge-map.png",
+        "svg_sha256": "127f4c110a8dc9f9856376a0317f5e61026943b91ad17268aa0998302f4f97f2",
+        "png_sha256": "31c7ce88caba975776c4061cc19e0a4a97cbcdbac0fa1f3098bc3a9773ec2e5a",
+        "viewbox": [
+          2580,
+          2090
+        ],
+        "png_pixels": [
+          5160,
+          4180
+        ],
+        "nodes": 30,
+        "edges": 113,
+        "scope": "Weighted overview: exact index/table-to-registry references and scoped rule groups, aggregated by 22 chapters. Guideline prose has separate scope. Counts do not measure clinical importance.",
+        "svg_text_elements": 115
+      },
+      {
+        "id": "02-rule-connections",
+        "svg": "visualizations/02-rule-connections.svg",
+        "png": "visualizations/02-rule-connections.png",
+        "svg_sha256": "91e27417da2208add839f87a0c598a15d8e6ed722a9027805def3e5d956b264e",
+        "png_sha256": "708c471a10586d39bcffba8cf7a4ae3d6f10bab152faeb6f205ea0f57d634ee8",
+        "viewbox": [
+          2520,
+          1990
+        ],
+        "png_pixels": [
+          5040,
+          3980
+        ],
+        "nodes": 22,
+        "edges": 24,
+        "scope": "All 22 chapters. The 24 strongest of 315 directed cross-chapter pairs are drawn; each weight counts literal occurrences of registered codes in scoped rule text. These are textual references, not patient associations or inferred coding rules.",
+        "svg_text_elements": 134
+      },
+      {
+        "id": "03-diabetes-neighborhood",
+        "svg": "visualizations/03-diabetes-neighborhood.svg",
+        "png": "visualizations/03-diabetes-neighborhood.png",
+        "svg_sha256": "e2f0f1cb1bf5680c1384267fea7b9de586ac6ec33e18ea9d4e42fb51db956603",
+        "png_sha256": "f7a4c13a771b1ab90f210e6189f917060ad9fa4785997baf5dbc1e51ab503814",
+        "viewbox": [
+          2560,
+          1910
+        ],
+        "png_pixels": [
+          5120,
+          3820
+        ],
+        "nodes": 12,
+        "edges": 13,
+        "scope": "Selected E11.9 neighborhood. All two direct index pointers are shown. The figure selects two scoped instruction groups and their literal code mentions; it does not show every applicable rule.",
+        "svg_text_elements": 52
+      },
+      {
+        "id": "04-drug-table",
+        "svg": "visualizations/04-drug-table.svg",
+        "png": "visualizations/04-drug-table.png",
+        "svg_sha256": "19d27e351c3bf4f003cd41567545c13efe9d89ffff25adaadb3846896b4d6acb",
+        "png_sha256": "6240309b009ab3d8945c7e8bf7a65c4982a7070b572cea2250dd4c1b0b85590d",
+        "viewbox": [
+          2720,
+          2030
+        ],
+        "png_pixels": [
+          5440,
+          4060
+        ],
+        "nodes": 25,
+        "edges": 24,
+        "scope": "A complete six-cell row for the top-level Aspirin(aluminum) (soluble) drug-table subject. Each circumstance is an edge qualifier. The 18 encounter-specific descendants are exact seventh_character_of relationships.",
+        "svg_text_elements": 70
+      },
+      {
+        "id": "05-visual-acuity",
+        "svg": "visualizations/05-visual-acuity.svg",
+        "png": "visualizations/05-visual-acuity.png",
+        "svg_sha256": "3cb5a3e4432379095148ed91f1e962a3c8a0538aadaf948c698737097b12d9f3",
+        "png_sha256": "616c1416e4c3ddf78f0c3eac93ebed392c9329f36676411e1b3d71df37040ac3",
+        "viewbox": [
+          2680,
+          2070
+        ],
+        "png_pixels": [
+          5360,
+          4140
+        ],
+        "nodes": 10,
+        "edges": 9,
+        "scope": "Exact visual-acuity criteria attached to H54.8. The six category cards are object-value projections of one canonical fact, not new code entities or extra canonical facts. Lower bounds are inclusive; upper bounds are exclusive.",
+        "svg_text_elements": 82
+      }
+    ]
+  },
+  "manual_review": {
+    "all_five_figures_reviewed": true,
+    "checks": [
+      "Legible full node and edge labels at export size",
+      "No lines crossing drug-table qualifier labels or descendant code labels",
+      "Visible arrow direction in chapter network",
+      "Full ordered acuity thresholds, conditions and notes",
+      "Rule owners and distinct relationship styles visible"
+    ]
+  }
+}

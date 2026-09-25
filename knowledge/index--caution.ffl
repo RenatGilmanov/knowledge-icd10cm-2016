@@ -1,0 +1,13 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat index/caution
+.s "disease:T0NCOCn6c6cV"
+unresolved_code|"Z15.08"|["e:6bfh","e:d6g3"]|{"status":"absent_from_release"}
+.s "disease:VMJNS4DjGTP8"
+unresolved_code|"Q99.814"|["e:8zjw","e:d6z9"]|{"status":"absent_from_release"}
+.s "disease:t1v1zmyKooxx"
+unresolved_code|"Q99.814"|["e:8zk9","e:d7fe"]|{"status":"absent_from_release"}
+.end 3 964a7d105685a10aa7ce8a9ff805b2195b1bbdcde8b684067d559763286bf63e

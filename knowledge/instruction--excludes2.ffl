@@ -1,0 +1,2337 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/excludes2
+.s "chapter:1"
+excludes2|["carrier or suspected carrier of infectious disease (Z22.-)","infectious and parasitic diseases complicating pregnancy, childbirth and the puerperium (O98.-)","infectious and parasitic diseases specific to the perinatal period (P35-P39)","influenza and other acute respiratory infections (J00-J22)"]|["e:2ox2","e:2prx","e:2qms","e:2rhn","e:2scj"]
+.s "chapter:10"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","smoke inhalation (T59.81-)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:2v1j","e:2v1k","e:2v1l","e:2v1m","e:2v1n","e:2v1o","e:2v1p","e:2v1q","e:2v1r","e:2v1t"]
+.s "chapter:11"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:2xhi","e:2xhj","e:2xhk","e:2xhl","e:2xhm","e:2xhn","e:2xho","e:2xhs","e:2xht"]
+.s "chapter:12"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","lipomelanotic reticulosis (I89.8)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)","systemic connective tissue disorders (M30-M36)","viral warts (B07.-)"]|["e:326h","e:326i","e:326j","e:326l","e:326m","e:326n","e:326o","e:326p","e:326q","e:326r","e:326s"]
+.s "chapter:13"
+excludes2|["arthropathic psoriasis (L40.5-)","certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","compartment syndrome (traumatic) (T79.A-)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:36di","e:36dj","e:36dk","e:36dl","e:36dm","e:36dn","e:36do","e:36dp","e:36dq","e:36dr","e:36dt"]
+.s "chapter:14"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:3qbw","e:3qbx","e:3qby","e:3qc0","e:3qc1","e:3qc2","e:3qc3","e:3qc4","e:3qc5"]
+.s "chapter:15"
+excludes2|["mental and behavioral disorders associated with the puerperium (F53.-)","obstetrical tetanus (A34)","postpartum necrosis of pituitary gland (E23.0)","puerperal osteomalacia (M83.0)"]|["e:3uej","e:3uek","e:3uem","e:3uen","e:3ueo"]
+.s "chapter:16"
+excludes2|["congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","tetanus neonatorum (A33)"]|["e:3od","e:3oe","e:3of","e:3og","e:3oh","e:3oi"]
+.s "chapter:17"
+excludes2|["inborn errors of metabolism (E70-E88)"]|["e:5tp","e:5tq"]
+.s "chapter:18"
+excludes2|["abnormal findings on antenatal screening of mother (O28.-)","certain conditions originating in the perinatal period (P04-P96)","signs and symptoms classified in the body system chapters","signs and symptoms of breast (N63, N64.5)"]|["e:a0y","e:a10","e:a11","e:a12","e:a13"]
+.s "chapter:19"
+excludes2|["birth trauma (P10-P15)","obstetric trauma (O70-O71)"]|["e:doy","e:doz","e:dp0"]
+.s "chapter:3"
+excludes2|["autoimmune disease (systemic) NOS (M35.9)","certain conditions originating in the perinatal period (P00-P96)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","human immunodeficiency virus [HIV] disease (B20)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:16af","e:16aq","e:16b1","e:16bc","e:16bn","e:16by","e:16c9","e:16ck","e:16cv","e:16d6"]
+.s "chapter:5"
+excludes2|["symptoms, signs and abnormal clinical laboratory findings, not elsewhere classified (R00-R99)"]|["e:2476","e:2477"]
+.s "chapter:6"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:28ve","e:28vf","e:28vg","e:28vh","e:28vi","e:28vj","e:28vk","e:28vl","e:28vn"]
+.s "chapter:7"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99)","diabetes mellitus related eye conditions (E09.3-, E10.3-, E11.3-, E13.3-)","endocrine, nutritional and metabolic diseases (E00-E88)","injury (trauma) of eye and orbit (S05.-)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)","syphilis related eye disorders (A50.01, A50.3-, A51.43, A52.71)"]|["e:2crv","e:2crw","e:2crx","e:2cry","e:2crz","e:2cs0","e:2cs1","e:2cs3","e:2cs4","e:2cs5","e:2cs6","e:2cs7"]
+.s "chapter:8"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)"]|["e:2lvq","e:2lvr","e:2lvs","e:2lvt","e:2lvv","e:2lvw","e:2lvx","e:2lvy","e:2lvz"]
+.s "chapter:9"
+excludes2|["certain conditions originating in the perinatal period (P04-P96)","certain infectious and parasitic diseases (A00-B99)","complications of pregnancy, childbirth and the puerperium (O00-O9A)","congenital malformations, deformations, and chromosomal abnormalities (Q00-Q99)","endocrine, nutritional and metabolic diseases (E00-E88)","injury, poisoning and certain other consequences of external causes (S00-T88)","neoplasms (C00-D49)","symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R94)","systemic connective tissue disorders (M30-M36)","transient cerebral ischemic attacks and related syndromes (G45.-)"]|["e:2oej","e:2oem","e:2oen","e:2oeo","e:2oep","e:2oeq","e:2oer","e:2oes","e:2oet","e:2oeu","e:2oev"]
+.s "cm:A06"
+excludes2|["acanthamebiasis (B60.1-)","Naegleriasis (B60.2)"]|["e:2chk","e:2ckn","e:2cnq"]
+.s "cm:A17.1"
+excludes2|["tuberculoma of brain and spinal cord (A17.81)"]|["e:2xem","e:2xhq"]
+.s "cm:A18.2"
+excludes2|["tuberculosis of bronchial and mediastinal lymph nodes (A15.4)","tuberculosis of mesenteric and retroperitoneal lymph nodes (A18.39)","tuberculous tracheobronchial adenopathy (A15.4)"]|["e:368j","e:36bm","e:36ep","e:36hs"]
+.s "cm:A18.4"
+excludes2|["lupus erythematosus (L93.-)","systemic lupus erythematosus (M32.-)"]|["e:395g","e:398j","e:39bm"]
+.s "cm:A18.5"
+excludes2|["lupus vulgaris of eyelid (A18.4)"]|["e:39o0","e:39r3"]
+.s "cm:A18.6"
+excludes2|["tuberculosis of external ear (A18.4)","tuberculous mastoiditis (A18.03)"]|["e:3c8l","e:3cbo","e:3cer"]
+.s "cm:A31"
+excludes2|["leprosy (A30.-)","tuberculosis (A15-A19)"]|["e:8lg","e:8oj","e:8rm"]
+.s "cm:A36.3"
+excludes2|["erythrasma (L08.1)"]|["e:hif","e:hli"]
+.s "cm:A38"
+excludes2|["streptococcal sore throat (J02.0)"]|["e:ogf","e:oji"]
+.s "cm:A41"
+excludes2|["sepsis (due to) (in) actinomycotic (A42.7)","sepsis (due to) (in) anthrax (A22.7)","sepsis (due to) (in) candidal (B37.7)","sepsis (due to) (in) Erysipelothrix (A26.7)","sepsis (due to) (in) extraintestinal yersiniosis (A28.2)","sepsis (due to) (in) gonococcal (A54.86)","sepsis (due to) (in) herpesviral (B00.7)","sepsis (due to) (in) listerial (A32.7)","sepsis (due to) (in) melioidosis (A24.1)","sepsis (due to) (in) meningococcal (A39.2-A39.4)","sepsis (due to) (in) plague (A20.7)","sepsis (due to) (in) tularemia (A21.7)","toxic shock syndrome (A48.3)"]|["e:1013","e:1046","e:z01","e:z35","e:z68","e:z9b","e:zce","e:zfh","e:zik","e:zln","e:zoq","e:zrt","e:zuw","e:zy0"]
+.s "cm:A54.42"
+excludes2|["gonococcal infection of spine (A54.41)"]|["e:23gv","e:23h6"]
+.s "cm:A54.43"
+excludes2|["gonococcal infection of spine (A54.41)"]|["e:23ig","e:23ir"]
+.s "cm:A56"
+excludes2|["chlamydial lymphogranuloma (A55)","conditions classified to A74.-"]|["e:243q","e:2441","e:244c"]
+.s "cm:A59"
+excludes2|["intestinal trichomoniasis (A07.8)"]|["e:24lb","e:24ln"]
+.s "cm:A63"
+excludes2|["molluscum contagiosum (B08.1)","papilloma of cervix (D26.0)"]|["e:256a","e:256l","e:256w"]
+.s "cm:A68"
+excludes2|["Lyme disease (A69.2-)"]|["e:26ca","e:26cl"]
+.s "cm:A74"
+excludes2|["chlamydial pneumonia (J16.0)"]|["e:279m","e:279x"]
+.s "cm:A83"
+excludes2|["Venezuelan equine encephalitis (A92.2)","West Nile fever (A92.3-)","West Nile virus (A92.3-)"]|["e:29oc","e:29on","e:29oy","e:29p9"]
+.s "cm:B00"
+excludes2|["anogenital herpesviral infection (A60.-)","gammaherpesviral mononucleosis (B27.0-)","herpangina (B08.5)"]|["e:2cm7","e:2cmi","e:2cmt","e:2cn4"]
+.s "cm:B07"
+excludes2|["anogenital (venereal) warts (A63.0)","papilloma of bladder (D41.4)","papilloma of cervix (D26.0)","papilloma larynx (D14.1)"]|["e:2f5v","e:2f66","e:2f6h","e:2f6s","e:2f73"]
+.s "cm:B08.0"
+excludes2|["monkeypox (B04)"]|["e:2fei","e:2fet"]
+.s "cm:B10"
+excludes2|["cytomegalovirus (B25.9)","Epstein-Barr virus (B27.0-)","herpes NOS (B00.9)","herpes simplex (B00.-)","herpes zoster (B02.-)","human herpesvirus NOS (B00.-)","human herpesvirus 1 and 2 (B00.-)","human herpesvirus 3 (B01.-, B02.-)","human herpesvirus 4 (B27.0-)","human herpesvirus 5 (B25.-)","varicella (B01.-)","zoster (B02.-)"]|["e:2geb","e:2gem","e:2gex","e:2gf8","e:2gfk","e:2gfv","e:2gg6","e:2ggh","e:2ggs","e:2gh3","e:2ghe","e:2ghp","e:2gi0"]
+.s "cm:B10.0"
+excludes2|["herpes encephalitis NOS (B00.4)","herpes simplex encephalitis (B00.4)","human herpesvirus encephalitis (B00.4)","simian B herpes virus encephalitis (B00.4)"]|["e:2gj9","e:2gjk","e:2gjv","e:2gk6","e:2gkh"]
+.s "cm:B37.2"
+excludes2|["diaper dermatitis (L22)"]|["e:2lhb","e:2lho"]
+.s "cm:B70.0"
+excludes2|["larval diphyllobothriasis (B70.1)"]|["e:2tc2","e:2tcd"]
+.s "cm:B74"
+excludes2|["onchocerciasis (B73)","tropical (pulmonary) eosinophilia NOS (J82.89)"]|["e:2tx1","e:2txc","e:2txn"]
+.s "cm:B81.1"
+excludes2|["hepatic capillariasis (B83.8)"]|["e:2v2p","e:2v30"]
+.s "cm:B83"
+excludes2|["intestinal capillariasis (B81.1)"]|["e:2vef","e:2veq"]
+.s "cm:B83.2"
+excludes2|["intestinal angiostrongyliasis (B81.3)"]|["e:2vjo","e:2vjz"]
+.s "cm:B83.4"
+excludes2|["external hirudiniasis (B88.3)"]|["e:2vmr","e:2vn2"]
+.s "cm:B88.0"
+excludes2|["scabies (B86)"]|["e:2whb","e:2whm"]
+.s "cm:B88.3"
+excludes2|["internal hirudiniasis (B83.4)"]|["e:2wqw","e:2wr7"]
+.s "cm:B90.8"
+excludes2|["sequelae of respiratory tuberculosis (B90.9)"]|["e:2x38","e:2x3j"]
+.s "cm:B94.9"
+excludes2|["post COVID-19 condition (U09.9)"]|["e:2xde","e:2xdp"]
+.s "cm:C02.0"
+excludes2|["malignant neoplasm of dorsal surface of base of tongue (C01)"]|["e:30eo","e:30ez"]
+.s "cm:C02.4"
+excludes2|["malignant neoplasm of tonsil NOS (C09.9)"]|["e:30lg","e:30lr"]
+.s "cm:C03"
+excludes2|["malignant odontogenic neoplasms (C41.0-C41.1)"]|["e:30s8","e:30sj"]
+.s "cm:C05.1"
+excludes2|["malignant neoplasm of nasopharyngeal surface of soft palate (C11.3)"]|["e:3180","e:318b"]
+.s "cm:C08"
+excludes2|["malignant neoplasms of minor salivary glands NOS (C06.9)","malignant neoplasm of parotid gland (C07)"]|["e:31xb","e:31xm","e:31xx"]
+.s "cm:C09"
+excludes2|["malignant neoplasm of lingual tonsil (C02.4)","malignant neoplasm of pharyngeal tonsil (C11.1)"]|["e:325y","e:3269","e:326k"]
+.s "cm:C10"
+excludes2|["malignant neoplasm of tonsil (C09.-)"]|["e:32fi","e:32ft"]
+.s "cm:C10.1"
+excludes2|["malignant neoplasm of epiglottis (suprahyoid portion) NOS (C32.1)"]|["e:32iw","e:32j7"]
+.s "cm:C13"
+excludes2|["malignant neoplasm of pyriform sinus (C12)"]|["e:33ao","e:33az"]
+.s "cm:C13.1"
+excludes2|["malignant neoplasm of aryepiglottic fold or interarytenoid fold, laryngeal aspect (C32.1)"]|["e:33ep","e:33f0"]
+.s "cm:C16"
+excludes2|["malignant carcinoid tumor of the stomach (C7A.092)"]|["e:341u","e:3425"]
+.s "cm:C21"
+excludes2|["malignant carcinoid tumors of the colon (C7A.02-)","malignant melanoma of anal margin (C43.51)","malignant melanoma of anal skin (C43.51)","malignant melanoma of perianal skin (C43.51)","other and unspecified malignant neoplasm of anal margin (C44.500, C44.510, C44.520, C44.590)","other and unspecified malignant neoplasm of anal skin (C44.500, C44.510, C44.520, C44.590)","other and unspecified malignant neoplasm of perianal skin (C44.500, C44.510, C44.520, C44.590)"]|["e:356v","e:3576","e:357j","e:357u","e:3585","e:358g","e:358r","e:3592"]
+.s "cm:C32.1"
+excludes2|["malignant neoplasm of anterior surface of epiglottis (C10.1)","malignant neoplasm of aryepiglottic fold or interarytenoid fold, hypopharyngeal aspect (C13.1)","malignant neoplasm of aryepiglottic fold or interarytenoid fold, marginal zone (C13.1)","malignant neoplasm of aryepiglottic fold or interarytenoid fold NOS (C13.1)"]|["e:37dl","e:37dw","e:37e7","e:37ei","e:37et"]
+.s "cm:C41.0"
+excludes2|["carcinoma, any type except intraosseous or odontogenic of:","maxillary sinus (C31.0)","upper jaw (C03.0)","malignant neoplasm of jaw bone (lower) (C41.1)"]|["e:39ne","e:39np","e:39o1","e:39oc","e:39on"]
+.s "cm:C41.1"
+excludes2|["carcinoma, any type except intraosseous or odontogenic of:","jaw NOS (C03.9)","lower (C03.1)","malignant neoplasm of upper jaw bone (C41.0)"]|["e:39qs","e:39r4","e:39rf","e:39rq","e:39s1"]
+.s "cm:C43"
+excludes2|["malignant melanoma of skin of genital organs (C51-C52, C60.-, C63.-)","Merkel cell carcinoma (C4A.-)","sites other than skin-code to malignant neoplasm of the site"]|["e:39yt","e:39z4","e:39zf","e:39zq"]
+.s "cm:C43.5"
+excludes2|["malignant neoplasm of anus NOS (C21.0)","malignant neoplasm of scrotum (C63.2)"]|["e:3ai9","e:3aik","e:3aiw"]
+.s "cm:C46.1"
+excludes2|["Kaposi's sarcoma of lymph glands and nodes (C46.3)"]|["e:3gc3","e:3gce"]
+.s "cm:C49"
+excludes2|["Kaposi's sarcoma of soft tissue (C46.1)","malignant neoplasm of heart (C38.0)","malignant neoplasm of peripheral nerves and autonomic nervous system (C47.-)","malignant neoplasm of peritoneum (C48.2)","malignant neoplasm of retroperitoneum (C48.0)","malignant neoplasm of uterine ligament (C57.3)","mesothelioma (C45.-)"]|["e:3hhh","e:3hhs","e:3hi3","e:3hie","e:3hip","e:3hj0","e:3hjb","e:3hjm"]
+.s "cm:C4A.5"
+excludes2|["malignant neoplasm of anus NOS (C21.0)","malignant neoplasm of scrotum (C63.2)"]|["e:3bg7","e:3bgi","e:3bgu"]
+.s "cm:C78"
+excludes2|["lymph node metastases (C77.0)"]|["e:3t7d","e:3t7q"]
+.s "cm:C79.11"
+excludes2|["lymph node metastases (C77.0)"]|["e:3tvr","e:3tw2"]
+.s "cm:C7A"
+excludes2|["malignant pancreatic islet cell tumors (C25.4)","Merkel cell carcinoma (C4A.-)"]|["e:3r76","e:3r7h","e:3r7s"]
+.s "cm:D04.0"
+excludes2|["carcinoma in situ of vermilion border of lip (D00.01)"]|["e:lcp","e:ld0"]
+.s "cm:D05"
+excludes2|["malignant neoplasm of breast (C50.-)"]|["e:m79","e:m7k"]
+.s "cm:D12"
+excludes2|["benign carcinoid tumors of the large intestine and rectum (D3A.02-)","polyp of colon NOS (K63.5)"]|["e:oil","e:oiw","e:oj7"]
+.s "cm:D12.6"
+excludes2|["inflammatory polyp of colon (K51.4-)"]|["e:otf","e:otq"]
+.s "cm:D16.4"
+excludes2|["benign neoplasm of lower jaw bone (D16.5)"]|["e:qr5","e:qrg"]
+.s "cm:D18"
+excludes2|["benign neoplasm of glomus jugulare (D35.6)","blue or pigmented nevus (D22.-)","nevus NOS (D22.-)","vascular nevus (Q82.5)"]|["e:rjk","e:rjv","e:rk6","e:rkh","e:rks"]
+.s "cm:D23"
+excludes2|["melanocytic nevi (D22.-)"]|["e:tp1","e:tpc"]
+.s "cm:D24"
+excludes2|["adenofibrosis of breast (N60.2)","benign cyst of breast (N60.-)","benign mammary dysplasia (N60.-)","benign neoplasm of skin of breast (D22.5, D23.5)","fibrocystic disease of breast (N60.-)"]|["e:ujl","e:ujw","e:uk7","e:uki","e:ukt","e:ul4"]
+.s "cm:D27"
+excludes2|["corpus albicans cyst (N83.2-)","corpus luteum cyst (N83.1-)","endometrial cyst (N80.1-)","follicular (atretic) cyst (N83.0-)","graafian follicle cyst (N83.0-)","ovarian cyst NEC (N83.2-)","ovarian retention cyst (N83.2-)"]|["e:v1h","e:v1s","e:v24","e:v2f","e:v2q","e:v31","e:v3c","e:v3n"]
+.s "cm:D3A"
+excludes2|["benign pancreatic islet cell tumors (D13.7)"]|["e:z02","e:z0d"]
+.s "cm:D46"
+excludes2|["drug-induced aplastic anemia (D61.1)"]|["e:12x4","e:12xf"]
+.s "cm:D47.3"
+excludes2|["reactive thrombocytosis (D75.838)","secondary thrombocytosis (D75.838)","thrombocythemia NOS (D75.839)","thrombocytosis NOS (D75.839)"]|["e:142s","e:1433","e:143e","e:143p","e:1440"]
+.s "cm:D47.Z2"
+excludes2|["Kaposi's sarcoma (C46.-)"]|["e:14bg","e:14br"]
+.s "cm:D49"
+excludes2|["neoplasms of uncertain behavior (D37-D44, D48)"]|["e:15kh","e:15ks"]
+.s "cm:D51"
+excludes2|["deficiency of other B group vitamins (E53-)"]|["e:16q5","e:16qg"]
+.s "cm:D53.8"
+excludes2|["nutritional deficiencies without anemia, such as:","copper deficiency NOS (E61.0)","molybdenum deficiency NOS (E61.5)","zinc deficiency NOS (E60)"]|["e:17gd","e:17go","e:17gz","e:17ha","e:17hm"]
+.s "cm:D59.1"
+excludes2|["Evans syndrome (D69.41)","hemolytic disease of newborn (P55.-)","paroxysmal cold hemoglobinuria (D59.6)"]|["e:1bph","e:1bps","e:1bq3","e:1bqe"]
+.s "cm:D61"
+excludes2|["neutropenia (D70.-)"]|["e:1cz6","e:1czh"]
+.s "cm:D61.81"
+excludes2|["pancytopenia (due to) (with) myelodysplastic syndromes (D46.-)"]|["e:1dji","e:1djt"]
+.s "cm:D61.810"
+excludes2|["aplastic anemia due to antineoplastic chemotherapy (D61.1)"]|["e:1dl2","e:1dld"]
+.s "cm:D61.811"
+excludes2|["aplastic anemia due to drugs (D61.1)"]|["e:1dml","e:1dmw"]
+.s "cm:D63.0"
+excludes2|["anemia due to antineoplastic chemotherapy (D64.81)"]|["e:1e1f","e:1e1q"]
+.s "cm:D64.81"
+excludes2|["anemia in neoplastic disease (D63.0)","aplastic anemia due to antineoplastic chemotherapy (D61.1)"]|["e:1elh","e:1elt","e:1em4"]
+.s "cm:D65"
+excludes2|["disseminated intravascular coagulation (complicating):","abortion or ectopic or molar pregnancy (O00-O07, O08.1)"]|["e:1euq","e:1ev2","e:1evd"]
+.s "cm:D68"
+excludes2|["coagulation defects complicating abortion or ectopic or molar pregnancy (O00-O07, O08.1)","coagulation defects complicating pregnancy, childbirth and the puerperium (O45.0, O46.0, O67.0, O72.3)"]|["e:1f2r","e:1f32","e:1f3d"]
+.s "cm:D68.312"
+excludes2|["antiphospholipid antibody syndrome (D68.61)","antiphospholipid antibody with hypercoagulable state (D68.61)","lupus anticoagulant (LAC) with hypercoagulable state (D68.62)","systemic lupus erythematosus [SLE] inhibitor with hypercoagulable state (D68.62)"]|["e:1g36","e:1g3h","e:1g3s","e:1g43","e:1g4e"]
+.s "cm:D68.61"
+excludes2|["anti-phospholipid antibody with hemorrhagic disorder (D68.312)","lupus anticoagulant syndrome (D68.62)"]|["e:1gt3","e:1gte","e:1gtp"]
+.s "cm:D68.62"
+excludes2|["anticardiolipin syndrome (D68.61)","antiphospholipid syndrome (D68.61)","lupus anticoagulant (LAC) with hemorrhagic disorder (D68.312)"]|["e:1gwh","e:1gws","e:1gx4","e:1gxf"]
+.s "cm:D69.1"
+excludes2|["von Willebrand disease (D68.0-)"]|["e:1hf0","e:1hfb"]
+.s "cm:D72"
+excludes2|["neutropenia (D70)"]|["e:1iop","e:1ip0"]
+.s "cm:D72.1"
+excludes2|["Löffler's syndrome (J82.89)","pulmonary eosinophilia (J82.-)"]|["e:1iuw","e:1iv7","e:1ivi"]
+.s "cm:D72.81"
+excludes2|["neutropenia (D70)"]|["e:1jbv","e:1jc6"]
+.s "cm:D75"
+excludes2|["acute lymphadenitis (L04.-)","chronic lymphadenitis (I88.1)","enlarged lymph nodes (R59.-)","hypergammaglobulinemia NOS (D89.2)","lymphadenitis NOS (I88.9)","mesenteric lymphadenitis (acute) (chronic) (I88.0)"]|["e:1kp9","e:1kpk","e:1kpv","e:1kq6","e:1kqh","e:1kqs","e:1kr3"]
+.s "cm:D75.83"
+excludes2|["essential thrombocythemia (D47.3)"]|["e:1lg3","e:1lge"]
+.s "cm:D89"
+excludes2|["transplant failure and rejection (T86.-)"]|["e:1phr","e:1pi2"]
+.s "cm:E21"
+excludes2|["familial hypocalciuric hypercalcemia (E83.52)"]|["e:21pj","e:21pk"]
+.s "cm:E21.2"
+excludes2|["familial hypocalciuric hypercalcemia (E83.52)"]|["e:21q3","e:21q4"]
+.s "cm:E34.8"
+excludes2|["pseudohypoparathyroidism (E20.1)"]|["e:228a","e:228b"]
+.s "cm:E36"
+excludes2|["postprocedural endocrine and metabolic complications and disorders, not elsewhere classified (E89.-)"]|["e:2297","e:2298"]
+.s "cm:E53.8"
+excludes2|["vitamin B12 deficiency anemia (D51.-)"]|["e:22fe","e:22ff"]
+.s "cm:E63"
+excludes2|["dehydration (E86.0)","failure to thrive, adult (R62.7)","failure to thrive, child (R62.51)","feeding problems in newborn (P92.-)","sequelae of malnutrition and other nutritional deficiencies (E64.-)"]|["e:22j3","e:22j4","e:22j5","e:22j6","e:22j8","e:22j9"]
+.s "cm:E64.0"
+excludes2|["retarded development following protein-calorie malnutrition (E45)"]|["e:22jz","e:22k0"]
+.s "cm:E66"
+excludes2|["adiposogenital dystrophy (E23.6)","lipomatosis dolorosa [Dercum] (E88.2)","lipomatosis NOS (E88.2)","Prader-Willi syndrome (Q87.11)"]|["e:22kx","e:22ky","e:22kz","e:22l0","e:22l1"]
+.s "cm:E71.3"
+excludes2|["carnitine deficiency due to inborn error of metabolism (E71.42)"]|["e:22t2","e:22t3"]
+.s "cm:E74.3"
+excludes2|["lactose intolerance (E73.-)"]|["e:236r","e:236s"]
+.s "cm:E83.3"
+excludes2|["disorders of pyrophosphate metabolism (E83.82-)"]|["e:23oj","e:23ok"]
+.s "cm:E85"
+excludes2|["Alzheimer's disease (G30.0-)"]|["e:23t0","e:23t1"]
+.s "cm:E85.0"
+excludes2|["Transthyretin-related (ATTR) familial amyloid cardiomyopathy (E85.4)"]|["e:23tb","e:23tc"]
+.s "cm:E86"
+excludes2|["hypovolemic shock NOS (R57.1)"]|["e:23ut","e:23uu"]
+.s "cm:E87.0"
+excludes2|["diabetes with hyperosmolarity (E08, E09, E11, E13 with final characters .00 or .01)"]|["e:23vn","e:23vo"]
+.s "cm:E87.29"
+excludes2|["acute respiratory acidosis (J96.02)","chronic respiratory acidosis (J96.12)"]|["e:23wu","e:23wv","e:23ww"]
+.s "cm:E88.0"
+excludes2|["disorder of lipoprotein metabolism (E78.-)"]|["e:23yt","e:23yu"]
+.s "cm:E88.A"
+excludes2|["failure to thrive (R62.51, R62.7)"]|["e:2447","e:2448"]
+.s "cm:E89"
+excludes2|["intraoperative complications of endocrine system organ or structure (E36.0-, E36.1-, E36.8)"]|["e:244f","e:244g"]
+.s "cm:F02"
+excludes2|["dementia in alcohol and psychoactive substance disorders (F10-F19, with .17, .27, .97)","vascular dementia (F01.5-, F01.A-, F01.B-, F01.C-)"]|["e:24eq","e:24er","e:24es"]
+.s "cm:F03"
+excludes2|["dementia with delirium or acute confusional state (F05)","mild memory disturbance due to known physiological condition (F06.8)"]|["e:24ks","e:24kt","e:24ku"]
+.s "cm:F04"
+excludes2|["alcohol-induced or unspecified Korsakov's syndrome (F10.26, F10.96)","Korsakov's syndrome induced by other psychoactive substances (F13.26, F13.96, F19.16, F19.26, F19.96)"]|["e:24pv","e:24pw","e:24px"]
+.s "cm:F05"
+excludes2|["delirium tremens alcohol-induced or unspecified (F10.231, F10.921)"]|["e:24qh","e:24qi"]
+.s "cm:F06"
+excludes2|["delirium due to known physiological condition (F05)","dementia as classified in F01-F02","other mental disorders associated with alcohol and other psychoactive substances (F10-F19)"]|["e:24qz","e:24r0","e:24r1","e:24r2"]
+.s "cm:F06.0"
+excludes2|["hallucinations and perceptual disturbance induced by alcohol and other psychoactive substances (F10-F19 with .151, .251, .951)","schizophrenia (F20.-)"]|["e:24r9","e:24ra","e:24rb"]
+.s "cm:F06.1"
+excludes2|["catatonic schizophrenia (F20.2)","dissociative stupor (F44.2)"]|["e:24rm","e:24rn","e:24ro"]
+.s "cm:F06.2"
+excludes2|["alcohol and drug-induced psychotic disorder (F10-F19 with .150, .250, .950)","brief psychotic disorder (F23)","delusional disorder (F22)","schizophrenia (F20.-)"]|["e:24rx","e:24ry","e:24rz","e:24s0","e:24s1"]
+.s "cm:F06.3"
+excludes2|["mood disorders due to alcohol and other psychoactive substances (F10-F19 with .14, .24, .94)","mood disorders, not due to known physiological condition or unspecified (F30-F39)"]|["e:24s6","e:24s7","e:24s8"]
+.s "cm:F06.4"
+excludes2|["anxiety disorders due to alcohol and other psychoactive substances (F10-F19 with .180, .280, .980)","anxiety disorders, not due to known physiological condition or unspecified (F40.-, F41.-)"]|["e:24t4","e:24t5","e:24t6"]
+.s "cm:F07.0"
+excludes2|["specific personality disorder (F60.-)"]|["e:24v5","e:24v6"]
+.s "cm:F10.2"
+excludes2|["toxic effect of alcohol (T51.0-)"]|["e:24zc","e:24zd"]
+.s "cm:F10.22"
+excludes2|["alcohol dependence with withdrawal (F10.23-)"]|["e:24zz","e:2500"]
+.s "cm:F10.23"
+excludes2|["Alcohol dependence with intoxication (F10.22-)"]|["e:250e","e:250g"]
+.s "cm:F11.2"
+excludes2|["opioid poisoning (T40.0-T40.2-)"]|["e:257u","e:257w"]
+.s "cm:F12.2"
+excludes2|["cannabis poisoning (T40.7-)"]|["e:25el","e:25em"]
+.s "cm:F13.2"
+excludes2|["sedative, hypnotic, or anxiolytic poisoning (T42.-)"]|["e:25l2","e:25l3"]
+.s "cm:F14"
+excludes2|["other stimulant-related disorders (F15.-)"]|["e:25rc","e:25rd"]
+.s "cm:F14.2"
+excludes2|["cocaine poisoning (T40.5-)"]|["e:25tu","e:25tv"]
+.s "cm:F15"
+excludes2|["cocaine-related disorders (F14.-)"]|["e:25ys","e:25yt"]
+.s "cm:F17"
+excludes2|["tobacco use (smoking) during pregnancy, childbirth and the puerperium (O99.33-)","toxic effect of nicotine (T65.2-)"]|["e:26e1","e:26e2","e:26e3"]
+.s "cm:F20"
+excludes2|["schizophrenic reaction in:","alcoholism (F10.15-, F10.25-, F10.95-)","brain disease (F06.2)","epilepsy (F06.2)","psychoactive drug use (F11-F19 with .15. .25, .95)","schizotypal disorder (F21)"]|["e:26xo","e:26xp","e:26xq","e:26xr","e:26xs","e:26xt","e:26xu"]
+.s "cm:F20.3"
+excludes2|["post-schizophrenic depression (F32.89)"]|["e:26ys","e:26yu"]
+.s "cm:F21"
+excludes2|["Asperger's syndrome (F84.5)","schizoid personality disorder (F60.1)"]|["e:26zx","e:26zy","e:26zz"]
+.s "cm:F22"
+excludes2|["paranoid personality disorder (F60.0)","paranoid psychosis, psychogenic (F23)","paranoid reaction (F23)"]|["e:270i","e:270j","e:270k","e:270l"]
+.s "cm:F23"
+excludes2|["mood [affective] disorders with psychotic symptoms (F30.2, F31.2, F31.5, F31.64, F32.3, F33.3)"]|["e:270t","e:270u"]
+.s "cm:F31"
+excludes2|["cyclothymia (F34.0)"]|["e:274c","e:274e"]
+.s "cm:F32"
+excludes2|["adjustment disorder (F43.2)"]|["e:278f","e:278g"]
+.s "cm:F34.1"
+excludes2|["anxiety depression (mild or not persistent) (F41.8)"]|["e:27ci","e:27cj"]
+.s "cm:F40.2"
+excludes2|["dysmorphophobia (nondelusional) (F45.22)","nosophobia (F45.22)"]|["e:27e9","e:27ea","e:27eb"]
+.s "cm:F41"
+excludes2|["anxiety in:","acute stress reaction (F43.0)","transient adjustment reaction (F43.2)","neurasthenia (F48.8)","psychophysiologic disorders (F45.-)","separation anxiety (F93.0)"]|["e:27gw","e:27gx","e:27gy","e:27gz","e:27h1","e:27h2","e:27h3"]
+.s "cm:F41.1"
+excludes2|["neurasthenia (F48.8)"]|["e:27hl","e:27hn"]
+.s "cm:F42"
+excludes2|["obsessive-compulsive personality (disorder) (F60.5)","obsessive-compulsive symptoms occurring in depression (F32.-, F33.-)","obsessive-compulsive symptoms occurring in schizophrenia (F20.-)"]|["e:27i7","e:27i9","e:27ia","e:27ib"]
+.s "cm:F43.2"
+excludes2|["separation anxiety disorder of childhood (F93.0)"]|["e:27k1","e:27k2"]
+.s "cm:F44"
+excludes2|["malingering [conscious simulation] (Z76.5)"]|["e:27lo","e:27lp"]
+.s "cm:F44.0"
+excludes2|["alcohol-or other psychoactive substance-induced amnestic disorder (F10, F13, F19 with .26, .96)","amnestic disorder due to known physiological condition (F04)","postictal amnesia in epilepsy (G40.-)"]|["e:27lz","e:27m0","e:27m1","e:27m2"]
+.s "cm:F44.1"
+excludes2|["postictal fugue in epilepsy (G40.-)"]|["e:27m8","e:27ma"]
+.s "cm:F44.2"
+excludes2|["catatonic disorder due to known physiological condition (F06.1)","depressive stupor (F32, F33)","manic stupor (F30, F31)"]|["e:27mh","e:27mi","e:27mj","e:27ml"]
+.s "cm:F45"
+excludes2|["dissociative and conversion disorders (F44.-)","factitious disorders (F68.1-, F68.A)","hair-plucking (F63.3)","lalling (F80.0)","lisping (F80.0)","malingering [conscious simulation] (Z76.5)","nail-biting (F98.8)","psychological or behavioral factors associated with disorders or diseases classified elsewhere (F54)","sexual dysfunction, not due to a substance or known physiological condition (F52.-)","thumb-sucking (F98.8)","tic disorders (in childhood and adolescence) (F95.-)","Tourette's syndrome (F95.2)","trichotillomania (F63.3)"]|["e:27o7","e:27o8","e:27o9","e:27oa","e:27ob","e:27oc","e:27od","e:27of","e:27og","e:27oh","e:27oi","e:27oj","e:27ok","e:27ol"]
+.s "cm:F45.2"
+excludes2|["delusional dysmorphophobia (F22)","fixed delusions about bodily functions or shape (F22)"]|["e:27p4","e:27p5","e:27p6"]
+.s "cm:F50"
+excludes2|["feeding difficulties (R63.3-)","feeding disorder in infancy or childhood (F98.2-)"]|["e:27s3","e:27s4","e:27s6"]
+.s "cm:F51"
+excludes2|["organic sleep disorders (G47.-)"]|["e:27xs","e:27xt"]
+.s "cm:F51.0"
+excludes2|["alcohol related insomnia (F10.182, F10.282, F10.982)","drug-related insomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982)","insomnia NOS (G47.0-)","insomnia due to known physiological condition (G47.0-)","organic insomnia (G47.0-)","sleep deprivation (Z72.820)"]|["e:27xx","e:27xy","e:27y1","e:27y2","e:27y3","e:27y4","e:27y5"]
+.s "cm:F51.1"
+excludes2|["alcohol related hypersomnia (F10.182, F10.282, F10.982)","drug-related hypersomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982)","hypersomnia NOS (G47.10)","hypersomnia due to known physiological condition (G47.10)","idiopathic hypersomnia (G47.11, G47.12)","narcolepsy (G47.4-)"]|["e:27yy","e:27yz","e:27z0","e:27z1","e:27z2","e:27z3","e:27z4"]
+.s "cm:F52"
+excludes2|["Dhat syndrome (F48.8)"]|["e:280f","e:280h"]
+.s "cm:F52.5"
+excludes2|["vaginismus (due to a known physiological condition) (N94.2)"]|["e:2827","e:2828"]
+.s "cm:F52.6"
+excludes2|["dyspareunia (due to a known physiological condition) (N94.1-)"]|["e:282g","e:282h"]
+.s "cm:F54"
+excludes2|["tension-type headache (G44.2)"]|["e:283v","e:283w"]
+.s "cm:F55"
+excludes2|["abuse of psychoactive substances (F10-F19)"]|["e:2840","e:2841"]
+.s "cm:F60.0"
+excludes2|["paranoia (F22)","paranoia querulans (F22)","paranoid psychosis (F22)","paranoid schizophrenia (F20.0)","paranoid state (F22)"]|["e:2858","e:2859","e:285a","e:285b","e:285c","e:285d"]
+.s "cm:F60.1"
+excludes2|["Asperger's syndrome (F84.5)","delusional disorder (F22)","schizoid disorder of childhood (F84.5)","schizophrenia (F20.-)","schizotypal disorder (F21)"]|["e:285i","e:285j","e:285k","e:285l","e:285m","e:285n"]
+.s "cm:F60.2"
+excludes2|["borderline personality disorder (F60.3)"]|["e:2861","e:2862"]
+.s "cm:F60.3"
+excludes2|["antisocial personality disorder (F60.2)"]|["e:286a","e:286c"]
+.s "cm:F60.5"
+excludes2|["obsessive-compulsive disorder (F42.-)"]|["e:286r","e:286s"]
+.s "cm:F63"
+excludes2|["habitual excessive use of alcohol or psychoactive substances (F10-F19)","impulse disorders involving sexual behavior (F65.-)"]|["e:2880","e:2881","e:2882"]
+.s "cm:F63.0"
+excludes2|["excessive gambling by manic patients (F30, F31)","gambling in antisocial personality disorder (F60.2)"]|["e:288c","e:288d","e:288e"]
+.s "cm:F63.1"
+excludes2|["fire-setting (by) (in):","adult with antisocial personality disorder (F60.2)","alcohol or psychoactive substance intoxication (F10-F19)","conduct disorders (F91.-)","mental disorders due to known physiological condition (F01-F09)","schizophrenia (F20.-)"]|["e:288l","e:288m","e:288n","e:288o","e:288p","e:288q","e:288r"]
+.s "cm:F63.2"
+excludes2|["depressive disorder with stealing (F31.-,  F32.-, F33.-)","stealing due to underlying mental condition-code to mental condition","stealing in mental disorders due to known physiological condition (F01-F09)"]|["e:2890","e:2891","e:2892","e:2894"]
+.s "cm:F63.3"
+excludes2|["other stereotyped movement disorder (F98.4)"]|["e:289a","e:289b"]
+.s "cm:F64.1"
+excludes2|["fetishistic transvestism (F65.1)"]|["e:28af","e:28ag"]
+.s "cm:F64.2"
+excludes2|["sexual maturation disorder (F66)"]|["e:28aq","e:28ar"]
+.s "cm:F68.1"
+excludes2|["factitial dermatitis (L98.1)","person feigning illness (with obvious motivation) (Z76.5)"]|["e:28dp","e:28dr","e:28ds"]
+.s "cm:F80.0"
+excludes2|["speech articulation impairment due to hearing loss (F80.4)","speech articulation impairment due to intellectual disabilities (F70-F79)","speech articulation impairment with expressive language developmental disorder (F80.1)","speech articulation impairment with mixed receptive expressive language developmental disorder (F80.2)"]|["e:28gx","e:28gy","e:28gz","e:28h0","e:28h1"]
+.s "cm:F80.1"
+excludes2|["acquired aphasia with epilepsy [Landau-Kleffner] (G40.80-)","selective mutism (F94.0)","intellectual disabilities (F70-F79)","pervasive developmental disorders (F84.-)"]|["e:28hb","e:28hc","e:28hd","e:28he","e:28hg"]
+.s "cm:F80.2"
+excludes2|["acquired aphasia with epilepsy [Landau-Kleffner] (G40.80-)","pervasive developmental disorders (F84.-)","selective mutism (F94.0)","intellectual disabilities (F70-F79)"]|["e:28hu","e:28hv","e:28hw","e:28hx","e:28hy"]
+.s "cm:F81.2"
+excludes2|["arithmetical difficulties associated with a reading disorder (F81.0)","arithmetical difficulties associated with a spelling disorder (F81.81)","arithmetical difficulties due to inadequate teaching (Z55.8)"]|["e:28jr","e:28js","e:28jt","e:28ju"]
+.s "cm:F82"
+excludes2|["lack of coordination secondary to intellectual disabilities (F70-F79)"]|["e:28kr","e:28ks"]
+.s "cm:F90"
+excludes2|["anxiety disorders (F40.-, F41.-)","mood [affective] disorders (F30-F39)","pervasive developmental disorders (F84.-)","schizophrenia (F20.-)"]|["e:28n7","e:28n8","e:28n9","e:28na","e:28nc"]
+.s "cm:F91"
+excludes2|["conduct problems associated with attention-deficit hyperactivity disorder (F90.-)","mood [affective] disorders (F30-F39)","pervasive developmental disorders (F84.-)","schizophrenia (F20.-)"]|["e:28oa","e:28ob","e:28oc","e:28od","e:28oe"]
+.s "cm:F93.0"
+excludes2|["mood [affective] disorders (F30-F39)","nonpsychotic mental disorders (F40-F48)","phobic anxiety disorder of childhood (F40.8)","social phobia (F40.1)"]|["e:28pm","e:28pn","e:28po","e:28pp","e:28pq"]
+.s "cm:F93.8"
+excludes2|["gender identity disorder of childhood (F64.2)"]|["e:28py","e:28pz"]
+.s "cm:F94.0"
+excludes2|["pervasive developmental disorders (F84.-)","schizophrenia (F20.-)","specific developmental disorders of speech and language (F80.-)","transient mutism as part of separation anxiety in young children (F93.0)"]|["e:28qc","e:28qd","e:28qf","e:28qg","e:28qh"]
+.s "cm:F94.1"
+excludes2|["Asperger's syndrome (F84.5)","maltreatment syndromes (T74.-)","sexual or physical abuse in childhood, resulting in psychosocial problems (Z62.81-)"]|["e:28qr","e:28qs","e:28qt","e:28qu"]
+.s "cm:F94.2"
+excludes2|["Asperger's syndrome (F84.5)","attention-deficit hyperactivity disorders (F90.-)","hospitalism in children (F43.2-)"]|["e:28r4","e:28r5","e:28r6","e:28r7"]
+.s "cm:F98"
+excludes2|["breath-holding spells (R06.89)","gender identity disorder of childhood (F64.2)","Kleine-Levin syndrome (G47.13)","obsessive-compulsive disorder (F42.-)","sleep disorders not due to a substance or known physiological condition (F51.-)"]|["e:28sa","e:28sb","e:28sc","e:28sd","e:28se","e:28sf"]
+.s "cm:F98.2"
+excludes2|["anorexia nervosa and other eating disorders (F50.-)","feeding difficulties (R63.3-)","feeding problems of newborn (P92.-)","pica of infancy or childhood (F98.3)"]|["e:28t8","e:28t9","e:28ta","e:28tb","e:28tc"]
+.s "cm:F98.4"
+excludes2|["compulsions in obsessive-compulsive disorder (F42.-)","hair plucking (F63.3)","movement disorders of organic origin (G20-G25)","nail-biting (F98.8)","nose-picking (F98.8)","stereotypies that are part of a broader psychiatric condition (F01-F95)","thumb-sucking (F98.8)","tic disorders (F95.-)","trichotillomania (F63.3)"]|["e:28u4","e:28u5","e:28u6","e:28u7","e:28u8","e:28u9","e:28ua","e:28ub","e:28uc","e:28ud"]
+.s "cm:G04"
+excludes2|["acute transverse myelitis (G37.3)","alcoholic encephalopathy (G31.2)","multiple sclerosis (G35-)","myalgic encephalomyelitis (G93.32)","subacute necrotizing myelitis (G37.4)","toxic encephalitis (G92.8)","toxic encephalopathy (G92.8)"]|["e:28zv","e:28zw","e:28zx","e:28zz","e:2900","e:2901","e:2902","e:2903"]
+.s "cm:G08"
+excludes2|["intracranial phlebitis and thrombophlebitis complicating nonpyogenic intraspinal phlebitis and thrombophlebitis (G95.1)"]|["e:295k","e:295l"]
+.s "cm:G11"
+excludes2|["cerebral palsy (G80.-)","hereditary and idiopathic neuropathy (G60.-)","metabolic disorders (E70-E88)"]|["e:296e","e:296g","e:296h","e:296i"]
+.s "cm:G11.3"
+excludes2|["Cockayne's syndrome (Q87.19)","other disorders of purine and pyrimidine metabolism (E79.-)","xeroderma pigmentosum (Q82.1)"]|["e:297h","e:297i","e:297j","e:297k"]
+.s "cm:G23"
+excludes2|["multi-system degeneration of the autonomic nervous system (G90.3)"]|["e:29e8","e:29e9"]
+.s "cm:G24"
+excludes2|["athetoid cerebral palsy (G80.3)"]|["e:29fa","e:29fb"]
+.s "cm:G25"
+excludes2|["sleep related movement disorders (G47.6-)"]|["e:29hh","e:29hl"]
+.s "cm:G31"
+excludes2|["Reye's syndrome (G93.7)"]|["e:29lz","e:29m0"]
+.s "cm:G36.0"
+excludes2|["optic neuritis NOS (H46)"]|["e:29sb","e:29sd"]
+.s "cm:G40"
+excludes2|["hippocampal sclerosis (G93.81)","mesial temporal sclerosis (G93.81)","temporal sclerosis (G93.81)","Todd's paralysis (G83.84)"]|["e:29up","e:29uq","e:29ur","e:29us","e:29uu"]
+.s "cm:G43"
+excludes2|["headache NOS (R51.9)","headache syndromes (G44.-)"]|["e:2a70","e:2a71","e:2a72"]
+.s "cm:G44"
+excludes2|["atypical facial pain (G50.1)","headache due to lumbar puncture (G97.1)","migraines (G43.-)","trigeminal neuralgia (G50.0)"]|["e:2aih","e:2aii","e:2aij","e:2aim","e:2ain"]
+.s "cm:G44.1"
+excludes2|["cluster headache (G44.0)","complicated headache syndromes (G44.5-)","drug-induced headache (G44.4-)","migraine (G43.-)","other specified headache syndromes (G44.8-)","post-traumatic headache (G44.3-)","tension-type headache (G44.2-)"]|["e:2ale","e:2alf","e:2alg","e:2alh","e:2ali","e:2alj","e:2alk","e:2all"]
+.s "cm:G44.8"
+excludes2|["headache with orthostatic or positional component, not elsewhere classified (R51.0)"]|["e:2aou","e:2aov"]
+.s "cm:G47"
+excludes2|["nightmares (F51.5)","nonorganic sleep disorders (F51.-)","sleep terrors (F51.4)","sleepwalking (F51.3)"]|["e:2as0","e:2as1","e:2as2","e:2as3","e:2as4"]
+.s "cm:G47.0"
+excludes2|["alcohol related insomnia (F10.182, F10.282, F10.982)","drug-related insomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982)","idiopathic insomnia (F51.01)","insomnia due to a mental disorder (F51.05)","insomnia not due to a substance or known physiological condition (F51.0-)","nonorganic insomnia (F51.0-)","primary insomnia (F51.01)","sleep apnea (G47.3-)"]|["e:2as9","e:2asa","e:2asb","e:2asc","e:2asd","e:2ase","e:2asf","e:2ash","e:2asi"]
+.s "cm:G47.1"
+excludes2|["alcohol-related hypersomnia (F10.182, F10.282, F10.982)","drug-related hypersomnia (F11.182, F11.282, F11.982, F13.182, F13.282, F13.982, F14.182, F14.282, F14.982, F15.182, F15.282, F15.982, F19.182, F19.282, F19.982)","hypersomnia due to a mental disorder (F51.13)","hypersomnia not due to a substance or known physiological condition (F51.1-)","primary hypersomnia (F51.11)","sleep apnea (G47.3-)"]|["e:2at0","e:2at1","e:2at3","e:2at4","e:2at5","e:2at6","e:2at7"]
+.s "cm:G47.6"
+excludes2|["restless legs syndrome (G25.81)"]|["e:2ayt","e:2ayu"]
+.s "cm:G52"
+excludes2|["disorders of acoustic [8th] nerve (H93.3)","disorders of optic [2nd] nerve (H46, H47.0)","paralytic strabismus due to nerve palsy (H49.0-H49.2)"]|["e:2b1y","e:2b1z","e:2b21","e:2b22"]
+.s "cm:G57.0"
+excludes2|["sciatica attributed to intervertebral disc disorder (M51.1.-)"]|["e:2b9j","e:2b9k"]
+.s "cm:G71"
+excludes2|["arthrogryposis multiplex congenita (Q74.3)","metabolic disorders (E70-E88)","myositis (M60.-)"]|["e:2bln","e:2blo","e:2blp","e:2blq"]
+.s "cm:G71.2"
+excludes2|["arthrogryposis multiplex congenita (Q74.3)"]|["e:2bqk","e:2bql"]
+.s "cm:G89"
+excludes2|["atypical face pain (G50.1)","headache syndromes (G44.-)","localized pain, unspecified type - code to pain by site, such as:","abdomen pain (R10.-)","back pain (M54.9)","breast pain (N64.4)","chest pain (R07.1-R07.9)","ear pain (H92.0-)","eye pain (H57.1)","headache (R51.9)","joint pain (M25.5-)","limb pain (M79.6-)","lumbar region pain (M54.5-)","painful urination (R30.9)","pelvic and perineal pain (R10.2-)","shoulder pain (M25.51-)","spine pain (M54.-)","throat pain (R07.0)","tongue pain (K14.6)","tooth pain (K08.8)","renal colic (N23)","migraines (G43.-)","myalgia (M79.1-)","pain from prosthetic devices, implants, and grafts (T82.84, T83.84, T84.84, T85.84-)","phantom limb syndrome with pain (G54.6)","vulvar vestibulitis (N94.810)","vulvodynia (N94.81-)"]|["e:2c3a","e:2c3b","e:2c3c","e:2c3d","e:2c3f","e:2c3g","e:2c3h","e:2c3i","e:2c3j","e:2c3k","e:2c3l","e:2c3m","e:2c3n","e:2c3o","e:2c3q","e:2c3r","e:2c3s","e:2c3t","e:2c3u","e:2c3v","e:2c3w","e:2c3x","e:2c3y","e:2c3z","e:2c41","e:2c42","e:2c43","e:2c44"]
+.s "cm:G93.4"
+excludes2|["alcoholic encephalopathy (G31.2)","encephalopathy in diseases classified elsewhere (G94)","hypertensive encephalopathy (I67.4)","toxic (metabolic) encephalopathy (G92.8)"]|["e:2ces","e:2ceu","e:2cev","e:2cew","e:2cex"]
+.s "cm:G95"
+excludes2|["myelitis (G04.-)"]|["e:2chs","e:2cht"]
+.s "cm:G95.1"
+excludes2|["intraspinal phlebitis and thrombophlebitis, except non-pyogenic (G08)"]|["e:2ci1","e:2ci2"]
+.s "cm:G97"
+excludes2|["intraoperative and postprocedural cerebrovascular infarction (I97.81-, I97.82-)"]|["e:2cn2","e:2cn3"]
+.s "cm:H00.1"
+excludes2|["infected meibomian gland (H00.02-)"]|["e:2cvk","e:2cvl"]
+.s "cm:H02.5"
+excludes2|["blepharospasm (G24.5)","organic tic (G25.69)","psychogenic tic (F95.-)"]|["e:2djv","e:2djw","e:2djx","e:2djy"]
+.s "cm:H05.5"
+excludes2|["retained foreign body of eyelid (H02.81-)","retained intraocular foreign body (H44.6-, H44.7-)"]|["e:2emm","e:2emn","e:2emo"]
+.s "cm:H11.1"
+excludes2|["pseudopterygium (H11.81)"]|["e:2f2b","e:2f2c"]
+.s "cm:H15.8"
+excludes2|["blue sclera (Q13.5)","degenerative myopia (H44.2-)"]|["e:2fft","e:2ffu","e:2ffv"]
+.s "cm:H18.21"
+excludes2|["other corneal disorders due to contact lens (H18.82-)"]|["e:2g4r","e:2g4s"]
+.s "cm:H18.82"
+excludes2|["corneal edema due to contact lens (H18.21-)"]|["e:2gi9","e:2gia"]
+.s "cm:H20.1"
+excludes2|["posterior cyclitis (H30.2-)"]|["e:2gn2","e:2gn3"]
+.s "cm:H20.8"
+excludes2|["glaucomatocyclitis crises (H40.4-)","posterior cyclitis (H30.2-)","sympathetic uveitis (H44.13-)"]|["e:2go1","e:2go2","e:2go3","e:2go4"]
+.s "cm:H21"
+excludes2|["sympathetic uveitis (H44.1-)"]|["e:2gpc","e:2gpd"]
+.s "cm:H21.3"
+excludes2|["miotic pupillary cyst (H21.27-)"]|["e:2gu6","e:2gu7"]
+.s "cm:H25"
+excludes2|["capsular glaucoma with pseudoexfoliation of lens (H40.1-)"]|["e:2h2f","e:2h2g"]
+.s "cm:H30.1"
+excludes2|["exudative retinopathy (H35.02-)"]|["e:2hld","e:2hle"]
+.s "cm:H31.0"
+excludes2|["postsurgical chorioretinal scars (H59.81-)"]|["e:2hqa","e:2hqb"]
+.s "cm:H31.1"
+excludes2|["angioid streaks of macula (H35.33)"]|["e:2hsc","e:2hsd"]
+.s "cm:H31.2"
+excludes2|["hyperornithinemia (E72.4)","ornithinemia (E72.4)"]|["e:2hty","e:2htz","e:2hu0"]
+.s "cm:H33.3"
+excludes2|["peripheral retinal degeneration without break (H35.4-)"]|["e:2i42","e:2i43"]
+.s "cm:H35"
+excludes2|["diabetic retinal disorders (E08.311-E08.359, E09.311-E09.359, E10.311-E10.359, E11.311-E11.359, E13.311-E13.359)"]|["e:2ib0","e:2ib1"]
+.s "cm:H35.2"
+excludes2|["proliferative sickle-cell retinopathy (H36.82-)"]|["e:2ij1","e:2ij2"]
+.s "cm:H35.4"
+excludes2|["peripheral retinal degeneration with retinal break (H33.3-)"]|["e:2io2","e:2io4"]
+.s "cm:H35.8"
+excludes2|["retinal hemorrhage (H35.6-)"]|["e:2iu5","e:2iu6"]
+.s "cm:H43.8"
+excludes2|["vitreous abscess (H44.02-)"]|["e:2jfa","e:2jfb"]
+.s "cm:H44.1"
+excludes2|["ophthalmia nodosa (H16.2-)"]|["e:2jih","e:2jii"]
+.s "cm:H44.6"
+excludes2|["retained foreign body in eyelid (H02.81-)","retained (old) foreign body following penetrating wound of orbit (H05.5-)","retained (old) intraocular foreign body, nonmagnetic (H44.7-)"]|["e:2jsi","e:2jsj","e:2jsl","e:2jsm"]
+.s "cm:H44.7"
+excludes2|["retained foreign body in eyelid (H02.81-)","retained (old) foreign body following penetrating wound of orbit (H05.5-)","retained (old) intraocular foreign body, magnetic (H44.6-)"]|["e:2jw3","e:2jw4","e:2jw5","e:2jw6"]
+.s "cm:H46"
+excludes2|["ischemic optic neuropathy (H47.01-)","neuromyelitis optica [Devic] (G36.0)"]|["e:2k0u","e:2k0w","e:2k0x"]
+.s "cm:H49"
+excludes2|["internal ophthalmoplegia (H52.51-)","internuclear ophthalmoplegia (H51.2-)","progressive supranuclear ophthalmoplegia (G23.1)"]|["e:2kd1","e:2kd2","e:2kd3","e:2kd4"]
+.s "cm:H53.03"
+excludes2|["strabismus (H50.-)"]|["e:2kye","e:2kyf"]
+.s "cm:H53.5"
+excludes2|["day blindness (H53.11)"]|["e:2l67","e:2l69"]
+.s "cm:H60.4"
+excludes2|["cholesteatoma of middle ear (H71.-)","recurrent cholesteatoma of postmastoidectomy cavity (H95.0-)"]|["e:2m01","e:2m02","e:2m03"]
+.s "cm:H61.1"
+excludes2|["cauliflower ear (M95.1-)","gouty tophi of ear (M1A.-)"]|["e:2m7q","e:2m7r","e:2m7s"]
+.s "cm:H61.11"
+excludes2|["cauliflower ear (M95.1-)"]|["e:2m8i","e:2m8j"]
+.s "cm:H71"
+excludes2|["cholesteatoma of external ear (H60.4-)","recurrent cholesteatoma of postmastoidectomy cavity (H95.0-)"]|["e:2n2w","e:2n2x","e:2n2y"]
+.s "cm:H74"
+excludes2|["mastoiditis (H70.-)"]|["e:2ndg","e:2ndh"]
+.s "cm:H93.2"
+excludes2|["auditory hallucinations (R44.0)"]|["e:2o3v","e:2o3w"]
+.s "cm:H95.8"
+excludes2|["postprocedural complications and disorders following mastoidectomy (H95.0-, H95.1-)"]|["e:2odm","e:2odo"]
+.s "cm:I06"
+excludes2|["aortic valve disease not specified as rheumatic (I35.-)","aortic valve disease with mitral and/or tricuspid valve involvement (I08.-)"]|["e:2oii","e:2oij","e:2oik"]
+.s "cm:I08"
+excludes2|["multiple valve disease specified as nonrheumatic (I34.-, I35.-, I36.-, I37.-, I38.-, Q22.-, Q23.-, Q24.8-)"]|["e:2okh","e:2oki"]
+.s "cm:I10"
+excludes2|["essential (primary) hypertension involving vessels of brain (I60-I69)","essential (primary) hypertension involving vessels of eye (H35.0-)"]|["e:2on8","e:2on9","e:2ona"]
+.s "cm:I12"
+excludes2|["acute kidney failure (N17.-)"]|["e:2oo9","e:2ooa"]
+.s "cm:I15"
+excludes2|["secondary hypertension involving vessels of brain (I60-I69)","secondary hypertension involving vessels of eye (H35.0-)"]|["e:2oq1","e:2oq2","e:2oq3"]
+.s "cm:I21"
+excludes2|["old myocardial infarction (I25.2)","postmyocardial infarction syndrome (I24.1)","subsequent type 1 myocardial infarction (I22.-)"]|["e:2ouf","e:2oug","e:2ouh","e:2oui"]
+.s "cm:I21.19"
+excludes2|["ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery (I21.21)"]|["e:2ovr","e:2ovs"]
+.s "cm:I24"
+excludes2|["non-ischemic myocardial injury (I5A)"]|["e:2p25","e:2p26"]
+.s "cm:I25"
+excludes2|["non-ischemic myocardial injury (I5A)"]|["e:2p3m","e:2p3n"]
+.s "cm:I25.1"
+excludes2|["atheroembolism (I75.-)","atherosclerosis of coronary artery bypass graft(s) and transplanted heart (I25.7-)"]|["e:2p42","e:2p43","e:2p44"]
+.s "cm:I25.5"
+excludes2|["coronary atherosclerosis (I25.1-, I25.7-)"]|["e:2p62","e:2p63"]
+.s "cm:I25.710"
+excludes2|["embolism or thrombus of coronary artery bypass graft(s) (T82.8-)"]|["e:2p7m","e:2p7n"]
+.s "cm:I25.81"
+excludes2|["atherosclerotic heart disease of native coronary artery without angina pectoris (I25.10)"]|["e:2pc8","e:2pc9"]
+.s "cm:I26"
+excludes2|["chronic pulmonary embolism (I27.82)","personal history of pulmonary embolism (Z86.711)","pulmonary embolism complicating abortion, ectopic or molar pregnancy (O00-O07, O08.2)","pulmonary embolism complicating pregnancy, childbirth and the puerperium (O88.-)","pulmonary embolism due to trauma (T79.0, T79.1)","pulmonary embolism due to complications of surgical and medical care (T80.0, T81.7-, T82.8-)","septic (non-pulmonary) arterial embolism (I76)"]|["e:2pef","e:2peg","e:2peh","e:2pei","e:2pej","e:2pek","e:2pel","e:2pem"]
+.s "cm:I35"
+excludes2|["aortic valve disorder of unspecified cause but with diseases of mitral and/or tricuspid valve(s) (I08.-)","aortic valve disorder specified as congenital (Q23.0, Q23.1)","aortic valve disorder specified as rheumatic (I06.-)","hypertrophic subaortic stenosis (I42.1)"]|["e:2psj","e:2psk","e:2psm","e:2psn","e:2pso"]
+.s "cm:I42"
+excludes2|["ischemic cardiomyopathy (I25.5)","peripartum cardiomyopathy (O90.3)","ventricular hypertrophy (I51.7)"]|["e:2pxg","e:2pxh","e:2pxj","e:2pxk"]
+.s "cm:I46"
+excludes2|["cardiogenic shock (R57.0)"]|["e:2q3c","e:2q3e"]
+.s "cm:I49"
+excludes2|["bradycardia NOS (R00.1)","neonatal dysrhythmia (P29.1-)","sinoatrial bradycardia (R00.1)","sinus bradycardia (R00.1)","vagal bradycardia (R00.1)"]|["e:2q79","e:2q7a","e:2q7b","e:2q7c","e:2q7f","e:2q7g"]
+.s "cm:I50"
+excludes2|["cardiac arrest (I46.-)","neonatal cardiac failure (P29.0)"]|["e:2q9f","e:2q9g","e:2q9h"]
+.s "cm:I50.9"
+excludes2|["fluid overload unrelated to congestive heart failure (E87.70)"]|["e:2qe1","e:2qe2"]
+.s "cm:I51"
+excludes2|["heart disease specified as rheumatic (I00-I09)"]|["e:2qe7","e:2qe8"]
+.s "cm:I5A"
+excludes2|["other acute ischemic heart diseases (I24.-)"]|["e:2qhu","e:2qhw"]
+.s "cm:I60"
+excludes2|["sequelae of subarachnoid hemorrhage (I69.0-)"]|["e:2qij","e:2qik"]
+.s "cm:I61"
+excludes2|["sequelae of intracerebral hemorrhage (I69.1-)"]|["e:2ql3","e:2ql4"]
+.s "cm:I62"
+excludes2|["sequelae of intracranial hemorrhage (I69.2)"]|["e:2qma","e:2qmb"]
+.s "cm:I63"
+excludes2|["chronic, without residual deficits (sequelae) (Z86.73)","sequelae of cerebral infarction (I69.3-)"]|["e:2qnf","e:2qnh","e:2qni"]
+.s "cm:I63.9"
+excludes2|["transient cerebral ischemic attacks and related syndromes (G45.-)"]|["e:2qyd","e:2qye"]
+.s "cm:I67"
+excludes2|["sequelae of the listed conditions (I69.8)"]|["e:2r2a","e:2r2b"]
+.s "cm:I67.4"
+excludes2|["insufficiency, NOS, of precerebral arteries (G45.2)"]|["e:2r3e","e:2r3f"]
+.s "cm:I69.322"
+excludes2|["transient ischemic attack (TIA) (G45.9)"]|["e:2rnb","e:2rnc"]
+.s "cm:I69.351"
+excludes2|["transient ischemic attack (TIA) (G45.9)"]|["e:2rox","e:2roy"]
+.s "cm:I70"
+excludes2|["arteriosclerotic cardiovascular disease (I25.1-)","arteriosclerotic heart disease (I25.1-)","atheroembolism (I75.-)","cerebral atherosclerosis (I67.2)","coronary atherosclerosis (I25.1-)","mesenteric atherosclerosis (K55.1)","precerebral atherosclerosis (I67.2)","primary pulmonary atherosclerosis (I27.0)"]|["e:2s1z","e:2s20","e:2s22","e:2s23","e:2s24","e:2s25","e:2s26","e:2s27","e:2s28"]
+.s "cm:I70.1"
+excludes2|["atherosclerosis of renal arterioles (I12.-)"]|["e:2s2i","e:2s2j"]
+.s "cm:I70.2"
+excludes2|["atherosclerosis of bypass graft of extremities (I70.30-I70.79)"]|["e:2s2s","e:2s2t"]
+.s "cm:I70.9"
+excludes2|["disorders of pyrophosphate metabolism (E83.82-)"]|["e:2t0o","e:2t0p"]
+.s "cm:I72"
+excludes2|["acquired aneurysm (I77.0)","aneurysm (of) aorta (I71.-)","aneurysm (of) arteriovenous NOS (Q27.3-)","carotid artery dissection (I77.71)","cerebral (nonruptured) aneurysm (I67.1)","coronary aneurysm (I25.4)","coronary artery dissection (I25.42)","dissection of artery NEC (I77.79)","dissection of precerebral artery, congenital (nonruptured) (Q28.1)","heart aneurysm (I25.3)","iliac artery dissection (I77.72)","precerebral artery, congential (nonruptured) (Q28.1)","pulmonary artery aneurysm (I28.1)","renal artery dissection (I77.73)","retinal aneurysm (H35.0)","ruptured cerebral aneurysm (I60.7)","varicose aneurysm (I77.0)","vertebral artery dissection (I77.74)"]|["e:2t5c","e:2t5d","e:2t5e","e:2t5f","e:2t5g","e:2t5h","e:2t5i","e:2t5j","e:2t5l","e:2t5m","e:2t5n","e:2t5o","e:2t5p","e:2t5q","e:2t5r","e:2t5s","e:2t5t","e:2t5u","e:2t5w"]
+.s "cm:I72.5"
+excludes2|["aneurysm of carotid artery (I72.0)","aneurysm of vertebral artery (I72.6)","dissection of carotid artery (I77.71)","dissection of other precerebral arteries (I77.75)","dissection of vertebral artery (I77.74)"]|["e:2t6q","e:2t6r","e:2t6t","e:2t6u","e:2t6v","e:2t6w"]
+.s "cm:I72.6"
+excludes2|["dissection of vertebral artery (I77.74)"]|["e:2t70","e:2t71"]
+.s "cm:I73"
+excludes2|["chilblains (T69.1)","frostbite (T33-T34)","immersion hand or foot (T69.0-)","spasm of cerebral artery (G45.9)"]|["e:2t7c","e:2t7d","e:2t7h","e:2t7i","e:2t7j"]
+.s "cm:I74"
+excludes2|["atheroembolism (I75.-)","basilar embolism and thrombosis (I63.0-I63.2, I65.1)","carotid embolism and thrombosis (I63.0-I63.2, I65.2)","cerebral embolism and thrombosis (I63.3-I63.5, I66.-)","coronary embolism and thrombosis (I21-I25)","mesenteric embolism and thrombosis (K55.0-)","ophthalmic embolism and thrombosis (H34.-)","precerebral embolism and thrombosis NOS (I63.0-I63.2, I65.9)","pulmonary embolism and thrombosis (I26.-)","renal embolism and thrombosis (N28.0)","retinal embolism and thrombosis (H34.-)","septic embolism and thrombosis (I76)","vertebral embolism and thrombosis (I63.0-I63.2, I65.0)"]|["e:2t94","e:2t95","e:2t96","e:2t97","e:2t98","e:2t99","e:2t9b","e:2t9c","e:2t9d","e:2t9e","e:2t9f","e:2t9g","e:2t9h","e:2t9i"]
+.s "cm:I76"
+excludes2|["septic pulmonary embolism (I26.01, I26.90)"]|["e:2tcr","e:2tcs"]
+.s "cm:I77"
+excludes2|["collagen (vascular) diseases (M30-M36)","hypersensitivity angiitis (M31.0)","pulmonary artery (I28.-)"]|["e:2tcw","e:2tcx","e:2tcy","e:2td0"]
+.s "cm:I77.0"
+excludes2|["cerebral (I67.1)","coronary (I25.4)"]|["e:2tdc","e:2tdd","e:2tde"]
+.s "cm:I77.7"
+excludes2|["dissection of aorta (I71.0-)","dissection of coronary artery (I25.42)"]|["e:2tes","e:2tet","e:2tev"]
+.s "cm:I77.74"
+excludes2|["aneurysm of vertebral artery (I72.6)"]|["e:2tfc","e:2tfd"]
+.s "cm:I77.75"
+excludes2|["aneurysm of carotid artery (I72.0)","aneurysm of other precerebral arteries (I72.5)","aneurysm of vertebral artery (I72.6)","dissection of carotid artery (I77.71)","dissection of vertebral artery (I77.74)"]|["e:2tfk","e:2tfl","e:2tfm","e:2tfn","e:2tfo","e:2tfp"]
+.s "cm:I77.82"
+excludes2|["eosinophilic granulomatosis with polyangiitis (M30.1)","granulomatosis with polyangiitis (M31.3-)","microscopic polyangiitis (M31.7)"]|["e:2tgw","e:2tgx","e:2tgy","e:2tgz"]
+.s "cm:I78.1"
+excludes2|["blue nevus (D22.-)","flammeus nevus (Q82.5)","hairy nevus (D22.-)","melanocytic nevus (D22.-)","pigmented nevus (D22.-)","portwine nevus (Q82.5)","sanguineous nevus (Q82.5)","strawberry nevus (Q82.5)","verrucous nevus (Q82.5)"]|["e:2ths","e:2tht","e:2thu","e:2thv","e:2thw","e:2thy","e:2thz","e:2ti0","e:2ti1","e:2ti2"]
+.s "cm:I81"
+excludes2|["hepatic vein thrombosis (I82.0)","phlebitis of portal vein (K75.1)"]|["e:2tor","e:2tos","e:2tot"]
+.s "cm:I82"
+excludes2|["venous embolism and thrombosis (of):","cerebral (I63.6, I67.6)","coronary (I21-I25)","intracranial and intraspinal, septic or NOS (G08)","intracranial, nonpyogenic (I67.6)","intraspinal, nonpyogenic (G95.1)","mesenteric (K55.0-)","portal (I81)","pulmonary (I26.-)"]|["e:2tp2","e:2tp3","e:2tp4","e:2tp5","e:2tp6","e:2tp7","e:2tp8","e:2tp9","e:2tpa","e:2tpc"]
+.s "cm:I83"
+excludes2|["varicose veins complicating pregnancy (O22.0-)","varicose veins complicating the puerperium (O87.4)"]|["e:2u9y","e:2u9z","e:2ua1"]
+.s "cm:I86"
+excludes2|["retinal varices (H35.0-)"]|["e:2uix","e:2uiz"]
+.s "cm:I87.1"
+excludes2|["compression of pulmonary vein (I28.8)"]|["e:2umu","e:2umv"]
+.s "cm:I96"
+excludes2|["gangrene in diabetes mellitus (E08-E13 with .52)"]|["e:2uuf","e:2uug"]
+.s "cm:I97"
+excludes2|["postprocedural shock (T81.1-)"]|["e:2uuk","e:2uul"]
+.s "cm:I97.1"
+excludes2|["acute pulmonary insufficiency following thoracic surgery (J95.1)","intraoperative cardiac functional disturbances (I97.7-)"]|["e:2uut","e:2uuu","e:2uuv"]
+.s "cm:I97.4"
+excludes2|["intraoperative cerebrovascular hemorrhage complicating a procedure (G97.3-)"]|["e:2uwm","e:2uwn"]
+.s "cm:I97.5"
+excludes2|["accidental puncture and laceration of brain during a procedure (G97.4-)"]|["e:2uxa","e:2uxb"]
+.s "cm:I97.6"
+excludes2|["postprocedural cerebrovascular hemorrhage complicating a procedure (G97.5-)"]|["e:2uxm","e:2uxn"]
+.s "cm:I97.7"
+excludes2|["acute pulmonary insufficiency following thoracic surgery (J95.1)","postprocedural cardiac functional disturbances (I97.1-)"]|["e:2uz8","e:2uz9","e:2uza"]
+.s "cm:J00"
+excludes2|["allergic rhinitis (J30.1-J30.9)","chronic pharyngitis (J31.2)","chronic rhinitis (J31.0)","chronic sore throat (J31.2)","nasopharyngitis, chronic (J31.1)","vasomotor rhinitis (J30.0)"]|["e:2v2u","e:2v2v","e:2v2w","e:2v2x","e:2v2y","e:2v2z","e:2v31"]
+.s "cm:J01"
+excludes2|["chronic sinusitis (J32.0-J32.8)"]|["e:2v3h","e:2v3i"]
+.s "cm:J02"
+excludes2|["chronic pharyngitis (J31.2)"]|["e:2v5y","e:2v5z"]
+.s "cm:J02.0"
+excludes2|["scarlet fever (A38.-)"]|["e:2v67","e:2v68"]
+.s "cm:J03"
+excludes2|["chronic tonsillitis (J35.0)"]|["e:2v79","e:2v7a"]
+.s "cm:J04"
+excludes2|["laryngismus (stridulus) (J38.5)"]|["e:2v90","e:2v91"]
+.s "cm:J04.0"
+excludes2|["chronic laryngitis (J37.0)"]|["e:2v9e","e:2v9f"]
+.s "cm:J04.1"
+excludes2|["chronic tracheitis (J42)"]|["e:2v9p","e:2v9q"]
+.s "cm:J04.2"
+excludes2|["chronic laryngotracheitis (J37.1)"]|["e:2va7","e:2va8"]
+.s "cm:J05.1"
+excludes2|["epiglottitis, chronic (J37.0)"]|["e:2vb4","e:2vb5"]
+.s "cm:J12"
+excludes2|["aspiration pneumonia due to anesthesia during labor and delivery (O74.0)","aspiration pneumonia due to anesthesia during pregnancy (O29)","aspiration pneumonia due to anesthesia during puerperium (O89.0)","aspiration pneumonia due to solids and liquids (J69.-)","aspiration pneumonia NOS (J69.0)","congenital pneumonia (P23.0)","congenital rubella pneumonitis (P35.0)","interstitial pneumonia NOS (J84.9)","lipid pneumonia (J69.1)","neonatal aspiration pneumonia (P24.-)"]|["e:2vi9","e:2via","e:2vib","e:2vic","e:2vid","e:2vie","e:2vig","e:2vih","e:2vii","e:2vij","e:2vik"]
+.s "cm:J18"
+excludes2|["abscess of lung with pneumonia (J85.1)","aspiration pneumonia due to anesthesia during labor and delivery (O74.0)","aspiration pneumonia due to anesthesia during pregnancy (O29)","aspiration pneumonia due to anesthesia during puerperium (O89.0)","aspiration pneumonia due to solids and liquids (J69.-)","aspiration pneumonia NOS (J69.0)","lipid pneumonia (J69.1)","pneumonitis due to external agents (J67-J70)"]|["e:2vp6","e:2vp7","e:2vp9","e:2vpa","e:2vpb","e:2vpc","e:2vpd","e:2vpe","e:2vpf"]
+.s "cm:J18.0"
+excludes2|["acute bronchiolitis (J21.-)","chronic bronchiolitis (J44.89)","other specified chronic obstructive pulmonary disease (J44.89)"]|["e:2vpn","e:2vpo","e:2vpp","e:2vpq"]
+.s "cm:J20"
+excludes2|["acute bronchitis with bronchiectasis (J47.0)","acute bronchitis with chronic obstructive asthma (J44.0)","acute bronchitis with chronic obstructive pulmonary disease (J44.0)","allergic bronchitis NOS (J45.909)","bronchitis due to chemicals, fumes and vapors (J68.0)","chronic bronchitis NOS (J42)","chronic mucopurulent bronchitis (J41.1)","chronic obstructive bronchitis (J44.-)","chronic obstructive tracheobronchitis (J44.-)","chronic simple bronchitis (J41.0)","chronic tracheobronchitis (J42)"]|["e:2vqs","e:2vqt","e:2vqu","e:2vqv","e:2vqw","e:2vqx","e:2vqy","e:2vqz","e:2vr0","e:2vr1","e:2vr3","e:2vr4"]
+.s "cm:J21"
+excludes2|["respiratory bronchiolitis interstitial lung disease (J84.115)"]|["e:2vsb","e:2vsd"]
+.s "cm:J31.1"
+excludes2|["acute nasopharyngitis (J00)"]|["e:2vv0","e:2vv1"]
+.s "cm:J31.2"
+excludes2|["acute pharyngitis (J02.9)"]|["e:2vvc","e:2vvd"]
+.s "cm:J32"
+excludes2|["acute sinusitis (J01.-)"]|["e:2vvr","e:2vvs"]
+.s "cm:J34"
+excludes2|["varicose ulcer of nasal septum (I86.8)"]|["e:2vxw","e:2vxx"]
+.s "cm:J34.81"
+excludes2|["gastrointestinal mucositis (ulcerative) (K92.81)","mucositis (ulcerative) of vagina and vulva (N76.81)","oral mucositis (ulcerative) (K12.3-)"]|["e:2vyw","e:2vyx","e:2vyy","e:2vyz"]
+.s "cm:J35.0"
+excludes2|["acute tonsillitis (J03.-)"]|["e:2w0v","e:2w0w"]
+.s "cm:J37.0"
+excludes2|["acute laryngitis (J04.0)","obstructive (acute) laryngitis (J05.0)"]|["e:2w3a","e:2w3b","e:2w3c"]
+.s "cm:J37.1"
+excludes2|["acute laryngotracheitis (J04.2)","acute tracheitis (J04.1)"]|["e:2w3m","e:2w3n","e:2w3o"]
+.s "cm:J39.2"
+excludes2|["chronic pharyngitis (J31.2)","ulcerative pharyngitis (J02.9)"]|["e:2w6s","e:2w6u","e:2w6v"]
+.s "cm:J41"
+excludes2|["chronic bronchitis NOS (J42)","chronic obstructive bronchitis (J44.-)"]|["e:2w8h","e:2w8i","e:2w8j"]
+.s "cm:J43"
+excludes2|["emphysema due to inhalation of chemicals, gases, fumes or vapors (J68.4)","emphysema with chronic (obstructive) bronchitis (J44.-)","emphysematous (obstructive) bronchitis (J44.-)","traumatic subcutaneous emphysema (T79.7)"]|["e:2w9s","e:2w9t","e:2w9u","e:2w9v","e:2w9x"]
+.s "cm:J44"
+excludes2|["bronchiectasis (J47.-)","chronic bronchitis NOS (J42)","chronic simple and mucopurulent bronchitis (J41.-)","chronic tracheitis (J42)","chronic tracheobronchitis (J42)","emphysema without chronic bronchitis (J43.-)"]|["e:2wb9","e:2wba","e:2wbb","e:2wbc","e:2wbd","e:2wbe","e:2wbf"]
+.s "cm:J44.1"
+excludes2|["chronic obstructive pulmonary disease [COPD] with acute bronchitis (J44.0)","lung diseases due to external agents (J60-J70)"]|["e:2wbt","e:2wbu","e:2wbv"]
+.s "cm:J44.9"
+excludes2|["lung diseases due to external agents (J60-J70)"]|["e:2wcw","e:2wcx"]
+.s "cm:J45"
+excludes2|["asthma with chronic obstructive pulmonary disease (J44.89)","chronic asthmatic (obstructive) bronchitis (J44.89)","chronic obstructive asthma (J44.89)","other specified chronic obstructive pulmonary disease (J44.89)"]|["e:2weh","e:2wei","e:2wek","e:2wel","e:2wem"]
+.s "cm:J45.909"
+excludes2|["lung diseases due to external agents (J60-J70)"]|["e:2wh1","e:2wh2"]
+.s "cm:J66"
+excludes2|["allergic alveolitis (J67.-)","asbestosis (J61)","bagassosis (J67.1)","farmer's lung (J67.0)","hypersensitivity pneumonitis due to organic dust (J67.-)","reactive airways dysfunction syndrome (J68.3)"]|["e:2wkv","e:2wkw","e:2wkx","e:2wky","e:2wkz","e:2wl1","e:2wl2"]
+.s "cm:J70.5"
+excludes2|["smoke inhalation due to chemicals, gases, fumes and vapors (J68.9)"]|["e:2wrl","e:2wrm"]
+.s "cm:J82"
+excludes2|["pulmonary eosinophilia due to aspergillosis (B44.-)","pulmonary eosinophilia due to drugs (J70.2-J70.4)","pulmonary eosinophilia due to specified parasitic infection (B50-B83)","pulmonary eosinophilia due to systemic connective tissue disorders (M30-M36)","pulmonary infiltrate NOS (R91.8)"]|["e:2wt8","e:2wt9","e:2wta","e:2wtb","e:2wtc","e:2wte"]
+.s "cm:J84"
+excludes2|["lung diseases due to external agents (J60-J70)"]|["e:2wuh","e:2wui"]
+.s "cm:J91"
+excludes2|["pleural effusion in heart failure (I50.-)","pleural effusion in systemic lupus erythematosus (M32.13)"]|["e:2x1x","e:2x1y","e:2x20"]
+.s "cm:J95"
+excludes2|["aspiration pneumonia (J69.-)","emphysema (subcutaneous) resulting from a procedure (T81.82)","hypostatic pneumonia (J18.2)","pulmonary manifestations due to radiation (J70.0-J70.1)"]|["e:2x5l","e:2x5m","e:2x5n","e:2x5o","e:2x5q"]
+.s "cm:J95.1"
+excludes2|["Functional disturbances following cardiac surgery (I97.0, I97.1-)"]|["e:2x6q","e:2x6r"]
+.s "cm:J95.2"
+excludes2|["Functional disturbances following cardiac surgery (I97.0, I97.1-)"]|["e:2x6v","e:2x6w"]
+.s "cm:J95.3"
+excludes2|["Functional disturbances following cardiac surgery (I97.0, I97.1-)"]|["e:2x71","e:2x72"]
+.s "cm:J95.7"
+excludes2|["postprocedural pneumothorax (J95.811)"]|["e:2x7z","e:2x80"]
+.s "cm:J95.82"
+excludes2|["respiratory failure in other conditions (J96.-)"]|["e:2x8p","e:2x8q"]
+.s "cm:J95.89"
+excludes2|["acute pulmonary insufficiency following thoracic surgery (J95.1)","postprocedural subglottic stenosis (J95.5)"]|["e:2xay","e:2xaz","e:2xb0"]
+.s "cm:J98"
+excludes2|["apnea NOS (R06.81)","sleep apnea (G47.3-)"]|["e:2xdj","e:2xdk","e:2xdl"]
+.s "cm:J98.5"
+excludes2|["abscess of mediastinum (J85.3)"]|["e:2xfj","e:2xfl"]
+.s "cm:J98.6"
+excludes2|["diaphragmatic hernia (K44.-)"]|["e:2xga","e:2xgb"]
+.s "cm:K00"
+excludes2|["embedded and impacted teeth (K01.-)"]|["e:2xib","e:2xic"]
+.s "cm:K00.1"
+excludes2|["supernumerary roots (K00.2)"]|["e:2xiw","e:2xix"]
+.s "cm:K00.3"
+excludes2|["deposits [accretions] on teeth (K03.6)"]|["e:2xjs","e:2xjt"]
+.s "cm:K00.4"
+excludes2|["mottled teeth (K00.3)"]|["e:2xk6","e:2xk8"]
+.s "cm:K00.6"
+excludes2|["embedded and impacted teeth (K01.-)"]|["e:2xkw","e:2xkx"]
+.s "cm:K00.8"
+excludes2|["posteruptive color changes (K03.7)"]|["e:2xl8","e:2xl9"]
+.s "cm:K03"
+excludes2|["bruxism (F45.8)","dental caries (K02.-)","teeth-grinding NOS (F45.8)"]|["e:2xnh","e:2xni","e:2xnj","e:2xnk"]
+.s "cm:K03.7"
+excludes2|["deposits [accretions] on teeth (K03.6)"]|["e:2xpd","e:2xpe"]
+.s "cm:K04.8"
+excludes2|["lateral periodontal cyst (K09.0)"]|["e:2xry","e:2xrz"]
+.s "cm:K05.5"
+excludes2|["leukoplakia of gingiva (K13.21)"]|["e:2xwr","e:2xws"]
+.s "cm:K06"
+excludes2|["acute gingivitis (K05.0)","atrophy of edentulous alveolar ridge (K08.2)","chronic gingivitis (K05.1)","gingivitis NOS (K05.1)"]|["e:2xx0","e:2xx1","e:2xx2","e:2xx3","e:2xx4"]
+.s "cm:K06.8"
+excludes2|["gingival cyst (K09.0)"]|["e:2xz5","e:2xz6"]
+.s "cm:K08"
+excludes2|["dentofacial anomalies [including malocclusion] (M26.-)","disorders of jaw (M27.-)"]|["e:2xze","e:2xzf","e:2xzg"]
+.s "cm:K08.4"
+excludes2|["exfoliation of teeth due to systemic causes (K08.0)"]|["e:2y4b","e:2y4c"]
+.s "cm:K08.5"
+excludes2|["endosseous dental implant failure (M27.6-)","unsatisfactory endodontic treatment (M27.5-)"]|["e:2y7g","e:2y7h","e:2y7i"]
+.s "cm:K09"
+excludes2|["cysts of jaw (M27.0-, M27.4-)","radicular cyst (K04.8)"]|["e:2ya0","e:2ya1","e:2ya2"]
+.s "cm:K09.0"
+excludes2|["keratocysts (D16.4, D16.5)","odontogenic keratocystic tumors (D16.4, D16.5)"]|["e:2yae","e:2yag","e:2yah"]
+.s "cm:K11.7"
+excludes2|["dry mouth NOS (R68.2)"]|["e:2ydc","e:2ydd"]
+.s "cm:K12.2"
+excludes2|["abscess of salivary gland (K11.3)","abscess of tongue (K14.0)","periapical abscess (K04.6-K04.7)","periodontal abscess (K05.21)","peritonsillar abscess (J36)"]|["e:2yf9","e:2yfa","e:2yfb","e:2yfc","e:2yfe","e:2yff"]
+.s "cm:K12.3"
+excludes2|["gastrointestinal mucositis (ulcerative) (K92.81)","mucositis (ulcerative) of vagina and vulva (N76.81)","nasal mucositis (ulcerative) (J34.81)"]|["e:2yfl","e:2yfm","e:2yfn","e:2yfq"]
+.s "cm:K13"
+excludes2|["certain disorders of gingiva and edentulous alveolar ridge (K05-K06)","cysts of oral region (K09.-)","diseases of tongue (K14.-)","stomatitis and related lesions (K12.-)"]|["e:2ygz","e:2yh0","e:2yh1","e:2yh2","e:2yh3"]
+.s "cm:K13.6"
+excludes2|["irritative hyperplasia of edentulous ridge [denture hyperplasia] (K06.2)"]|["e:2yjm","e:2yjn"]
+.s "cm:K14"
+excludes2|["erythroplakia (K13.29)","focal epithelial hyperplasia (K13.29)","leukoedema of tongue (K13.29)","leukoplakia of tongue (K13.21)","hairy leukoplakia (K13.3)","macroglossia (congenital) (Q38.2)","submucous fibrosis of tongue (K13.5)"]|["e:2ykd","e:2yke","e:2ykf","e:2ykg","e:2ykh","e:2yki","e:2ykj","e:2ykk"]
+.s "cm:K20"
+excludes2|["eosinophilic gastritis or gastroenteritis (K52.81)"]|["e:2ymx","e:2ymy"]
+.s "cm:K22"
+excludes2|["esophageal varices (I85.-)"]|["e:2yoi","e:2yoj"]
+.s "cm:K22.11"
+excludes2|["bleeding esophageal varices (I85.01, I85.11)"]|["e:2ypm","e:2ypn"]
+.s "cm:K22.8"
+excludes2|["esophageal varices (I85.-)","Paterson-Kelly syndrome (D50.1)"]|["e:2yrq","e:2yrr","e:2yrs"]
+.s "cm:K31"
+excludes2|["diabetic gastroparesis (E08.43, E09.43, E10.43, E11.43, E13.43)","diverticulum of duodenum (K57.00-K57.13)"]|["e:2z1c","e:2z1d","e:2z1e"]
+.s "cm:K31.82"
+excludes2|["Dieulafoy lesion of intestine (K63.81)"]|["e:2z3l","e:2z3m"]
+.s "cm:K51.4"
+excludes2|["adenomatous polyp of colon (D12.6)","polyposis of colon (D12.6)","polyps of colon NOS (K63.5)"]|["e:2zse","e:2zsg","e:2zsh","e:2zsi"]
+.s "cm:K52.2"
+excludes2|["allergic eosinophilic colitis (K52.82)","allergic eosinophilic esophagitis (K20.0)","allergic eosinophilic gastritis (K52.81)","allergic eosinophilic gastroenteritis (K52.81)"]|["e:2zwn","e:2zwo","e:2zwp","e:2zwq","e:2zws"]
+.s "cm:K52.81"
+excludes2|["eosinophilic esophagitis (K20.0)"]|["e:2zxv","e:2zxw"]
+.s "cm:K52.82"
+excludes2|["allergic proctocolitis (K52.29)","food-induced eosinophilic proctocolitis (K52.29)","food protein-induced enterocolitis syndrome (FPIES) (K52.21)","food protein-induced proctocolitis (K52.29)","milk protein-induced proctocolitis (K52.29)"]|["e:2zy1","e:2zy2","e:2zy3","e:2zy4","e:2zy5","e:2zy6"]
+.s "cm:K55"
+excludes2|["angioectasia (angiodysplasia) duodenum (K31.81-)"]|["e:2zzh","e:2zzi"]
+.s "cm:K55.3"
+excludes2|["necrotizing enterocolitis due to Clostridium difficile (A04.7-)"]|["e:3036","e:3037"]
+.s "cm:K56"
+excludes2|["stenosis of anus or rectum (K62.4)"]|["e:304j","e:304k"]
+.s "cm:K56.1"
+excludes2|["intussusception of appendix (K38.8)"]|["e:3056","e:3057"]
+.s "cm:K56.2"
+excludes2|["volvulus of duodenum (K31.5)"]|["e:305h","e:305i"]
+.s "cm:K56.41"
+excludes2|["incomplete defecation (R15.0)"]|["e:305v","e:305w"]
+.s "cm:K56.7"
+excludes2|["intestinal obstruction with hernia (K40-K46)"]|["e:3080","e:3081"]
+.s "cm:K57"
+excludes2|["diverticulum of appendix (K38.2)"]|["e:308b","e:308c"]
+.s "cm:K59"
+excludes2|["functional disorders of stomach (K31.-)"]|["e:30cr","e:30cs"]
+.s "cm:K59.0"
+excludes2|["incomplete defecation (R15.0)"]|["e:30cz","e:30d0"]
+.s "cm:K60"
+excludes2|["abscess or cellulitis of anal and rectal regions (K61.-)","anal sphincter tear (healed) (nontraumatic) (old) (K62.81)"]|["e:30fg","e:30fh","e:30fi"]
+.s "cm:K61.0"
+excludes2|["intrasphincteric abscess (K61.4)"]|["e:30mn","e:30mp"]
+.s "cm:K62"
+excludes2|["colostomy and enterostomy malfunction (K94.0-, K94.1-)","fecal incontinence (R15.-)","hemorrhoids (K64.-)"]|["e:30ns","e:30nt","e:30nu","e:30nv"]
+.s "cm:K62.8"
+excludes2|["ulcerative proctitis (K51.2)"]|["e:30pe","e:30pf"]
+.s "cm:K62.81"
+excludes2|["anal fissure (K60.-)","anal sphincter tear (healed) (old) complicating delivery (O34.7-)","traumatic tear of anal sphincter (S31.831)"]|["e:30po","e:30pp","e:30pq","e:30ps"]
+.s "cm:K63.0"
+excludes2|["abscess of anal and rectal regions (K61.-)","abscess of appendix (K35.3-)"]|["e:30qt","e:30qu","e:30qv"]
+.s "cm:K63.1"
+excludes2|["perforation (nontraumatic) of appendix (K35.2-, K35.3-)"]|["e:30r6","e:30r7"]
+.s "cm:K63.2"
+excludes2|["fistula of anal and rectal regions (K60.-)","fistula of appendix (K38.3)","intestinal-genital fistula, female (N82.2-N82.4)","vesicointestinal fistula (N32.1)"]|["e:30ri","e:30rj","e:30rk","e:30rl","e:30rn"]
+.s "cm:K63.5"
+excludes2|["adenomatous polyp of colon (D12.-)","inflammatory polyp of colon (K51.4-)","polyposis of colon (D12.6)"]|["e:30sa","e:30sb","e:30sc","e:30sd"]
+.s "cm:K63.81"
+excludes2|["Dieulafoy lesion of stomach and duodenum (K31.82)"]|["e:30sl","e:30sm"]
+.s "cm:K66"
+excludes2|["ascites (R18.-)","peritoneal effusion (chronic) (R18.8)"]|["e:30xq","e:30xr","e:30xs"]
+.s "cm:K66.0"
+excludes2|["female pelvic adhesions [bands] (N73.6)","female pelvic postprocedural adhesions (N99.4)"]|["e:30y9","e:30ya","e:30yb"]
+.s "cm:K66.1"
+excludes2|["retroperitoneal hematoma (K68.3)","retroperitoneal hemorrhage (K68.3)"]|["e:30yl","e:30ym","e:30yn"]
+.s "cm:K68.11"
+excludes2|["infection following procedure (T81.4-)"]|["e:30zj","e:30zk"]
+.s "cm:K71"
+excludes2|["alcoholic liver disease (K70.-)","Budd-Chiari syndrome (I82.0)"]|["e:312a","e:312b","e:312c"]
+.s "cm:K72"
+excludes2|["hepatic failure complicating abortion or ectopic or molar pregnancy (O00-O07, O08.8)","hepatic failure complicating pregnancy, childbirth and the puerperium (O26.6-)","viral hepatitis with hepatic coma (B15-B19)"]|["e:314i","e:314j","e:314k","e:314l"]
+.s "cm:K74.3"
+excludes2|["primary sclerosing cholangitis (K83.01)"]|["e:317v","e:317w"]
+.s "cm:K75"
+excludes2|["toxic liver disease (K71.-)"]|["e:318r","e:318s"]
+.s "cm:K75.0"
+excludes2|["acute or subacute hepatitis NOS (B17.9)","acute or subacute non-viral hepatitis (K72.0)","chronic hepatitis NEC (K73.8)"]|["e:3197","e:3199","e:319a","e:319b"]
+.s "cm:K76"
+excludes2|["alcoholic liver disease (K70.-)","amyloid degeneration of liver (E85.-)","cystic disease of liver (congenital) (Q44.6)","hepatic vein thrombosis (I82.0)","hepatomegaly NOS (R16.0)","pigmentary cirrhosis (of liver) (E83.110)","portal vein thrombosis (I81)","toxic liver disease (K71.-)"]|["e:31ax","e:31ay","e:31az","e:31b0","e:31b1","e:31b2","e:31b4","e:31b5","e:31b6"]
+.s "cm:K83"
+excludes2|["conditions involving the gallbladder (K81-K82)","conditions involving the cystic duct (K81-K82)"]|["e:31nb","e:31nc","e:31nd"]
+.s "cm:K83.0"
+excludes2|["chronic nonsuppurative destructive cholangitis (K74.3)","primary biliary cholangitis (K74.3)","primary biliary cirrhosis (K74.3)"]|["e:31nl","e:31nm","e:31nn","e:31no"]
+.s "cm:K85.2"
+excludes2|["alcohol induced chronic pancreatitis (K86.0)"]|["e:31qe","e:31qf"]
+.s "cm:K86"
+excludes2|["fibrocystic disease of pancreas (E84.-)","islet cell tumor (of pancreas) (D13.7)","pancreatic steatorrhea (K90.3)"]|["e:31s6","e:31s7","e:31s8","e:31s9"]
+.s "cm:K86.0"
+excludes2|["alcohol induced acute pancreatitis (K85.2-)"]|["e:31sj","e:31sk"]
+.s "cm:K90.4"
+excludes2|["celiac gluten-sensitive enteropathy (K90.0)","lactose intolerance (E73.-)"]|["e:31vc","e:31vd","e:31ve"]
+.s "cm:K91"
+excludes2|["complications of artificial opening of digestive system (K94.-)","complications of bariatric procedures (K95.-)","gastrojejunal ulcer (K28.-)","postprocedural (radiation) retroperitoneal abscess (K68.11)","radiation colitis (K52.0)","radiation gastroenteritis (K52.0)","radiation proctitis (K62.7)"]|["e:31x3","e:31x4","e:31x5","e:31x6","e:31x7","e:31x8","e:31x9","e:31xa"]
+.s "cm:K91.89"
+excludes2|["postprocedural retroperitoneal abscess (K68.11)"]|["e:320s","e:320t"]
+.s "cm:K92.81"
+excludes2|["mucositis (ulcerative) of vagina and vulva (N76.81)","nasal mucositis (ulcerative) (J34.81)","oral mucositis (ulcerative) (K12.3-)"]|["e:321z","e:3220","e:3221","e:3222"]
+.s "cm:L02"
+excludes2|["abscess of anus and rectal regions (K61.-)","abscess of female genital organs (external) (N76.4)","abscess of male genital organs (external) (N48.2, N49.-)"]|["e:329f","e:329g","e:329h","e:329i"]
+.s "cm:L02.0"
+excludes2|["abscess of ear, external (H60.0)","abscess of eyelid (H00.0)","abscess of head [any part, except face] (L02.8)","abscess of lacrimal gland (H04.0)","abscess of lacrimal passages (H04.3)","abscess of mouth (K12.2)","abscess of nose (J34.0)","abscess of orbit (H05.0)","submandibular abscess (K12.2)"]|["e:329m","e:329o","e:329p","e:329q","e:329r","e:329s","e:329t","e:329u","e:329v","e:329w"]
+.s "cm:L02.2"
+excludes2|["abscess of breast (N61.1)","abscess of buttocks (L02.3)","abscess of female external genital organs (N76.4)","abscess of male external genital organs (N48.2, N49.-)","abscess of hip (L02.4)"]|["e:32az","e:32b0","e:32b1","e:32b2","e:32b3","e:32b4"]
+.s "cm:L02.4"
+excludes2|["Cutaneous abscess, furuncle and carbuncle of groin (L02.214, L02.224, L02.234)","Cutaneous abscess, furuncle and carbuncle of hand (L02.5-)","Cutaneous abscess, furuncle and carbuncle of foot (L02.6-)"]|["e:32ef","e:32eg","e:32eh","e:32ei"]
+.s "cm:L03"
+excludes2|["cellulitis of anal and rectal region (K61.-)","cellulitis of external auditory canal (H60.1)","cellulitis of eyelid (H00.0)","cellulitis of female external genital organs (N76.4)","cellulitis of lacrimal apparatus (H04.3)","cellulitis of male external genital organs (N48.2, N49.-)","cellulitis of mouth (K12.2)","cellulitis of nose (J34.0)","eosinophilic cellulitis [Wells] (L98.3)","febrile neutrophilic dermatosis [Sweet] (L98.2)","lymphangitis (chronic) (subacute) (I89.1)"]|["e:32l0","e:32l1","e:32l3","e:32l4","e:32l5","e:32l6","e:32l7","e:32l8","e:32l9","e:32la","e:32lb","e:32lc"]
+.s "cm:L03.11"
+excludes2|["cellulitis of fingers (L03.01-)","cellulitis of toes (L03.03-)","groin (L03.314)"]|["e:32nm","e:32nn","e:32no","e:32np"]
+.s "cm:L03.12"
+excludes2|["acute lymphangitis of fingers (L03.2-)","acute lymphangitis of toes (L03.04-)","acute lymphangitis of groin (L03.324)"]|["e:32og","e:32oi","e:32oj","e:32ok"]
+.s "cm:L03.211"
+excludes2|["abscess of orbit (H05.01-)","cellulitis of ear (H60.1-)","cellulitis of eyelid (H00.0-)","cellulitis of head (L03.81)","cellulitis of lacrimal apparatus (H04.3)","cellulitis of lip (K13.0)","cellulitis of mouth (K12.2)","cellulitis of nose (internal) (J34.0)","cellulitis of orbit (H05.01-)","cellulitis of scalp (L03.81)"]|["e:32pi","e:32pj","e:32pk","e:32pl","e:32pm","e:32pn","e:32po","e:32pq","e:32pr","e:32ps","e:32pt"]
+.s "cm:L03.31"
+excludes2|["cellulitis of anal and rectal regions (K61.-)","cellulitis of breast NOS (N61.0)","cellulitis of female external genital organs (N76.4)","cellulitis of male external genital organs (N48.2, N49.-)","omphalitis of newborn (P38.-)","puerperal cellulitis of breast (O91.2)"]|["e:32qk","e:32ql","e:32qm","e:32qo","e:32qp","e:32qq","e:32qr"]
+.s "cm:L03.311"
+excludes2|["cellulitis of umbilicus (L03.316)","cellulitis of groin (L03.314)"]|["e:32qv","e:32qw","e:32qx"]
+.s "cm:L03.811"
+excludes2|["cellulitis of face (L03.211)"]|["e:32sy","e:32sz"]
+.s "cm:L04.3"
+excludes2|["acute lymphadenitis of groin (L04.1)"]|["e:32um","e:32uo"]
+.s "cm:L05.01"
+excludes2|["congenital sacral dimple (Q82.6)","parasacral dimple (Q82.6)"]|["e:32va","e:32vb","e:32vc"]
+.s "cm:L05.91"
+excludes2|["congenital sacral dimple (Q82.6)","parasacral dimple (Q82.6)"]|["e:32vw","e:32vx","e:32vy"]
+.s "cm:L20.8"
+excludes2|["circumscribed neurodermatitis (L28.0)"]|["e:3322","e:3323"]
+.s "cm:L21"
+excludes2|["infective dermatitis (L30.3)","seborrheic keratosis (L82.-)"]|["e:332u","e:332v","e:332w"]
+.s "cm:L23"
+excludes2|["dermatitis due to substances taken internally (L27.-)","dermatitis of eyelid (H01.1-)","diaper dermatitis (L22)","eczema of external ear (H60.5-)","irritant contact dermatitis (L24.-)","perioral dermatitis (L71.0)","radiation-related disorders of the skin and subcutaneous tissue (L55-L59)"]|["e:333u","e:333v","e:333x","e:333y","e:333z","e:3340","e:3341","e:3342"]
+.s "cm:L23.3"
+excludes2|["dermatitis due to ingested drugs and medicaments (L27.0-L27.1)"]|["e:334m","e:334n"]
+.s "cm:L23.6"
+excludes2|["dermatitis due to ingested food (L27.2)"]|["e:3353","e:3355"]
+.s "cm:L23.7"
+excludes2|["allergy NOS due to pollen (J30.1)"]|["e:3359","e:335a"]
+.s "cm:L24"
+excludes2|["allergic contact dermatitis (L23.-)","dermatitis due to substances taken internally (L27.-)","dermatitis of eyelid (H01.1-)","diaper dermatitis (L22)","eczema of external ear (H60.5-)","perioral dermatitis (L71.0)","radiation-related disorders of the skin and subcutaneous tissue (L55-L59)"]|["e:3361","e:3363","e:3364","e:3365","e:3366","e:3367","e:3368","e:3369"]
+.s "cm:L24.6"
+excludes2|["dermatitis due to ingested food (L27.2)"]|["e:337d","e:337e"]
+.s "cm:L24.7"
+excludes2|["allergy NOS to pollen (J30.1)"]|["e:337i","e:337j"]
+.s "cm:L24.A"
+excludes2|["erythema intertrigo (L30.4)"]|["e:338b","e:338c"]
+.s "cm:L25"
+excludes2|["dermatitis due to ingested substances (L27.-)","dermatitis of eyelid (H01.1-)","eczema of external ear (H60.5-)","perioral dermatitis (L71.0)","radiation-related disorders of the skin and subcutaneous tissue (L55-L59)"]|["e:33a3","e:33a4","e:33a5","e:33a6","e:33a7","e:33a8"]
+.s "cm:L25.1"
+excludes2|["dermatitis due to ingested drugs and medicaments (L27.0-L27.1)"]|["e:33ai","e:33aj"]
+.s "cm:L25.4"
+excludes2|["dermatitis due to ingested food (L27.2)"]|["e:33ax","e:33ay"]
+.s "cm:L25.5"
+excludes2|["allergy NOS due to pollen (J30.1)"]|["e:33b5","e:33b6"]
+.s "cm:L27"
+excludes2|["adverse food reaction, except dermatitis (T78.0-T78.1)","contact dermatitis (L23-L25)","drug photoallergic response (L56.1)","drug phototoxic response (L56.0)","urticaria (L50.-)"]|["e:33bv","e:33bw","e:33by","e:33bz","e:33c0","e:33c1"]
+.s "cm:L27.2"
+excludes2|["dermatitis due to food in contact with skin (L23.6, L24.6, L25.4)"]|["e:33cg","e:33ch"]
+.s "cm:L30"
+excludes2|["contact dermatitis (L23-L25)","dry skin dermatitis (L85.3)","small plaque parapsoriasis (L41.3)","stasis dermatitis (I87.2)"]|["e:33ei","e:33ej","e:33ek","e:33el","e:33em"]
+.s "cm:L50.2"
+excludes2|["familial cold urticaria (M04.2)"]|["e:33m8","e:33m9"]
+.s "cm:L60"
+excludes2|["clubbing of nails (R68.3)","onychia and paronychia (L03.0-)"]|["e:33tj","e:33tk","e:33tl"]
+.s "cm:L70"
+excludes2|["acne keloid (L73.0)"]|["e:33zl","e:33zm"]
+.s "cm:L72.3"
+excludes2|["pilar cyst (L72.11)","trichilemmal (proliferating) cyst (L72.12)"]|["e:341s","e:341t","e:341v"]
+.s "cm:L74"
+excludes2|["generalized hyperhidrosis (R61)"]|["e:342s","e:342t"]
+.s "cm:L80"
+excludes2|["vitiligo of eyelids (H02.73-)","vitiligo of vulva (N90.89)"]|["e:3477","e:3478","e:3479"]
+.s "cm:L81"
+excludes2|["nevus - see Alphabetical Index"]|["e:347h","e:347i"]
+.s "cm:L82"
+excludes2|["seborrheic dermatitis (L21.-)"]|["e:348v","e:348w"]
+.s "cm:L85"
+excludes2|["hypertrophic disorders of the skin (L91.-)"]|["e:349n","e:349o"]
+.s "cm:L89"
+excludes2|["decubitus (trophic) ulcer of cervix (uteri) (N86)","diabetic ulcers (E08.621, E08.622, E09.621, E09.622, E10.621, E10.622, E11.621, E11.622, E13.621, E13.622)","non-pressure chronic ulcer of skin (L97.-)","skin infections (L00-L08)","varicose ulcer (I83.0, I83.2)"]|["e:34c4","e:34c5","e:34c6","e:34c7","e:34c8","e:34c9"]
+.s "cm:L90.0"
+excludes2|["lichen sclerosus of external female genital organs (N90.4)","lichen sclerosus of external male genital organs (N48.0)"]|["e:357f","e:357g","e:357k"]
+.s "cm:L90.5"
+excludes2|["hypertrophic scar (L91.0)","keloid scar (L91.0)"]|["e:3588","e:3589","e:358a"]
+.s "cm:L91.0"
+excludes2|["acne keloid (L73.0)","scar NOS (L90.5)"]|["e:358v","e:358w","e:358x"]
+.s "cm:L92"
+excludes2|["actinic granuloma (L57.5)"]|["e:3598","e:3599"]
+.s "cm:L92.9"
+excludes2|["umbilical granuloma (P83.81)"]|["e:35a1","e:35a2"]
+.s "cm:L97"
+excludes2|["pressure ulcer (pressure area) (L89.-)","skin infections (L00-L08)","specific infections classified to A00-B99"]|["e:35dg","e:35dh","e:35di","e:35dj"]
+.s "cm:L98.0"
+excludes2|["pyogenic granuloma of gingiva (K06.8)","pyogenic granuloma of maxillary alveolar ridge (K04.5)","pyogenic granuloma of oral mucosa (K13.4)"]|["e:35w2","e:35w3","e:35w4","e:35w5"]
+.s "cm:L98.4"
+excludes2|["pressure ulcer (pressure area) (L89.-)","gangrene (I96)","skin infections (L00-L08)","specific infections classified to A00-B99","ulcer of lower limb NEC (L97.-)","varicose ulcer (I83.0-I83.93)"]|["e:35wu","e:35wv","e:35ww","e:35wx","e:35wy","e:35wz","e:35x0"]
+.s "cm:L98.7"
+excludes2|["acquired excess or redundant skin of eyelid (H02.3-)","congenital excess or redundant skin of eyelid (Q10.3)","skin changes due to chronic exposure to nonionizing radiation (L57.-)"]|["e:36cq","e:36cr","e:36cs","e:36ct"]
+.s "cm:L98.A"
+excludes2|["gangrene (I96)","pressure ulcer (pressure area) (L89.-)","skin infections (L00-L08)","specific infections classified to A00-B99","ulcer of lower limb NEC (L97.-)","varicose ulcer (I83.0-I83.93)"]|["e:3640","e:3641","e:3642","e:3643","e:3644","e:3645","e:3646"]
+.s "cm:M00"
+excludes2|["infection and inflammatory reaction due to internal joint prosthesis (T84.5-)"]|["e:36ew","e:36ex"]
+.s "cm:M04"
+excludes2|["Crohn's disease (K50.-)"]|["e:37c9","e:37ca"]
+.s "cm:M10"
+excludes2|["chronic gout (M1A.-)"]|["e:39he","e:39hf"]
+.s "cm:M19"
+excludes2|["arthrosis of spine (M47.-)","hallux rigidus (M20.2)","osteoarthritis of spine (M47.-)"]|["e:3be8","e:3be9","e:3bea","e:3beb"]
+.s "cm:M19.04"
+excludes2|["primary osteoarthritis of first carpometacarpal joint (M18.0-, M18.1-)"]|["e:3bfn","e:3bfo"]
+.s "cm:M19.14"
+excludes2|["post-traumatic osteoarthritis of first carpometacarpal joint (M18.2-, M18.3-)"]|["e:3bhq","e:3bhs"]
+.s "cm:M1A"
+excludes2|["acute gout (M10.-)"]|["e:391h","e:391i"]
+.s "cm:M20.1"
+excludes2|["bunion (M21.6-)"]|["e:3bnu","e:3bnv"]
+.s "cm:M21"
+excludes2|["acquired deformities of fingers or toes (M20.-)","coxa plana (M91.2)"]|["e:3bqc","e:3bqd","e:3bqf"]
+.s "cm:M21.6"
+excludes2|["deformities of toe (acquired) (M20.1-M20.6-)"]|["e:3c01","e:3c02"]
+.s "cm:M21.8"
+excludes2|["coxa plana (M91.2)"]|["e:3c3f","e:3c3g"]
+.s "cm:M22"
+excludes2|["traumatic dislocation of patella (S83.0-)"]|["e:3c76","e:3c77"]
+.s "cm:M23"
+excludes2|["current injury - see injury of knee and lower leg (S80-S89)","recurrent dislocation or subluxation of joints (M24.4)","recurrent dislocation or subluxation of patella (M22.0-M22.1)"]|["e:3cad","e:3cae","e:3caf","e:3cah"]
+.s "cm:M24"
+excludes2|["ganglion (M67.4)","snapping knee (M23.8-)","temporomandibular joint disorders (M26.6-)"]|["e:3cot","e:3cou","e:3cov","e:3cow"]
+.s "cm:M24.0"
+excludes2|["loose body in knee (M23.4)"]|["e:3cp1","e:3cp2"]
+.s "cm:M24.1"
+excludes2|["chondrocalcinosis (M11.1-, M11.2-)","internal derangement of knee (M23.-)","metastatic calcification (E83.59)","ochronosis (E70.29)"]|["e:3crv","e:3crw","e:3crx","e:3cry","e:3crz"]
+.s "cm:M24.2"
+excludes2|["internal derangement of knee (M23.5-M23.8X9)"]|["e:3cuy","e:3cuz"]
+.s "cm:M24.4"
+excludes2|["recurrent dislocation of patella (M22.0-M22.1)","recurrent vertebral dislocation (M43.3-, M43.4, M43.5-)"]|["e:3d18","e:3d19","e:3d1a"]
+.s "cm:M24.5"
+excludes2|["acquired deformities of limbs (M20-M21)"]|["e:3d55","e:3d56"]
+.s "cm:M24.6"
+excludes2|["spine (M43.2-)"]|["e:3d8f","e:3d8g"]
+.s "cm:M24.8"
+excludes2|["iliotibial band syndrome (M76.3)"]|["e:3dbp","e:3dbq"]
+.s "cm:M25"
+excludes2|["abnormality of gait and mobility (R26.-)","acquired deformities of limb (M20-M21)","calcification of bursa (M71.4-)","calcification of shoulder (joint) (M75.3)","calcification of tendon (M65.2-)","difficulty in walking (R26.2)","temporomandibular joint disorder (M26.6-)"]|["e:3dep","e:3deq","e:3der","e:3des","e:3det","e:3deu","e:3dew","e:3dex"]
+.s "cm:M25.3"
+excludes2|["spinal instabilities (M53.2-)"]|["e:3doi","e:3doj"]
+.s "cm:M25.5"
+excludes2|["pain in hand (M79.64-)","pain in fingers (M79.64-)","pain in foot (M79.67-)","pain in limb (M79.6-)","pain in toes (M79.67-)"]|["e:3dv0","e:3dv1","e:3dv2","e:3dv3","e:3dv4","e:3dv5"]
+.s "cm:M26.3"
+excludes2|["embedded and impacted teeth (K01.-)"]|["e:3eb4","e:3eb5"]
+.s "cm:M26.6"
+excludes2|["current temporomandibular joint dislocation (S03.0)","current temporomandibular joint sprain (S03.4)"]|["e:3ee4","e:3ee5","e:3ee6"]
+.s "cm:M27.2"
+excludes2|["osteonecrosis of jaw due to drug (M87.180)"]|["e:3ej8","e:3ej9"]
+.s "cm:M27.63"
+excludes2|["cracked tooth (K03.81)","fractured dental restorative material with loss of material (K08.531)","fractured dental restorative material without loss of material (K08.530)","fractured tooth (S02.5)"]|["e:3elh","e:3eli","e:3elj","e:3elk","e:3ell"]
+.s "cm:M35.7"
+excludes2|["Ehlers-Danlos syndromes (Q79.6-)"]|["e:3exy","e:3exz"]
+.s "cm:M36"
+excludes2|["arthropathies in diseases classified elsewhere (M14.-)"]|["e:3ezb","e:3eze"]
+.s "cm:M41"
+excludes2|["postprocedural scoliosis (M96.89)","postradiation scoliosis (M96.5)"]|["e:3f5c","e:3f5d","e:3f5e"]
+.s "cm:M43.2"
+excludes2|["arthrodesis status (Z98.1)","pseudoarthrosis after fusion or arthrodesis (M96.0)"]|["e:3fgs","e:3fgt","e:3fgu"]
+.s "cm:M43.8"
+excludes2|["kyphosis and lordosis (M40.-)","scoliosis (M41.-)"]|["e:3fjb","e:3fjc","e:3fjd"]
+.s "cm:M45"
+excludes2|["Behçet's disease (M35.2)"]|["e:3fks","e:3fkt"]
+.s "cm:M50.1"
+excludes2|["brachial radiculitis NOS (M54.13)"]|["e:3gb1","e:3gb2"]
+.s "cm:M51"
+excludes2|["cervical and cervicothoracic disc disorders (M50.-)","sacral and sacrococcygeal disorders (M53.3)"]|["e:3gh6","e:3gh7","e:3gh8"]
+.s "cm:M53.1"
+excludes2|["cervical disc disorder (M50.-)","thoracic outlet syndrome (G54.0)"]|["e:3gn1","e:3gn2","e:3gn3"]
+.s "cm:M60"
+excludes2|["inclusion body myositis [IBM] (G72.41)"]|["e:3gv0","e:3gv1"]
+.s "cm:M62"
+excludes2|["nontraumatic hematoma of muscle (M79.81)"]|["e:3hsd","e:3hse"]
+.s "cm:M62.1"
+excludes2|["rupture of tendon (M66.-)"]|["e:3hvl","e:3hvm"]
+.s "cm:M62.5"
+excludes2|["pelvic muscle wasting (N81.84)"]|["e:3i50","e:3i51"]
+.s "cm:M62.8"
+excludes2|["nontraumatic hematoma of muscle (M79.81)"]|["e:3i8h","e:3i8i"]
+.s "cm:M66"
+excludes2|["rotator cuff syndrome (M75.1-)","rupture where an abnormal force is applied to normal tissue - see injury of tendon by body region"]|["e:3iul","e:3ium","e:3iun"]
+.s "cm:M66.1"
+excludes2|["rupture of popliteal cyst (M66.0)"]|["e:3iux","e:3iuy"]
+.s "cm:M67.4"
+excludes2|["cyst of bursa (M71.2-M71.3)","cyst of synovium (M71.2-M71.3)"]|["e:3je6","e:3je7","e:3je8"]
+.s "cm:M70"
+excludes2|["bursitis of shoulder (M75.5)","enthesopathies (M76-M77)","pressure ulcer (pressure area) (L89.-)"]|["e:3jp5","e:3jp6","e:3jp7","e:3jp8"]
+.s "cm:M71.4"
+excludes2|["calcium deposit in bursa of shoulder (M75.3)"]|["e:3k88","e:3k8a"]
+.s "cm:M71.5"
+excludes2|["bursitis of shoulder (M75.5)","bursitis of tibial collateral [Pellegrini-Stieda] (M76.4-)"]|["e:3kay","e:3kaz","e:3kb0"]
+.s "cm:M72"
+excludes2|["retroperitoneal fibromatosis (D48.3)"]|["e:3kgn","e:3kgo"]
+.s "cm:M75"
+excludes2|["shoulder-hand syndrome (M89.0-)"]|["e:3ki5","e:3ki6"]
+.s "cm:M76"
+excludes2|["bursitis due to use, overuse and pressure (M70.-)","enthesopathies of ankle and foot (M77.5-)"]|["e:3kme","e:3kmg","e:3kmh"]
+.s "cm:M77"
+excludes2|["bursitis due to use, overuse and pressure (M70.-)","osteophyte (M25.7)","spinal enthesopathy (M46.0-)"]|["e:3kr0","e:3kr1","e:3kr2","e:3kr4"]
+.s "cm:M79.6"
+excludes2|["pain in joint (M25.5-)"]|["e:3kvn","e:3kvo"]
+.s "cm:M80"
+excludes2|["personal history of (healed) osteoporosis fracture (Z87.310)"]|["e:3l2a","e:3l2b"]
+.s "cm:M84"
+excludes2|["traumatic fracture of bone-see fracture, by site"]|["e:3lcb","e:3lcc"]
+.s "cm:M84.3"
+excludes2|["personal history of (healed) stress (fatigue) fracture (Z87.312)","stress fracture of vertebra (M48.4-)"]|["e:3lct","e:3lcu","e:3lcv"]
+.s "cm:M84.38"
+excludes2|["stress fracture of vertebra (M48.4-)"]|["e:3lhe","e:3lhf"]
+.s "cm:M84.4"
+excludes2|["personal history of (healed) pathological fracture (Z87.311)"]|["e:3lhu","e:3lhv"]
+.s "cm:M85.0"
+excludes2|["fibrous dysplasia of jaw (M27.8)"]|["e:3lzn","e:3lzo"]
+.s "cm:M85.4"
+excludes2|["solitary cyst of jaw (M27.4)"]|["e:3m8o","e:3m8p"]
+.s "cm:M85.5"
+excludes2|["aneurysmal cyst of jaw (M27.4)"]|["e:3mbm","e:3mbn"]
+.s "cm:M86"
+excludes2|["ostemyelitis of:","orbit (H05.0-)","petrous bone (H70.2-)","vertebra (M46.2-)"]|["e:3mle","e:3mlg","e:3mlh","e:3mli","e:3mlj"]
+.s "cm:M88.88"
+excludes2|["osteitis deformans of skull (M88.0)","osteitis deformans of vertebrae (M88.1)"]|["e:3nzb","e:3nzc","e:3nzd"]
+.s "cm:M89.5"
+excludes2|["periprosthetic osteolysis of internal prosthetic joint (T84.05-)"]|["e:3ogn","e:3ogo"]
+.s "cm:M93"
+excludes2|["osteochondrosis of spine (M42.-)"]|["e:3pb4","e:3pb5"]
+.s "cm:M95"
+excludes2|["acquired absence of limbs and organs (Z89-Z90)","acquired deformities of limbs (M20-M21)","congenital malformations and deformations of the musculoskeletal system (Q65-Q79)","deforming dorsopathies (M40-M43)","dentofacial anomalies [including malocclusion] (M26.-)","postprocedural musculoskeletal disorders (M96.-)"]|["e:3ptl","e:3ptm","e:3ptn","e:3pto","e:3ptp","e:3ptq","e:3ptr"]
+.s "cm:M95.0"
+excludes2|["deviated nasal septum (J34.2)"]|["e:3ptw","e:3ptx"]
+.s "cm:M95.1"
+excludes2|["other acquired deformities of ear (H61.1)"]|["e:3pu1","e:3pu2"]
+.s "cm:M96"
+excludes2|["arthropathy following intestinal bypass (M02.0-)","complications of internal orthopedic prosthetic devices, implants and grafts (T84.-)","disorders associated with osteoporosis (M80)","periprosthetic fracture around internal prosthetic joint (M97.-)","presence of functional implants and other devices (Z96-Z97)"]|["e:3pv5","e:3pv6","e:3pv7","e:3pv8","e:3pv9","e:3pva"]
+.s "cm:M96.6"
+excludes2|["complication of internal orthopedic devices, implants or grafts (T84.-)"]|["e:3pw2","e:3pw3"]
+.s "cm:M97"
+excludes2|["fracture of bone following insertion of orthopedic implant, joint prosthesis or bone plate (M96.6-)","breakage (fracture) of prosthetic joint (T84.01-)"]|["e:3q0a","e:3q0b","e:3q0c"]
+.s "cm:N07"
+excludes2|["Alport's syndrome (Q87.81-)","hereditary amyloid nephropathy (E85.-)","nail patella syndrome (Q87.2)","non-neuropathic heredofamilial amyloidosis (E85.-)"]|["e:3qtd","e:3qte","e:3qtf","e:3qtg","e:3qth"]
+.s "cm:N13"
+excludes2|["calculus of kidney and ureter without hydronephrosis (N20.-)","congenital obstructive defects of renal pelvis and ureter (Q62.0-Q62.3)","hydronephrosis with ureteropelvic junction obstruction (Q62.11)","obstructive pyelonephritis (N11.1)"]|["e:3qyk","e:3qyl","e:3qym","e:3qyn","e:3qyo"]
+.s "cm:N13.0"
+excludes2|["Hydronephrosis with ureteropelvic junction obstruction due to calculus (N13.2)"]|["e:3qyv","e:3qyw"]
+.s "cm:N14.11"
+excludes2|["acute kidney failure (N17.-)"]|["e:3r2c","e:3r2d"]
+.s "cm:N17.9"
+excludes2|["traumatic kidney injury (S37.0-)"]|["e:3r5t","e:3r5u"]
+.s "cm:N21.0"
+excludes2|["staghorn calculus (N20.0)"]|["e:3r97","e:3r98"]
+.s "cm:N21.1"
+excludes2|["calculus of prostate (N42.0)"]|["e:3r9d","e:3r9e"]
+.s "cm:N25.0"
+excludes2|["metabolic disorders classifiable to E70-E88"]|["e:3raf","e:3rag"]
+.s "cm:N25.81"
+excludes2|["metabolic disorders classifiable to E70-E88"]|["e:3raw","e:3rax"]
+.s "cm:N32"
+excludes2|["calculus of bladder (N21.0)","cystocele (N81.1-)","hernia or prolapse of bladder, female (N81.1-)"]|["e:3ri5","e:3ri6","e:3ri7","e:3ri8"]
+.s "cm:N34"
+excludes2|["Reiter's disease (M02.3-)","urethritis in diseases with a predominantly sexual mode of transmission (A50-A64)","urethrotrigonitis (N30.3-)"]|["e:3rk9","e:3rka","e:3rkb","e:3rkc"]
+.s "cm:N39"
+excludes2|["hematuria NOS (R31.-)","recurrent or persistent hematuria (N02.-)","recurrent or persistent hematuria with specified morphological lesion (N02.-)","proteinuria NOS (R80.-)"]|["e:3rre","e:3rrf","e:3rrg","e:3rrh","e:3rri"]
+.s "cm:N39.44"
+excludes2|["nocturnal polyuria (R35.81)"]|["e:3rsz","e:3rt0"]
+.s "cm:N40"
+excludes2|["malignant neoplasm of prostate (C61)"]|["e:3rui","e:3ruj"]
+.s "cm:N50"
+excludes2|["torsion of testis (N44.0-)"]|["e:3s8w","e:3s8x"]
+.s "cm:N60.2"
+excludes2|["fibroadenoma of breast (D24.-)"]|["e:3sf6","e:3sf7"]
+.s "cm:N64"
+excludes2|["mechanical complication of breast prosthesis and implant (T85.4-)"]|["e:3skr","e:3sks"]
+.s "cm:N64.5"
+excludes2|["abnormal findings on diagnostic imaging of breast (R92.-)"]|["e:3sli","e:3slj"]
+.s "cm:N73.6"
+excludes2|["postprocedural pelvic peritoneal adhesions (N99.4)"]|["e:3sra","e:3srb"]
+.s "cm:N76"
+excludes2|["senile (atrophic) vaginitis (N95.2)","vulvar vestibulitis (N94.810)"]|["e:3sst","e:3ssu","e:3ssv"]
+.s "cm:N76.81"
+excludes2|["gastrointestinal mucositis (ulcerative) (K92.81)","nasal mucositis (ulcerative) (J34.81)","oral mucositis (ulcerative) (K12.3-)"]|["e:3su7","e:3su8","e:3su9","e:3sua"]
+.s "cm:N81.6"
+excludes2|["perineocele (N81.81)","rectal prolapse (K62.3)"]|["e:3tgt","e:3tgu","e:3tgv"]
+.s "cm:N83"
+excludes2|["hydrosalpinx (N70.1-)"]|["e:3tj7","e:3tj8"]
+.s "cm:N88"
+excludes2|["inflammatory disease of cervix (N72)","polyp of cervix (N84.1)"]|["e:3ttt","e:3ttu","e:3ttv"]
+.s "cm:N89"
+excludes2|["senile (atrophic) vaginitis (N95.2)"]|["e:3tv9","e:3tva"]
+.s "cm:N95"
+excludes2|["postmenopausal osteoporosis (M81.0-)","postmenopausal osteoporosis with current pathological fracture (M80.0-)","postmenopausal urethritis (N34.2)"]|["e:3u5q","e:3u5r","e:3u5s","e:3u5t"]
+.s "cm:N97"
+excludes2|["female infertility associated with:","hypopituitarism (E23.0)","Stein-Leventhal syndrome (E28.2)","incompetence of cervix uteri (N88.3)"]|["e:3u70","e:3u71","e:3u72","e:3u73","e:3u74"]
+.s "cm:N99"
+excludes2|["irradiation cystitis (N30.4-)","postoophorectomy osteoporosis with current pathological fracture (M80.8-)","postoophorectomy osteoporosis without current pathological fracture (M81.8)"]|["e:3u8s","e:3u8t","e:3u8u","e:3u8v"]
+.s "cm:N99.4"
+excludes2|["pelvic peritoneal adhesions NOS (N73.6)","postinfective pelvic peritoneal adhesions (N73.6)"]|["e:3uab","e:3uac","e:3uad"]
+.s "cm:N99.5"
+excludes2|["mechanical complication of urinary catheter (T83.0-)"]|["e:3uah","e:3uai"]
+.s "cm:O04"
+excludes2|["encounter for elective termination of pregnancy (Z33.2)","failed attempted termination of pregnancy (O07.-)"]|["e:3ur5","e:3ur6","e:3ur7"]
+.s "cm:O09.2"
+excludes2|["pregnancy care for patient with history of recurrent pregnancy loss (O26.2-)"]|["e:3v26","e:3v27"]
+.s "cm:O09.81"
+excludes2|["gestational carrier status (Z33.3)"]|["e:3v75","e:3v76"]
+.s "cm:O10"
+excludes2|["pre-existing hypertension with superimposed pre-eclampsia complicating pregnancy, childbirth and the puerperium (O11.-)"]|["e:3v98","e:3v99"]
+.s "cm:O22"
+excludes2|["obstetric pulmonary embolism (O88.-)","venous complications and hemorrhoids of childbirth and the puerperium (O87.-)"]|["e:3vnt","e:3vnu","e:3vnv"]
+.s "cm:O23"
+excludes2|["gonococcal infections complicating pregnancy, childbirth and the puerperium (O98.2)","infections with a predominantly sexual mode of transmission NOS complicating pregnancy, childbirth and the puerperium (O98.3)","syphilis complicating pregnancy, childbirth and the puerperium (O98.1)","tuberculosis of genitourinary system complicating pregnancy, childbirth and the puerperium (O98.0)","venereal disease NOS complicating pregnancy, childbirth and the puerperium (O98.3)"]|["e:3vsn","e:3vso","e:3vsp","e:3vsq","e:3vsr","e:3vss"]
+.s "cm:O26.0"
+excludes2|["gestational edema (O12.0, O12.2)"]|["e:3w4k","e:3w4l"]
+.s "cm:O26.6"
+excludes2|["hepatorenal syndrome following labor and delivery (O90.41)"]|["e:3w7j","e:3w7k"]
+.s "cm:O29"
+excludes2|["complications of anesthesia during labor and delivery (O74.-)","complications of anesthesia during the puerperium (O89.-)"]|["e:3wes","e:3weu","e:3wev"]
+.s "cm:O31"
+excludes2|["delayed delivery of second twin, triplet, etc. (O63.2)","malpresentation of one fetus or more (O32.9)","placental transfusion syndromes (O43.0-)"]|["e:3wxe","e:3wxf","e:3wxg","e:3wxh"]
+.s "cm:O34.1"
+excludes2|["maternal care for benign tumor of cervix (O34.4-)","maternal care for malignant neoplasm of uterus (O9A.1-)"]|["e:3x6e","e:3x6f","e:3x6g"]
+.s "cm:O34.6"
+excludes2|["maternal care for vaginal varices in pregnancy (O22.1-)"]|["e:3xat","e:3xau"]
+.s "cm:O34.7"
+excludes2|["maternal care for perineal and vulval varices in pregnancy (O22.1-)"]|["e:3xbc","e:3xbd"]
+.s "cm:O35.0"
+excludes2|["chromosomal abnormality in fetus (O35.1-)"]|["e:3xde","e:3xdf"]
+.s "cm:O35.2"
+excludes2|["chromosomal abnormality in fetus (O35.1-)"]|["e:3xg3","e:3xg4"]
+.s "cm:O35.F"
+excludes2|["maternal care for other (suspected) fetal abnormality and damage, fetal lower extremities anomalies (O35.H)","maternal care for other (suspected) fetal abnormality and damage, fetal upper extremities anomalies (O35.G)"]|["e:3xfq","e:3xfr","e:3xfs"]
+.s "cm:O36"
+excludes2|["labor and delivery complicated by fetal stress (O77.-)"]|["e:3xhh","e:3xhi"]
+.s "cm:O43"
+excludes2|["maternal care for poor fetal growth due to placental insufficiency (O36.5-)","placenta previa (O44.-)","placental polyp (O90.89)","placentitis (O41.14-)","premature separation of placenta [abruptio placentae] (O45.-)"]|["e:3xx3","e:3xx5","e:3xx6","e:3xx7","e:3xx8","e:3xx9"]
+.s "cm:O67"
+excludes2|["postpartum hemorrhage (O72.-)"]|["e:3yo8","e:3yo9"]
+.s "cm:O68"
+excludes2|["abnormality in fetal heart rate or rhythm (O76)","labor and delivery complicated by meconium in amniotic fluid (O77.0)"]|["e:3yp5","e:3yp6","e:3yp9"]
+.s "cm:O71.5"
+excludes2|["obstetric periurethral trauma (O71.82)"]|["e:3yup","e:3yuq"]
+.s "cm:O75"
+excludes2|["puerperal (postpartum) infection (O86.-)","puerperal (postpartum) sepsis (O85)"]|["e:3yyq","e:3yyr","e:3yyt"]
+.s "cm:O75.4"
+excludes2|["complications of anesthesia during labor and delivery (O74.-)","disruption of obstetrical (surgical) wound (O90.0-O90.1)","hematoma of obstetrical (surgical) wound (O90.2)","infection of obstetrical (surgical) wound (O86.0-)"]|["e:3yzo","e:3yzq","e:3yzr","e:3yzs","e:3yzt"]
+.s "cm:O76"
+excludes2|["fetal metabolic acidemia (O68)","other fetal stress (O77.0-O77.1)"]|["e:3z11","e:3z12","e:3z13"]
+.s "cm:O85"
+excludes2|["genital tract infection following delivery (O86.1-)","sepsis during labor (O75.3)","urinary tract infection following delivery (O86.2-)"]|["e:3z30","e:3z31","e:3z32","e:3z34"]
+.s "cm:O86"
+excludes2|["infection during labor (O75.3)","obstetrical tetanus (A34)"]|["e:3z3a","e:3z3b","e:3z3c"]
+.s "cm:O86.4"
+excludes2|["pyrexia during labor (O75.2)"]|["e:3z5t","e:3z5u"]
+.s "cm:O87"
+excludes2|["obstetric embolism (O88.-)","puerperal septic thrombophlebitis (O86.81)","venous complications in pregnancy (O22.-)"]|["e:3z6b","e:3z6c","e:3z6d","e:3z6e"]
+.s "cm:O98"
+excludes2|["herpes gestationis (O26.4-)","infectious carrier state (O99.82-, O99.83-)","obstetrical tetanus (A34)","puerperal infection (O86.-)","puerperal sepsis (O85)","when the reason for maternal care is that the disease is known or suspected to have affected the fetus (O35-O36)"]|["e:2wz","e:2x0","e:2x1","e:2x2","e:2x3","e:2x4","e:2x6"]
+.s "cm:O99"
+excludes2|["when the reason for maternal care is that the condition is known or suspected to have affected the fetus (O35-O36)"]|["e:35i","e:35j"]
+.s "cm:O99.2"
+excludes2|["diabetes mellitus (O24.-)","malnutrition (O25.-)","postpartum thyroiditis (O90.5)"]|["e:37j","e:37k","e:37l","e:37m"]
+.s "cm:O99.34"
+excludes2|["postpartum mood disturbance (O90.6)","postnatal psychosis (F53.1)","puerperal psychosis (F53.1)"]|["e:3bg","e:3bh","e:3bi","e:3bj"]
+.s "cm:O99.35"
+excludes2|["pregnancy related peripheral neuritis (O26.8-)"]|["e:3ca","e:3cb"]
+.s "cm:O99.4"
+excludes2|["hypertensive disorders (O10-O16)","obstetric embolism (O88.-)","venous complications and cerebrovenous sinus thrombosis in labor, childbirth and the puerperium (O87.-)","venous complications and cerebrovenous sinus thrombosis in pregnancy (O22.-)"]|["e:3d3","e:3d4","e:3d5","e:3d9","e:3da"]
+.s "cm:O99.6"
+excludes2|["hemorrhoids in pregnancy (O22.4-)","liver and biliary tract disorders in pregnancy, childbirth and the puerperium (O26.6-)"]|["e:3ew","e:3ex","e:3ey"]
+.s "cm:O99.7"
+excludes2|["herpes gestationis (O26.4)","pruritic urticarial papules and plaques of pregnancy (PUPPP) (O26.86)"]|["e:3fs","e:3ft","e:3fu"]
+.s "cm:O99.8"
+excludes2|["genitourinary infections in pregnancy (O23.-)","infection of genitourinary tract following delivery (O86.1-O86.4)","malignant neoplasm complicating pregnancy, childbirth and the puerperium (O9A.1-)","maternal care for known or suspected abnormality of maternal pelvic organs (O34.-)","postpartum acute kidney failure (O90.49)","traumatic injuries in pregnancy (O9A.2-)"]|["e:3gr","e:3gs","e:3gt","e:3gu","e:3gv","e:3gw","e:3gy"]
+.s "cm:O9A.1"
+excludes2|["maternal care for benign tumor of corpus uteri (O34.1-)","maternal care for benign tumor of cervix (O34.4-)"]|["e:3jq","e:3jr","e:3js"]
+.s "cm:O9A.2"
+excludes2|["physical, sexual and psychological abuse complicating pregnancy, childbirth and the puerperium (O9A.3-, O9A.4-, O9A.5-)"]|["e:3ko","e:3kp"]
+.s "cm:O9A.3"
+excludes2|["sexual abuse complicating pregnancy, childbirth and the puerperium (O9A.4)"]|["e:3ln","e:3lo"]
+.s "cm:P00"
+excludes2|["encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)","newborn affected by maternal complications of pregnancy (P01.-)","newborn affected by maternal endocrine and metabolic disorders (P70-P74)","newborn affected by noxious substances transmitted via placenta or breast milk (P04.-)"]|["e:3p7","e:3p9","e:3pa","e:3pb","e:3pc"]
+.s "cm:P00.2"
+excludes2|["infections specific to the perinatal period (P35-P39)","newborn affected by (positive) maternal group B streptococcus (GBS) colonization (P00.82)"]|["e:3px","e:3py","e:3pz"]
+.s "cm:P00.6"
+excludes2|["newborn affected by complication of (fetal) intrauterine procedure (P96.5)"]|["e:3qr","e:3qt"]
+.s "cm:P00.89"
+excludes2|["newborn affected by positive maternal group B streptococcus (GBS) colonization (P00.82)"]|["e:3ro","e:3rq"]
+.s "cm:P01"
+excludes2|["encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)"]|["e:3rz","e:3s1"]
+.s "cm:P02"
+excludes2|["encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)"]|["e:3tm","e:3tn"]
+.s "cm:P03"
+excludes2|["encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)"]|["e:3w6","e:3w7"]
+.s "cm:P04"
+excludes2|["congenital malformations (Q00-Q99)","encounter for observation of newborn for suspected diseases and conditions ruled out (Z05.-)","neonatal jaundice from excessive hemolysis due to drugs or toxins transmitted from mother (P58.4)","newborn in contact with and (suspected) exposures hazardous to health not transmitted via placenta or breast milk (Z77.-)"]|["e:3yf","e:3yg","e:3yi","e:3yj","e:3yk"]
+.s "cm:P04.0"
+excludes2|["newborn affected by other maternal medication (P04.1-)"]|["e:3yq","e:3yr"]
+.s "cm:P04.1"
+excludes2|["maternal anesthesia and analgesia in pregnancy, labor and delivery (P04.0)","maternal use of drugs of addiction (P04.4-)"]|["e:3z3","e:3z5","e:3z6"]
+.s "cm:P04.2"
+excludes2|["newborn exposure to environmental tobacco smoke (P96.81)"]|["e:409","e:40a"]
+.s "cm:P04.42"
+excludes2|["newborn affected by other maternal medication (P04.1-)"]|["e:40u","e:40v"]
+.s "cm:P04.49"
+excludes2|["newborn affected by maternal anesthesia and analgesia (P04.0)","withdrawal symptoms from maternal use of drugs of addiction (P96.1)"]|["e:410","e:411","e:412"]
+.s "cm:P09"
+excludes2|["nonspecific serologic evidence of human immunodeficiency virus [HIV] (R75)"]|["e:4ai","e:4ak"]
+.s "cm:P09.6"
+excludes2|["encounter for hearing examination following failed hearing screening (Z01.110)"]|["e:4bf","e:4bg"]
+.s "cm:P13"
+excludes2|["birth injury to spine (P11.5)"]|["e:4er","e:4es"]
+.s "cm:P22.0"
+excludes2|["respiratory arrest of newborn (P28.81)","respiratory failure of newborn NOS (P28.5)"]|["e:4ic","e:4id","e:4ie"]
+.s "cm:P27"
+excludes2|["respiratory distress of newborn (P22.0-P22.9)"]|["e:4ol","e:4om"]
+.s "cm:P28.3"
+excludes2|["other apnea of newborn (P28.4-)"]|["e:4qf","e:4qg"]
+.s "cm:P28.4"
+excludes2|["primary sleep apnea of newborn (P28.3-)"]|["e:4r4","e:4r5"]
+.s "cm:P28.5"
+excludes2|["respiratory arrest of newborn (P28.81)","respiratory distress of newborn (P22.0)"]|["e:4rw","e:4rx","e:4ry"]
+.s "cm:P29"
+excludes2|["congenital malformations of the circulatory system (Q20-Q28)"]|["e:4so","e:4sp"]
+.s "cm:P37"
+excludes2|["congenital syphilis (A50.-)","infectious neonatal diarrhea (A00-A09)","necrotizing enterocolitis in newborn (P77.-)","noninfectious neonatal diarrhea (P78.3)","ophthalmia neonatorum due to gonococcus (A54.31)","tetanus neonatorum (A33)"]|["e:4x3","e:4x4","e:4x5","e:4x6","e:4x7","e:4x8","e:4x9"]
+.s "cm:P54.5"
+excludes2|["bruising of scalp due to birth injury (P12.3)","cephalhematoma due to birth injury (P12.0)"]|["e:54a","e:54b","e:54c"]
+.s "cm:P74.421"
+excludes2|["late metabolic acidosis of the newborn (P74.0)"]|["e:5eb","e:5ed"]
+.s "cm:P83"
+excludes2|["cradle cap (L21.0)","diaper [napkin] dermatitis (L22)"]|["e:5ji","e:5jj","e:5jk"]
+.s "cm:P83.81"
+excludes2|["Granulomatous disorder of the skin and subcutaneous tissue, unspecified (L92.9)"]|["e:5kq","e:5kr"]
+.s "cm:P91.82"
+excludes2|["intracranial hemorrhage of newborn (P52.-)"]|["e:5o2","e:5o3"]
+.s "cm:P92"
+excludes2|["feeding problems in child over 28 days old (R63.3-)"]|["e:5ov","e:5ow"]
+.s "cm:P96.5"
+excludes2|["newborn affected by amniocentesis (P00.6)"]|["e:5sn","e:5so"]
+.s "cm:P96.81"
+excludes2|["newborn affected by in utero exposure to tobacco (P04.2)","exposure to environmental tobacco smoke after the perinatal period (Z77.22)"]|["e:5sw","e:5sx","e:5sy"]
+.s "cm:Q07"
+excludes2|["congenital central alveolar hypoventilation syndrome (G47.35)","familial dysautonomia [Riley-Day] (G90.1)","neurofibromatosis (nonmalignant) (Q85.0-)"]|["e:61m","e:61n","e:61o","e:61p"]
+.s "cm:Q14"
+excludes2|["optic nerve hypoplasia (H47.03-)"]|["e:67v","e:67w"]
+.s "cm:Q21.1"
+excludes2|["ostium primum atrial septal defect (type I) (Q21.20)"]|["e:6g8","e:6g9"]
+.s "cm:Q27"
+excludes2|["anomalies of cerebral and precerebral vessels (Q28.0-Q28.3)","anomalies of coronary vessels (Q24.5)","anomalies of pulmonary artery (Q25.5-Q25.7)","congenital retinal aneurysm (Q14.1)","hemangioma and lymphangioma (D18.-)"]|["e:6t1","e:6t2","e:6t3","e:6t4","e:6t5","e:6t6"]
+.s "cm:Q27.3"
+excludes2|["arteriovenous malformation of cerebral vessels (Q28.2)","arteriovenous malformation of precerebral vessels (Q28.0)"]|["e:6tu","e:6tv","e:6tx"]
+.s "cm:Q28"
+excludes2|["congenital peripheral aneurysm (Q27.8)","congenital pulmonary aneurysm (Q25.79)","congenital retinal aneurysm (Q14.1)"]|["e:6vb","e:6vc","e:6vd","e:6ve"]
+.s "cm:Q28.8"
+excludes2|["disorders of pyrophosphate metabolism (E83.82-)"]|["e:6we","e:6wf"]
+.s "cm:Q34"
+excludes2|["congenital central alveolar hypoventilation syndrome (G47.35)"]|["e:715","e:716"]
+.s "cm:Q45"
+excludes2|["congenital diaphragmatic hernia (Q79.0)","congenital hiatus hernia (Q40.1)"]|["e:7fa","e:7fb","e:7fc"]
+.s "cm:Q68"
+excludes2|["congenital myotonic chondrodystrophy (G71.13)"]|["e:8cx","e:8cy"]
+.s "cm:Q77"
+excludes2|["congenital myotonic chondrodystrophy (G71.13)"]|["e:91l","e:91m"]
+.s "cm:Q78"
+excludes2|["congenital myotonic chondrodystrophy (G71.13)"]|["e:92z","e:930"]
+.s "cm:Q79"
+excludes2|["congenital (sternomastoid) torticollis (Q68.0)"]|["e:94o","e:94p"]
+.s "cm:Q82.5"
+excludes2|["Café au lait spots (L81.3)","lentigo (L81.4)","nevus NOS (D22.-)","araneus nevus (I78.1)","melanocytic nevus (D22.-)","pigmented nevus (D22.-)","spider nevus (I78.1)","stellar nevus (I78.1)"]|["e:9a8","e:9a9","e:9aa","e:9ab","e:9ac","e:9ad","e:9ae","e:9af","e:9ah"]
+.s "cm:Q82.6"
+excludes2|["pilonidal cyst with abscess (L05.01)","pilonidal cyst without abscess (L05.91)"]|["e:9an","e:9ao","e:9ap"]
+.s "cm:Q82.8"
+excludes2|["disorders of pyrophosphate metabolism (E83.82-)"]|["e:9b6","e:9b7"]
+.s "cm:Q83"
+excludes2|["absence of pectoral muscle (Q79.8)","hypoplasia of breast (N64.82)","micromastia (N64.82)"]|["e:9bf","e:9bg","e:9bh","e:9bi"]
+.s "cm:Q86"
+excludes2|["iodine-deficiency-related hypothyroidism (E00-E02)","nonteratogenic effects of substances transmitted via placenta or breast milk (P04.-)"]|["e:9g3","e:9g4","e:9g5"]
+.s "cm:R00"
+excludes2|["specified arrhythmias (I47-I49)"]|["e:a1s","e:a1t"]
+.s "cm:R04.1"
+excludes2|["hemoptysis (R04.2)"]|["e:a4g","e:a4h"]
+.s "cm:R05"
+excludes2|["cough with hemorrhage (R04.2)"]|["e:a5i","e:a5j"]
+.s "cm:R06.5"
+excludes2|["dry mouth NOS (R68.2)"]|["e:a7z","e:a80"]
+.s "cm:R07"
+excludes2|["jaw pain R68.84","pain in breast (N64.4)"]|["e:a9g","e:a9h","e:a9i"]
+.s "cm:R07.0"
+excludes2|["dysphagia (R13.1-)","pain in neck (M54.2)"]|["e:a9q","e:a9r","e:a9s"]
+.s "cm:R09.0"
+excludes2|["hypercapnia (R06.89)"]|["e:aba","e:abb"]
+.s "cm:R09.89"
+excludes2|["foreign body in throat (T17.2-)","wheezing (R06.2)"]|["e:acz","e:ad0","e:ad2"]
+.s "cm:R10"
+excludes2|["costovertebral (angle) tenderness (R39.85)","dorsalgia (M54.-)","flatulence and related conditions (R14.-)"]|["e:ae4","e:ae5","e:ae6","e:ae7"]
+.s "cm:R10.1"
+excludes2|["pain localized to flank (R10.A-)","pelvic and perineal pain (R10.2-)"]|["e:aen","e:aeo","e:aep"]
+.s "cm:R10.2"
+excludes2|["pain localized to other parts of lower abdomen (R10.3-)","pain localized to upper abdomen (R10.1-)"]|["e:afd","e:afe","e:aff"]
+.s "cm:R10.3"
+excludes2|["pain localized to flank (R10.A-)","pelvic and perineal pain (R10.2-)"]|["e:ag0","e:ag1","e:ag2"]
+.s "cm:R10.81"
+excludes2|["pain localized to other parts of lower abdomen (R10.3-)","pain localized to upper abdomen (R10.1-)"]|["e:agp","e:agr","e:ags"]
+.s "cm:R10.82"
+excludes2|["pain localized to other parts of lower abdomen (R10.3-)","pain localized to upper abdomen (R10.1-)"]|["e:ahn","e:ahp","e:ahq"]
+.s "cm:R10.A"
+excludes2|["pain localized to other parts of lower abdomen (R10.3-)","pain localized to upper abdomen (R10.1-)"]|["e:ajy","e:ajz","e:ak0"]
+.s "cm:R11.15"
+excludes2|["bulimia nervosa (F50.20)","diabetes mellitus due to underlying condition (E08.-)"]|["e:alw","e:alx","e:aly"]
+.s "cm:R12"
+excludes2|["dyspepsia NOS (R10.13)"]|["e:amp","e:amq"]
+.s "cm:R15.0"
+excludes2|["constipation (K59.0-)","fecal impaction (K56.41)"]|["e:aox","e:aoy","e:aoz"]
+.s "cm:R22.2"
+excludes2|["breast mass and lump (N63)"]|["e:awm","e:awn"]
+.s "cm:R25.2"
+excludes2|["carpopedal spasm (R29.0)","charley-horse (M62.831)","infantile spasms (G40.4-)","muscle spasm of back (M62.830)","muscle spasm of calf (M62.831)"]|["e:azr","e:azs","e:azt","e:azw","e:azx","e:azy"]
+.s "cm:R29.2"
+excludes2|["abnormal pupillary reflex (H57.0)","hyperactive gag reflex (J39.2)","vasovagal reaction or syncope (R55)"]|["e:b2j","e:b2k","e:b2l","e:b2n"]
+.s "cm:R29.6"
+excludes2|["at risk for falling (Z91.81)","history of falling (Z91.81)"]|["e:b3e","e:b3f","e:b3g"]
+.s "cm:R29.89"
+excludes2|["pain in limb (M79.6-)"]|["e:b8o","e:b8p"]
+.s "cm:R35.81"
+excludes2|["nocturnal enuresis (N39.44)"]|["e:bcq","e:bcr"]
+.s "cm:R39.85"
+excludes2|["abdominal and pelvic pain (R10.-)"]|["e:bfu","e:bfv"]
+.s "cm:R44"
+excludes2|["disturbances of skin sensation (R20.-)"]|["e:bre","e:brf"]
+.s "cm:R51"
+excludes2|["atypical face pain (G50.1)","migraine and other headache syndromes (G43-G44)","trigeminal neuralgia (G50.0)"]|["e:c1m","e:c1n","e:c1o","e:c1p"]
+.s "cm:R53.83"
+excludes2|["exhaustion and fatigue due to depressive episode (F32.-)"]|["e:c50","e:c51"]
+.s "cm:R57.0"
+excludes2|["septic shock (R65.21)"]|["e:c7x","e:c7y"]
+.s "cm:R60.1"
+excludes2|["nutritional edema (E40-E46)"]|["e:c9z","e:ca0"]
+.s "cm:R63.3"
+excludes2|["eating disorders (F50.-)","feeding problems of newborn (P92.-)","infant feeding disorder of nonorganic origin (F98.2-)"]|["e:ccw","e:ccx","e:ccz","e:cd0"]
+.s "cm:R68.2"
+excludes2|["salivary gland hyposecretion (K11.7)"]|["e:cid","e:cie"]
+.s "cm:R78"
+excludes2|["mental or behavioral disorders due to psychoactive substance use (F10-F19)"]|["e:cpu","e:cpv"]
+.s "cm:R79.1"
+excludes2|["abnormality of fluid, electrolyte or acid-base balance (E86-E87)"]|["e:csm","e:csn"]
+.s "cm:R82"
+excludes2|["hematuria (R31.-)"]|["e:cuy","e:cuz"]
+.s "cm:R85.61"
+excludes2|["anal high risk human papillomavirus (HPV) DNA test positive (R85.81)","anal low risk human papillomavirus (HPV) DNA test positive (R85.82)"]|["e:d2d","e:d2e","e:d2f"]
+.s "cm:R87.61"
+excludes2|["cervical high risk human papillomavirus (HPV) DNA test positive (R87.810)","cervical low risk human papillomavirus (HPV) DNA test positive (R87.820)"]|["e:d72","e:d73","e:d74"]
+.s "cm:R87.62"
+excludes2|["vaginal high risk human papillomavirus (HPV) DNA test positive (R87.811)","vaginal low risk human papillomavirus (HPV) DNA test positive (R87.821)"]|["e:d8p","e:d8q","e:d8s"]
+.s "cm:R92.0"
+excludes2|["mammographic calcification (calculus) found on diagnostic imaging of breast (R92.1)"]|["e:det","e:deu"]
+.s "cm:R93.4"
+excludes2|["hypertrophy of kidney (N28.81)"]|["e:di5","e:di6"]
+.s "cm:R93.6"
+excludes2|["abnormal finding in skin and subcutaneous tissue (R93.8-)"]|["e:dj2","e:dj3"]
+.s "cm:R93.7"
+excludes2|["abnormal findings on diagnostic imaging of skull (R93.0)"]|["e:dj7","e:dj9"]
+.s "cm:R94.7"
+excludes2|["abnormal glucose (R73.0-)"]|["e:dnd","e:dne"]
+.s "cm:S00.1"
+excludes2|["contusion of eyeball and orbital tissues (S05.1-)"]|["e:dsa","e:dsb"]
+.s "cm:S00.2"
+excludes2|["superficial injury of conjunctiva and cornea (S05.0-)"]|["e:dsp","e:dsq"]
+.s "cm:S00.25"
+excludes2|["retained foreign body in eyelid (H02.81-)"]|["e:duf","e:dug"]
+.s "cm:S01"
+excludes2|["injury of eye and orbit (S05.-)","traumatic amputation of part of head (S08.-)"]|["e:e53","e:e54","e:e56"]
+.s "cm:S01.45"
+excludes2|["superficial bite of cheek and temporomandibular area (S00.86, S00.87)"]|["e:ee0","e:ee1"]
+.s "cm:S01.5"
+excludes2|["tooth dislocation (S03.2)","tooth fracture (S02.5)"]|["e:eeg","e:eeh","e:eei"]
+.s "cm:S02.1"
+excludes2|["lateral orbital wall (S02.84-)","medial orbital wall (S02.83-)","orbital floor (S02.3-)"]|["e:eit","e:eiu","e:eiv","e:eiw"]
+.s "cm:S02.3"
+excludes2|["lateral orbital wall (S02.84-)","medial orbital wall (S02.83-)","orbital roof (S02.1-)"]|["e:elp","e:elq","e:elr","e:els"]
+.s "cm:S02.8"
+excludes2|["fracture of orbital floor (S02.3-)","fracture of orbital roof (S02.12-)"]|["e:er3","e:er4","e:er5"]
+.s "cm:S02.83"
+excludes2|["orbital floor (S02.3-)","orbital roof (S02.12-)"]|["e:erj","e:erk","e:erl"]
+.s "cm:S02.84"
+excludes2|["orbital floor (S02.3-)","orbital roof (S02.12-)"]|["e:es1","e:es2","e:es3"]
+.s "cm:S03"
+excludes2|["Strain of muscle or tendon of head (S09.1)"]|["e:ete","e:etf"]
+.s "cm:S05"
+excludes2|["2nd cranial [optic] nerve injury (S04.0-)","3rd cranial [oculomotor] nerve injury (S04.1-)","open wound of eyelid and periocular area (S01.1-)","orbital bone fracture (S02.1-, S02.3-, S02.8-)","superficial injury of eyelid (S00.1-S00.2)"]|["e:f1i","e:f1j","e:f1l","e:f1m","e:f1n","e:f1o"]
+.s "cm:S05.1"
+excludes2|["black eye NOS (S00.1)","contusion of eyelid and periocular area (S00.1)"]|["e:f2i","e:f2j","e:f2k"]
+.s "cm:S05.4"
+excludes2|["retained (old) foreign body following penetrating wound in orbit (H05.5-)"]|["e:f3r","e:f3s"]
+.s "cm:S05.5"
+excludes2|["retained (old) intraocular foreign body (H44.6-, H44.7)"]|["e:f47","e:f48"]
+.s "cm:S06.3"
+excludes2|["any condition classifiable to S06.4-S06.6","focal cerebral edema (S06.1)"]|["e:faw","e:fax","e:fay"]
+.s "cm:S06.8A"
+excludes2|["traumatic cerebral edema (S06.1)"]|["e:ft7","e:ft8"]
+.s "cm:S09.1"
+excludes2|["sprain to joints and ligament of head (S03.9)"]|["e:g0z","e:g10"]
+.s "cm:S09.3"
+excludes2|["injury to external ear (S00.4-, S01.3-, S08.1-)"]|["e:g23","e:g24"]
+.s "cm:S11"
+excludes2|["open fracture of vertebra (S12.- with 7th character B)"]|["e:g89","e:g8a"]
+.s "cm:S11.01"
+excludes2|["open wound of vocal cord (S11.03)"]|["e:g8o","e:g8p"]
+.s "cm:S11.02"
+excludes2|["open wound of thoracic trachea (S27.5-)"]|["e:g9j","e:g9k"]
+.s "cm:S13"
+excludes2|["strain of muscle or tendon at neck level (S16.1)"]|["e:gpx","e:gpy"]
+.s "cm:S13.1"
+excludes2|["fracture of cervical vertebrae (S12.0-S12.3-)"]|["e:gqj","e:gqk"]
+.s "cm:S16"
+excludes2|["sprain of joint or ligament at neck level (S13.9)"]|["e:h95","e:h98"]
+.s "cm:S19.82"
+excludes2|["other specified injury of thoracic trachea (S27.5-)"]|["e:hb6","e:hb7"]
+.s "cm:S22"
+excludes2|["fracture of clavicle (S42.0-)","fracture of scapula (S42.1-)"]|["e:i38","e:i39","e:i3a"]
+.s "cm:S23"
+excludes2|["dislocation, sprain of sternoclavicular joint (S43.2, S43.6)","strain of muscle or tendon of thorax (S29.01-)"]|["e:ias","e:iat","e:iav"]
+.s "cm:S23.1"
+excludes2|["fracture of thoracic vertebrae (S22.0-)"]|["e:ibf","e:ibh"]
+.s "cm:S24"
+excludes2|["injury of brachial plexus (S14.3)"]|["e:ig6","e:ig7"]
+.s "cm:S27"
+excludes2|["injury of cervical esophagus (S10-S19)","injury of trachea (cervical) (S10-S19)"]|["e:iwt","e:iwu","e:iwv"]
+.s "cm:S30"
+excludes2|["superficial injury of hip (S70.-)"]|["e:j8f","e:j8g"]
+.s "cm:S31"
+excludes2|["open wound of hip (S71.00-S71.02)","open fracture of pelvis (S32.1--S32.9 with 7th character B)"]|["e:jgx","e:jgy","e:jgz"]
+.s "cm:S31.1"
+excludes2|["open wound of abdominal wall with penetration into peritoneal cavity (S31.6-)"]|["e:jjm","e:jjn"]
+.s "cm:S32"
+excludes2|["fracture of hip NOS (S72.0-)"]|["e:k50","e:k51"]
+.s "cm:S33"
+excludes2|["dislocation and sprain of joints and ligaments of hip (S73.-)","strain of muscle of lower back and pelvis (S39.01-)"]|["e:knh","e:kni","e:knj"]
+.s "cm:S33.1"
+excludes2|["fracture of lumbar vertebrae (S32.0-)"]|["e:ko4","e:ko5"]
+.s "cm:S36.5"
+excludes2|["injury of rectum (S36.6-)"]|["e:lg9","e:lga"]
+.s "cm:S37"
+excludes2|["injury of peritoneum (S36.81)","injury of retroperitoneum (S36.89-)"]|["e:llr","e:lls","e:llt"]
+.s "cm:S37.0"
+excludes2|["acute kidney injury (nontraumatic) (N17.9)"]|["e:lm4","e:lm5"]
+.s "cm:S38.1"
+excludes2|["crushing injury of external genital organs (S38.0-)"]|["e:lyg","e:lyh"]
+.s "cm:S39"
+excludes2|["sprain of joints and ligaments of lumbar spine and pelvis (S33.-)"]|["e:lzt","e:lzu"]
+.s "cm:S40.87"
+excludes2|["other superficial bite of shoulder (S40.27-)"]|["e:m8s","e:m8t"]
+.s "cm:S41"
+excludes2|["open fracture of shoulder and upper arm (S42.- with 7th character B or C)"]|["e:ma6","e:ma7"]
+.s "cm:S42"
+excludes2|["periprosthetic fracture around internal prosthetic shoulder joint (M97.3)"]|["e:mfj","e:mfk"]
+.s "cm:S42.2"
+excludes2|["fracture of shaft of humerus (S42.3-)","physeal fracture of upper end of humerus (S49.0-)"]|["e:mmx","e:mmy","e:mmz"]
+.s "cm:S42.3"
+excludes2|["physeal fractures of upper end of humerus (S49.0-)","physeal fractures of lower end of humerus (S49.1-)"]|["e:msd","e:mse","e:msf"]
+.s "cm:S42.4"
+excludes2|["fracture of shaft of humerus (S42.3-)","physeal fracture of lower end of humerus (S49.1-)"]|["e:mx9","e:mxa","e:mxb"]
+.s "cm:S43"
+excludes2|["strain of muscle, fascia and tendon of shoulder and upper arm (S46.-)"]|["e:n4u","e:n4v"]
+.s "cm:S43.42"
+excludes2|["injury of tendon of rotator cuff (S46.0-)"]|["e:ng3","e:ng4"]
+.s "cm:S44"
+excludes2|["injury of brachial plexus (S14.3-)"]|["e:niz","e:nj0"]
+.s "cm:S45"
+excludes2|["injury of subclavian artery (S25.1)","injury of subclavian vein (S25.3)"]|["e:nmm","e:nmn","e:nmo"]
+.s "cm:S46"
+excludes2|["injury of muscle, fascia and tendon at elbow (S56.-)","sprain of joints and ligaments of shoulder girdle (S43.9)"]|["e:nu9","e:nua","e:nub"]
+.s "cm:S47"
+excludes2|["crushing injury of elbow (S57.0-)"]|["e:o46","e:o47"]
+.s "cm:S50"
+excludes2|["superficial injury of wrist and hand (S60.-)"]|["e:oe0","e:oe1"]
+.s "cm:S51"
+excludes2|["open wound of wrist and hand (S61.-)"]|["e:okx","e:oky"]
+.s "cm:S51.8"
+excludes2|["open wound of elbow (S51.0-)"]|["e:onr","e:ons"]
+.s "cm:S52"
+excludes2|["fracture at wrist and hand level (S62.-)","periprosthetic fracture around internal prosthetic elbow joint (M97.4)"]|["e:oqi","e:oqj","e:oqk"]
+.s "cm:S52.0"
+excludes2|["fracture of elbow NOS (S42.40-)","fractures of shaft of ulna (S52.2-)"]|["e:ord","e:ore","e:orf"]
+.s "cm:S52.1"
+excludes2|["physeal fractures of upper end of radius (S59.2-)","fracture of shaft of radius (S52.3-)"]|["e:ouz","e:ov0","e:ov1"]
+.s "cm:S52.5"
+excludes2|["physeal fractures of lower end of radius (S59.2-)"]|["e:p90","e:p91"]
+.s "cm:S53"
+excludes2|["strain of muscle, fascia and tendon at forearm level (S56.-)"]|["e:pfu","e:pfv"]
+.s "cm:S53.4"
+excludes2|["traumatic rupture of radial collateral ligament (S53.2-)","traumatic rupture of ulnar collateral ligament (S53.3-)"]|["e:poi","e:poj","e:pok"]
+.s "cm:S54"
+excludes2|["injury of nerves at wrist and hand level (S64.-)"]|["e:pr1","e:pr3"]
+.s "cm:S55"
+excludes2|["injury of blood vessels at wrist and hand level (S65.-)","injury of brachial vessels (S45.1-S45.2)"]|["e:pty","e:ptz","e:pu0"]
+.s "cm:S56"
+excludes2|["injury of muscle, fascia and tendon at or below wrist (S66.-)","sprain of joints and ligaments of elbow (S53.4-)"]|["e:q0e","e:q0f","e:q0g"]
+.s "cm:S57"
+excludes2|["crushing injury of wrist and hand (S67.-)"]|["e:qht","e:qhu"]
+.s "cm:S59"
+excludes2|["other and unspecified injuries of wrist and hand (S69.-)"]|["e:qlw","e:qly"]
+.s "cm:S60.2"
+excludes2|["contusion of fingers (S60.0-, S60.1-)"]|["e:qzy","e:qzz"]
+.s "cm:S60.5"
+excludes2|["superficial injuries of fingers (S60.3-, S60.4-)"]|["e:ram","e:ran"]
+.s "cm:S61.2"
+excludes2|["open wound of thumb without damage to nail (S61.0-)"]|["e:rna","e:rnb"]
+.s "cm:S62"
+excludes2|["fracture of distal parts of ulna and radius (S52.-)"]|["e:s5q","e:s5s"]
+.s "cm:S62.1"
+excludes2|["fracture of scaphoid of wrist (S62.0-)"]|["e:s8q","e:s8r"]
+.s "cm:S62.3"
+excludes2|["fracture of first metacarpal bone (S62.2-)"]|["e:sie","e:sif"]
+.s "cm:S62.6"
+excludes2|["fracture of thumb (S62.5-)"]|["e:ssy","e:ssz"]
+.s "cm:S63"
+excludes2|["strain of muscle, fascia and tendon of wrist and hand (S66.-)"]|["e:t1c","e:t1d"]
+.s "cm:S63.04"
+excludes2|["interphalangeal subluxation and dislocation of thumb (S63.1-)"]|["e:t4j","e:t4k"]
+.s "cm:S63.05"
+excludes2|["subluxation and dislocation of carpometacarpal joint of thumb (S63.04-)"]|["e:t58","e:t59"]
+.s "cm:S63.2"
+excludes2|["subluxation and dislocation of thumb (S63.1-)"]|["e:t9y","e:t9z"]
+.s "cm:S66"
+excludes2|["sprain of joints and ligaments of wrist and hand (S63.-)"]|["e:ugs","e:ugu"]
+.s "cm:S66.1"
+excludes2|["Injury of long flexor muscle, fascia and tendon of thumb at wrist and hand level (S66.0-)"]|["e:uip","e:uiq"]
+.s "cm:S66.3"
+excludes2|["Injury of extensor muscle, fascia and tendon of thumb at wrist and hand level (S66.2-)"]|["e:uoq","e:uor"]
+.s "cm:S66.5"
+excludes2|["injury of intrinsic muscle, fascia and tendon of thumb at wrist and hand level (S66.4-)"]|["e:uut","e:uuu"]
+.s "cm:S67.1"
+excludes2|["crushing injury of thumb (S67.0-)"]|["e:v37","e:v38"]
+.s "cm:S67.2"
+excludes2|["crushing injury of fingers (S67.1-)","crushing injury of thumb (S67.0-)"]|["e:v4f","e:v4g","e:v4h"]
+.s "cm:S67.4"
+excludes2|["crushing injury of fingers (S67.1-)","crushing injury of thumb (S67.0-)"]|["e:v5d","e:v5e","e:v5f"]
+.s "cm:S68.1"
+excludes2|["traumatic metacarpophalangeal amputation of thumb (S68.0-)"]|["e:v7h","e:v7i"]
+.s "cm:S71"
+excludes2|["bite of venomous animal (T63.-)","open wound of ankle, foot and toes (S91.-)","open wound of knee and lower leg (S81.-)"]|["e:vmt","e:vmu","e:vmv","e:vmw"]
+.s "cm:S72"
+excludes2|["fracture of lower leg and ankle (S82.-)","fracture of foot (S92.-)","periprosthetic fracture of prosthetic implant of hip (M97.0-)"]|["e:vsa","e:vsb","e:vsd","e:vse"]
+.s "cm:S72.0"
+excludes2|["physeal fracture of lower end of femur (S79.1-)","physeal fracture of upper end of femur (S79.0-)"]|["e:vt4","e:vt5","e:vt6"]
+.s "cm:S72.4"
+excludes2|["fracture of shaft of femur (S72.3-)","physeal fracture of lower end of femur (S79.1-)"]|["e:w5t","e:w5u","e:w5v"]
+.s "cm:S73"
+excludes2|["strain of muscle, fascia and tendon of hip and thigh (S76.-)"]|["e:wcw","e:wcx"]
+.s "cm:S73.0"
+excludes2|["dislocation and subluxation of hip prosthesis (T84.020, T84.021)"]|["e:wd8","e:wd9"]
+.s "cm:S74"
+excludes2|["injury of nerves at ankle and foot level (S94.-)","injury of nerves at lower leg level (S84.-)"]|["e:wic","e:wid","e:wie"]
+.s "cm:S75"
+excludes2|["injury of blood vessels at lower leg level (S85.-)","injury of popliteal artery (S85.0)"]|["e:wkr","e:wks","e:wkt"]
+.s "cm:S76"
+excludes2|["injury of muscle, fascia and tendon at lower leg level (S86)","sprain of joint and ligament of hip (S73.1)"]|["e:wt0","e:wt1","e:wt3"]
+.s "cm:S77"
+excludes2|["crushing injury of ankle and foot (S97.-)","crushing injury of lower leg (S87.-)"]|["e:x2y","e:x2z","e:x30"]
+.s "cm:S80"
+excludes2|["superficial injury of ankle and foot (S90.-)"]|["e:xdw","e:xdx"]
+.s "cm:S81"
+excludes2|["open wound of ankle and foot (S91.-)"]|["e:xkt","e:xkv"]
+.s "cm:S82"
+excludes2|["fracture of foot, except ankle (S92.-)","periprosthetic fracture around internal prosthetic ankle joint (M97.2)","periprosthetic fracture around internal prosthetic implant of knee joint (M97.1-)"]|["e:xqa","e:xqb","e:xqc","e:xqd"]
+.s "cm:S82.1"
+excludes2|["fracture of shaft of tibia (S82.2-)","physeal fracture of upper end of tibia (S89.0-)"]|["e:xun","e:xuo","e:xuq"]
+.s "cm:S82.4"
+excludes2|["fracture of lateral malleolus alone (S82.6-)"]|["e:y5e","e:y5f"]
+.s "cm:S83"
+excludes2|["derangement of patella (M22.0-M22.3)","injury of patellar ligament (tendon) (S76.1-)","internal derangement of knee (M23.-)","old dislocation of knee (M24.36)","pathological dislocation of knee (M24.36)","recurrent dislocation of knee (M22.0)","strain of muscle, fascia and tendon of lower leg (S86.-)"]|["e:ygh","e:ygi","e:ygj","e:ygk","e:ygl","e:ygn","e:ygo","e:ygp"]
+.s "cm:S83.1"
+excludes2|["instability of knee prosthesis (T84.022, T84.023)"]|["e:yj1","e:yj2"]
+.s "cm:S84"
+excludes2|["injury of nerves at ankle and foot level (S94.-)"]|["e:yvh","e:yvi"]
+.s "cm:S85"
+excludes2|["injury of blood vessels at ankle and foot level (S95.-)"]|["e:yxt","e:yxu"]
+.s "cm:S86"
+excludes2|["injury of muscle, fascia and tendon at ankle (S96.-)","injury of patellar ligament (tendon) (S76.1-)","sprain of joints and ligaments of knee (S83.-)"]|["e:za8","e:zaa","e:zab","e:zac"]
+.s "cm:S87"
+excludes2|["crushing injury of ankle and foot (S97.-)"]|["e:zk5","e:zk6"]
+.s "cm:S89"
+excludes2|["other and unspecified injuries of ankle and foot (S99.-)"]|["e:zo6","e:zo7"]
+.s "cm:S90.3"
+excludes2|["contusion of toes (S90.1-, S90.2-)"]|["e:1008","e:1009"]
+.s "cm:S92"
+excludes2|["fracture of ankle (S82.-)","fracture of malleolus (S82.-)","traumatic amputation of ankle and foot (S98.-)"]|["e:10pu","e:10pv","e:10pw","e:10px"]
+.s "cm:S92.0"
+excludes2|["Physeal fracture of calcaneus (S99.0-)"]|["e:10qg","e:10qh"]
+.s "cm:S92.3"
+excludes2|["Physeal fracture of metatarsal (S99.1-)"]|["e:112t","e:112u"]
+.s "cm:S92.4"
+excludes2|["Physeal fracture of phalanx of toe (S99.2-)"]|["e:116k","e:116l"]
+.s "cm:S92.5"
+excludes2|["Physeal fracture of phalanx of toe (S99.2-)"]|["e:1191","e:1192"]
+.s "cm:S93"
+excludes2|["strain of muscle and tendon of ankle and foot (S96.-)"]|["e:11ds","e:11dt"]
+.s "cm:S93.3"
+excludes2|["dislocation of toe (S93.1-)"]|["e:11iq","e:11ir"]
+.s "cm:S93.4"
+excludes2|["injury of Achilles tendon (S86.0-)"]|["e:11lk","e:11lm"]
+.s "cm:S93.6"
+excludes2|["sprain of metatarsophalangeal joint of toe (S93.52-)","sprain of toe (S93.5-)"]|["e:11q3","e:11q4","e:11q5"]
+.s "cm:S95"
+excludes2|["injury of posterior tibial artery and vein (S85.1-, S85.8-)"]|["e:11uj","e:11ul"]
+.s "cm:S96"
+excludes2|["injury of Achilles tendon (S86.0-)","sprain of joints and ligaments of ankle and foot (S93.-)"]|["e:120y","e:120z","e:1210"]
+.s "cm:T15"
+excludes2|["foreign body in penetrating wound of orbit and eye ball (S05.4-, S05.5-)","open wound of eyelid and periocular area (S01.1-)","retained foreign body in eyelid (H02.8-)","retained (old) foreign body in penetrating wound of orbit and eye ball (H05.5-, H44.6-, H44.7-)","superficial foreign body of eyelid and periocular area (S00.25-)"]|["e:12sy","e:12sz","e:12t0","e:12t1","e:12t2","e:12t3"]
+.s "cm:T18"
+excludes2|["foreign body in pharynx (T17.2-)"]|["e:134m","e:134n"]
+.s "cm:T18.1"
+excludes2|["foreign body in respiratory tract (T17.-)"]|["e:1351","e:1352"]
+.s "cm:T19"
+excludes2|["complications due to implanted mesh (T83.7-)","mechanical complications of contraceptive device (intrauterine) (vaginal) (T83.3-)","presence of contraceptive device (intrauterine) (vaginal) (Z97.5)"]|["e:137f","e:137g","e:137h","e:137i"]
+.s "cm:T20"
+excludes2|["burn and corrosion of ear drum (T28.41, T28.91)","burn and corrosion of eye and adnexa (T26.-)","burn and corrosion of mouth and pharynx (T28.0)"]|["e:1398","e:1399","e:139a","e:139b"]
+.s "cm:T20.01"
+excludes2|["burn of ear drum (T28.41-)"]|["e:139v","e:139w"]
+.s "cm:T20.11"
+excludes2|["burn of ear drum (T28.41-)"]|["e:13b7","e:13b8"]
+.s "cm:T20.21"
+excludes2|["burn of ear drum (T28.41-)"]|["e:13ci","e:13ck"]
+.s "cm:T20.31"
+excludes2|["burn of ear drum (T28.41-)"]|["e:13dw","e:13dx"]
+.s "cm:T20.41"
+excludes2|["corrosion of ear drum (T28.91-)"]|["e:13f9","e:13fa"]
+.s "cm:T20.51"
+excludes2|["corrosion of ear drum (T28.91-)"]|["e:13go","e:13gp"]
+.s "cm:T20.61"
+excludes2|["corrosion of ear drum (T28.91-)"]|["e:13i1","e:13i2"]
+.s "cm:T20.71"
+excludes2|["corrosion of ear drum (T28.91-)"]|["e:13jf","e:13jg"]
+.s "cm:T21"
+excludes2|["burns and corrosion of axilla (T22.- with fifth character 4)","burns and corrosion of scapular region (T22.- with fifth character 6)","burns and corrosion of shoulder (T22.- with fifth character 5)"]|["e:13kk","e:13km","e:13kn","e:13ko"]
+.s "cm:T21.07"
+excludes2|["burn of vagina (T28.3)"]|["e:13ma","e:13mb"]
+.s "cm:T21.17"
+excludes2|["burn of vagina (T28.3)"]|["e:13nv","e:13nw"]
+.s "cm:T21.27"
+excludes2|["burn of vagina (T28.3)"]|["e:13pf","e:13pg"]
+.s "cm:T21.37"
+excludes2|["burn of vagina (T28.3)"]|["e:13r0","e:13r1"]
+.s "cm:T21.47"
+excludes2|["corrosion of vagina (T28.8)"]|["e:13sn","e:13so"]
+.s "cm:T21.57"
+excludes2|["corrosion of vagina (T28.8)"]|["e:13ua","e:13ub"]
+.s "cm:T21.67"
+excludes2|["corrosion of vagina (T28.8)"]|["e:13vw","e:13vx"]
+.s "cm:T21.77"
+excludes2|["corrosion of vagina (T28.8)"]|["e:13xk","e:13xl"]
+.s "cm:T22"
+excludes2|["burn and corrosion of interscapular region (T21.-)","burn and corrosion of wrist and hand (T23.-)"]|["e:13xs","e:13xt","e:13xv"]
+.s "cm:T24"
+excludes2|["burn and corrosion of ankle and foot (T25.-)","burn and corrosion of hip region (T21.-)"]|["e:15dk","e:15dl","e:15dm"]
+.s "cm:T25.02"
+excludes2|["burn of unspecified degree of toe(s) (nail) (T25.03-)"]|["e:15v1","e:15v2"]
+.s "cm:T25.12"
+excludes2|["burn of first degree of toe(s) (nail) (T25.13-)"]|["e:15wp","e:15wq"]
+.s "cm:T25.22"
+excludes2|["burn of second degree of toe(s) (nail) (T25.23-)"]|["e:15yg","e:15yh"]
+.s "cm:T25.32"
+excludes2|["burn of third degree of toe(s) (nail) (T25.33-)"]|["e:1604","e:1605"]
+.s "cm:T25.42"
+excludes2|["corrosion of unspecified degree of toe(s) (nail) (T25.43-)"]|["e:161w","e:161x"]
+.s "cm:T25.52"
+excludes2|["corrosion of first degree of toe(s) (nail) (T25.53-)"]|["e:163n","e:163o"]
+.s "cm:T25.62"
+excludes2|["corrosion of second degree of toe(s) (nail) (T25.63-)"]|["e:165e","e:165f"]
+.s "cm:T25.72"
+excludes2|["corrosion of third degree of toe(s) (nail) (T25.73-)"]|["e:1675","e:1676"]
+.s "cm:T33.4"
+excludes2|["superficial frostbite of wrist and hand (T33.5-)"]|["e:16w9","e:16wa"]
+.s "cm:T33.52"
+excludes2|["superficial frostbite of fingers (T33.53-)"]|["e:16x5","e:16x6"]
+.s "cm:T33.7"
+excludes2|["superficial frostbite of ankle and foot (T33.8-)"]|["e:16yb","e:16yc"]
+.s "cm:T34.4"
+excludes2|["frostbite with tissue necrosis of wrist and hand (T34.5-)"]|["e:171l","e:171m"]
+.s "cm:T34.52"
+excludes2|["frostbite with tissue necrosis of finger(s) (T34.53-)"]|["e:172h","e:172j"]
+.s "cm:T34.7"
+excludes2|["frostbite with tissue necrosis of ankle and foot (T34.8-)"]|["e:173n","e:173o"]
+.s "cm:T40"
+excludes2|["drug dependence and related mental and behavioral disorders due to psychoactive substance use (F10.-F19.-)"]|["e:1858","e:1859"]
+.s "cm:T41.3"
+excludes2|["poisoning by cocaine used as a central nervous system stimulant (T40.5X1-T40.5X4)"]|["e:18ka","e:18kb"]
+.s "cm:T42"
+excludes2|["drug dependence and related mental and behavioral disorders due to psychoactive substance use (F10.--F19.-)"]|["e:18mn","e:18mp"]
+.s "cm:T43"
+excludes2|["appetite depressants (T50.5-)","barbiturates (T42.3-)","benzodiazepines (T42.4-)","drug dependence and related mental and behavioral disorders due to psychoactive substance use (F10.- -F19.-)","methaqualone (T42.6-)","psychodysleptics [hallucinogens] (T40.7-T40.9-)"]|["e:18ug","e:18uh","e:18ui","e:18uj","e:18uk","e:18ul","e:18um"]
+.s "cm:T44.8"
+excludes2|["poisoning by, adverse effect of and underdosing of clonidine (T46.5)","poisoning by, adverse effect of and underdosing of guanethidine (T46.5)"]|["e:19gz","e:19h0","e:19h1"]
+.s "cm:T45.2"
+excludes2|["poisoning by, adverse effect of and underdosing of nicotinic acid (derivatives) (T46.7)","poisoning by, adverse effect of and underdosing of iron (T45.4)","poisoning by, adverse effect of and underdosing of vitamin K (T45.7)"]|["e:19lg","e:19lh","e:19li","e:19lj"]
+.s "cm:T45.52"
+excludes2|["poisoning by, adverse effect of and underdosing of aspirin (T39.01-)","poisoning by, adverse effect of and underdosing of acetylsalicylic acid (T39.01-)"]|["e:19oz","e:19p0","e:19p1"]
+.s "cm:T45.8"
+excludes2|["poisoning by, adverse effect of and underdosing of immunoglobulin (T50.Z1)","poisoning by, adverse effect of and underdosing of iron (T45.4)","transfusion reactions (T80.-)"]|["e:19tp","e:19tq","e:19tr","e:19ts"]
+.s "cm:T46.5"
+excludes2|["poisoning by, adverse effect of and underdosing of beta-adrenoreceptor antagonists (T44.7)","poisoning by, adverse effect of and underdosing of calcium-channel blockers (T46.1)","poisoning by, adverse effect of and underdosing of diuretics (T50.0-T50.2)"]|["e:1a0r","e:1a0s","e:1a0t","e:1a0u"]
+.s "cm:T47.6"
+excludes2|["poisoning by, adverse effect of and underdosing of systemic antibiotics and other anti-infectives (T36-T37)"]|["e:1aap","e:1aaq"]
+.s "cm:T48.5"
+excludes2|["poisoning by, adverse effect of and underdosing of antipyretics, NEC (T39.9-)","poisoning by, adverse effect of and underdosing of non-steroidal antiinflammatory drugs (T39.3-)","poisoning by, adverse effect of and underdosing of salicylates (T39.0-)"]|["e:1aj0","e:1aj1","e:1aj2","e:1aj3"]
+.s "cm:T51.0"
+excludes2|["acute alcohol intoxication or 'hangover' effects (F10.129, F10.229, F10.929)","drunkenness (F10.129, F10.229, F10.929)","pathological alcohol intoxication (F10.129, F10.229, F10.929)"]|["e:1b9w","e:1b9x","e:1b9y","e:1b9z"]
+.s "cm:T59.81"
+excludes2|["toxic effect of cigarette (tobacco) smoke (T65.22-)"]|["e:1ce0","e:1ce1"]
+.s "cm:T63"
+excludes2|["ingestion of toxic animal or plant (T61.-, T62.-)"]|["e:1crm","e:1crn"]
+.s "cm:T63.5"
+excludes2|["poisoning by ingestion of fish (T61.-)"]|["e:1d4x","e:1d4y"]
+.s "cm:T63.6"
+excludes2|["poisoning by ingestion of shellfish (T61.78-)"]|["e:1d63","e:1d64"]
+.s "cm:T65.2"
+excludes2|["nicotine dependence (F17.-)"]|["e:1dei","e:1dej"]
+.s "cm:T67"
+excludes2|["burns (T20-T31)","sunburn (L55.-)","sweat disorder due to heat (L74-L75)"]|["e:1dnm","e:1dnn","e:1dno","e:1dnp"]
+.s "cm:T68"
+excludes2|["frostbite (T33-T34)"]|["e:1dq7","e:1dq8"]
+.s "cm:T69"
+excludes2|["frostbite (T33-T34)"]|["e:1dqo","e:1dqp"]
+.s "cm:T70.2"
+excludes2|["polycythemia due to high altitude (D75.1)"]|["e:1dsu","e:1dsv"]
+.s "cm:T74.1"
+excludes2|["sexual abuse (T74.2-)"]|["e:1e1y","e:1e1z"]
+.s "cm:T74.12"
+excludes2|["shaken infant syndrome (T74.4)"]|["e:1e27","e:1e28"]
+.s "cm:T75"
+excludes2|["burns (electric) (T20-T31)"]|["e:1e4g","e:1e4h"]
+.s "cm:T78"
+excludes2|["complications of surgical and medical care NEC (T80-T88)"]|["e:1eai","e:1eaj"]
+.s "cm:T78.05"
+excludes2|["anaphylactic reaction due to peanuts (T78.01)"]|["e:1ebi","e:1ebj"]
+.s "cm:T78.1"
+excludes2|["allergic and dietetic gastroenteritis and colitis (K52.29)","allergic rhinitis due to food (J30.5)","dermatitis due to food in contact with skin (L23.6, L24.6, L25.4)","dermatitis due to ingested food (L27.2)","food protein-induced enterocolitis syndrome (K52.21)","food protein-induced enteropathy (K52.22)"]|["e:1ed1","e:1ed2","e:1ed3","e:1ed4","e:1ed6","e:1ed7","e:1ed8"]
+.s "cm:T79"
+excludes2|["acute respiratory distress syndrome (J80)","complications occurring during or following medical procedures (T80-T88)","complications of surgical and medical care NEC (T80-T88)","newborn respiratory distress syndrome (P22.0)"]|["e:1eg0","e:1eg1","e:1eg2","e:1eg3","e:1eg4"]
+.s "cm:T79.6"
+excludes2|["anterior tibial syndrome (M76.8)","compartment syndrome (traumatic) (T79.A-)","nontraumatic ischemia of muscle (M62.2-)"]|["e:1ehu","e:1ehv","e:1ehw","e:1ehx"]
+.s "cm:T79.7"
+excludes2|["emphysema NOS (J43)","emphysema (subcutaneous) resulting from a procedure (T81.82)"]|["e:1ei1","e:1ei3","e:1ei4"]
+.s "cm:T79.A"
+excludes2|["traumatic ischemic infarction of muscle (T79.6)"]|["e:1eib","e:1eic"]
+.s "cm:T80"
+excludes2|["bone marrow transplant rejection (T86.01)","febrile nonhemolytic transfusion reaction (R50.84)","fluid overload due to transfusion (E87.71)","posttransfusion purpura (D69.51)","transfusion associated circulatory overload (TACO) (E87.71)","transfusion (red blood cell) associated hemochromatosis (E83.111)","transfusion related acute lung injury (TRALI) (J95.84)"]|["e:1ekw","e:1ekx","e:1eky","e:1ekz","e:1el0","e:1el1","e:1el2","e:1el3"]
+.s "cm:T80.1"
+excludes2|["extravasation of vesicant agent (T80.81-)","infiltration of vesicant agent (T80.81-)","vascular complications specified as due to prosthetic devices, implants and grafts (T82.8-, T83.8-, T84.8-, T85.8-)","postprocedural vascular complications (T81.7-)"]|["e:1elk","e:1ell","e:1elm","e:1eln","e:1elo"]
+.s "cm:T80.2"
+excludes2|["infections specified as due to prosthetic devices, implants and grafts (T82.6-T82.7, T83.5-T83.6, T84.5-T84.7, T85.7)","postprocedural infections (T81.4-)"]|["e:1elz","e:1em0","e:1em1"]
+.s "cm:T80.6"
+excludes2|["serum hepatitis (B16-B19)"]|["e:1esd","e:1ese"]
+.s "cm:T80.82"
+excludes2|["adverse effect of immune checkpoint inhibitors and immunostimulant drugs (T45.AX5)","complication of bone marrow transplant (T86.0)","complication of stem cell transplant (T86.5)"]|["e:1eth","e:1etj","e:1etk","e:1etl"]
+.s "cm:T81"
+excludes2|["complications following immunization (T88.0-T88.1)","complications following infusion, transfusion and therapeutic injection (T80.-)","complications of transplanted organs and tissue (T86.-)","specified complications classified elsewhere, such as:","complication of prosthetic devices, implants and grafts (T82-T85)","dermatitis due to drugs and medicaments (L23.3, L24.4, L25.1, L27.0-L27.1)","endosseous dental implant failure (M27.6-)","floppy iris syndrome (IFIS) (intraoperative) H21.81","intraoperative and postprocedural complications of specific body system (D78.-, E36.-, E89.-, G97.3-, G97.4, H59.3-, H59.-, H95.2-, H95.3, I97.4-, I97.5, J95, K91.-, L76.-, M96.-, N99.-)","ostomy complications (J95.0-, K94.-, N99.5-)","plateau iris syndrome (post-iridectomy) (postprocedural) H21.82","poisoning and toxic effects of drugs and chemicals (T36-T65 with fifth or sixth character 1-4)"]|["e:1euz","e:1ev0","e:1ev3","e:1ev4","e:1ev5","e:1ev6","e:1ev7","e:1ev8","e:1ev9","e:1eva","e:1evb","e:1evc","e:1eve"]
+.s "cm:T81.4"
+excludes2|["bleb associated endophthalmitis (H59.4-)","infection due to infusion, transfusion and therapeutic injection (T80.2-)","infection due to prosthetic devices, implants and grafts (T82.6-T82.7, T83.5-T83.6, T84.5-T84.7, T85.7)","obstetric surgical wound infection (O86.0-)","postprocedural fever NOS (R50.82)","postprocedural retroperitoneal abscess (K68.11)"]|["e:1eyx","e:1eyy","e:1eyz","e:1ez0","e:1ez1","e:1ez3","e:1ez4"]
+.s "cm:T81.59"
+excludes2|["obstruction or perforation due to prosthetic devices and implants intentionally left in body (T82.0-T82.5, T83.0-T83.4, T83.7, T84.0-T84.4, T85.0-T85.6)"]|["e:1f48","e:1f49"]
+.s "cm:T81.6"
+excludes2|["complications of foreign body accidentally left in body cavity or operation wound following procedure (T81.5-)"]|["e:1f5c","e:1f5d"]
+.s "cm:T81.7"
+excludes2|["embolism due to prosthetic devices, implants and grafts (T82.8-, T83.81, T84.8-, T85.81-)","embolism following infusion, transfusion and therapeutic injection (T80.0)"]|["e:1f61","e:1f62","e:1f63"]
+.s "cm:T81.8"
+excludes2|["hypothermia following anesthesia (T88.51)","malignant hyperpyrexia due to anesthesia (T88.3)"]|["e:1f6s","e:1f6t","e:1f6u"]
+.s "cm:T82"
+excludes2|["failure and rejection of transplanted organs and tissue (T86.-)"]|["e:1f7s","e:1f7t"]
+.s "cm:T82.5"
+excludes2|["mechanical complication of epidural and subdural infusion catheter (T85.61)"]|["e:1ffb","e:1ffc"]
+.s "cm:T83"
+excludes2|["failure and rejection of transplanted organs and tissue (T86.-)"]|["e:1fls","e:1flt"]
+.s "cm:T83.0"
+excludes2|["complications of stoma of urinary tract (N99.5-)"]|["e:1fm4","e:1fm5"]
+.s "cm:T83.110"
+excludes2|["Breakdown (mechanical) of electrode (lead) for sacral nerve neurostimulator (T85.111)","Breakdown (mechanical) of implanted electronic sacral neurostimulator, pulse generator or receiver (T85.113)"]|["e:1fp0","e:1fp1","e:1fp2"]
+.s "cm:T83.120"
+excludes2|["Displacement of electrode (lead) for sacral nerve neurostimulator (T85.121)","Displacement of implanted electronic sacral neurostimulator, pulse generator or receiver (T85.123)"]|["e:1fps","e:1fpt","e:1fpu"]
+.s "cm:T83.190"
+excludes2|["Other mechanical complication of electrode (lead) for sacral nerve neurostimulator (T85.191)","Other mechanical complication of implanted electronic sacral neurostimulator, pulse generator or receiver (T85.193)"]|["e:1fqp","e:1fqq","e:1fqr"]
+.s "cm:T83.51"
+excludes2|["complications of stoma of urinary tract (N99.5-)"]|["e:1fuq","e:1fur"]
+.s "cm:T83.590"
+excludes2|["Infection and inflammatory reaction due to electrode lead of sacral nerve neurostimulator (T85.732)","Infection and inflammatory reaction due to pulse generator or receiver of sacral nerve neurostimulator (T85.734)"]|["e:1fvh","e:1fvi","e:1fvj"]
+.s "cm:T84"
+excludes2|["failure and rejection of transplanted organs and tissues (T86.-)","fracture of bone following insertion of orthopedic implant, joint prosthesis or bone plate (M96.6)"]|["e:1fzf","e:1fzg","e:1fzi"]
+.s "cm:T84.1"
+excludes2|["mechanical complication of internal fixation device of bones of feet (T84.2-)","mechanical complication of internal fixation device of bones of fingers (T84.2-)","mechanical complication of internal fixation device of bones of hands (T84.2-)","mechanical complication of internal fixation device of bones of toes (T84.2-)"]|["e:1g4k","e:1g4l","e:1g4m","e:1g4n","e:1g4o"]
+.s "cm:T84.3"
+excludes2|["other complications of bone graft (T86.83-)"]|["e:1g9h","e:1g9i"]
+.s "cm:T85"
+excludes2|["failure and rejection of transplanted organs and tissue (T86.-)"]|["e:1gfe","e:1gff"]
+.s "cm:T85.3"
+excludes2|["other complications of corneal graft (T86.84-)"]|["e:1gjn","e:1gjo"]
+.s "cm:T86.82"
+excludes2|["complication of artificial skin graft (T85.693)"]|["e:1h0c","e:1h0d"]
+.s "cm:T86.83"
+excludes2|["mechanical complications of bone graft (T84.3-)"]|["e:1h10","e:1h11"]
+.s "cm:T86.84"
+excludes2|["mechanical complications of corneal graft (T85.3-)"]|["e:1h1o","e:1h1p"]
+.s "cm:T87.89"
+excludes2|["phantom limb syndrome (G54.6-G54.7)"]|["e:1h9a","e:1h9b"]
+.s "cm:T88"
+excludes2|["complication following infusion, transfusion and therapeutic injection (T80.-)","complication following procedure NEC (T81.-)","complications of anesthesia in labor and delivery (O74.-)","complications of anesthesia in pregnancy (O29.-)","complications of anesthesia in puerperium (O89.-)","complications of devices, implants and grafts (T82-T85)","complications of obstetric surgery and procedure (O75.4)","dermatitis due to drugs and medicaments (L23.3, L24.4, L25.1, L27.0-L27.1)","poisoning and toxic effects of drugs and chemicals (T36-T65 with fifth or sixth character 1-4)","specified complications classified elsewhere"]|["e:1h9k","e:1h9l","e:1h9m","e:1h9n","e:1h9o","e:1h9p","e:1h9q","e:1h9r","e:1h9t","e:1h9u","e:1h9v"]
+.s "cm:T88.1"
+excludes2|["anaphylactic shock due to serum (T80.5-)","other serum reactions (T80.6-)","postimmunization arthropathy (M02.2)","postimmunization encephalitis (G04.02)","postimmunization fever (R50.83)"]|["e:1hah","e:1hai","e:1haj","e:1hak","e:1hal","e:1ham"]
+.s "cm:T88.52"
+excludes2|["personal history of failed moderate sedation (Z92.83)"]|["e:1hbn","e:1hbo"]
+.s "cm:T88.53"
+excludes2|["personal history of unintended awareness under general anesthesia (Z92.84)"]|["e:1hbs","e:1hbt"]
+.s "cm:U07.1"
+excludes2|["coronavirus as the cause of diseases classified elsewhere (B97.2-)","pneumonia due to SARS-associated coronavirus (J12.81)"]|["e:213j","e:213k","e:213l"]
+.s "cm:V91"
+excludes2|["drowning and submersion due to accident to watercraft (V90.-)"]|["e:1m9o","e:1m9p"]
+.s "cm:V91.3"
+excludes2|["drowning or submersion due to fall or jumping from damaged watercraft (V90.2-, V90.3-)"]|["e:1me9","e:1mea"]
+.s "cm:V92.0"
+excludes2|["hitting head on object or bottom of body of water due to fall from watercraft (V94.0-)"]|["e:1mht","e:1mhu"]
+.s "cm:V93"
+excludes2|["drowning and submersion due to accident on board watercraft, without accident to watercraft (V92.-)"]|["e:1mmh","e:1mmi"]
+.s "cm:V93.2"
+excludes2|["burn due to fire on board watercraft (V93.0-)"]|["e:1mp1","e:1mp2"]
+.s "cm:V93.5"
+excludes2|["fire on board watercraft (V93.0-)"]|["e:1mse","e:1msf"]
+.s "cm:V94.0"
+excludes2|["drowning and submersion due to fall from watercraft (V92.0-)"]|["e:1mwb","e:1mwc"]
+.s "cm:W13.4"
+excludes2|["fall with subsequent striking against sharp glass (W01.110-)"]|["e:1ni9","e:1nia"]
+.s "cm:W16"
+excludes2|["striking or hitting diving board (W21.4)"]|["e:1njj","e:1njk"]
+.s "cm:W20.0"
+excludes2|["asphyxiation due to cave-in (T71.21)"]|["e:1ny0","e:1ny1"]
+.s "cm:W25"
+excludes2|["glass embedded in skin (W45.-)"]|["e:1o5j","e:1o5k"]
+.s "cm:W26"
+excludes2|["sharp object(s) embedded in skin (W45.-)"]|["e:1o5v","e:1o5w"]
+.s "cm:W28"
+excludes2|["exposure to electric current (W86.-)"]|["e:1o8j","e:1o8k"]
+.s "cm:W44"
+excludes2|["contact with other sharp objects (W26)","contact with sharp glass (W25)","foreign body or object entering through skin (W45)"]|["e:1oot","e:1oou","e:1oov","e:1oow"]
+.s "cm:W44.B1"
+excludes2|["Plastic jewelry entering into or through a natural orifice (W44.B4)"]|["e:1opt","e:1opu"]
+.s "cm:W44.B4"
+excludes2|["Plastic bead entering into or through a natural orifice (W44.B1)"]|["e:1oq6","e:1oq7"]
+.s "cm:W45"
+excludes2|["contact with hand tools (nonpowered) (powered) (W27-W29)","contact with other sharp object(s) (W26.-)","contact with sharp glass (W25.-)","struck by objects (W20-W22)"]|["e:1our","e:1ous","e:1out","e:1ouu","e:1ouv"]
+.s "cm:W89"
+excludes2|["exposure to sunlight (X32)"]|["e:1pkv","e:1pkw"]
+.s "cm:W90"
+excludes2|["exposure to sunlight (X32)"]|["e:1plk","e:1pll"]
+.s "cm:X00"
+excludes2|["Exposure to ignition or melting of nightwear (X05)","Exposure to ignition or melting of other clothing and apparel (X06.-)","Exposure to other specified smoke, fire and flames (X08.-)"]|["e:1ppw","e:1ppx","e:1ppy","e:1ppz"]
+.s "cm:X04"
+excludes2|["exposure to ignition or melting of nightwear (X05)","exposure to ignition or melting of other clothing and apparel (X06)"]|["e:1ptv","e:1ptw","e:1ptx"]
+.s "cm:X05"
+excludes2|["exposure to uncontrolled fire in building or structure (X00.-)","exposure to uncontrolled fire, not in building or structure (X01.-)","exposure to controlled fire in building or structure (X02.-)","exposure to controlled fire, not in building or structure (X03.-)","exposure to ignition of highly flammable materials (X04.-)"]|["e:1pu9","e:1pua","e:1pub","e:1puc","e:1pud","e:1pue"]
+.s "cm:X06"
+excludes2|["exposure to uncontrolled fire in building or structure (X00.-)","exposure to uncontrolled fire, not in building or structure (X01.-)","exposure to controlled fire in building or structure (X02.-)","exposure to controlled fire, not in building or structure (X03.-)","exposure to ignition of highly flammable materials (X04.-)"]|["e:1pup","e:1pur","e:1pus","e:1put","e:1puu","e:1puv"]
+.s "cm:X32"
+excludes2|["radiation-related disorders of the skin and subcutaneous tissue (L55-L59)"]|["e:1q3u","e:1q3v"]
+.s "cm:X34"
+excludes2|["tidal wave (tsunami) due to earthquake (X37.41)"]|["e:1q46","e:1q47"]
+.s "cm:X35"
+excludes2|["tidal wave (tsunami) due to volcanic eruption (X37.41)"]|["e:1q4i","e:1q4j"]
+.s "cm:X36"
+excludes2|["transport accident involving collision with avalanche or landslide not in motion (V01-V99)"]|["e:1q4z","e:1q50"]
+.s "cm:X37.8"
+excludes2|["flood (X38)"]|["e:1q6w","e:1q6x"]
+.s "cm:X50.3"
+excludes2|["Overuse from prolonged static or awkward postures (X50.1)"]|["e:1q9n","e:1q9o"]
+.s "cm:Y22"
+excludes2|["very pistol (Y24.8)"]|["e:1r1e","e:1r1f"]
+.s "cm:Y23"
+excludes2|["airgun (Y24.0)"]|["e:1r1q","e:1r1r"]
+.s "cm:Y63"
+excludes2|["accidental overdose of drug or wrong drug given in error (T36-T50)"]|["e:1spn","e:1spo"]
+.s "cm:Z00"
+excludes2|["encounter for pre-procedural examinations (Z01.81-)","special screening examinations (Z11-Z13)"]|["e:1ue2","e:1ue3","e:1ue4"]
+.s "cm:Z01"
+excludes2|["encounter for laboratory and radiologic examinations as a component of general medical examinations (Z00.0-)","screening examinations (Z11-Z13)"]|["e:1uhf","e:1uhg","e:1uhh"]
+.s "cm:Z01.4"
+excludes2|["pregnancy examination or test (Z32.0-)","routine examination for contraceptive maintenance (Z30.4-)"]|["e:1ujz","e:1uk0","e:1uk1"]
+.s "cm:Z02.84"
+excludes2|["encounter for examination and observation for alleged child physical abuse (Z04.72)","encounter for examination and observation for alleged child rape (Z04.42)"]|["e:1uo9","e:1uoa","e:1uob"]
+.s "cm:Z03.82"
+excludes2|["confirmed foreign body ingestion or aspiration including:","foreign body in alimentary tract (T18)","foreign body in ear (T16)","foreign body on external eye (T15)","foreign body in respiratory tract (T17)"]|["e:1uqq","e:1uqr","e:1uqs","e:1uqt","e:1uqu","e:1uqv"]
+.s "cm:Z11.3"
+excludes2|["encounter for screening for human immunodeficiency virus [HIV] (Z11.4)","encounter for screening for human papillomavirus (Z11.51)"]|["e:1uxs","e:1uxt","e:1uxu"]
+.s "cm:Z11.5"
+excludes2|["encounter for screening for viral intestinal disease (Z11.0)"]|["e:1uy1","e:1uy3"]
+.s "cm:Z11.6"
+excludes2|["encounter for screening for protozoal intestinal disease (Z11.0)"]|["e:1uyh","e:1uyi"]
+.s "cm:Z12.4"
+excludes2|["encounter for screening for human papillomavirus (Z11.51)"]|["e:1v0i","e:1v0k"]
+.s "cm:Z13.29"
+excludes2|["encounter for screening for diabetes mellitus (Z13.1)"]|["e:1v32","e:1v33"]
+.s "cm:Z13.4"
+excludes2|["encounter for routine child health examination (Z00.12-)"]|["e:1v40","e:1v41"]
+.s "cm:Z13.5"
+excludes2|["encounter for general hearing examination (Z01.1-)","encounter for general vision examination (Z01.0-)"]|["e:1v4l","e:1v4m","e:1v4n"]
+.s "cm:Z13.8"
+excludes2|["screening for malignant neoplasms (Z12.-)"]|["e:1v57","e:1v58"]
+.s "cm:Z16.12"
+excludes2|["Methicillin resistant Staphylococcus aureus infection in diseases classified elsewhere (B95.62)"]|["e:1vb3","e:1vb4"]
+.s "cm:Z20"
+excludes2|["personal history of infectious and parasitic diseases (Z86.1-)"]|["e:1vjd","e:1vje"]
+.s "cm:Z22"
+excludes2|["carrier of viral hepatitis (B18.-)"]|["e:1vm7","e:1vm8"]
+.s "cm:Z31"
+excludes2|["complications associated with artificial fertilization (N98.-)","female infertility (N97.-)","male infertility (N46.-)"]|["e:1vxe","e:1vxf","e:1vxg","e:1vxh"]
+.s "cm:Z36"
+excludes2|["abnormal findings on antenatal screening of mother (O28.-)","genetic counseling and testing (Z31.43-, Z31.5)","routine prenatal care (Z34)"]|["e:1w43","e:1w44","e:1w45","e:1w46"]
+.s "cm:Z43"
+excludes2|["fitting and adjustment of prosthetic and other devices (Z44-Z46)"]|["e:1wio","e:1wip"]
+.s "cm:Z43.1"
+excludes2|["artificial opening status only, without need for care (Z93.-)"]|["e:1wiz","e:1wj0"]
+.s "cm:Z45"
+excludes2|["encounter for fitting and adjustment of non-implanted device (Z46.-)"]|["e:1wnw","e:1wnx"]
+.s "cm:Z45.018"
+excludes2|["presence of prosthetic and other devices (Z95.1-Z95.5, Z95.811-Z97)"]|["e:1wok","e:1wol"]
+.s "cm:Z46"
+excludes2|["encounter for fitting and management of implanted devices (Z45.-)","issue of repeat prescription only (Z76.0)","presence of prosthetic and other devices (Z95-Z97)"]|["e:1wrn","e:1wro","e:1wrp","e:1wrq"]
+.s "cm:Z46.2"
+excludes2|["encounter for adjustment and management of implanted nervous system device (Z45.4-)","encounter for adjustment and management of implanted visual substitution device (Z45.31)"]|["e:1ws5","e:1ws6","e:1ws7"]
+.s "cm:Z46.6"
+excludes2|["attention to artificial openings of urinary tract (Z43.5, Z43.6)"]|["e:1wsw","e:1wsx"]
+.s "cm:Z48"
+excludes2|["encounter for attention to artificial openings (Z43.-)","encounter for fitting and adjustment of prosthetic and other devices (Z44-Z46)"]|["e:1wvh","e:1wvj","e:1wvk"]
+.s "cm:Z48.81"
+excludes2|["aftercare following organ transplant (Z48.2-)","orthopedic aftercare (Z47.-)"]|["e:1wxv","e:1wxw","e:1wxx"]
+.s "cm:Z48.811"
+excludes2|["encounter for surgical aftercare following surgery on the sense organs (Z48.810)"]|["e:1wy5","e:1wy6"]
+.s "cm:Z51.1"
+excludes2|["encounter for chemotherapy and immunotherapy for nonneoplastic condition - code to condition"]|["e:1x09","e:1x0a"]
+.s "cm:Z56"
+excludes2|["occupational exposure to risk factors (Z57.-)","problems related to housing and economic circumstances (Z59.-)"]|["e:1x7t","e:1x7v","e:1x7w"]
+.s "cm:Z57.31"
+excludes2|["exposure to environmental tobacco smoke (Z77.22)"]|["e:1x9w","e:1x9x"]
+.s "cm:Z58"
+excludes2|["occupational exposure (Z57.-)"]|["e:1xau","e:1xav"]
+.s "cm:Z58.6"
+excludes2|["deprivation of water (T73.1)"]|["e:1xb2","e:1xb3"]
+.s "cm:Z59"
+excludes2|["problems related to upbringing (Z62.-)"]|["e:1xbm","e:1xbn"]
+.s "cm:Z59.1"
+excludes2|["problems related to the natural and physical environment (Z77.1-)"]|["e:1xcc","e:1xcd"]
+.s "cm:Z59.12"
+excludes2|["basic services unavailable in physical environment (Z58.81)","financial insecurity, difficulty paying for utilities (Z59.861)","lack of adequate food (Z59.4-)","other problems related to housing and economic circumstances (Z59.8-)"]|["e:1xcz","e:1xd0","e:1xd1","e:1xd3","e:1xd4"]
+.s "cm:Z59.4"
+excludes2|["deprivation of food (T73.0)","effects of hunger (T73.0)","inappropriate diet or eating habits (Z72.4)","malnutrition (E40-E46)"]|["e:1xdv","e:1xdw","e:1xdx","e:1xdy","e:1xdz"]
+.s "cm:Z59.819"
+excludes2|["extreme poverty (Z59.5)","financial insecurity (Z59.86-)","low income (Z59.6)","material hardship due to limited financial resources, not elsewhere classified (Z59.87)"]|["e:1xfn","e:1xfo","e:1xfp","e:1xfq","e:1xfr"]
+.s "cm:Z59.82"
+excludes2|["unavailability and inaccessibility of healthcare facilities (Z75.3)"]|["e:1xg4","e:1xg5"]
+.s "cm:Z59.86"
+excludes2|["extreme poverty (Z59.5)","low income (Z59.6)","material hardship, not elsewhere classified (Z59.87)"]|["e:1xgi","e:1xgj","e:1xgk","e:1xgl"]
+.s "cm:Z59.861"
+excludes2|["inadequate housing utilities (Z59.12)"]|["e:1xgx","e:1xgy"]
+.s "cm:Z59.87"
+excludes2|["extreme poverty (Z59.5)","financial insecurity, not elsewhere classified (Z59.86-)","low income (Z59.6)"]|["e:1xhh","e:1xhi","e:1xhj","e:1xhk"]
+.s "cm:Z62"
+excludes2|["maltreatment syndrome (T74.-)","problems related to housing and economic circumstances (Z59.-)"]|["e:1xjc","e:1xjd","e:1xje"]
+.s "cm:Z62.815"
+excludes2|["adult and child abuse, neglect and other maltreatment, confirmed (T74.-)"]|["e:1xm8","e:1xm9"]
+.s "cm:Z63"
+excludes2|["maltreatment syndrome (T74.-, T76)","parent-child problems (Z62.-)","problems related to negative life events in childhood (Z62.-)","problems related to upbringing (Z62.-)"]|["e:1xoc","e:1xod","e:1xoe","e:1xof","e:1xog"]
+.s "cm:Z70"
+excludes2|["contraceptive or procreative counseling (Z30-Z31)"]|["e:1y17","e:1y18"]
+.s "cm:Z71"
+excludes2|["contraceptive or procreation counseling (Z30-Z31)","sex counseling (Z70.-)"]|["e:1y28","e:1y29","e:1y2a"]
+.s "cm:Z71.0"
+excludes2|["anxiety (normal) about sick person in family (Z63.7)","expectant (adoptive) parent(s) pre-birth pediatrician visit (Z76.81)"]|["e:1y2i","e:1y2j","e:1y2k"]
+.s "cm:Z71.8"
+excludes2|["counseling for contraception (Z30.0-)"]|["e:1y4b","e:1y4c"]
+.s "cm:Z71.84"
+excludes2|["encounter for administrative examination (Z02.-)","encounter for other special examination without complaint, suspected or reported diagnosis (Z01.-)"]|["e:1y4y","e:1y4z","e:1y50"]
+.s "cm:Z72"
+excludes2|["problems related to life-management difficulty (Z73.-)","problems related to socioeconomic and psychosocial circumstances (Z55-Z65)"]|["e:1y64","e:1y65","e:1y66"]
+.s "cm:Z73"
+excludes2|["problems related to socioeconomic and psychosocial circumstances (Z55-Z65)"]|["e:1y9c","e:1y9d"]
+.s "cm:Z74"
+excludes2|["dependence on enabling machines or devices NEC (Z99.-)"]|["e:1yb5","e:1yb6"]
+.s "cm:Z74.09"
+excludes2|["wheelchair dependence (Z99.3)"]|["e:1ybm","e:1ybp"]
+.s "cm:Z76.0"
+excludes2|["issue of medical certificate (Z02.7)","repeat prescription for contraceptive (Z30.4-)"]|["e:1ydf","e:1ydg","e:1ydh"]
+.s "cm:Z77"
+excludes2|["contact with and (suspected) exposure to communicable diseases (Z20.-)","exposure to (parental) (environmental) tobacco smoke in the perinatal period (P96.81)","newborn affected by noxious substances transmitted via placenta or breast milk (P04.-)","occupational exposure to risk factors (Z57.-)","retained foreign body (Z18.-)","retained foreign body fully removed (Z87.821)","toxic effects of substances chiefly nonmedicinal as to source (T51-T65)"]|["e:1yf7","e:1yf8","e:1yf9","e:1yfa","e:1yfb","e:1yfc","e:1yfe","e:1yff"]
+.s "cm:Z77.123"
+excludes2|["radiation exposure as the cause of a confirmed condition (W88-W90, X39.0-)","radiation sickness NOS (T66)"]|["e:1yi8","e:1yi9","e:1yia"]
+.s "cm:Z77.22"
+excludes2|["occupational exposure to environmental tobacco smoke (Z57.31)"]|["e:1yiv","e:1yiw"]
+.s "cm:Z78"
+excludes2|["asymptomatic human immunodeficiency virus [HIV] infection status (Z21)","postprocedural status (Z93-Z99)","sex reassignment status (Z87.890)"]|["e:1yjl","e:1yjm","e:1yjn","e:1yjp"]
+.s "cm:Z78.0"
+excludes2|["symptomatic menopausal state (N95.1)"]|["e:1yjw","e:1yjx"]
+.s "cm:Z79"
+excludes2|["drug abuse and dependence (F11-F19)","drug use complicating pregnancy, childbirth, and the puerperium (O99.32-)"]|["e:1ykf","e:1ykg","e:1ykh"]
+.s "cm:Z79.0"
+excludes2|["long term (current) use of aspirin (Z79.82)"]|["e:1ykm","e:1ykn"]
+.s "cm:Z79.1"
+excludes2|["long term (current) use of aspirin (Z79.82)"]|["e:1ykz","e:1yl0"]
+.s "cm:Z79.4"
+excludes2|["long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85)","long term (current) use of oral antidiabetic drugs (Z79.84)","long term (current) use of oral hypoglycemic drugs (Z79.84)"]|["e:1yld","e:1yle","e:1ylf","e:1ylg"]
+.s "cm:Z79.6"
+excludes2|["long term (current) use of steroids (Z79.5-)","long term (current) use of agents affecting estrogen receptors and estrogen levels (Z79.81-)"]|["e:1ylv","e:1ylw","e:1ylx"]
+.s "cm:Z79.84"
+excludes2|["long-term (current) use of injectable non-insulin antidiabetic drugs (Z79.85)","long term (current) use of insulin (Z79.4)"]|["e:1yqi","e:1yqj","e:1yqk"]
+.s "cm:Z79.85"
+excludes2|["long term (current) use of insulin (Z79.4)","long term (current) use of oral hypoglycemic drugs (Z79.84)"]|["e:1yqo","e:1yqp","e:1yqq"]
+.s "cm:Z79.891"
+excludes2|["methadone use NOS (F11.9-)","use of methadone for treatment of heroin addiction (F11.2-)"]|["e:1yr5","e:1yr6","e:1yr7"]
+.s "cm:Z82.5"
+excludes2|["family history of other diseases of the respiratory system (Z83.6)"]|["e:1yvw","e:1yvx"]
+.s "cm:Z83"
+excludes2|["contact with and (suspected) exposure to communicable disease in the family (Z20.-)"]|["e:1yww","e:1ywy"]
+.s "cm:Z83.51"
+excludes2|["family history of blindness and visual loss (Z82.1)"]|["e:1yyo","e:1yyp"]
+.s "cm:Z83.52"
+excludes2|["family history of deafness and hearing loss (Z82.2)"]|["e:1yz2","e:1yz4"]
+.s "cm:Z83.6"
+excludes2|["family history of asthma and other chronic lower respiratory diseases (Z82.5)"]|["e:1yza","e:1yzb"]
+.s "cm:Z83.71"
+excludes2|["family history of malignant neoplasm of digestive organs (Z80.0)"]|["e:1yzl","e:1yzm"]
+.s "cm:Z85"
+excludes2|["personal history of benign neoplasm (Z86.01-)","personal history of carcinoma-in-situ (Z86.00-)"]|["e:1z2d","e:1z2e","e:1z2f"]
+.s "cm:Z85.831"
+excludes2|["personal history of malignant neoplasm of skin (Z85.82-)"]|["e:1zba","e:1zbb"]
+.s "cm:Z86.0"
+excludes2|["personal history of malignant neoplasms (Z85.-)"]|["e:1zcn","e:1zco"]
+.s "cm:Z86.006"
+excludes2|["sites other than skin - code to personal history of in-situ neoplasm of the site"]|["e:1ze4","e:1ze5"]
+.s "cm:Z86.31"
+excludes2|["current diabetic foot ulcer (E08.621, E09.621, E10.621, E11.621, E13.621)"]|["e:1zhb","e:1zhd"]
+.s "cm:Z86.7"
+excludes2|["old myocardial infarction (I25.2)","personal history of anaphylactic shock (Z87.892)","postmyocardial infarction syndrome (I24.1)"]|["e:1zim","e:1zin","e:1zio","e:1zip"]
+.s "cm:Z87.2"
+excludes2|["personal history of diabetic foot ulcer (Z86.31)"]|["e:1zkm","e:1zkn"]
+.s "cm:Z87.3"
+excludes2|["personal history of (healed) traumatic fracture (Z87.81)"]|["e:1zku","e:1zkv"]
+.s "cm:Z87.311"
+excludes2|["personal history of osteoporosis fracture (Z87.310)"]|["e:1zlb","e:1zld"]
+.s "cm:Z87.5"
+excludes2|["recurrent pregnancy loss (N96)"]|["e:1znf","e:1zng"]
+.s "cm:Z87.7"
+excludes2|["congenital malformations that have been partially corrected or repaired but which still require medical treatment - code to condition","other postprocedural states (Z98.-)","personal history of medical treatment (Z92.-)","presence of cardiac and vascular implants and grafts (Z95.-)","presence of other devices (Z97.-)","presence of other functional implants (Z96.-)","transplanted organ and tissue status (Z94.-)"]|["e:1zoc","e:1zod","e:1zoe","e:1zog","e:1zoh","e:1zoi","e:1zoj","e:1zok"]
+.s "cm:Z87.8"
+excludes2|["personal history of self harm (Z91.5-)"]|["e:1zqt","e:1zqu"]
+.s "cm:Z87.81"
+excludes2|["personal history of (healed) nontraumatic fracture (Z87.31-)"]|["e:1zqz","e:1zr0"]
+.s "cm:Z88"
+excludes2|["Allergy status, other than to drugs and biological substances (Z91.0-)"]|["e:1zsa","e:1zsb"]
+.s "cm:Z89.02"
+excludes2|["acquired absence of thumb (Z89.01-)"]|["e:1zu4","e:1zu5"]
+.s "cm:Z89.42"
+excludes2|["acquired absence of great toe (Z89.41-)"]|["e:1zxn","e:1zxp"]
+.s "cm:Z90"
+excludes2|["postprocedural absence of endocrine glands (E89.-)"]|["e:2011","e:2012"]
+.s "cm:Z90.09"
+excludes2|["teeth (K08.1)"]|["e:201k","e:201l"]
+.s "cm:Z90.7"
+excludes2|["female genital mutilation status (N90.81-)"]|["e:203d","e:203e"]
+.s "cm:Z91"
+excludes2|["contact with and (suspected) exposures hazardous to health (Z77.-)","exposure to pollution and other problems related to physical environment (Z77.1-)","female genital mutilation status (N90.81-)","occupational exposure to risk factors (Z57.-)","personal history of physical injury and trauma (Z87.81, Z87.82-)"]|["e:204p","e:204q","e:204r","e:204s","e:204u","e:204v"]
+.s "cm:Z91.0"
+excludes2|["Allergy status to drugs, medicaments, and biological substances (Z88.-)"]|["e:204z","e:2050"]
+.s "cm:Z91.01"
+excludes2|["food additives allergy status (Z91.02)"]|["e:2055","e:2056"]
+.s "cm:Z91.1"
+excludes2|["caregiver noncompliance with patient's medical treatment and regimen (Z91.A-)"]|["e:2081","e:2082"]
+.s "cm:Z91.41"
+excludes2|["personal history of abuse in childhood (Z62.81-)"]|["e:20cj","e:20ck"]
+.s "cm:Z91.82"
+excludes2|["personal history of military service (Z91.85)"]|["e:20ei","e:20ej"]
+.s "cm:Z91.85"
+excludes2|["personal history of military deployment (Z91.82)"]|["e:20fh","e:20fi"]
+.s "cm:Z92"
+excludes2|["postprocedural states (Z98.-)"]|["e:20g6","e:20g8"]
+.s "cm:Z92.2"
+excludes2|["long term (current) drug therapy (Z79.-)"]|["e:20gk","e:20gl"]
+.s "cm:Z92.22"
+excludes2|["personal history of immune checkpoint inhibitor therapy (Z92.26)"]|["e:20gs","e:20gv"]
+.s "cm:Z92.25"
+excludes2|["personal history of steroid therapy (Z92.24)"]|["e:20he","e:20hf"]
+.s "cm:Z92.83"
+excludes2|["failed moderate sedation during procedure (T88.52)"]|["e:20ii","e:20ij"]
+.s "cm:Z92.84"
+excludes2|["unintended awareness under general anesthesia during procedure (T88.53)"]|["e:20in","e:20ip"]
+.s "cm:Z92.85"
+excludes2|["personal history of immune checkpoint inhibitor therapy (Z92.26)"]|["e:20it","e:20iu"]
+.s "cm:Z94"
+excludes2|["presence of vascular grafts (Z95.-)"]|["e:20l8","e:20l9"]
+.s "cm:Z95"
+excludes2|["complications of cardiac and vascular devices, implants and grafts (T82.-)"]|["e:20mw","e:20mx"]
+.s "cm:Z96"
+excludes2|["complications of internal prosthetic devices, implants and grafts (T82-T85)","fitting and adjustment of prosthetic and other devices (Z44-Z46)"]|["e:20p6","e:20p7","e:20p8"]
+.s "cm:Z97"
+excludes2|["fitting and adjustment of prosthetic and other devices (Z44-Z46)","presence of cerebrospinal fluid drainage device (Z98.2)"]|["e:20uo","e:20up","e:20ur"]
+.s "cm:Z98"
+excludes2|["aftercare (Z43-Z49, Z51)","follow-up medical care (Z08-Z09)","Fontan related circulation (I27.84-)","postprocedural complication - see Alphabetical Index"]|["e:20wc","e:20wd","e:20we","e:20wf","e:20wg"]
+.s "cm:Z98.0"
+excludes2|["bariatric surgery status (Z98.84)","gastric bypass status (Z98.84)","obesity surgery status (Z98.84)"]|["e:20wk","e:20wm","e:20wn","e:20wo"]
+.s "cm:Z98.84"
+excludes2|["intestinal bypass and anastomosis status (Z98.0)"]|["e:20zi","e:20zj"]
+.s "cm:Z98.870"
+excludes2|["complications from in utero procedure for current pregnancy (O35.7)","supervision of current pregnancy with history of in utero procedure during previous pregnancy (O09.82-)"]|["e:2102","e:2103","e:2104"]
+.s "cm:Z99.2"
+excludes2|["noncompliance with renal dialysis (Z91.15-)"]|["e:211l","e:211m"]
+.s "section:A50-A64"
+excludes2|["human immunodeficiency virus [HIV] disease (B20)"]|["e:1k6e","e:1k9h"]
+.s "section:A65-A69"
+excludes2|["leptospirosis (A27.-)","syphilis (A50-A53)"]|["e:25bk","e:25bv","e:25c6"]
+.s "section:B15-B19"
+excludes2|["cytomegaloviral hepatitis (B25.1)","herpesviral [herpes simplex] hepatitis (B00.81)"]|["e:2gt4","e:2gtf","e:2gtq"]
+.s "section:B35-B49"
+excludes2|["hypersensitivity pneumonitis due to organic dust (J67.-)","mycosis fungoides (C84.0-)"]|["e:2kfo","e:2kfz","e:2kga"]
+.s "section:C15-C26"
+excludes2|["gastrointestinal stromal tumors (C49.A-)"]|["e:33sa","e:33sl"]
+.s "section:C81-C96"
+excludes2|["Kaposi's sarcoma of lymph nodes (C46.3)","secondary and unspecified neoplasm of lymph nodes (C77.-)","secondary neoplasm of bone marrow (C79.52)","secondary neoplasm of spleen (C78.89)"]|["e:3uws","e:3ux3","e:3uxg","e:3uxr","e:3uy2"]
+.s "section:E40-E46"
+excludes2|["nutritional anemias (D50-D53)","starvation (T73.0)"]|["e:22a6","e:22a7","e:22a8"]
+.s "section:E50-E64"
+excludes2|["nutritional anemias (D50-D53)"]|["e:22bv","e:22bw"]
+.s "section:E70-E88"
+excludes2|["Ehlers-Danlos syndromes (Q79.6-)"]|["e:22no","e:22np"]
+.s "section:H00-H05"
+excludes2|["open wound of eyelid (S01.1-)","superficial injury of eyelid (S00.1-, S00.2-)"]|["e:2csp","e:2csq","e:2csr"]
+.s "section:H49-H52"
+excludes2|["nystagmus and other irregular eye movements (H55)"]|["e:2kcv","e:2kcx"]
+.s "section:I10-I1A"
+excludes2|["hypertensive disease complicating pregnancy, childbirth and the puerperium (O10-O11, O13-O16)"]|["e:2omx","e:2omy"]
+.s "section:J09-J18"
+excludes2|["allergic or eosinophilic pneumonia (J82)","aspiration pneumonia NOS (J69.0)","meconium pneumonia (P24.01)","neonatal aspiration pneumonia (P24.-)","pneumonia due to solids and liquids (J69.-)","congenital pneumonia (P23.9)","lipid pneumonia (J69.1)","rheumatic pneumonia (I00)","ventilator associated pneumonia (J95.851)"]|["e:2vc4","e:2vc5","e:2vc6","e:2vc7","e:2vc8","e:2vca","e:2vcb","e:2vcc","e:2vcd","e:2vce"]
+.s "section:J20-J22"
+excludes2|["chronic obstructive pulmonary disease with acute lower respiratory infection (J44.0)"]|["e:2vqa","e:2vqb"]
+.s "section:J40-J4A"
+excludes2|["cystic fibrosis (E84.-)"]|["e:2w7e","e:2w7h"]
+.s "section:J60-J70"
+excludes2|["asthma (J45.-)","malignant neoplasm of bronchus and lung (C34.-)"]|["e:2wig","e:2wih","e:2wii"]
+.s "section:K20-K31"
+excludes2|["hiatus hernia (K44.-)"]|["e:2ymj","e:2ymk"]
+.s "section:K70-K77"
+excludes2|["hemochromatosis (E83.11-)","Reye's syndrome (G93.7)","viral hepatitis (B15-B19)","Wilson's disease (E83.01)"]|["e:310c","e:310d","e:310e","e:310f","e:310g"]
+.s "section:L00-L08"
+excludes2|["hordeolum (H00.0)","infective dermatitis (L30.3)","local infections of skin classified in Chapter 1","lupus panniculitis (L93.2)","panniculitis NOS (M79.3)","panniculitis of neck and back (M54.0-)","Perlèche NOS (K13.0)","Perlèche due to candidiasis (B37.0)","Perlèche due to riboflavin deficiency (E53.0)","pyogenic granuloma (L98.0)","relapsing panniculitis [Weber-Christian] (M35.6)","viral warts (B07.-)","zoster (B02.-)"]|["e:3279","e:327a","e:327b","e:327c","e:327d","e:327e","e:327f","e:327g","e:327j","e:327k","e:327l","e:327m","e:327n","e:327o"]
+.s "section:L20-L30"
+excludes2|["chronic (childhood) granulomatous disease (D71-)","dermatitis gangrenosa (L08.0)","dermatitis herpetiformis (L13.0)","dry skin dermatitis (L85.3)","factitial dermatitis (L98.1)","perioral dermatitis (L71.0)","radiation-related disorders of the skin and subcutaneous tissue (L55-L59)","stasis dermatitis (I87.2)"]|["e:331i","e:331j","e:331k","e:331l","e:331m","e:331n","e:331o","e:331p","e:331r"]
+.s "section:M15-M19"
+excludes2|["osteoarthritis of spine (M47.-)"]|["e:3b7o","e:3b7p"]
+.s "section:M20-M25"
+excludes2|["joints of the spine (M40-M54)"]|["e:3ble","e:3blf"]
+.s "section:M60-M63"
+excludes2|["muscular dystrophies and myopathies (G71-G72)"]|["e:3guu","e:3guv"]
+.s "section:N17-N19"
+excludes2|["congenital renal failure (P96.0)","drug- and heavy-metal-induced tubulo-interstitial and tubular conditions (N14.-)","extrarenal uremia (R39.2)","hemolytic-uremic syndrome (D59.3-)","hepatorenal syndrome (K76.7)","postpartum hepatorenal syndrome (O90.41)","posttraumatic renal failure (T79.5)","prerenal uremia (R39.2)","renal failure complicating abortion or ectopic or molar pregnancy (O00-O07, O08.4)","renal failure following labor and delivery (O90.41)","renal failure postprocedural (N99.0)"]|["e:3r4b","e:3r4c","e:3r4d","e:3r4f","e:3r4g","e:3r4h","e:3r4i","e:3r4j","e:3r4k","e:3r4l","e:3r4m","e:3r4n"]
+.s "section:N25-N29"
+excludes2|["disorders of kidney and ureter with urolithiasis (N20-N23)"]|["e:3ra1","e:3ra2"]
+.s "section:N30-N39"
+excludes2|["urinary infection (complicating):","abortion or ectopic or molar pregnancy (O00-O07, O08.8)","pregnancy, childbirth and the puerperium (O23.-, O75.3, O86.2-)"]|["e:3rel","e:3rem","e:3ren","e:3reo"]
+.s "section:O20-O29"
+excludes2|["maternal care related to the fetus and amniotic cavity and possible delivery problems (O30-O48)","maternal diseases classifiable elsewhere but complicating pregnancy, labor and delivery, and the puerperium (O98-O99)"]|["e:3vlx","e:3vly","e:3vlz"]
+.s "section:O85-O92"
+excludes2|["mental and behavioral disorders associated with the puerperium (F53.-)","obstetrical tetanus (A34)","puerperal osteomalacia (M83.0)"]|["e:3z2f","e:3z2g","e:3z2i","e:3z2j"]
+.s "section:P35-P39"
+excludes2|["asymptomatic human immunodeficiency virus [HIV] infection status (Z21)","congenital gonococcal infection (A54.-)","congenital pneumonia (P23.-)","congenital syphilis (A50.-)","human immunodeficiency virus [HIV] disease (B20)","infant botulism (A48.51)","infectious diseases not specific to the perinatal period (A00-B99, J09, J10.-)","intestinal infectious disease (A00-A09)","laboratory evidence of human immunodeficiency virus [HIV] (R75)","tetanus neonatorum (A33)"]|["e:4u9","e:4ub","e:4uc","e:4ud","e:4ue","e:4uf","e:4ug","e:4uh","e:4ui","e:4uj","e:4uk"]
+.s "section:Q10-Q18"
+excludes2|["cleft lip and cleft palate (Q35-Q37)","congenital malformation of cervical spine (Q05.0, Q05.5, Q67.5, Q76.0-Q76.4)","congenital malformation of larynx (Q31.-)","congenital malformation of lip NEC (Q38.0)","congenital malformation of nose (Q30.-)","congenital malformation of parathyroid gland (Q89.2)","congenital malformation of thyroid gland (Q89.2)"]|["e:62v","e:62w","e:62x","e:62y","e:62z","e:630","e:632","e:633"]
+.s "section:Q35-Q37"
+excludes2|["Robin's syndrome (Q87.0)"]|["e:71u","e:71v"]
+.s "section:Q90-Q99"
+excludes2|["mitochondrial metabolic disorders (E88.4-)"]|["e:9nj","e:9nk"]
+.s "section:R10-R19"
+excludes2|["congenital or infantile pylorospasm (Q40.0)","gastrointestinal hemorrhage (K92.0-K92.2)","intestinal obstruction (K56.-)","newborn gastrointestinal hemorrhage (P54.0-P54.3)","newborn intestinal obstruction (P76.-)","pylorospasm (K31.3)","signs and symptoms involving the urinary system (R30-R39)","symptoms referable to female genital organs (N94.-)","symptoms referable to male genital organs (N48-N50)"]|["e:ado","e:adp","e:adq","e:adr","e:ads","e:adt","e:adu","e:adv","e:adw","e:adx"]
+.s "section:R20-R23"
+excludes2|["symptoms relating to breast (N64.4-N64.5)"]|["e:aup","e:auq"]
+.s "section:R40-R46"
+excludes2|["symptoms and signs constituting part of a pattern of mental disorder (F01-F99)"]|["e:bgi","e:bgj"]
+.s "section:R70-R79"
+excludes2|["abnormal findings on antenatal screening of mother (O28.-)","abnormalities of lipids (E78.-)","abnormalities of platelets and thrombocytes (D69.-)","abnormalities of white blood cells classified elsewhere (D70-D72)","coagulation hemorrhagic disorders (D65-D68)","diagnostic abnormal findings classified elsewhere - see Alphabetical Index","hemorrhagic and hematological disorders of newborn (P50-P61)"]|["e:cjs","e:cjt","e:cju","e:cjv","e:cjw","e:cjx","e:cjy","e:cjz"]
+.s "section:R83-R89"
+excludes2|["abnormal findings on examination of blood, without diagnosis (R70-R79)","abnormal findings on examination of urine, without diagnosis (R80-R82)","abnormal tumor markers (R97.-)"]|["e:cya","e:cyb","e:cyc","e:cyd"]
+.s "section:S00-S09"
+excludes2|["burns and corrosions (T20-T32)","effects of foreign body in ear (T16)","effects of foreign body in larynx (T17.3)","effects of foreign body in mouth NOS (T18.0)","effects of foreign body in nose (T17.0-T17.1)","effects of foreign body in pharynx (T17.2)","effects of foreign body on external eye (T15.-)","frostbite (T33-T34)","insect bite or sting, venomous (T63.4)"]|["e:dqb","e:dqd","e:dqe","e:dqf","e:dqg","e:dqh","e:dqi","e:dqj","e:dqk","e:dql"]
+.s "section:S10-S19"
+excludes2|["burns and corrosions (T20-T32)","effects of foreign body in esophagus (T18.1)","effects of foreign body in larynx (T17.3)","effects of foreign body in pharynx (T17.2)","effects of foreign body in trachea (T17.4)","frostbite (T33-T34)","insect bite or sting, venomous (T63.4)"]|["e:g4k","e:g4l","e:g4m","e:g4n","e:g4o","e:g4p","e:g4r","e:g4s"]
+.s "section:S20-S29"
+excludes2|["burns and corrosions (T20-T32)","effects of foreign body in bronchus (T17.5)","effects of foreign body in esophagus (T18.1)","effects of foreign body in lung (T17.8)","effects of foreign body in trachea (T17.4)","frostbite (T33-T34)","injuries of axilla","injuries of clavicle","injuries of scapular region","injuries of shoulder","insect bite or sting, venomous (T63.4)"]|["e:hbv","e:hbw","e:hbx","e:hbz","e:hc0","e:hc1","e:hc2","e:hc3","e:hc4","e:hc5","e:hc6","e:hc7"]
+.s "section:S30-S39"
+excludes2|["burns and corrosions (T20-T32)","effects of foreign body in anus and rectum (T18.5)","effects of foreign body in genitourinary tract (T19.-)","effects of foreign body in stomach, small intestine and colon (T18.2-T18.4)","frostbite (T33-T34)","insect bite or sting, venomous (T63.4)"]|["e:j83","e:j84","e:j87","e:j88","e:j89","e:j8a","e:j8b"]
+.s "section:S40-S49"
+excludes2|["burns and corrosions (T20-T32)","frostbite (T33-T34)","injuries of elbow (S50-S59)","insect bite or sting, venomous (T63.4)"]|["e:m2w","e:m2x","e:m2z","e:m30","e:m31"]
+.s "section:S50-S59"
+excludes2|["burns and corrosions (T20-T32)","frostbite (T33-T34)","injuries of wrist and hand (S60-S69)","insect bite or sting, venomous (T63.4)"]|["e:odr","e:ods","e:odt","e:odu","e:odv"]
+.s "section:S60-S69"
+excludes2|["burns and corrosions (T20-T32)","frostbite (T33-T34)","insect bite or sting, venomous (T63.4)"]|["e:qva","e:qvb","e:qvc","e:qvd"]
+.s "section:S70-S79"
+excludes2|["burns and corrosions (T20-T32)","frostbite (T33-T34)","snake bite (T63.0-)","venomous insect bite or sting (T63.4-)"]|["e:vfp","e:vfq","e:vfr","e:vfs","e:vft"]
+.s "section:S80-S89"
+excludes2|["burns and corrosions (T20-T32)","frostbite (T33-T34)","injuries of ankle and foot, except fracture of ankle and malleolus (S90-S99)","insect bite or sting, venomous (T63.4)"]|["e:xdn","e:xdo","e:xdp","e:xdq","e:xds"]
+.s "section:S90-S99"
+excludes2|["burns and corrosions (T20-T32)","fracture of ankle and malleolus (S82.-)","frostbite (T33-T34)","insect bite or sting, venomous (T63.4)"]|["e:zxk","e:zxl","e:zxm","e:zxn","e:zxp"]
+.s "section:T15-T19"
+excludes2|["foreign body accidentally left in operation wound (T81.5-)","foreign body in penetrating wound - See open wound by body region","residual foreign body in soft tissue (M79.5)","splinter, without open wound - See superficial injury by body region"]|["e:12sp","e:12sq","e:12sr","e:12ss","e:12su"]
+.s "section:T20-T32"
+excludes2|["erythema [dermatitis] ab igne (L59.0)","radiation-related disorders of the skin and subcutaneous tissue (L55-L59)","sunburn (L55.-)"]|["e:138r","e:138s","e:138t","e:138v"]
+.s "section:T33-T34"
+excludes2|["hypothermia and other effects of reduced temperature (T68, T69.-)"]|["e:16uu","e:16uv"]
+.s "section:T36-T50"
+excludes2|["abuse and dependence of psychoactive substances (F10-F19)","abuse of non-dependence-producing substances (F55.-)","immunodeficiency due to drugs (D84.821)","drug reaction and poisoning affecting newborn (P00-P96)","pathological drug intoxication (inebriation) (F10-F19)"]|["e:176d","e:176e","e:176f","e:176g","e:176h","e:176j"]
+.s "section:T80-T88"
+excludes2|["any encounters with medical care for postprocedural conditions in which no complications are present, such as:","artificial opening status (Z93.-)","closure of external stoma (Z43.-)","fitting and adjustment of external prosthetic device (Z44.-)","burns and corrosions from local applications and irradiation (T20-T32)","complications of surgical procedures during pregnancy, childbirth and the puerperium (O00-O9A)","mechanical complication of respirator [ventilator] (J95.850)","poisoning and toxic effects of drugs and chemicals (T36-T65 with fifth or sixth character 1-4 or 6)","postprocedural fever (R50.82)","specified complications classified elsewhere, such as:","cerebrospinal fluid leak from spinal puncture (G97.0)","colostomy malfunction (K94.0-)","disorders of fluid and electrolyte imbalance (E86-E87)","functional disturbances following cardiac surgery (I97.0-I97.1)","intraoperative and postprocedural complications of specified body systems (D78.-, E36.-, E89.-, G97.3-, G97.4, H59.3-, H59.-, H95.2-, H95.3, I97.4-, I97.5, J95.6-, J95.7, K91.6-, L76.-, M96.-, N99.-)","ostomy complications (J95.0-, K94.-, N99.5-)","postgastric surgery syndromes (K91.1)","postlaminectomy syndrome NEC (M96.1)","postmastectomy lymphedema syndrome (I97.2)","postsurgical blind-loop syndrome (K91.2)","ventilator associated pneumonia (J95.851)"]|["e:1ek2","e:1ek3","e:1ek4","e:1ek5","e:1ek6","e:1ek7","e:1ek8","e:1eka","e:1ekb","e:1ekc","e:1ekd","e:1eke","e:1ekf","e:1ekg","e:1ekh","e:1eki","e:1ekj","e:1ekl","e:1ekm","e:1ekn","e:1eko","e:1ekp"]
+.s "section:V00-V99"
+excludes2|["transport accidents due to cataclysm (X34-X38)"]|["e:1hel","e:1hem"]
+.s "section:V10-V19"
+excludes2|["rupture of pedal cycle tire (W37.0)"]|["e:1idc","e:1idd"]
+.s "section:W00-W19"
+excludes2|["at risk for fall (history of fall) Z91.81","fall (in) (from) burning building (X00.-)","fall into fire (X00-X04, X08)"]|["e:1nac","e:1nad","e:1nae","e:1naf"]
+.s "section:W65-W74"
+excludes2|["accidental drowning and submersion due to cataclysm (X34-X39)"]|["e:1pgg","e:1pgh"]
+.s "section:X00-X08"
+excludes2|["explosions (W35-W40)","lightning (T75.0-)","transport accident (V01-V99)"]|["e:1ppk","e:1ppl","e:1ppm","e:1ppn"]
+.s "section:Y62-Y69"
+excludes2|["breakdown or malfunctioning of medical device (during procedure) (after implantation) (ongoing use) (Y70-Y82)"]|["e:1sok","e:1som"]
+.s "section:Y70-Y82"
+excludes2|["later complications following use of medical devices without breakdown or malfunctioning of device (Y83-Y84)","misadventure to patients during surgical and medical care, classifiable to (Y62-Y69)","surgical and other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure (Y83-Y84)"]|["e:1ssu","e:1ssv","e:1ssx","e:1ssy"]
+.s "section:Y83-Y84"
+excludes2|["breakdown or malfunctioning of medical device (after implantation) (during procedure) (ongoing use) (Y70-Y82)"]|["e:1t0c","e:1t0d"]
+.s "section:Z00-Z13"
+excludes2|["examinations related to pregnancy and reproduction (Z30-Z36, Z39.-)"]|["e:1udu","e:1udv"]
+.s "section:Z40-Z53"
+excludes2|["follow-up examination for medical surveillance after treatment (Z08-Z09)"]|["e:1wfm","e:1wfn"]
+.end 1165 38205ec4516d2fff6387fc5527139898ce2ee2c1f39363dc84b53b83c0ff6983

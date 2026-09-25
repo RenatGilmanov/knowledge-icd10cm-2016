@@ -1,0 +1,11 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat index/book
+.s "index:disease"
+title|"ICD-10-CM INDEX TO DISEASES and INJURIES"|"e:9kc7"
+.s "index:external"
+title|"ICD-10-CM EXTERNAL CAUSE of INJURIES INDEX"|"e:5md4"
+.end 2 d2b560f8fdb6332a6fa54ca9a7d4122a0a9ee978b9ba0f80e13ac066c05b8195

@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "method": "Actual Pango glyph widths with Arial, measured per SVG text line; canvas bounds and pairwise text collision checks. Manual raster review is a separate release gate.",
+  "figures": [
+    {
+      "id": "06-token-efficiency",
+      "svg_sha256": "ffc90cb1e8ebfdea810887ec3ebdd79afa12b64bead33879cec6d4fc3f14fed2",
+      "png_sha256": "a5aff45d25837105191b1d3fc9333b73919238d862cf99936043074b19d03cc0",
+      "text_lines": 44,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "07-token-profile",
+      "svg_sha256": "676a2ff7e2a3fe930196af31cabce224ace97f9bd52d65958c24d79aabce2b1e",
+      "png_sha256": "88bb6d18fd6c02f96b85b98f990f142075c3c9681e5b2227e2fcefee7062f683",
+      "text_lines": 272,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    },
+    {
+      "id": "08-context-token-cost",
+      "svg_sha256": "2f282adf77fc8c605044134aaebc4b317f2b8691acc2d32945a5203d4528d23a",
+      "png_sha256": "4609d7c9829c560b0f0ff322487234413d42327825ec08dc728a6a3a8c41900c",
+      "text_lines": 58,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "passed": true
+    }
+  ],
+  "rasterization": {
+    "renderer": "D3 7.9 + Sharp/libvips; no external assets",
+    "metrics_sha256": "9ae2108fa1748d1bdf53508987e437593d17ed1f38bb73850df0970feed15174",
+    "figures": [
+      {
+        "id": "06-token-efficiency",
+        "group": "token_effectiveness",
+        "svg": "visualizations/06-token-efficiency.svg",
+        "png": "visualizations/06-token-efficiency.png",
+        "svg_sha256": "ffc90cb1e8ebfdea810887ec3ebdd79afa12b64bead33879cec6d4fc3f14fed2",
+        "png_sha256": "a5aff45d25837105191b1d3fc9333b73919238d862cf99936043074b19d03cc0",
+        "viewbox": [
+          2640,
+          1920
+        ],
+        "png_pixels": [
+          5280,
+          3840
+        ],
+        "scope": "Full corpus; all 41 complete category files. Savings compare identical seven-field canonical fact content, including evidence and qualifiers."
+      },
+      {
+        "id": "07-token-profile",
+        "group": "token_effectiveness",
+        "svg": "visualizations/07-token-profile.svg",
+        "png": "visualizations/07-token-profile.png",
+        "svg_sha256": "676a2ff7e2a3fe930196af31cabce224ace97f9bd52d65958c24d79aabce2b1e",
+        "png_sha256": "88bb6d18fd6c02f96b85b98f990f142075c3c9681e5b2227e2fcefee7062f683",
+        "viewbox": [
+          2700,
+          2840
+        ],
+        "png_pixels": [
+          5400,
+          5680
+        ],
+        "scope": "All 41 primary categories. Bars share a linear, zero-based scale. Tokens/fact and saving percentages use each category’s own denominators."
+      },
+      {
+        "id": "08-context-token-cost",
+        "group": "token_effectiveness",
+        "svg": "visualizations/08-context-token-cost.svg",
+        "png": "visualizations/08-context-token-cost.png",
+        "svg_sha256": "2f282adf77fc8c605044134aaebc4b317f2b8691acc2d32945a5203d4528d23a",
+        "png_sha256": "4609d7c9829c560b0f0ff322487234413d42327825ec08dc728a6a3a8c41900c",
+        "viewbox": [
+          2640,
+          2210
+        ],
+        "png_pixels": [
+          5280,
+          4420
+        ],
+        "scope": "Six fixed illustrative selections, not a representative workload. Each contains exact subject and structural ancestor facts; complete clinical guideline applicability is not established."
+      }
+    ]
+  },
+  "independent_validation": "../metrics/token-validation.json",
+  "manual_review": {
+    "all_three_figures_reviewed": true,
+    "checks": [
+      "Readable labels and aligned numerical columns at full export size",
+      "All 41 categories shown, including seven with negative savings",
+      "Linear bars share a zero origin; exact values remain visible for small bars",
+      "All six context selections visible; the one-subject selection is labelled correctly",
+      "Tokenizer, comparison boundaries and illustrative allowance are visible"
+    ]
+  }
+}

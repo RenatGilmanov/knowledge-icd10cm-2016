@@ -1,0 +1,11 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat index/synonym
+.s "disease:GuOM0ubSy93i"
+synonym|"SCFE"|"e:8ohb"
+.s "neoplasm:lSEOr3FEMASk"
+synonym|"ventral surface of tongue and floor of mouth"|"e:bd2z"
+.end 2 359d8817cd41288f29e9b6830be594c295a27fa69efaf912f119aa26466a5c89

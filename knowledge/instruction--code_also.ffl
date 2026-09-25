@@ -1,0 +1,646 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/code_also
+.s "cm:B88.01"
+code_also|[", if applicable, eyelid inflammation (H01.8-)"]|["e:2wjs","e:2wk3"]
+.s "cm:C25"
+code_also|["if applicable exocrine pancreatic insufficiency (K86.81)"]|["e:3621","e:362e"]
+.s "cm:C78.89"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:3tmt","e:3tn5"]
+.s "cm:C7A"
+code_also|["any associated multiple endocrine neoplasia [MEN] syndromes (E31.2-)"]|["e:3r5n","e:3r5y"]
+.s "cm:C92"
+code_also|[", if applicable, pancytopenia (acquired) (D61.818)"]|["e:ej2","e:ejd"]
+.s "cm:C93.1"
+code_also|[", if applicable, eosinophilia (D72.18)"]|["e:gfv","e:gg6"]
+.s "cm:C94.8"
+code_also|[", if applicable, eosinophilia (D72.18)"]|["e:hq5","e:hqg"]
+.s "cm:D13.91"
+code_also|["associated conditions, such as:","benign neoplasm of colon (D12.6)","malignant neoplasm of colon (C18.-)"]|["e:pgu","e:ph5","e:phh","e:phs"]
+.s "cm:D3A"
+code_also|["any associated multiple endocrine neoplasia [MEN] syndromes (E31.2-)"]|["e:yyi","e:yyt"]
+.s "cm:D47.02"
+code_also|[", if applicable, any associated hematological non-mast cell lineage disease, such as:","acute myeloid leukemia (C92.6-, C92.A-)","chronic myelomonocytic leukemia (C93.1-)","essential thrombocytosis (D47.3)","hypereosinophilic syndrome (D72.1)","myelodysplastic syndrome (D46.9)","myeloproliferative syndrome (D47.1)","non-Hodgkin lymphoma (C82-C85)","plasma cell myeloma (C90.0-)","polycythemia vera (D45)"]|["e:13oa","e:13ol","e:13ow","e:13p7","e:13pi","e:13pu","e:13q5","e:13qg","e:13qr","e:13r2","e:13rd"]
+.s "cm:D47.Z2"
+code_also|[", if applicable, human herpesvirus 8 infection (B10.89)"]|["e:14at","e:14b4"]
+.s "cm:D57.03"
+code_also|[", if applicable, cerebral infarction (I63.-)"]|["e:191h","e:191s"]
+.s "cm:D57.213"
+code_also|[", if applicable, cerebral infarction (I63.-)"]|["e:19e6","e:19eh"]
+.s "cm:D57.413"
+code_also|[", if applicable cerebral infarction (I63.-)"]|["e:19tw","e:19u7"]
+.s "cm:D57.433"
+code_also|[", if applicable cerebral infarction (I63.-)"]|["e:1a8q","e:1a91"]
+.s "cm:D57.453"
+code_also|[", if applicable cerebral infarction (I63.-)"]|["e:1ap2","e:1apd"]
+.s "cm:D57.813"
+code_also|[", if applicable: cerebral infarction (I63.-)"]|["e:1b2m","e:1b2x"]
+.s "cm:D59.3"
+code_also|[", if applicable, any associated:","acute kidney failure (N17.-)","chronic kidney disease (N18.-)"]|["e:1c25","e:1c2g","e:1c2r","e:1c32"]
+.s "cm:D59.32"
+code_also|[", if applicable:","defects in the complement system (D84.1)","methylmalonic acidemia (E71.120)"]|["e:1cb3","e:1cbe","e:1cbp","e:1cc0"]
+.s "cm:D59.39"
+code_also|[", if applicable, any associated condition, such as:","hypertensive emergency (I16.1)","malignant neoplasm (C00-C96)","systemic lupus erythematosus (M32.-)"]|["e:1cg0","e:1cgb","e:1cgn","e:1cgy","e:1ch9"]
+.s "cm:D61.02"
+code_also|[", if applicable, associated conditions such as:","acute myeloblastic leukemia (C92.0-)","exocrine pancreatic insufficiency (K86.81)","myelodysplastic syndrome (D46.-)"]|["e:1d50","e:1d5c","e:1d5n","e:1d5y","e:1d69"]
+.s "cm:D61.82"
+code_also|["the underlying disorder, such as:","malignant neoplasm of breast (C50.-)","tuberculosis (A15.-)"]|["e:1dqb","e:1dqm","e:1dqy","e:1dr9"]
+.s "cm:D65"
+code_also|[", if applicable, associated condition"]|["e:1esw","e:1et7"]
+.s "cm:D68.09"
+code_also|[", if applicable, qualitative platelet defects (D69.1)"]|["e:1fo2","e:1fod"]
+.s "cm:D68.69"
+code_also|[", if applicable, associated condition"]|["e:1gzv","e:1h07"]
+.s "cm:D68.8"
+code_also|[", if applicable, associated condition"]|["e:1h21","e:1h2c"]
+.s "cm:D70"
+code_also|[", if applicable, mucositis (J34.81, K12.3-, K92.81, N76.81)"]|["e:1i34","e:1i3f"]
+.s "cm:D70.1"
+code_also|["underlying neoplasm"]|["e:1i7r","e:1i82"]
+.s "cm:D72.111"
+code_also|[", if applicable, any associated lymphocytic neoplastic disorder"]|["e:1j05","e:1j0g"]
+.s "cm:D75.838"
+code_also|["underlying condition, if known and applicable"]|["e:1lik","e:1liv"]
+.s "cm:D81.32"
+code_also|[", if applicable, any associated manifestations, such as:","polyarteritis nodosa (M30.0)","stroke (I63.-)"]|["e:1ngb","e:1ngm","e:1ngx","e:1nh8"]
+.s "cm:D81.82"
+code_also|[", if applicable, any associated manifestations, such as:","bronchiectasis (J47.-)","herpes virus infections (B00.-)","other acute respiratory tract infections (J00-J06; J20-J22)","other infections (A00-B99)","pneumonia (J12-J18)"]|["e:1nxk","e:1nxv","e:1ny8","e:1nyj","e:1nyu","e:1nz5","e:1nzg"]
+.s "cm:D84.822"
+code_also|[", if applicable, radiological procedure and radiotherapy (Y84.2)"]|["e:1ov8","e:1ovj"]
+.s "cm:D89.43"
+code_also|["underlying etiology, if known"]|["e:1q0l","e:1q0w"]
+.s "cm:E20.810"
+code_also|[", if applicable, any associated conditions, such as:","calculus of kidney (N20.0)","chronic kidney disease (N18.-)","respiratory distress (J80, R06.-)","seizure disorder (G40.-, R56.9)"]|["e:21o6","e:21o7","e:21o8","e:21o9","e:21oa","e:21ob"]
+.s "cm:E26.01"
+code_also|["adrenal adenoma (D35.0-)"]|["e:21vf","e:21vg"]
+.s "cm:E27.5"
+code_also|[", if applicable:","malignant pheochromocytoma (C74.1-)","pheochromocytoma (benign) (D35.0-)","secondary hypertension (I15.2)"]|["e:21y4","e:21y5","e:21y6","e:21y7","e:21y8"]
+.s "cm:E31.2"
+code_also|["any associated malignancies and other conditions associated with the syndromes"]|["e:222t","e:222u"]
+.s "cm:E34.0"
+code_also|["the underlying disorder, such as:","primary neuroendocrine tumors (C7A.-)","secondary neuroendocrine tumors (C7B.-)"]|["e:224m","e:224n","e:224o","e:224p"]
+.s "cm:E71.42"
+code_also|["associated inborn error or metabolism"]|["e:22uv","e:22uw"]
+.s "cm:E74.05"
+code_also|[", if applicable, associated manifestations such as:","dilated cardiomyopathy (I42.0)","obstructive hypertrophic cardiomyopathy (I42.1)"]|["e:2352","e:2353","e:2354","e:2357"]
+.s "cm:E83.01"
+code_also|["associated Kayser Fleischer ring (H18.04-)"]|["e:23mq","e:23ms"]
+.s "cm:E83.820"
+code_also|[", if applicable, associated conditions such as:","heart failure (I50.-)","other secondary hypertension (I15.8)"]|["e:23qx","e:23qy","e:23qz","e:23r0"]
+.s "cm:E83.821"
+code_also|[", if applicable, associated conditions such as:","heart failure (I50.-)","other secondary hypertension (I15.8)"]|["e:23r5","e:23r6","e:23r7","e:23r8"]
+.s "cm:E83.823"
+code_also|[", if applicable, associated conditions such as:","heart failure (I50.-)","other secondary hypertension (I15.8)"]|["e:23rg","e:23rh","e:23ri","e:23rj"]
+.s "cm:E84"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:23s3","e:23s4"]
+.s "cm:E85.0"
+code_also|["associated disorders, such as:","autoinflammatory syndromes (M04.-)"]|["e:23t7","e:23t9","e:23ta"]
+.s "cm:E87.20"
+code_also|[", if applicable, respiratory failure with hypercapnia (J96. with 5th character 2)"]|["e:23w9","e:23wa"]
+.s "cm:E88.02"
+code_also|[", if applicable, ligneous conjunctivitis (H10.51-)"]|["e:23z9","e:23za"]
+.s "cm:E88.42"
+code_also|["progressive myoclonic epilepsy (G40.3-)"]|["e:2421","e:2422"]
+.s "cm:E88.43"
+code_also|[", if applicable, associated condition such as:","leukoencephalopathy (G93.49)"]|["e:242e","e:242f","e:242g"]
+.s "cm:F07.81"
+code_also|[", if applicable, sequela of concussion (S06.0X- with seventh character S)"]|["e:24vh","e:24vj"]
+.s "cm:F45.42"
+code_also|["associated acute or chronic pain (G89.-)"]|["e:27q7","e:27q8"]
+.s "cm:F51.05"
+code_also|["associated mental disorder"]|["e:27yp","e:27yq"]
+.s "cm:F51.13"
+code_also|["associated mental disorder"]|["e:27zh","e:27zi"]
+.s "cm:F78.A1"
+code_also|[", if applicable, any associated:","autism spectrum disorder (F84.0)","autistic disorder (F84.0)","encephalopathy (G93.4-)","epilepsy and recurrent seizures (G40.-)","other pervasive developmental disorders (F84.8)","pervasive developmental disorder, NOS (F84.9)"]|["e:28fq","e:28fr","e:28fs","e:28ft","e:28fu","e:28fw","e:28fx","e:28fy"]
+.s "cm:F78.A9"
+code_also|[", if applicable, any associated disorders"]|["e:28g2","e:28g3"]
+.s "cm:F80.4"
+code_also|["type of hearing loss (H90.-, H91.-)"]|["e:28i3","e:28i4"]
+.s "cm:F84"
+code_also|["any associated medical condition and intellectual disabilities"]|["e:28kx","e:28ky"]
+.s "cm:G04.39"
+code_also|["underlying etiology, if applicable"]|["e:291m","e:291n"]
+.s "cm:G04.8"
+code_also|["any associated seizure (G40.-, R56.9)"]|["e:291r","e:291t"]
+.s "cm:G31.2"
+code_also|["associated alcoholism (F10.-)"]|["e:29mz","e:29n0"]
+.s "cm:G37.81"
+code_also|["associated manifestations, if known, such as:","noninfectious acute disseminated encephalomyelitis (G04.81)","neuromyelitis optica (G36.0)"]|["e:29ty","e:29tz","e:29u0","e:29u1"]
+.s "cm:G40.3"
+code_also|["MERRF syndrome, if applicable (E88.42)"]|["e:29xn","e:29xo"]
+.s "cm:G40.5"
+code_also|[", if applicable, associated epilepsy and recurrent seizures (G40.-)"]|["e:2a29","e:2a2a"]
+.s "cm:G40.C"
+code_also|[", if applicable, associated conditions such as dementia (F02.8-)"]|["e:29zx","e:29zy"]
+.s "cm:G43.1"
+code_also|["any associated seizure (G40.-, R56.9)"]|["e:2a8h","e:2a8i"]
+.s "cm:G43.6"
+code_also|["the type of cerebral infarction (I63.-)"]|["e:2ab8","e:2ab9"]
+.s "cm:G43.82"
+code_also|["associated premenstrual tension syndrome (N94.3)"]|["e:2afp","e:2afq"]
+.s "cm:G43.83"
+code_also|["associated premenstrual tension syndrome (N94.3)"]|["e:2agb","e:2agc"]
+.s "cm:G44.86"
+code_also|["associated cervical spinal condition, if known"]|["e:2apj","e:2apk"]
+.s "cm:G47.01"
+code_also|["associated medical condition"]|["e:2ass","e:2ast"]
+.s "cm:G47.14"
+code_also|["associated medical condition"]|["e:2atw","e:2atx"]
+.s "cm:G47.3"
+code_also|["any associated underlying condition"]|["e:2avi","e:2avk"]
+.s "cm:G89"
+code_also|["related psychological factors associated with pain (F45.42)"]|["e:2c34","e:2c35"]
+.s "cm:G92.0"
+code_also|[", if applicable, associated signs and symptoms, such as:","cerebral edema (G93.6)","unspecified convulsions (R56.9)"]|["e:2cbn","e:2cbo","e:2cbp","e:2cbr"]
+.s "cm:G93.45"
+code_also|[", if applicable, associated disorders such as:","developmental disorders of scholastic skills (F81.-)","developmental disorder of speech and language (F80.-)","epilepsy, by specific type (G40.-)","intellectual disabilities (F70-F79)","other neurodevelopmental disorder (F88)","pervasive developmental disorders (F84.-)"]|["e:2cfo","e:2cfp","e:2cfr","e:2cfs","e:2cft","e:2cfu","e:2cfv","e:2cfw"]
+.s "cm:G96.0"
+code_also|["if applicable:","intracranial hypotension (G96.81-)"]|["e:2cjp","e:2cjr","e:2cjs"]
+.s "cm:G96.00"
+code_also|["if applicable:","head injury (S00-S09)"]|["e:2cjy","e:2cjz","e:2ck0"]
+.s "cm:G96.08"
+code_also|["if applicable:","head injury (S00 - S09)"]|["e:2ckl","e:2ckm","e:2ckp"]
+.s "cm:G96.09"
+code_also|["if applicable:","head injury (S00 - S09)"]|["e:2ckx","e:2cky","e:2cl0"]
+.s "cm:G96.11"
+code_also|["intracranial hypotension, if applicable (G96.81-)"]|["e:2cl7","e:2cl8"]
+.s "cm:G96.81"
+code_also|["any associated diagnoses, such as:","Brachial amyotrophy (G54.5)","Cerebrospinal fluid leak from spine (G96.02)","Cranial nerve disorders in diseases classified elsewhere (G53)","Nerve root and compressions in diseases classified elsewhere (G55)","Nonpyogenic thrombosis of intracranial venous system (I67.6)","Nontraumatic intracerebral hemorrhage (I61.-)","Nontraumatic subdural hemorrhage (I62.0-)","Other and unspecified cord compression (G95.2-)","Other secondary parkinsonism (G21.8)","Reversible cerebrovascular vasoconstriction syndrome (I67.841)","Spinal cord herniation (G95.89)","Stroke (I63.-)","Syringomyelia (G95.0)"]|["e:2cm2","e:2cm3","e:2cm4","e:2cm5","e:2cm6","e:2cm8","e:2cm9","e:2cma","e:2cmb","e:2cmc","e:2cmd","e:2cme","e:2cmf","e:2cmg","e:2cmh"]
+.s "cm:G97.0"
+code_also|["any associated diagnoses or complications, such as:","intracranial hypotension following a procedure (G97.83-G97.84)"]|["e:2cn8","e:2cn9","e:2cna"]
+.s "cm:G97.1"
+code_also|[", if applicable, any associated headache with orthostatic component (R51.0)"]|["e:2cni","e:2cnj"]
+.s "cm:G97.2"
+code_also|["any associated diagnoses or complications"]|["e:2cnn","e:2cno"]
+.s "cm:G97.41"
+code_also|["any associated diagnoses or complications"]|["e:2cob","e:2coc"]
+.s "cm:G97.83"
+code_also|["any associated diagnoses or complications"]|["e:2cpq","e:2cpr"]
+.s "cm:G97.84"
+code_also|[", if applicable:","accidental puncture or laceration of dura during a procedure (G97.41)","cerebrospinal fluid leak from spinal puncture (G97.0)"]|["e:2cpv","e:2cpx","e:2cpy","e:2cpz"]
+.s "cm:H01.8"
+code_also|[", if applicable, infestation by Demodex mites (B88.01)"]|["e:2d2i","e:2d2j"]
+.s "cm:H05.32"
+code_also|["associated bone disease"]|["e:2ej2","e:2ej3"]
+.s "cm:H05.83"
+code_also|[", if applicable, any associated conditions such as:","autoimmune thyroiditis (E06.3)","thyrotoxicosis with diffuse goiter (E05.0-)"]|["e:2eof","e:2eog","e:2eoh","e:2eoi"]
+.s "cm:H10.51"
+code_also|["underlying condition if known, such as:","plasminogen deficiency (E88.02)"]|["e:2evx","e:2evy","e:2ew1"]
+.s "cm:H18.03"
+code_also|["associated metabolic disorder"]|["e:2g20","e:2g21"]
+.s "cm:H18.04"
+code_also|["associated Wilson's disease (E83.01)"]|["e:2g2i","e:2g2j"]
+.s "cm:H26.21"
+code_also|[", if applicable, associated condition, such as:","chronic iridocyclitis (H20.1-)"]|["e:2hbu","e:2hbv","e:2hbw"]
+.s "cm:H26.22"
+code_also|["associated ocular disorder"]|["e:2hce","e:2hcf"]
+.s "cm:H35.0"
+code_also|["any associated hypertension (I10)"]|["e:2ib6","e:2ib7"]
+.s "cm:H40.3"
+code_also|["underlying condition"]|["e:2j6l","e:2j6n"]
+.s "cm:H40.4"
+code_also|["underlying condition"]|["e:2j7d","e:2j7e"]
+.s "cm:H40.5"
+code_also|["underlying eye disorder"]|["e:2j84","e:2j86"]
+.s "cm:H40.84"
+code_also|["the underlying condition such as:","central retinal vein occlusion (H34.81)","diabetes mellitus (E08.39, E09.39, E10.39, E11.39, E13.39)","retinal ischemia (H35.82)"]|["e:2jb7","e:2jb9","e:2jba","e:2jbb","e:2jbc"]
+.s "cm:H47.4"
+code_also|["underlying condition"]|["e:2k9a","e:2k9b"]
+.s "cm:H47.5"
+code_also|["underlying condition"]|["e:2k9v","e:2k9w"]
+.s "cm:H47.6"
+code_also|["underlying condition"]|["e:2kb5","e:2kb6"]
+.s "cm:H49.81"
+code_also|[", if applicable, other manifestations, such as:","heart block (I45.9)"]|["e:2kfs","e:2kft","e:2kfu"]
+.s "cm:I15"
+code_also|["underlying condition"]|["e:2opw","e:2opx"]
+.s "cm:I16"
+code_also|["any identified hypertensive disease (I10-I15, I1A)"]|["e:2oqo","e:2oqp"]
+.s "cm:I16.1"
+code_also|[", if applicable, to identify specific organ dysfunction, such as:","acute kidney injury (N17.-)","acute myocardial infarction (I21.-)","acute pulmonary edema (left and/or right ventricular failure) (J81.0, I50.-)","aortic dissection (I71.0-)","cerebral hemorrhage (I60.-. I61.-, I62.-)","cerebral infarction (I63.-)","eclampsia (O15.-)","hypertensive encephalopathy (I67.4)","seizure (R56.9)"]|["e:2oqy","e:2oqz","e:2or0","e:2or1","e:2or2","e:2or3","e:2or4","e:2or5","e:2or6","e:2or7","e:2or9"]
+.s "cm:I21.A9"
+code_also|["complication, if known and applicable, such as:","(acute) stent occlusion (T82.897-)","(acute) stent stenosis (T82.855-)","(acute) stent thrombosis (T82.867-)","cardiac arrest due to underlying cardiac condition (I46.2)","complication of percutaneous coronary intervention (PCI) (I97.89)","occlusion of coronary artery bypass graft (T82.218-)"]|["e:2oy2","e:2oy3","e:2oy4","e:2oy5","e:2oy6","e:2oy7","e:2oy8","e:2oy9"]
+.s "cm:I27.2"
+code_also|["associated underlying condition"]|["e:2phe","e:2phf"]
+.s "cm:I27.21"
+code_also|["associated conditions if applicable, or adverse effects of drugs or toxins, such as:","adverse effect of appetite depressants (T50.5X5)","congenital heart disease (Q20-Q28)","human immunodeficiency virus [HIV] disease (B20)","polymyositis (M33.2-)","portal hypertension (K76.6)","rheumatoid arthritis (M05.-)","schistosomiasis (B65.-)","Sjögren syndrome (M35.0-)","systemic sclerosis (M34.-)"]|["e:2phv","e:2phw","e:2phx","e:2phy","e:2phz","e:2pi0","e:2pi1","e:2pi3","e:2pi4","e:2pi5","e:2pi6"]
+.s "cm:I27.22"
+code_also|["associated left heart disease, if known, such as:","multiple valve disease (I08.-)","rheumatic mitral valve diseases (I05.-)","rheumatic aortic valve diseases (I06.-)"]|["e:2pic","e:2pie","e:2pif","e:2pig","e:2pih"]
+.s "cm:I27.23"
+code_also|["associated lung disease, if known, such as:","bronchiectasis (J47.-)","cystic fibrosis with pulmonary manifestations (E84.0)","interstitial lung disease (J84.-)","pleural effusion (J90)","sleep apnea (G47.3-)"]|["e:2pin","e:2piq","e:2pir","e:2pis","e:2pit","e:2piu","e:2piv"]
+.s "cm:I27.24"
+code_also|["associated pulmonary embolism, if applicable (I26.-, I27.82)"]|["e:2pj2","e:2pj3"]
+.s "cm:I27.29"
+code_also|["other associated disorders, if known, such as:","chronic myeloid leukemia (C92.10-C92.22)","essential thrombocythemia (D47.3)","Gaucher disease (E75.22)","hypertensive chronic kidney disease with end stage renal disease (I12.0, I13.11, I13.2)","hyperthyroidism (E05.-)","hypothyroidism (E00-E03)","polycythemia vera (D45)","sarcoidosis (D86.-)"]|["e:2pje","e:2pjf","e:2pjg","e:2pjh","e:2pji","e:2pjj","e:2pjk","e:2pjl","e:2pjn","e:2pjo"]
+.s "cm:I27.81"
+code_also|[", if applicable, right heart failure (I50.81-)"]|["e:2pjy","e:2pjz"]
+.s "cm:I27.83"
+code_also|["underlying heart defect, if known, such as:","atrial septal defect (Q21.1-)","Eisenmenger's defect (Q21.8)","patent ductus arteriosus (Q25.0)","ventricular septal defect (Q21.0)"]|["e:2pkh","e:2pki","e:2pkk","e:2pkl","e:2pkm","e:2pkn"]
+.s "cm:I27.841"
+code_also|["associated conditions such as:","chylothorax (J94.0)","Fontan associated protein-losing enteropathy (K90.49)","plastic (obstructive) bronchitis (J44.89)"]|["e:2pky","e:2pkz","e:2pl0","e:2pl1","e:2pl2"]
+.s "cm:I34.0"
+code_also|[", if applicable:","nonrheumatic mitral (valve) annulus calcification (I34.81)"]|["e:2pr9","e:2pra","e:2prc"]
+.s "cm:I34.2"
+code_also|[", if applicable:","nonrheumatic mitral (valve) annulus calcification (I34.81)"]|["e:2pro","e:2prp","e:2prq"]
+.s "cm:I34.81"
+code_also|[", if applicable:","nonrheumatic mitral (valve) insufficiency (I34.0)","nonrheumatic mitral (valve) stenosis (I34.2)"]|["e:2ps3","e:2ps4","e:2ps5","e:2ps6"]
+.s "cm:I35"
+code_also|[", if applicable, bicuspid aortic valve (Q23.81)"]|["e:2psh","e:2psi"]
+.s "cm:I42.6"
+code_also|["presence of alcoholism (F10.-)"]|["e:2pyo","e:2pyp"]
+.s "cm:I47.21"
+code_also|[", if applicable, long QT syndrome (I45.81)"]|["e:2q55","e:2q56"]
+.s "cm:I50.2"
+code_also|["end stage heart failure, if applicable (I50.84)"]|["e:2qa3","e:2qa4"]
+.s "cm:I50.3"
+code_also|["end stage heart failure, if applicable (I50.84)"]|["e:2qau","e:2qav"]
+.s "cm:I50.4"
+code_also|["end stage heart failure, if applicable (I50.84)"]|["e:2qbi","e:2qbj"]
+.s "cm:I50.814"
+code_also|["the type of left ventricular failure, if known (I50.2-I50.43)"]|["e:2qd4","e:2qd5"]
+.s "cm:I50.82"
+code_also|["the type of left ventricular failure as systolic, diastolic, or combined, if known (I50.2-I50.43)"]|["e:2qdc","e:2qdd"]
+.s "cm:I50.84"
+code_also|["the type of heart failure as systolic, diastolic, or combined, if known (I50.2-I50.43)"]|["e:2qdo","e:2qdp"]
+.s "cm:I67.4"
+code_also|[", if applicable, associated hypertensive conditions such as:","essential (primary) hypertension (I10)","hypertensive chronic kidney disease (I12.-)","hypertensive heart and chronic kidney disease (I13.-)","hypertensive heart disease (I11.-)"]|["e:2r38","e:2r39","e:2r3a","e:2r3b","e:2r3c","e:2r3d"]
+.s "cm:I67.850"
+code_also|["any associated diagnoses, such as:","epilepsy (G40.-)","stroke (I63.-)","vascular dementia (F01.-)"]|["e:2r57","e:2r58","e:2r59","e:2r5a","e:2r5d"]
+.s "cm:I87.2"
+code_also|[", if applicable, associated hypertensive conditions such as:","essential (primary) hypertension (I10)","hypertensive chronic kidney disease (I12.-)","hypertensive heart and chronic kidney disease (I13.-)","hypertensive heart disease (I11.-)"]|["e:2un4","e:2un5","e:2un6","e:2un7","e:2un8","e:2una"]
+.s "cm:J04"
+code_also|["influenza, if present, such as:","influenza due to identified novel influenza A virus with other respiratory manifestations (J09.X2)","influenza due to other identified influenza virus with other respiratory manifestations (J10.1)","influenza due to unidentified influenza virus with other respiratory manifestations (J11.1)"]|["e:2v8q","e:2v8r","e:2v8s","e:2v8t","e:2v8u"]
+.s "cm:J05"
+code_also|[", influenza, if present, such as:","influenza due to identified novel influenza A virus with other respiratory manifestations (J09.X2)","influenza due to other identified influenza virus with other respiratory manifestations (J10.1)","influenza due to unidentified influenza virus with other respiratory manifestations (J11.1)"]|["e:2vam","e:2van","e:2vao","e:2vap","e:2var"]
+.s "cm:J09.X1"
+code_also|[", if applicable, associated:","lung abscess (J85.1)","other specified type of pneumonia"]|["e:2vd3","e:2vd4","e:2vd5","e:2vd6"]
+.s "cm:J10.0"
+code_also|["associated lung abscess, if applicable (J85.1)"]|["e:2vei","e:2vej"]
+.s "cm:J10.08"
+code_also|["other specified type of pneumonia"]|["e:2veu","e:2vev"]
+.s "cm:J11.0"
+code_also|["associated lung abscess, if applicable (J85.1)"]|["e:2vg9","e:2vgb"]
+.s "cm:J11.08"
+code_also|["other specified type of pneumonia"]|["e:2vgk","e:2vgm"]
+.s "cm:J12"
+code_also|["associated abscess, if applicable (J85.1)"]|["e:2vi7","e:2vi8"]
+.s "cm:J13"
+code_also|[", if applicable, any associated condition such as:","abscess (J85.1)","aspiration pneumonia (J69.-)"]|["e:2vjx","e:2vjy","e:2vk0","e:2vk1"]
+.s "cm:J14"
+code_also|[", if applicable, any associated condition such as:","abscess (J85.1)","aspiration pneumonia (J69.-)"]|["e:2vke","e:2vkf","e:2vkg","e:2vkh"]
+.s "cm:J15"
+code_also|[", if applicable, any associated condition such as:","abscess (J85.1)","aspiration pneumonia (J69.-)"]|["e:2vks","e:2vkt","e:2vku","e:2vkv"]
+.s "cm:J16"
+code_also|[", if applicable, any associated condition such as:","abscess (J85.1)","aspiration pneumonia (J69.-)"]|["e:2vn5","e:2vn6","e:2vn7","e:2vn8"]
+.s "cm:J17"
+code_also|[", if applicable, any associated condition such as:","abscess (J85.1)","aspiration pneumonia (J69.-)"]|["e:2vnu","e:2vnv","e:2vnw","e:2vnx"]
+.s "cm:J18"
+code_also|[", if applicable, any associated condition such as:","aspiration pneumonia (J69.-)"]|["e:2vou","e:2vov","e:2voy"]
+.s "cm:J34.81"
+code_also|["type of associated therapy, such as:","antineoplastic and immunosuppressive drugs (T45.1X-)","radiological procedure and radiotherapy (Y84.2)"]|["e:2vyr","e:2vys","e:2vyu","e:2vyv"]
+.s "cm:J44"
+code_also|["type of asthma, if applicable (J45.-)"]|["e:2wb7","e:2wb8"]
+.s "cm:J44.0"
+code_also|["to identify the infection"]|["e:2wbk","e:2wbl"]
+.s "cm:J44.81"
+code_also|[", if applicable, associated conditions, such as:","chronic graft-versus-host disease (D89.811)","chronic lung allograft dysfunction (J4A.-)","chronic respiratory conditions due to chemicals, gases, fumes and vapors (J68.4)"]|["e:2wce","e:2wcf","e:2wcg","e:2wch","e:2wci"]
+.s "cm:J47.0"
+code_also|["to identify infection, if applicable"]|["e:2wi3","e:2wi4"]
+.s "cm:J4A"
+code_also|[", if applicable, bronchiolitis obliterans syndrome (J44.81)"]|["e:2wd8","e:2wd9"]
+.s "cm:J4A.0"
+code_also|[", if applicable, for mixed chronic lung allograft dysfunction, bronchiolitis obliterans syndrome (J44.81)"]|["e:2wde","e:2wdf"]
+.s "cm:J68.4"
+code_also|[", if applicable, chronic conditions, such as:","emphysema (J43.-)","obliterative bronchiolitis (J44.81)","pulmonary fibrosis (J84.10)"]|["e:2woj","e:2wok","e:2wol","e:2wom","e:2won"]
+.s "cm:J69.0"
+code_also|["any associated foreign body in respiratory tract (T17.-)"]|["e:2wpg","e:2wph"]
+.s "cm:J84"
+code_also|[", if applicable, associated condition"]|["e:2wuc","e:2wud"]
+.s "cm:J84.1"
+code_also|[", if applicable, pulmonary fibrosis (chronic) due to inhalation of chemicals, gases, fumes or vapors (J68.4)"]|["e:2wvb","e:2wvc"]
+.s "cm:J85.1"
+code_also|["the type of pneumonia"]|["e:2x02","e:2x03"]
+.s "cm:J86.0"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:2x0y","e:2x0z"]
+.s "cm:K08.0"
+code_also|["underlying systemic condition"]|["e:2xzk","e:2xzl"]
+.s "cm:K31.6"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:2z2v","e:2z2w"]
+.s "cm:K57"
+code_also|["if applicable peritonitis K65.-"]|["e:3085","e:3087"]
+.s "cm:K60.32"
+code_also|[", if applicable:","perianal abscess (K61.0)","rectovaginal fistula (N82.3)","stenosis of anus and rectum (K62.4)"]|["e:30h8","e:30h9","e:30ha","e:30hb","e:30hc"]
+.s "cm:K60.42"
+code_also|[", if applicable:","perianal abscess (K61.0)","rectovaginal fistula (N82.3)","stenosis of anus and rectum (K62.4)"]|["e:30jh","e:30ji","e:30jj","e:30jk","e:30jm"]
+.s "cm:K60.52"
+code_also|[", if applicable:","perianal abscess (K61.0)","rectovaginal fistula (N82.3)","stenosis of anus and rectum (K62.4)"]|["e:30lm","e:30ln","e:30lo","e:30lp","e:30lq"]
+.s "cm:K63.2"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:30rc","e:30rd"]
+.s "cm:K65"
+code_also|["if applicable diverticular disease of intestine (K57.-)"]|["e:30vg","e:30vh"]
+.s "cm:K68.2"
+code_also|[", if applicable, associated obstruction of ureter (N13.5)"]|["e:30zv","e:30zw"]
+.s "cm:K74"
+code_also|[", if applicable, viral hepatitis (acute) (chronic) (B15-B19)"]|["e:316k","e:316l"]
+.s "cm:K76.82"
+code_also|["underlying liver disease, such as:","acute and subacute hepatic failure without coma (K72.00)","alcoholic hepatic failure without coma (K70.40)","chronic hepatic failure without coma (K72.10)","hepatic failure with toxic liver disease without coma (K71.10)","hepatic failure without coma (K72.90)","icterus of newborn (P55-P59)","postprocedural hepatic failure (K91.82)","viral hepatitis without hepatic coma (B15.9, B16.1, B16.9, B17.10, B19.10, B19.20, B19.9)"]|["e:31d4","e:31d5","e:31d6","e:31d7","e:31d8","e:31da","e:31db","e:31dc","e:31dd","e:31de"]
+.s "cm:K80.4"
+code_also|[", if applicable, fistula of bile duct (K83.3)"]|["e:31hf","e:31hg"]
+.s "cm:K82.3"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:31m3","e:31m4"]
+.s "cm:K86.0"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:31sh","e:31si"]
+.s "cm:K86.1"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:31su","e:31sv"]
+.s "cm:K90.0"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:31un","e:31uo"]
+.s "cm:K92.81"
+code_also|["type of associated therapy, such as:","antineoplastic and immunosuppressive drugs (T45.1X-)","radiological procedure and radiotherapy (Y84.2)"]|["e:321u","e:321v","e:321w","e:321x"]
+.s "cm:L29.81"
+code_also|[", if applicable, type of liver disease"]|["e:33e1","e:33e3"]
+.s "cm:M07"
+code_also|["associated enteropathy, such as:","regional enteritis [Crohn's disease] (K50.-)","ulcerative colitis (K51.-)"]|["e:38hw","e:38hx","e:38hy","e:38hz"]
+.s "cm:M08"
+code_also|["any associated underlying condition, such as:","regional enteritis [Crohn's disease] (K50.-)","ulcerative colitis (K51.-)"]|["e:38l5","e:38l6","e:38l7","e:38l8"]
+.s "cm:M34.81"
+code_also|["if applicable:","other interstitial pulmonary diseases (J84.89)","secondary pulmonary arterial hypertension (I27.21)"]|["e:3eup","e:3eur","e:3eus","e:3eut"]
+.s "cm:M35.81"
+code_also|["any associated complications such as:","acute hepatic failure (K72.0-)","acute kidney failure (N17.-)","acute myocarditis (I40.-)","acute respiratory distress syndrome (J80)","cardiac arrhythmia (I47-I49.-)","pneumonia due to COVID-19 (J12.82)","severe sepsis (R65.2-)","viral cardiomyopathy (B33.24)","viral pericarditis (B33.23)"]|["e:3eyh","e:3eyi","e:3eyj","e:3eyk","e:3eyl","e:3eym","e:3eyn","e:3eyo","e:3eyp","e:3eyr","e:3eys"]
+.s "cm:M41.4"
+code_also|["underlying condition"]|["e:3f94","e:3f95"]
+.s "cm:M84.5"
+code_also|["underlying neoplasm"]|["e:3lmh","e:3lmi"]
+.s "cm:M84.6"
+code_also|["underlying condition"]|["e:3lql","e:3lqm"]
+.s "cm:N17"
+code_also|["associated underlying condition"]|["e:3r4s","e:3r4t"]
+.s "cm:N39.3"
+code_also|["any associated overactive bladder (N32.81)"]|["e:3rs1","e:3rs2"]
+.s "cm:N39.4"
+code_also|["any associated overactive bladder (N32.81)"]|["e:3rs9","e:3rsa"]
+.s "cm:N46.02"
+code_also|["associated cause"]|["e:3s1p","e:3s1r"]
+.s "cm:N46.12"
+code_also|["associated cause"]|["e:3s2s","e:3s2t"]
+.s "cm:N76.81"
+code_also|["type of associated therapy, such as:","antineoplastic and immunosuppressive drugs (T45.1X-)","radiological procedure and radiotherapy (Y84.2)"]|["e:3su2","e:3su3","e:3su5","e:3su6"]
+.s "cm:N76.82"
+code_also|[", if applicable, diabetes mellitus (E08-E13 with .9)"]|["e:3suh","e:3sui"]
+.s "cm:N80.A4"
+code_also|[", if applicable, obstructive and reflux uropathy (N13.-)"]|["e:3t9n","e:3t9o"]
+.s "cm:N80.A5"
+code_also|[", if applicable, obstructive and reflux uropathy (N13.-)"]|["e:3ta8","e:3ta9"]
+.s "cm:N80.A6"
+code_also|[", if applicable, obstructive and reflux uropathy (N13.-)"]|["e:3taq","e:3tar"]
+.s "cm:N80.B"
+code_also|[", if applicable:","catamenial hemothorax (J94.2)","catamenial pneumothorax (J93.12)"]|["e:3tbc","e:3tbd","e:3tbe","e:3tbg"]
+.s "cm:N85.A"
+code_also|["any associated conditions such as:","abnormal uterine and vaginal bleeding, unspecified (N93.9)","female infertility of uterine origin (N97.2)","pelvic and perineal pain (R10.2-)"]|["e:3tsg","e:3tsh","e:3tsi","e:3tsj","e:3tsk"]
+.s "cm:N94.3"
+code_also|["associated menstrual migraine (G43.82-, G43.83-)"]|["e:3u49","e:3u4a"]
+.s "cm:O30"
+code_also|["any complications specific to multiple gestation"]|["e:3wm5","e:3wm6"]
+.s "cm:O35"
+code_also|["any associated maternal condition"]|["e:3xcv","e:3xcw"]
+.s "cm:O43.2"
+code_also|["associated third stage postpartum hemorrhage, if applicable (O72.0)"]|["e:3y0g","e:3y0h"]
+.s "cm:O72.0"
+code_also|["type of adherent placenta (O43.2-)"]|["e:3yw3","e:3yw4"]
+.s "cm:P28"
+code_also|[", if applicable, congenital malformations of the respiratory system (Q30-Q34)"]|["e:4p9","e:4pa"]
+.s "cm:P29.0"
+code_also|["associated underlying condition"]|["e:4su","e:4sv"]
+.s "cm:Q13.81"
+code_also|["any other associated congenital malformations such as cardiac defects"]|["e:67h","e:67i"]
+.s "cm:Q21.8"
+code_also|[", if applicable:","Eisenmenger's complex (I27.83)","Eisenmenger's syndrome (I27.83)"]|["e:6jf","e:6jg","e:6jh","e:6ji"]
+.s "cm:Q23.81"
+code_also|[", if applicable, acquired aortic valve disorders, such as:","aortic (valve) insufficiency (nonrheumatic) (I35.1)","aortic (valve) stenosis (nonrheumatic) (I35.0)","aortic (valve) stenosis with insufficiency (nonrheumatic) (I35.2)"]|["e:6lz","e:6m0","e:6m1","e:6m2","e:6m3"]
+.s "cm:Q44.7"
+code_also|[", if applicable, associated malformations affecting other systems"]|["e:7em","e:7en"]
+.s "cm:Q85.81"
+code_also|[", if applicable, genetic susceptibility to malignant neoplasm (Z15.0-)"]|["e:9fc","e:9fd"]
+.s "cm:Q85.83"
+code_also|["manifestations"]|["e:9fl","e:9fm"]
+.s "cm:Q87.85"
+code_also|[", if applicable, any associated manifestations such as:","autism spectrum disorder (F84.0-)","congenital malformations of cardiac septa (Q21.-)","epilepsy and recurrent seizures (G40.-)","intellectual disability (F70-F79)"]|["e:9jw","e:9jx","e:9jy","e:9jz","e:9k0","e:9k2"]
+.s "cm:Q90"
+code_also|["associated physical condition(s), such as atrioventricular septal defect (Q21.2-)"]|["e:9no","e:9np"]
+.s "cm:Q92.5"
+code_also|["any associated deletions due to unbalanced translocations, inversions and insertions (Q93.7)"]|["e:9pv","e:9px"]
+.s "cm:Q93.7"
+code_also|["any associated duplications due to unbalanced translocations, inversions and insertions (Q92.5)"]|["e:9s7","e:9s8"]
+.s "cm:QA0"
+code_also|[", if applicable, any associated conditions, such as:","attention-deficit hyperactivity disorders (F90.-)","autism spectrum disorder (F84.0)","developmental and epileptic encephalopathy (G93.45)","epilepsy, by specific type (G40.-)","intellectual disabilities (F70-F79)","pervasive developmental disorders (F84.-)"]|["e:9y6","e:9y8","e:9y9","e:9ya","e:9yb","e:9yc","e:9yd","e:9ye"]
+.s "cm:R11.16"
+code_also|["cannabis abuse (F12.1-)","cannabis dependence (F12.2-)","cannabis use, unspecified (F12.92-, F12.93, F12.95-, F12.98-, F12.99)","manifestations, such as:","dehydration  (E86.0)","electrolyte imbalance (E87.8}"]|["e:am5","e:am6","e:am7","e:am8","e:am9","e:amb","e:amc","e:amd"]
+.s "cm:R45.88"
+code_also|["injury, if known"]|["e:bu8","e:bu9"]
+.s "cm:R63.31"
+code_also|[", if applicable, associated conditions such as:","aspiration pneumonia (J69.0)","dysphagia (R13.1-)","gastro-esophageal reflux disease (K21.-)","malnutrition (E40-E46)"]|["e:cdb","e:cdc","e:cdd","e:cde","e:cdf","e:cdg"]
+.s "cm:R63.32"
+code_also|[", if applicable, associated conditions such as:","aspiration pneumonia (J69.0)","dysphagia (R13.1-)","gastro-esophageal reflux disease (K21.-)","malnutrition (E40-E46)"]|["e:cdn","e:cdo","e:cdp","e:cdq","e:cdr","e:cds"]
+.s "cm:R92.3"
+code_also|[", if applicable, inconclusive mammogram (R92.2)"]|["e:dfb","e:dfc"]
+.s "cm:S01"
+code_also|["any associated:","injury of cranial nerve (S04.-)","injury of muscle and tendon of head (S09.1-)","intracranial injury (S06.-)","wound infection"]|["e:e4v","e:e4w","e:e4x","e:e4y","e:e4z","e:e50"]
+.s "cm:S02"
+code_also|["any associated intracranial injury (S06.-)"]|["e:ei5","e:ei6"]
+.s "cm:S03"
+code_also|["any associated open wound"]|["e:etc","e:etd"]
+.s "cm:S04"
+code_also|["any associated:","open wound of head (S01.-)","skull fracture (S02.-)"]|["e:evc","e:evd","e:evf","e:evg"]
+.s "cm:S06"
+code_also|["any associated:","open wound of head (S01.-)","skull fracture (S02.-)"]|["e:f6i","e:f6j","e:f6k","e:f6l"]
+.s "cm:S06.8A"
+code_also|[", if applicable, focal traumatic brain injury (S06.3-)"]|["e:ft5","e:ft6"]
+.s "cm:S09.1"
+code_also|["any associated open wound (S01.-)"]|["e:g0x","e:g0y"]
+.s "cm:S11"
+code_also|["any associated:","spinal cord injury (S14.0, S14.1-)","wound infection"]|["e:g82","e:g83","e:g87","e:g88"]
+.s "cm:S13"
+code_also|["any associated open wound"]|["e:gpv","e:gpw"]
+.s "cm:S13.1"
+code_also|["any associated:","open wound of neck (S11.-)","spinal cord injury (S14.1-)"]|["e:gqf","e:gqg","e:gqh","e:gqi"]
+.s "cm:S14"
+code_also|["any associated:","fracture of cervical vertebra (S12.0--S12.6.-)","open wound of neck (S11.-)","transient paralysis (R29.5)"]|["e:gue","e:guf","e:gug","e:guh","e:gui"]
+.s "cm:S15"
+code_also|["any associated open wound (S11.-)"]|["e:h19","e:h1a"]
+.s "cm:S16"
+code_also|["any associated open wound (S11.-)"]|["e:h93","e:h94"]
+.s "cm:S21"
+code_also|["any associated injury, such as:","injury of heart (S26.-)","injury of intrathoracic organs (S27.-)","rib fracture (S22.3-, S22.4-)","spinal cord injury (S24.0-, S24.1-)","traumatic hemopneumothorax (S27.3)","traumatic hemothorax (S27.1)","traumatic pneumothorax (S27.0)","wound infection"]|["e:hp0","e:hp1","e:hp2","e:hp3","e:hp4","e:hp5","e:hp6","e:hp7","e:hp9","e:hpa"]
+.s "cm:S22"
+code_also|[", if applicable, any associated condition such as:","injury of intrathoracic organ (S27.-)","spinal cord injury (S24.0-, S24.1-)","traumatic hemopneumothorax (S27.2)","traumatic hemothorax (S27.1-)","traumatic pneumothorax (S27.0)"]|["e:i2y","e:i2z","e:i30","e:i31","e:i32","e:i33","e:i35"]
+.s "cm:S23"
+code_also|["any associated open wound"]|["e:iaq","e:iar"]
+.s "cm:S23.1"
+code_also|["any associated:","open wound of thorax (S21.-)","spinal cord injury (S24.0-, S24.1-)"]|["e:ibb","e:ibc","e:ibd","e:ibe"]
+.s "cm:S24"
+code_also|["any associated:","fracture of thoracic vertebra (S22.0-)","open wound of thorax (S21.-)","transient paralysis (R29.5)"]|["e:ig0","e:ig1","e:ig3","e:ig4","e:ig5"]
+.s "cm:S25"
+code_also|["any associated open wound (S21.-)"]|["e:ika","e:ikb"]
+.s "cm:S26"
+code_also|["any associated:","open wound of thorax (S21.-)","traumatic hemopneumothorax (S27.2)","traumatic hemothorax (S27.1)","traumatic pneumothorax (S27.0)"]|["e:iud","e:iue","e:iuf","e:iug","e:iuh","e:iui"]
+.s "cm:S27"
+code_also|["any associated open wound of thorax (S21.-)"]|["e:iwq","e:iws"]
+.s "cm:S29"
+code_also|["any associated open wound (S21.-)"]|["e:j5u","e:j5v"]
+.s "cm:S31"
+code_also|["any associated:","spinal cord injury (S24.0, S24.1-, S34.0-, S34.1-)","wound infection"]|["e:jgq","e:jgr","e:jgt","e:jgu"]
+.s "cm:S32.1"
+code_also|["any associated fracture of pelvic ring (S32.8-)"]|["e:k90","e:k91"]
+.s "cm:S32.4"
+code_also|["any associated fracture of pelvic ring (S32.8-)"]|["e:kd6","e:kd7"]
+.s "cm:S32.8"
+code_also|["any associated:","fracture of acetabulum (S32.4-)","sacral fracture (S32.1-)"]|["e:km3","e:km4","e:km5","e:km6"]
+.s "cm:S33"
+code_also|["any associated open wound"]|["e:knb","e:knc"]
+.s "cm:S33.1"
+code_also|["any associated:","open wound of abdomen, lower back and pelvis (S31)","spinal cord injury (S24.0, S24.1-, S34.0-, S34.1-)"]|["e:knz","e:ko0","e:ko2","e:ko3"]
+.s "cm:S34"
+code_also|["any associated:","fracture of vertebra (S22.0-, S32.0-)","open wound of abdomen, lower back and pelvis (S31.-)","transient paralysis (R29.5)"]|["e:kql","e:kqm","e:kqn","e:kqo","e:kqp"]
+.s "cm:S35"
+code_also|["any associated open wound (S31.-)"]|["e:kvx","e:kvy"]
+.s "cm:S36"
+code_also|["any associated open wound (S31.-)"]|["e:l6w","e:l6x"]
+.s "cm:S37"
+code_also|["any associated open wound (S31.-)"]|["e:llm","e:lln"]
+.s "cm:S39"
+code_also|["any associated open wound (S31.-)"]|["e:lzr","e:lzs"]
+.s "cm:S41"
+code_also|["any associated wound infection"]|["e:ma1","e:ma3"]
+.s "cm:S43"
+code_also|["any associated open wound"]|["e:n4s","e:n4t"]
+.s "cm:S44"
+code_also|["any associated open wound (S41.-)"]|["e:nix","e:niy"]
+.s "cm:S45"
+code_also|["any associated open wound (S41.-)"]|["e:nmk","e:nml"]
+.s "cm:S46"
+code_also|["any associated open wound (S41.-)"]|["e:nu6","e:nu8"]
+.s "cm:S51"
+code_also|["any associated wound infection"]|["e:oks","e:okt"]
+.s "cm:S53"
+code_also|["any associated open wound"]|["e:pfs","e:pft"]
+.s "cm:S54"
+code_also|["any associated open wound (S51.-)"]|["e:pqz","e:pr0"]
+.s "cm:S55"
+code_also|["any associated open wound (S51.-)"]|["e:ptw","e:ptx"]
+.s "cm:S56"
+code_also|["any associated open wound (S51.-)"]|["e:q0c","e:q0d"]
+.s "cm:S61"
+code_also|["any associated wound infection"]|["e:rhu","e:rhv"]
+.s "cm:S63"
+code_also|["any associated open wound"]|["e:t1a","e:t1b"]
+.s "cm:S64"
+code_also|["any associated open wound (S61.-)"]|["e:u0t","e:u0u"]
+.s "cm:S65"
+code_also|["any associated open wound (S61.-)"]|["e:u4n","e:u4o"]
+.s "cm:S66"
+code_also|["any associated open wound (S61.-)"]|["e:ugq","e:ugr"]
+.s "cm:S71"
+code_also|["any associated wound infection"]|["e:vmn","e:vmo"]
+.s "cm:S73"
+code_also|["any associated open wound"]|["e:wcu","e:wcv"]
+.s "cm:S74"
+code_also|["any associated open wound (S71.-)"]|["e:wia","e:wib"]
+.s "cm:S75"
+code_also|["any associated open wound (S71.-)"]|["e:wko","e:wkp"]
+.s "cm:S76"
+code_also|["any associated open wound (S71.-)"]|["e:wsy","e:wsz"]
+.s "cm:S81"
+code_also|["any associated wound infection"]|["e:xko","e:xkp"]
+.s "cm:S83"
+code_also|["any associated open wound"]|["e:ygf","e:ygg"]
+.s "cm:S84"
+code_also|["any associated open wound (S81.-)"]|["e:yve","e:yvg"]
+.s "cm:S85"
+code_also|["any associated open wound (S81.-)"]|["e:yxr","e:yxs"]
+.s "cm:S86"
+code_also|["any associated open wound (S81.-)"]|["e:za6","e:za7"]
+.s "cm:S91"
+code_also|["any associated wound infection"]|["e:10b8","e:10b9"]
+.s "cm:S93"
+code_also|["any associated open wound"]|["e:11dq","e:11dr"]
+.s "cm:S94"
+code_also|["any associated open wound (S91.-)"]|["e:11rr","e:11rt"]
+.s "cm:S95"
+code_also|["any associated open wound (S91.-)"]|["e:11uh","e:11ui"]
+.s "cm:S96"
+code_also|["any associated open wound (S91.-)"]|["e:120w","e:120x"]
+.s "cm:T50.91"
+code_also|["any specific drugs, medicaments and biological substances"]|["e:1b7u","e:1b7v"]
+.s "cm:T80.69"
+code_also|[", if applicable, arthropathy in hypersensitivity reactions classified elsewhere (M36.4)"]|["e:1esp","e:1esq"]
+.s "cm:T81.4"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:1eyq","e:1eys"]
+.s "cm:T81.83"
+code_also|[", if applicable, disruption of internal operation (surgical) wound (T81.32-)"]|["e:1f75","e:1f76"]
+.s "cm:Y36.A"
+code_also|["type of explosive, if known","accidental detonation of onboard munitions (Y36.140)","explosion of grenade (Y36.290)","explosion of torpedo (Y36.040)","improvised explosive device (Y36.230)"]|["e:1s00","e:1s01","e:1s02","e:1s03","e:1s04","e:1s05"]
+.s "cm:Y37.A"
+code_also|["type of explosive, if known","accidental detonation of onboard munitions (Y37.140)","explosion of grenade (Y37.290)","explosion of torpedo (Y37.040)","improvised explosive device (Y37.230)"]|["e:1sgd","e:1sge","e:1sgf","e:1sgg","e:1sgh","e:1sgi"]
+.s "cm:Z15.1"
+code_also|[", if applicable, related disorders such as:","developmental and epileptic encephalopathy (G93.45)","developmental disorder of speech and language (F80.-)","developmental disorders of scholastic skills (F81.-)","epilepsy, by specific type (G40.-)","intellectual disabilities (F70-F79)","other neurodevelopmental disorder (F88)","pervasive developmental disorders (F84.-)"]|["e:1v97","e:1v98","e:1v99","e:1v9a","e:1v9b","e:1v9c","e:1v9d","e:1v9e","e:1v9f"]
+.s "cm:Z15.2"
+code_also|[", if applicable, any associated manifestations, such as:","other obesity (E66.8-)","polyphagia (R63.2)"]|["e:1v9k","e:1v9l","e:1v9m","e:1v9n"]
+.s "cm:Z15.3"
+code_also|[", if applicable, hypertension (I10-I1A)"]|["e:1v9u","e:1v9v"]
+.s "cm:Z23"
+code_also|[", if applicable, encounter for immunization safety counseling (Z71.85)"]|["e:1vpb","e:1vpc"]
+.s "cm:Z28"
+code_also|[", if applicable, encounter for immunization safety counseling (Z71.85)"]|["e:1vpl","e:1vpm"]
+.s "cm:Z29.81"
+code_also|[", if applicable, risk factors for HIV, such as:","contact with and (suspected) exposure to human immunodeficiency virus [HIV] (Z20.6)","high risk sexual behavior (Z72.5-)"]|["e:1vtc","e:1vtd","e:1vte","e:1vtf"]
+.s "cm:Z49"
+code_also|["associated end stage renal disease (N18.6)"]|["e:1wz1","e:1wz2"]
+.s "cm:Z51"
+code_also|["condition requiring care"]|["e:1wzy","e:1wzz"]
+.s "cm:Z51.81"
+code_also|["any long-term (current) drug therapy (Z79.-)"]|["e:1x0x","e:1x0y"]
+.s "cm:Z62.22"
+code_also|[", if applicable, child in welfare custody (Z62.21)"]|["e:1xk5","e:1xk6"]
+.s "cm:Z62.23"
+code_also|[", if applicable, child in welfare custody (Z62.21)"]|["e:1xkg","e:1xkh"]
+.s "cm:Z62.24"
+code_also|[", if applicable, child in welfare custody (Z62.21)"]|["e:1xkm","e:1xkn"]
+.s "cm:Z62.8"
+code_also|[", if applicable:","absence of family member (Z63.3-)","disappearance and death of family member (Z63.4)","disruption of family by separation and divorce (Z63.5)","other specified problems related to primary support group (Z63.8)","other stressful life events affecting family and household (Z63.7-)"]|["e:1xl1","e:1xl2","e:1xl3","e:1xl5","e:1xl6","e:1xl7","e:1xl8"]
+.s "cm:Z71.84"
+code_also|[", if applicable, encounter for immunization (Z23)"]|["e:1y4w","e:1y4x"]
+.s "cm:Z71.85"
+code_also|[", if applicable, immunization not carried out (Z28.-)"]|["e:1y59","e:1y5a"]
+code_also|[", if applicable, encounter for immunization (Z23)"]|["e:1y57","e:1y58"]
+.s "cm:Z71.87"
+code_also|["chronic condition, if applicable, such as:","autism spectrum disorder (F84.0)","congenital malformations of the circulatory system (Q20-Q28)","cystic fibrosis (E84.-)","sickle-cell disorder (D57.-)"]|["e:1y5i","e:1y5j","e:1y5k","e:1y5l","e:1y5m","e:1y5n"]
+.s "cm:Z79"
+code_also|["any therapeutic drug level monitoring (Z51.81)"]|["e:1ykd","e:1yke"]
+.s "cm:Z87.892"
+code_also|["allergy status such as:","allergy status to drugs, medicaments and biological substances (Z88.-)","allergy status, other than to drugs and biological substances (Z91.0-)"]|["e:1zry","e:1zrz","e:1zs0","e:1zs1"]
+.s "cm:Z90.41"
+code_also|["exocrine pancreatic insufficiency (K86.81)"]|["e:202g","e:202h"]
+.s "cm:Z91.1"
+code_also|[", if applicable, to identify underdosing of specific drug (T36-T50 with final character 6)"]|["e:207z","e:2080"]
+.s "cm:Z91.11"
+code_also|[", if applicable, food insecurity (Z59.4-)"]|["e:2086","e:2088"]
+.s "cm:Z91.5"
+code_also|["mental health disorder, if known"]|["e:20dk","e:20dl"]
+.s "cm:Z91.A1"
+code_also|[", if applicable, food insecurity (Z59.4-)"]|["e:20al","e:20am"]
+.s "cm:Z91.B"
+code_also|[", associated conditions, such as:","conditions classifiable to C50.-","osteoporosis  (M80.-)","premature menopause (E28.31-)"]|["e:20fy","e:20fz","e:20g0","e:20g1","e:20g2"]
+.s "section:I20-I25"
+code_also|["the presence of hypertension (I10-I1A)"]|["e:2orv","e:2orw"]
+.s "section:N00-N08"
+code_also|["any associated kidney failure (N17-N19)."]|["e:3qcm","e:3qcn"]
+.s "section:S00-S09"
+code_also|["for any associated infection"]|["e:dq9","e:dqa"]
+.s "section:T66-T78"
+code_also|[", if applicable, place of occurrence, such as:","highway rest stop (Y92.523)","school (private) (public) (state) as the place of occurrence of the external cause (Y92.21-)","service areas as the place of occurrence of the external cause (Y92.52-)","single-family non-institutional (private) house as the place of occurrence of the external cause (Y92.01-)","transport vehicle as the place of occurrence of the external cause (Y92.81-)"]|["e:1dmo","e:1dmp","e:1dmq","e:1dmr","e:1dms","e:1dmt","e:1dmu"]
+.s "section:Z77-Z99"
+code_also|["any follow-up examination (Z08-Z09)"]|["e:1yez","e:1yf0"]
+.end 320 dfe9f107f8f0ad293d59a3c80cc5f6c94906f94bfde1957919bbd3499a240ee6

@@ -1,0 +1,92 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat release/change
+.s "change:index:3hPePkT_mafl"
+changes|[{"action":"add","term_path":["myelodysplastic D46.9","with"],"text":"pancytopenia (acquired) D61.818"}]|"e:bk6z"|{"effective":"2026-04-01"}
+title|"Syndrome - see also Disease"|"e:bk6z"
+.s "change:index:9pE3EdTe8dAZ"
+changes|[{"action":"revise_from","text":"neuroendocrine D3A.8"},{"action":"revise_to","text":"neuroendocrine C7A.-"}]|["e:bk6k","e:bk75"]|{"effective":"2026-04-01"}
+title|"Tumor - see also Neoplasm, unspecified behavior, by site"|["e:bk6k","e:bk75"]
+.s "change:index:Qrgv68NYSj26"
+changes|[{"action":"delete","text":"Parkinson's disease, syndrome or tremor - see Parkinsonism"}]|"e:bk6h"|{"effective":"2026-04-01"}
+title|"Parkinson's disease, syndrome or tremor - see Parkinsonism"|"e:bk6h"
+.s "change:index:W2bDyLmzmeIb"
+changes|[{"action":"add","text":"Parkinson's syndrome or tremor - see Parkinsonism"}]|"e:bk76"|{"effective":"2026-04-01"}
+title|"Parkinson's syndrome or tremor - see Parkinsonism"|"e:bk76"
+.s "change:index:YAseL7dfeaER"
+changes|[{"action":"add","text":"Parkinson's disease - see Disease, Parkinson's"}]|"e:bk6e"|{"effective":"2026-04-01"}
+title|"Parkinson's disease - see Disease, Parkinson's"|"e:bk6e"
+.s "change:index:ZvgxQMFG55SR"
+changes|[{"action":"add","text":"chemotherapy J70.4"},{"action":"add","term_path":["chemotherapy J70.4"],"text":"acute J70.2"},{"action":"add","term_path":["chemotherapy J70.4"],"text":"chronic J70.3"}]|["e:bk65","e:bk70","e:bk74"]|{"effective":"2026-04-01"}
+title|"Pneumonitis (acute) (primary) (see also Pneumonia) J98.4"|["e:bk65","e:bk70","e:bk74"]
+.s "change:index:coPy4gRShx8i"
+changes|[{"action":"add","term_path":["due to"],"text":"Parkinson's disease - see Disease, Parkinson's"}]|"e:bk60"|{"effective":"2026-04-01"}
+title|"Parkinsonism (idiopathic) (primary) G20.C"|"e:bk60"
+.s "change:index:uCMBjGSMfVBe"
+changes|[{"action":"delete","term_path":["due to"],"text":"other know condition - code to condition"},{"action":"add","term_path":["due to"],"text":"other known condition - code to condition"}]|["e:bk66","e:bk6o"]|{"effective":"2026-04-01"}
+title|"Postnasal drip R09.82"|["e:bk66","e:bk6o"]
+.s "change:index:yEa5MxBGQhwB"
+changes|[{"action":"delete","term_path":["due to"],"text":"other know condition - code to condition"},{"action":"add","term_path":["due to"],"text":"other known condition - code to condition"}]|["e:bk5y","e:bk64"]|{"effective":"2026-04-01"}
+title|"Drip, postnasal (chronic) R09.82"|["e:bk5y","e:bk64"]
+.s "chapter:17"
+changes|[{"action":"revise_from","text":"Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders (Q00- QA0)"},{"action":"revise_to","text":"Congenital malformations, deformations and chromosomal abnormalities (Q00-QA0)"}]|["e:bkcb","e:bkgv"]|{"effective":"2026-04-01"}
+.s "cm:D18"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: benign neoplasm of glomus jugulare (D35.6)"},{"action":"delete","rule":"excludes1","text":"blue or pigmented nevus (D22.-)"},{"action":"delete","rule":"excludes1","text":"nevus NOS (D22.-)"},{"action":"delete","rule":"excludes1","text":"vascular nevus (Q82.5)"},{"action":"add","rule":"excludes2","text":"Excludes2: benign neoplasm of glomus jugulare (D35.6)"},{"action":"add","rule":"excludes2","text":"blue or pigmented nevus (D22.-)"},{"action":"add","rule":"excludes2","text":"nevus NOS (D22.-)"},{"action":"add","rule":"excludes2","text":"vascular nevus (Q82.5)"}]|["e:bk86","e:bka1","e:bkdu","e:bke1","e:bkha","e:bkkq","e:bkkx","e:bkl1"]|{"effective":"2026-04-01"}
+.s "cm:D49"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: neoplasms of uncertain behavior (D37-D44, D48)"},{"action":"add","rule":"excludes2","text":"Excludes2: neoplasms of uncertain behavior (D37-D44, D48)"}]|["e:bk7z","e:bkjo"]|{"effective":"2026-04-01"}
+.s "cm:D51"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: vitamin B12 deficiency (E53.8)"},{"action":"add","rule":"excludes2","text":"Excludes2: deficiency of other B group vitamins (E53-)"}]|["e:bk9x","e:bkf0"]|{"effective":"2026-04-01"}
+.s "cm:D65"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: abortion or ectopic or molar pregnancy (O00-O07, O08.1)"},{"action":"add","rule":"excludes2","text":"Excludes2: disseminated intravascular coagulation (complicating):"},{"action":"add","rule":"excludes2","text":"abortion or ectopic or molar pregnancy (O00-O07, O08.1)"}]|["e:bkan","e:bkd7","e:bkfh"]|{"effective":"2026-04-01"}
+.s "cm:D72"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: neutropenia (D70)"},{"action":"add","rule":"excludes2","text":"Excludes2: neutropenia (D70)"}]|["e:bke3","e:bkjs"]|{"effective":"2026-04-01"}
+.s "cm:D72.81"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: neutropenia (D70.-)"},{"action":"add","rule":"excludes2","text":"Excludes2: neutropenia (D70)"}]|["e:bkbv","e:bkiu"]|{"effective":"2026-04-01"}
+.s "cm:D72.819"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: malignant leukopenia (D70.9)"}]|"e:bkc7"|{"effective":"2026-04-01"}
+.s "cm:E21.2"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: familial hypocalciuric hypercalcemia (E83.52)"},{"action":"add","rule":"excludes2","text":"Excludes2: familial hypocalciuric hypercalcemia (E83.52)"}]|["e:bk98","e:bkh6"]|{"effective":"2026-04-01"}
+.s "cm:E53.8"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: vitamin B12 deficiency anemia (D51.-)"},{"action":"add","rule":"excludes2","text":"Excludes2: vitamin B12 deficiency anemia (D51.-)"}]|["e:bkh3","e:bkjc"]|{"effective":"2026-04-01"}
+.s "cm:F07.81"
+changes|[{"action":"add","rule":"code_also","text":"Code also, if applicable, sequela of concussion (S06.0X- with seventh character S)"},{"action":"revise_from","rule":"excludes1","text":"current concussion (brain) (S06.0-)"},{"action":"revise_to","rule":"excludes1","text":"current concussion (brain) (S06.0X- with seventh character A)"}]|["e:bkf3","e:bkh7","e:bkjk"]|{"effective":"2026-04-01"}
+.s "cm:G35.A"
+changes|[{"action":"delete","rule":"excludes1","text":"Exclude1: demyelinating disease of central nervous system, unspecified (G37.9)"},{"action":"add","rule":"excludes1","text":"Excludes1: demyelinating disease of central nervous system, unspecified (G37.9)"}]|["e:bk7m","e:bkj8"]|{"effective":"2026-04-01"}
+.s "cm:G36.0"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: optic neuritis NOS (H46)"},{"action":"add","rule":"excludes2","text":"Excludes2: optic neuritis NOS (H46)"}]|["e:bk8p","e:bkcg"]|{"effective":"2026-04-01"}
+.s "cm:G43"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: headache NOS (R51.9)"},{"action":"add","rule":"excludes2","text":"Excludes2: headache NOS (R51.9)"}]|["e:bka3","e:bkge"]|{"effective":"2026-04-01"}
+.s "cm:H40.84"
+changes|[{"action":"delete","rule":"code_first","text":"Code first the underlying condition such as:"},{"action":"delete","rule":"code_first","text":"central retinal vein occlusion (H34.81)"},{"action":"delete","rule":"code_first","text":"diabetes mellitus (E08.39, E09.39, E10.39, E11.39, E13.39)"},{"action":"delete","rule":"code_first","text":"retinal ischemia (H35.82)"},{"action":"add","rule":"code_also","text":"Code also the underlying condition such as:"},{"action":"add","rule":"code_also","text":"central retinal vein occlusion (H34.81)"},{"action":"add","rule":"code_also","text":"diabetes mellitus (E08.39, E09.39, E10.39, E11.39, E13.39)"},{"action":"add","rule":"code_also","text":"retinal ischemia (H35.82)"}]|["e:bk8x","e:bk9r","e:bkax","e:bkep","e:bkhy","e:bki3","e:bkj5","e:bkkb"]|{"effective":"2026-04-01"}
+.s "cm:I06"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: aortic valve disease not specified as rheumatic (I35.-)"},{"action":"delete","rule":"excludes1","text":"aortic valve disease with mitral and/or tricuspid valve involvement (I08.-)"},{"action":"add","rule":"excludes2","text":"Excludes2: aortic valve disease not specified as rheumatic (I35.-)"},{"action":"add","rule":"excludes2","text":"aortic valve disease with mitral and/or tricuspid valve involvement (I08.-)"}]|["e:bk84","e:bkae","e:bkbw","e:bkhj"]|{"effective":"2026-04-01"}
+.s "cm:I16.1"
+changes|[{"action":"delete","rule":"use_additional_code","text":"Use Additional code, if applicable, to identify specific organ dysfunction, such as:"},{"action":"delete","rule":"use_additional_code","text":"acute kidney injury (N17.-)"},{"action":"delete","rule":"use_additional_code","text":"acute myocardial infarction (I21.-)"},{"action":"delete","rule":"use_additional_code","text":"acute pulmonary edema (left and/or right ventricular failure) (J81.0, I50.-)"},{"action":"delete","rule":"use_additional_code","text":"aortic dissection (I71.0-)"},{"action":"delete","rule":"use_additional_code","text":"cerebral hemorrhage (I60.-. I61.-, I62.-)"},{"action":"delete","rule":"use_additional_code","text":"cerebral infarction (I63.-)"},{"action":"delete","rule":"use_additional_code","text":"eclampsia (O15.-)"},{"action":"delete","rule":"use_additional_code","text":"hypertensive encephalopathy (I67.4)"},{"action":"delete","rule":"use_additional_code","text":"seizure (R56.9)"},{"action":"add","rule":"code_also","text":"Code also, if applicable, to identify specific organ dysfunction, such as:"},{"action":"add","rule":"code_also","text":"acute kidney injury (N17.-)"},{"action":"add","rule":"code_also","text":"acute myocardial infarction (I21.-)"},{"action":"add","rule":"code_also","text":"acute pulmonary edema (left and/or right ventricular failure) (J81.0, I50.-)"},{"action":"add","rule":"code_also","text":"aortic dissection (I71.0-)"},{"action":"add","rule":"code_also","text":"cerebral hemorrhage (I60.-. I61.-, I62.-)"},{"action":"add","rule":"code_also","text":"cerebral infarction (I63.-)"},{"action":"add","rule":"code_also","text":"eclampsia (O15.-)"},{"action":"add","rule":"code_also","text":"hypertensive encephalopathy (I67.4)"},{"action":"add","rule":"code_also","text":"seizure (R56.9)"}]|["e:bk8v","e:bk9i","e:bk9p","e:bk9w","e:bkap","e:bkbj","e:bkbk","e:bkd0","e:bkdz","e:bkey","e:bkfj","e:bkgg","e:bkhx","e:bki6","e:bkik","e:bkiv","e:bkjn","e:bkjp","e:bkk6","e:bkkj"]|{"effective":"2026-04-01"}
+.s "cm:I27.841"
+changes|[{"action":"revise_from","rule":"code_also","text":"Fontan associated protein-losing enteropathy (K90.89)"},{"action":"revise_to","rule":"code_also","text":"Fontan associated protein-losing enteropathy (K90.49)"}]|["e:bkj0","e:bkk1"]|{"effective":"2026-04-01"}
+.s "cm:J95.82"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: Respiratory failure in other conditions (J96.-)"},{"action":"add","rule":"excludes2","text":"Excludes2: respiratory failure in other conditions (J96.-)"}]|["e:bk80","e:bkfw"]|{"effective":"2026-04-01"}
+.s "cm:K60"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: fissure and fistula of anal and rectal regions with abscess or cellulitis (K61.-)"}]|"e:bkda"|{"effective":"2026-04-01"}
+.s "cm:N89"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: senile (atrophic) vaginitis (N95.2)"},{"action":"add","rule":"excludes2","text":"Excludes2: senile (atrophic) vaginitis (N95.2)"}]|["e:bk9l","e:bkal"]|{"effective":"2026-04-01"}
+.s "cm:R12"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: dyspepsia NOS (R10.13)"},{"action":"add","rule":"excludes2","text":"Excludes2: dyspepsia NOS (R10.13)"}]|["e:bkc1","e:bkcm"]|{"effective":"2026-04-01"}
+.s "cm:R92.31"
+changes|[{"action":"revise_from","text":"Breast Imaging Reporting and Data System (BI-RADS): A"},{"action":"revise_to","text":"Breast density category within Imaging Reporting and Data System (BI-RADS): A"},{"action":"delete","text":"Breast Imaging Reporting and Data System (BI-RADS): 1"}]|["e:bk99","e:bkgm","e:bkj7"]|{"effective":"2026-04-01"}
+.s "cm:R92.32"
+changes|[{"action":"revise_from","text":"Breast Imaging Reporting and Data System (BI-RADS): B"},{"action":"revise_to","text":"Breast density category within Imaging Reporting and Data System (BI-RADS): B"},{"action":"delete","text":"Breast Imaging Reporting and Data System (BI-RADS): 2"}]|["e:bk7c","e:bki8","e:bkkv"]|{"effective":"2026-04-01"}
+.s "cm:R92.33"
+changes|[{"action":"revise_from","text":"Breast Imaging Reporting and Data System (BI-RADS): C"},{"action":"revise_to","text":"Breast density category within Imaging Reporting and Data System (BI-RADS): C"},{"action":"delete","text":"Breast Imaging Reporting and Data System (BI-RADS): 3"}]|["e:bkfd","e:bkgw","e:bkjb"]|{"effective":"2026-04-01"}
+.s "cm:R92.34"
+changes|[{"action":"revise_from","text":"Breast Imaging Reporting and Data System (BI-RADS): D"},{"action":"revise_to","text":"Breast density category within Imaging Reporting and Data System (BI-RADS): D"},{"action":"delete","text":"Breast Imaging Reporting and Data System (BI-RADS): 4"}]|["e:bk9e","e:bkgp","e:bkju"]|{"effective":"2026-04-01"}
+.s "cm:T43"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: appetite depressants (T50.5-)"},{"action":"delete","rule":"excludes1","text":"barbiturates (T42.3-)"},{"action":"delete","rule":"excludes1","text":"benzodiazepines (T42.4-)"},{"action":"delete","rule":"excludes1","text":"methaqualone (T42.6-)"},{"action":"delete","rule":"excludes1","text":"psychodysleptics [hallucinogens] (T40.7-T40.9-)"},{"action":"add","rule":"excludes2","text":"Excludes2: appetite depressants (T50.5-)"},{"action":"add","rule":"excludes2","text":"barbiturates (T42.3-)"},{"action":"add","rule":"excludes2","text":"benzodiazepines (T42.4-)"},{"action":"add","rule":"excludes2","text":"methaqualone (T42.6-)"},{"action":"add","rule":"excludes2","text":"psychodysleptics [hallucinogens] (T40.7-T40.9-)"}]|["e:bk87","e:bk8l","e:bk8s","e:bkah","e:bkak","e:bkby","e:bkci","e:bkde","e:bki5","e:bkk7"]|{"effective":"2026-04-01"}
+.s "cm:Z79.891"
+changes|[{"action":"delete","rule":"excludes1","text":"Excludes1: methodone use NOS (F11.9-)"},{"action":"delete","rule":"excludes1","text":"use of methodone for treatment of heroin addiction (F11.2-)"},{"action":"add","rule":"excludes2","text":"Excludes2: methadone use NOS (F11.9-)"},{"action":"add","rule":"excludes2","text":"use of methadone for treatment of heroin addiction (F11.2-)"}]|["e:bk9j","e:bkgo","e:bkis","e:bkj6"]|{"effective":"2026-04-01"}
+.s "section:T66-T78"
+changes|[{"action":"add","rule":"code_also","text":"Code also, if applicable, place of occurrence, such as:"},{"action":"add","rule":"code_also","text":"highway rest stop (Y92.523)"},{"action":"add","rule":"code_also","text":"school (private) (public) (state) as the place of occurrence of the external cause (Y92.21-)"},{"action":"add","rule":"code_also","text":"service areas as the place of occurrence of the external cause (Y92.52-)"},{"action":"add","rule":"code_also","text":"single-family non-institutional (private) house as the place of occurrence of the external cause (Y92.01-)"},{"action":"add","rule":"code_also","text":"transport vehicle as the place of occurrence of the external cause (Y92.81-)"}]|["e:bk82","e:bk91","e:bkbe","e:bkgd","e:bkgk","e:bkkp"]|{"effective":"2026-04-01"}
+.end 47 13224ac24fa98b99fee07df9f59761987fa2a60d901fa4066715d8f0d4c3231b

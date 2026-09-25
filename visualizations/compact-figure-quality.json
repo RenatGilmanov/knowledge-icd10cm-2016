@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "method": "Pango/Arial glyph widths; canvas and fact-grid bounds; pairwise text/mark collisions and mark/text intersections; raster review is separate.",
+  "figures": [
+    {
+      "id": "00-category-explorer",
+      "svg_sha256": "4f5bc3c0818edfeaeeb5523455aea8310b2377f83b758413316bd310463cfb5b",
+      "png_sha256": "75a96796cd6b6c543ad59b39cfda96e48d39226937e7fc04b1b411ce2f5607e5",
+      "text_lines": 162,
+      "fact_marks": 21110,
+      "subcategory_grids": 41,
+      "outside_canvas": [],
+      "text_collisions": [],
+      "marks_outside_rows": [],
+      "mark_collisions": [],
+      "marks_over_text": [],
+      "passed": true
+    }
+  ]
+}

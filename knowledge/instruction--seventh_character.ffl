@@ -1,0 +1,1023 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat instruction/seventh_character
+.s "cm:E08.32"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1uc5","e:1ucg","e:1ucr","e:1ud2","e:1udd"]
+.s "cm:E08.33"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1uh3","e:1uhe","e:1uhp","e:1ui0","e:1uib"]
+.s "cm:E08.34"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1um0","e:1umb","e:1umm","e:1umy","e:1un9"]
+.s "cm:E08.35"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1uqy","e:1ur9","e:1urk","e:1urv","e:1us6"]
+.s "cm:E08.37"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1v0j","e:1v0u","e:1v15","e:1v1g","e:1v1r"]
+.s "cm:E09.32"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1wpn","e:1wpy","e:1wq9","e:1wqk","e:1wqv"]
+.s "cm:E09.33"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1wuk","e:1wuv","e:1wv7","e:1wvi","e:1wvt"]
+.s "cm:E09.34"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1wzi","e:1wzt","e:1x04","e:1x0f","e:1x0q"]
+.s "cm:E09.35"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1x4g","e:1x4r","e:1x52","e:1x5d","e:1x5o"]
+.s "cm:E09.37"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1xe1","e:1xec","e:1xen","e:1xey","e:1xf9"]
+.s "cm:E10.32"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1yzp","e:1z00","e:1z0c","e:1z0n","e:1z0y"]
+.s "cm:E10.33"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1z4p","e:1z50","e:1z5b","e:1z5m","e:1z5x"]
+.s "cm:E10.34"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1z9n","e:1z9y","e:1za9","e:1zak","e:1zav"]
+.s "cm:E10.35"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1zek","e:1zev","e:1zf6","e:1zfh","e:1zft"]
+.s "cm:E10.37"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:1zo4","e:1zof","e:1zoq","e:1zp2","e:1zpd"]
+.s "cm:E11.32"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:215n","e:215o","e:215p","e:215q","e:215r"]
+.s "cm:E11.33"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:2164","e:2167","e:2168","e:2169","e:216a"]
+.s "cm:E11.34"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:216n","e:216o","e:216p","e:216q","e:216r"]
+.s "cm:E11.35"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:2175","e:2176","e:2177","e:2178","e:2179"]
+.s "cm:E11.37"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:2183","e:2184","e:2185","e:2186","e:2187"]
+.s "cm:E13.32"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:21eg","e:21ei","e:21ej","e:21ek","e:21el"]
+.s "cm:E13.33"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:21ey","e:21ez","e:21f0","e:21f1","e:21f2"]
+.s "cm:E13.34"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:21fh","e:21fi","e:21fj","e:21fk","e:21fl"]
+.s "cm:E13.35"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:21fy","e:21fz","e:21g0","e:21g2","e:21g3"]
+.s "cm:E13.37"
+seventh_characters|[{"character":"1","meaning":"right eye"},{"character":"2","meaning":"left eye"},{"character":"3","meaning":"bilateral"},{"character":"9","meaning":"unspecified eye"}]|["e:21gw","e:21gx","e:21gz","e:21h0","e:21h1"]
+.s "cm:H34.81"
+seventh_characters|[{"character":"0","meaning":"with macular edema"},{"character":"1","meaning":"with retinal neovascularization"},{"character":"2","meaning":"stable"},{"note":"Old central retinal vein occlusion"}]|["e:2i93","e:2i94","e:2i95","e:2i96","e:2i97"]
+.s "cm:H34.83"
+seventh_characters|[{"character":"0","meaning":"with macular edema"},{"character":"1","meaning":"with retinal neovascularization"},{"character":"2","meaning":"stable"},{"note":"Old tributary (branch) retinal vein occlusion"}]|["e:2iab","e:2iac","e:2iad","e:2iae","e:2iaf"]
+.s "cm:H35.31"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"early dry stage"},{"character":"2","meaning":"intermediate dry stage"},{"character":"3","meaning":"advanced atrophic without subfoveal involvement"},{"note":"\tadvanced dry stage"},{"character":"4","meaning":"advanced atrophic with subfoveal involvement"}]|["e:2ijy","e:2ijz","e:2ik0","e:2ik1","e:2ik3","e:2ik4","e:2ik5"]
+.s "cm:H35.32"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"with active choroidal neovascularization"},{"character":"2","meaning":"with inactive choroidal neovascularization"},{"note":"\twith involuted or regressed neovascularization"},{"character":"3","meaning":"with inactive scar"}]|["e:2iks","e:2ikt","e:2iku","e:2ikv","e:2ikw","e:2ikx"]
+.s "cm:H40.10"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j07","e:2j08","e:2j09","e:2j0a","e:2j0b","e:2j0c"]
+.s "cm:H40.11"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j0l","e:2j0m","e:2j0n","e:2j0o","e:2j0p","e:2j0q"]
+.s "cm:H40.12"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j1a","e:2j1b","e:2j1c","e:2j1e","e:2j1f","e:2j1g"]
+.s "cm:H40.13"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j20","e:2j21","e:2j22","e:2j23","e:2j24","e:2j25"]
+.s "cm:H40.14"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j2p","e:2j2q","e:2j2r","e:2j2s","e:2j2t","e:2j2u"]
+.s "cm:H40.20"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j42","e:2j43","e:2j44","e:2j46","e:2j47","e:2j48"]
+.s "cm:H40.22"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j50","e:2j51","e:2j53","e:2j54","e:2j55","e:2j56"]
+.s "cm:H40.3"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j6q","e:2j6r","e:2j6s","e:2j6t","e:2j6u","e:2j6v"]
+.s "cm:H40.4"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j7h","e:2j7i","e:2j7k","e:2j7l","e:2j7m","e:2j7n"]
+.s "cm:H40.5"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j89","e:2j8a","e:2j8b","e:2j8c","e:2j8d","e:2j8e"]
+.s "cm:H40.6"
+seventh_characters|[{"character":"0","meaning":"stage unspecified"},{"character":"1","meaning":"mild stage"},{"character":"2","meaning":"moderate stage"},{"character":"3","meaning":"severe stage"},{"character":"4","meaning":"indeterminate stage"}]|["e:2j90","e:2j91","e:2j93","e:2j94","e:2j95","e:2j96"]
+.s "cm:M1A"
+seventh_characters|[{"character":"0","meaning":"without tophus (tophi)"},{"character":"1","meaning":"with tophus (tophi)"}]|["e:391l","e:391m","e:391n"]
+.s "cm:M48.4"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"S","meaning":"sequela of fracture"}]|["e:3g3x","e:3g3y","e:3g3z","e:3g40","e:3g41"]
+.s "cm:M48.5"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"S","meaning":"sequela of fracture"}]|["e:3g5g","e:3g5h","e:3g5i","e:3g5j","e:3g5k"]
+.s "cm:M80"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3l2e","e:3l2f","e:3l2g","e:3l2j","e:3l2k","e:3l2l","e:3l2m"]
+.s "cm:M84.3"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3lcy","e:3ld0","e:3ld1","e:3ld2","e:3ld3","e:3ld4","e:3ld5"]
+.s "cm:M84.4"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3li1","e:3li2","e:3li3","e:3li4","e:3li5","e:3li6","e:3li7"]
+.s "cm:M84.5"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3lmm","e:3lmn","e:3lmo","e:3lmp","e:3lmq","e:3lmr","e:3lms"]
+.s "cm:M84.6"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3lqr","e:3lqs","e:3lqt","e:3lqu","e:3lqw","e:3lqx","e:3lqy"]
+.s "cm:M84.75"
+seventh_characters|[{"character":"A","meaning":"initial encounter for fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:3luu","e:3luv","e:3lux","e:3luy","e:3luz","e:3lv0","e:3lv1"]
+.s "cm:M97"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:3q0f","e:3q0g","e:3q0h","e:3q0i"]
+.s "cm:O31"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3wxk","e:3wxl","e:3wxm","e:3wxo","e:3wxp","e:3wxq","e:3wxr","e:3wxs"]
+.s "cm:O32"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x0m","e:3x0n","e:3x0o","e:3x0p","e:3x0r","e:3x0s","e:3x0t","e:3x0u"]
+.s "cm:O33.3"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x30","e:3x31","e:3x32","e:3x33","e:3x34","e:3x35","e:3x36","e:3x38"]
+.s "cm:O33.4"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x3e","e:3x3f","e:3x3g","e:3x3h","e:3x3j","e:3x3k","e:3x3l","e:3x3m"]
+.s "cm:O33.5"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x3w","e:3x3x","e:3x3y","e:3x3z","e:3x40","e:3x41","e:3x42","e:3x43"]
+.s "cm:O33.6"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x4a","e:3x4b","e:3x4c","e:3x4d","e:3x4e","e:3x4g","e:3x4h","e:3x4i"]
+.s "cm:O33.7"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3x4v","e:3x4w","e:3x4x","e:3x4y","e:3x4z","e:3x50","e:3x52","e:3x53"]
+.s "cm:O35"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3xd1","e:3xd3","e:3xd4","e:3xd5","e:3xd6","e:3xd7","e:3xd8","e:3xd9"]
+.s "cm:O36"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3xhl","e:3xhm","e:3xhn","e:3xhp","e:3xhq","e:3xhr","e:3xhs","e:3xht"]
+.s "cm:O40"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3xq8","e:3xq9","e:3xqa","e:3xqb","e:3xqd","e:3xqe","e:3xqf","e:3xqg"]
+.s "cm:O41"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3xr2","e:3xr3","e:3xr4","e:3xr5","e:3xr6","e:3xr7","e:3xr8","e:3xrb"]
+.s "cm:O60.1"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3yf9","e:3yfa","e:3yfb","e:3yfd","e:3yfe","e:3yff","e:3yfg","e:3yfh"]
+.s "cm:O60.2"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3yg4","e:3yg5","e:3yg6","e:3yg7","e:3yg8","e:3yg9","e:3ygb","e:3ygc"]
+.s "cm:O64"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3yjn","e:3yjp","e:3yjq","e:3yjr","e:3yjs","e:3yjt","e:3yju","e:3yjv"]
+.s "cm:O69"
+seventh_characters|[{"character":"0","meaning":"not applicable or unspecified"},{"character":"1","meaning":"fetus 1"},{"character":"2","meaning":"fetus 2"},{"character":"3","meaning":"fetus 3"},{"character":"4","meaning":"fetus 4"},{"character":"5","meaning":"fetus 5"},{"character":"9","meaning":"other fetus"}]|["e:3ypf","e:3ypg","e:3yph","e:3ypi","e:3ypk","e:3ypl","e:3ypm","e:3ypn"]
+.s "cm:R40.21"
+seventh_characters|[{"character":"0","meaning":"unspecified time"},{"character":"1","meaning":"in the field [EMT or ambulance]"},{"character":"2","meaning":"at arrival to emergency department"},{"character":"3","meaning":"at hospital admission"},{"character":"4","meaning":"24 hours or more after hospital admission"}]|["e:bi0","e:bi1","e:bi2","e:bi4","e:bi5","e:bi6"]
+.s "cm:R40.22"
+seventh_characters|[{"character":"0","meaning":"unspecified time"},{"character":"1","meaning":"in the field [EMT or ambulance]"},{"character":"2","meaning":"at arrival to emergency department"},{"character":"3","meaning":"at hospital admission"},{"character":"4","meaning":"24 hours or more after hospital admission"}]|["e:biz","e:bj0","e:bj2","e:bj3","e:bj4","e:bj5"]
+.s "cm:R40.23"
+seventh_characters|[{"character":"0","meaning":"unspecified time"},{"character":"1","meaning":"in the field [EMT or ambulance]"},{"character":"2","meaning":"at arrival to emergency department"},{"character":"3","meaning":"at hospital admission"},{"character":"4","meaning":"24 hours or more after hospital admission"}]|["e:bkc","e:bkd","e:bke","e:bkf","e:bkg","e:bkh"]
+.s "cm:R40.24"
+seventh_characters|[{"character":"0","meaning":"unspecified time"},{"character":"1","meaning":"in the field [EMT or ambulance]"},{"character":"2","meaning":"at arrival to emergency department"},{"character":"3","meaning":"at hospital admission"},{"character":"4","meaning":"24 hours or more after hospital admission"}]|["e:bly","e:blz","e:bm0","e:bm1","e:bm2","e:bm3"]
+.s "cm:S00"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:dqy","e:dr0","e:dr1","e:dr2"]
+.s "cm:S01"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:e59","e:e5a","e:e5b","e:e5c"]
+.s "cm:S02"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"S","meaning":"sequela"}]|["e:ei9","e:eia","e:eib","e:eic","e:eid","e:eih","e:eii"]
+.s "cm:S03"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:eti","e:etk","e:etl","e:etm"]
+.s "cm:S04"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:evj","e:evk","e:evl","e:evm"]
+.s "cm:S05"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:f1r","e:f1s","e:f1t","e:f1u"]
+.s "cm:S06"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:f6t","e:f6u","e:f6v","e:f6w"]
+.s "cm:S07"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:fy5","e:fy6","e:fy7","e:fy8"]
+.s "cm:S08"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:fyu","e:fyx","e:fyy","e:fyz"]
+.s "cm:S09"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:g0j","e:g0k","e:g0l","e:g0m"]
+.s "cm:S10"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:g4y","e:g4z","e:g50","e:g53"]
+.s "cm:S11"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:g8d","e:g8e","e:g8f","e:g8g"]
+.s "cm:S12"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"S","meaning":"sequela"}]|["e:gek","e:gel","e:gem","e:geo","e:gep","e:geq","e:ger"]
+.s "cm:S12.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:gp0","e:gp1","e:gp2","e:gp3"]
+.s "cm:S12.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:gpe","e:gpg","e:gph","e:gpi"]
+.s "cm:S13"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:gq2","e:gq3","e:gq4","e:gq5"]
+.s "cm:S14"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:gul","e:gum","e:gun","e:gup"]
+.s "cm:S15"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:h1d","e:h1e","e:h1f","e:h1h"]
+.s "cm:S16"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:h9b","e:h9c","e:h9d","e:h9e"]
+.s "cm:S17"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ha5","e:ha6","e:ha7","e:ha8"]
+.s "cm:S19"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:hao","e:hap","e:har","e:has"]
+.s "cm:S20"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:hcf","e:hcg","e:hch","e:hci"]
+.s "cm:S21"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:hpf","e:hpg","e:hph","e:hpi"]
+.s "cm:S22"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"S","meaning":"sequela"}]|["e:i3d","e:i3e","e:i3g","e:i3h","e:i3i","e:i3j","e:i3k"]
+.s "cm:S23"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:iay","e:iaz","e:ib0","e:ib1"]
+.s "cm:S24"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:iga","e:igb","e:igc","e:igf"]
+.s "cm:S25"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ikf","e:ikg","e:ikh","e:iki"]
+.s "cm:S26"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ium","e:iun","e:iuo","e:iup"]
+.s "cm:S27"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:iwy","e:iwz","e:ix0","e:ix1"]
+.s "cm:S28"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:j4e","e:j4f","e:j4h","e:j4i"]
+.s "cm:S29"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:j5y","e:j5z","e:j61","e:j62"]
+.s "cm:S30"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:j8k","e:j8l","e:j8m","e:j8n"]
+.s "cm:S31"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:jh2","e:jh4","e:jh5","e:jh6"]
+.s "cm:S32"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"S","meaning":"sequela"}]|["e:k54","e:k55","e:k56","e:k58","e:k59","e:k5a","e:k5b"]
+.s "cm:S33"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:knm","e:knn","e:kno","e:knp"]
+.s "cm:S34"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:kqs","e:kqu","e:kqv","e:kqw"]
+.s "cm:S35"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:kw1","e:kw3","e:kw4","e:kw5"]
+.s "cm:S36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:l70","e:l71","e:l72","e:l73"]
+.s "cm:S37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:llw","e:llx","e:lly","e:lm0"]
+.s "cm:S38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:lxb","e:lxc","e:lxd","e:lxf"]
+.s "cm:S39"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:lzy","e:lzz","e:m00","e:m01"]
+.s "cm:S40"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:m37","e:m38","e:m3a","e:m3b"]
+.s "cm:S41"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:maa","e:mab","e:mac","e:mae"]
+.s "cm:S42"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:mfo","e:mfp","e:mfq","e:mfr","e:mfs","e:mft","e:mfu","e:mfv"]
+.s "cm:S42.27"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:mqy","e:mqz","e:mr0","e:mr2","e:mr3","e:mr4","e:mr5"]
+.s "cm:S42.31"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:msz","e:mt0","e:mt1","e:mt2","e:mt3","e:mt4","e:mt5"]
+.s "cm:S42.48"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:n2u","e:n2v","e:n2w","e:n2x","e:n2y","e:n2z","e:n30"]
+.s "cm:S43"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:n4z","e:n50","e:n51","e:n52"]
+.s "cm:S44"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:nj3","e:nj5","e:nj6","e:nj7"]
+.s "cm:S45"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:nmr","e:nms","e:nmu","e:nmv"]
+.s "cm:S46"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:nue","e:nuf","e:nug","e:nuh"]
+.s "cm:S47"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:o4a","e:o4b","e:o4c","e:o4d"]
+.s "cm:S48"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:o4y","e:o4z","e:o50","e:o52"]
+.s "cm:S49"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:o7q","e:o7r","e:o7s","e:o7u","e:o7v","e:o7w","e:o7x"]
+.s "cm:S49.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ocp","e:ocr","e:ocs","e:oct"]
+.s "cm:S49.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:od9","e:oda","e:odb","e:ode"]
+.s "cm:S50"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:oe4","e:oe5","e:oe6","e:oe7"]
+.s "cm:S51"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ol1","e:ol3","e:ol4","e:ol5"]
+.s "cm:S52"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture type I or II"},{"note":"\tinitial encounter for open fracture NOS"},{"character":"C","meaning":"initial encounter for open fracture type IIIA, IIIB, or IIIC"},{"character":"D","meaning":"subsequent encounter for closed fracture with routine healing"},{"character":"E","meaning":"subsequent encounter for open fracture type I or II with routine healing"},{"character":"F","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"},{"character":"G","meaning":"subsequent encounter for closed fracture with delayed healing"},{"character":"H","meaning":"subsequent encounter for open fracture type I or II with delayed healing"},{"character":"J","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"},{"character":"K","meaning":"subsequent encounter for closed fracture with nonunion"},{"character":"M","meaning":"subsequent encounter for open fracture type I or II with nonunion"},{"character":"N","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion"},{"character":"P","meaning":"subsequent encounter for closed fracture with malunion"},{"character":"Q","meaning":"subsequent encounter for open fracture type I or II with malunion"},{"character":"R","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"},{"character":"S","meaning":"sequela"}]|["e:oqo","e:oqp","e:oqq","e:oqr","e:oqs","e:oqt","e:oqu","e:oqv","e:oqw","e:oqy","e:oqz","e:or0","e:or1","e:or2","e:or3","e:or4","e:or5","e:or6"]
+.s "cm:S52.01"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:orz","e:os0","e:os1","e:os2","e:os3","e:os4","e:os6"]
+.s "cm:S52.11"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:ovl","e:ovm","e:ovn","e:ovo","e:ovp","e:ovq","e:ovr"]
+.s "cm:S52.21"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:oyf","e:oyg","e:oyh","e:oyi","e:oyj","e:oyk","e:oyl"]
+.s "cm:S52.31"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:p3y","e:p3z","e:p40","e:p41","e:p42","e:p43","e:p44"]
+.s "cm:S52.52"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:pa8","e:pa9","e:paa","e:pab","e:pac","e:pae","e:paf"]
+.s "cm:S52.62"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:pe7","e:pe8","e:pe9","e:pea","e:peb","e:pec","e:pef"]
+.s "cm:S53"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:pfz","e:pg0","e:pg1","e:pg2"]
+.s "cm:S54"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:pr6","e:pr7","e:pr8","e:pr9"]
+.s "cm:S55"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:pu3","e:pu4","e:pu6","e:pu7"]
+.s "cm:S56"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:q0j","e:q0k","e:q0l","e:q0n"]
+.s "cm:S57"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:qhy","e:qhz","e:qi0","e:qi1"]
+.s "cm:S58"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:qj4","e:qj6","e:qj7","e:qj8"]
+.s "cm:S59"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:qm1","e:qm2","e:qm3","e:qm4","e:qm5","e:qm6","e:qm7"]
+.s "cm:S59.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:qtc","e:qtd","e:qte","e:qtf"]
+.s "cm:S59.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:quc","e:qud","e:que","e:quf"]
+.s "cm:S60"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:qvk","e:qvl","e:qvm","e:qvn"]
+.s "cm:S61"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ri2","e:ri3","e:ri4","e:ri5"]
+.s "cm:S62"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:s5v","e:s5w","e:s5x","e:s5y","e:s5z","e:s60","e:s61","e:s63"]
+.s "cm:S63"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:t1g","e:t1h","e:t1i","e:t1j"]
+.s "cm:S64"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:u0x","e:u0y","e:u0z","e:u10"]
+.s "cm:S65"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:u4r","e:u4t","e:u4u","e:u4v"]
+.s "cm:S66"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ugx","e:ugy","e:ugz","e:uh0"]
+.s "cm:S67"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:v2m","e:v2n","e:v2o","e:v2p"]
+.s "cm:S68"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:v6b","e:v6c","e:v6d","e:v6e"]
+.s "cm:S69"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ves","e:vet","e:veu","e:vev"]
+.s "cm:S70"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:vg0","e:vg1","e:vg2","e:vg3"]
+.s "cm:S71"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:vmz","e:vn0","e:vn1","e:vn3"]
+.s "cm:S72"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture type I or II"},{"note":"\tinitial encounter for open fracture NOS"},{"character":"C","meaning":"initial encounter for open fracture type IIIA, IIIB, or IIIC"},{"character":"D","meaning":"subsequent encounter for closed fracture with routine healing"},{"character":"E","meaning":"subsequent encounter for open fracture type I or II with routine healing"},{"character":"F","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"},{"character":"G","meaning":"subsequent encounter for closed fracture with delayed healing"},{"character":"H","meaning":"subsequent encounter for open fracture type I or II with delayed healing"},{"character":"J","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"},{"character":"K","meaning":"subsequent encounter for closed fracture with nonunion"},{"character":"M","meaning":"subsequent encounter for open fracture type I or II with nonunion"},{"character":"N","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion"},{"character":"P","meaning":"subsequent encounter for closed fracture with malunion"},{"character":"Q","meaning":"subsequent encounter for open fracture type I or II with malunion"},{"character":"R","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"},{"character":"S","meaning":"sequela"}]|["e:vsh","e:vsi","e:vsj","e:vsk","e:vsl","e:vsm","e:vso","e:vsp","e:vsq","e:vsr","e:vss","e:vst","e:vsu","e:vsv","e:vsw","e:vsx","e:vsz","e:vt0"]
+.s "cm:S72.47"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:wan","e:wao","e:wap","e:waq","e:war","e:was","e:wat"]
+.s "cm:S73"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:wd1","e:wd2","e:wd3","e:wd4"]
+.s "cm:S74"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:wih","e:wii","e:wim","e:win"]
+.s "cm:S75"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:wkw","e:wkx","e:wky","e:wkz"]
+.s "cm:S76"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:wt6","e:wt7","e:wt8","e:wt9"]
+.s "cm:S77"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:x33","e:x34","e:x35","e:x36"]
+.s "cm:S78"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:x4m","e:x4n","e:x4o","e:x4p"]
+.s "cm:S79"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:x7i","e:x7j","e:x7l","e:x7m","e:x7n","e:x7o","e:x7p"]
+.s "cm:S79.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:xbo","e:xbp","e:xbq","e:xbr"]
+.s "cm:S79.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:xco","e:xcp","e:xcq","e:xcr"]
+.s "cm:S80"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:xe0","e:xe1","e:xe3","e:xe4"]
+.s "cm:S81"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:xky","e:xkz","e:xl0","e:xl1"]
+.s "cm:S82"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture type I or II"},{"note":"\tinitial encounter for open fracture NOS"},{"character":"C","meaning":"initial encounter for open fracture type IIIA, IIIB, or IIIC"},{"character":"D","meaning":"subsequent encounter for closed fracture with routine healing"},{"character":"E","meaning":"subsequent encounter for open fracture type I or II with routine healing"},{"character":"F","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"},{"character":"G","meaning":"subsequent encounter for closed fracture with delayed healing"},{"character":"H","meaning":"subsequent encounter for open fracture type I or II with delayed healing"},{"character":"J","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"},{"character":"K","meaning":"subsequent encounter for closed fracture with nonunion"},{"character":"M","meaning":"subsequent encounter for open fracture type I or II with nonunion"},{"character":"N","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with nonunion"},{"character":"P","meaning":"subsequent encounter for closed fracture with malunion"},{"character":"Q","meaning":"subsequent encounter for open fracture type I or II with malunion"},{"character":"R","meaning":"subsequent encounter for open fracture type IIIA, IIIB, or IIIC with malunion"},{"character":"S","meaning":"sequela"}]|["e:xqh","e:xqi","e:xqj","e:xqk","e:xql","e:xqm","e:xqn","e:xqo","e:xqq","e:xqr","e:xqs","e:xqt","e:xqu","e:xqv","e:xqw","e:xqx","e:xqy","e:xqz"]
+.s "cm:S82.16"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:xyk","e:xyl","e:xym","e:xyn","e:xyo","e:xyq","e:xyr"]
+.s "cm:S82.31"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:y4f","e:y4g","e:y4h","e:y4i","e:y4j","e:y4l","e:y4m"]
+.s "cm:S82.81"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:yb6","e:yb7","e:yb8","e:yb9","e:yba","e:ybb","e:ybc"]
+.s "cm:S82.82"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:ybu","e:ybv","e:ybw","e:ybx","e:yby","e:ybz","e:yc1"]
+.s "cm:S83"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:ygs","e:ygt","e:ygu","e:ygv"]
+.s "cm:S84"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:yvl","e:yvm","e:yvn","e:yvo"]
+.s "cm:S85"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:yxy","e:yxz","e:yy0","e:yy1"]
+.s "cm:S86"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zaf","e:zag","e:zah","e:zai"]
+.s "cm:S87"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zk9","e:zka","e:zkb","e:zkc"]
+.s "cm:S88"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zle","e:zlf","e:zlg","e:zlh"]
+.s "cm:S89"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:zoa","e:zob","e:zoc","e:zod","e:zoe","e:zog","e:zoh"]
+.s "cm:S89.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zwk","e:zwl","e:zwm","e:zwn"]
+.s "cm:S89.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zx4","e:zx5","e:zx6","e:zx7"]
+.s "cm:S90"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:zxv","e:zxw","e:zxx","e:zxy"]
+.s "cm:S91"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:10bg","e:10bh","e:10bi","e:10bj"]
+.s "cm:S92"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:10q0","e:10q1","e:10q2","e:10q4","e:10q5","e:10q6","e:10q7","e:10q8"]
+.s "cm:S93"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:11dx","e:11dy","e:11dz","e:11e0"]
+.s "cm:S94"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:11rw","e:11rx","e:11ry","e:11rz"]
+.s "cm:S95"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:11uo","e:11up","e:11uq","e:11ur"]
+.s "cm:S96"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1214","e:1215","e:1216","e:1217"]
+.s "cm:S97"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:129a","e:129b","e:129e","e:129f"]
+.s "cm:S98"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12bp","e:12bq","e:12br","e:12bs"]
+.s "cm:S99.0"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:12h1","e:12h3","e:12h4","e:12h5","e:12h6","e:12h7","e:12h8","e:12h9"]
+.s "cm:S99.1"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:12jp","e:12jq","e:12jr","e:12js","e:12jt","e:12ju","e:12jw","e:12jx"]
+.s "cm:S99.2"
+seventh_characters|[{"character":"A","meaning":"initial encounter for closed fracture"},{"character":"B","meaning":"initial encounter for open fracture"},{"character":"D","meaning":"subsequent encounter for fracture with routine healing"},{"character":"G","meaning":"subsequent encounter for fracture with delayed healing"},{"character":"K","meaning":"subsequent encounter for fracture with nonunion"},{"character":"P","meaning":"subsequent encounter for fracture with malunion"},{"character":"S","meaning":"sequela"}]|["e:12mb","e:12md","e:12me","e:12mf","e:12mg","e:12mh","e:12mi","e:12mj"]
+.s "cm:S99.8"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12oy","e:12oz","e:12p0","e:12p1"]
+.s "cm:S99.9"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12py","e:12pz","e:12q0","e:12q2"]
+.s "cm:T07"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12r8","e:12ra","e:12rb","e:12rc"]
+.s "cm:T14"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12rn","e:12ro","e:12rp","e:12rq"]
+.s "cm:T15"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12t7","e:12t8","e:12t9","e:12ta"]
+.s "cm:T16"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12v3","e:12v4","e:12v5","e:12v6"]
+.s "cm:T17"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:12vn","e:12vo","e:12vp","e:12vq"]
+.s "cm:T18"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:134q","e:134r","e:134s","e:134t"]
+.s "cm:T19"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:137l","e:137n","e:137o","e:137p"]
+.s "cm:T20"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:139e","e:139f","e:139h","e:139i"]
+.s "cm:T21"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:13kr","e:13ks","e:13kt","e:13ku"]
+.s "cm:T22"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:13xy","e:13xz","e:13y0","e:13y1"]
+.s "cm:T23"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:14l7","e:14l8","e:14l9","e:14la"]
+.s "cm:T24"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:15dq","e:15dr","e:15ds","e:15dt"]
+.s "cm:T25"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:15u9","e:15ua","e:15ub","e:15ud"]
+.s "cm:T26"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:168g","e:168h","e:168i","e:168j"]
+.s "cm:T27"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:16dg","e:16dj","e:16dk","e:16dl"]
+.s "cm:T28"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:16ex","e:16ey","e:16ez","e:16f0"]
+.s "cm:T33"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:16v4","e:16v5","e:16v6","e:16v7"]
+.s "cm:T34"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:170g","e:170h","e:170i","e:170j"]
+.s "cm:T36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:176v","e:176w","e:176x","e:176y"]
+.s "cm:T37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:17g1","e:17g3","e:17g4","e:17g5"]
+.s "cm:T38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:17n4","e:17n6","e:17n7","e:17n8"]
+.s "cm:T39"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:17xu","e:17xv","e:17xw","e:17xx"]
+.s "cm:T40"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:185c","e:185e","e:185f","e:185g"]
+.s "cm:T41"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:18gq","e:18gr","e:18gt","e:18gu"]
+.s "cm:T42"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:18ms","e:18mt","e:18mu","e:18mv"]
+.s "cm:T43"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:18uq","e:18ur","e:18us","e:18ut"]
+.s "cm:T44"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:19a0","e:19a1","e:19a2","e:19a4"]
+.s "cm:T45"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:19jh","e:19ji","e:19jj","e:19jk"]
+.s "cm:T46"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:19wb","e:19wc","e:19we","e:19wf"]
+.s "cm:T47"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1a5o","e:1a5p","e:1a5q","e:1a5r"]
+.s "cm:T48"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1adx","e:1adz","e:1ae0","e:1ae1"]
+.s "cm:T49"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ame","e:1amf","e:1amg","e:1amh"]
+.s "cm:T50"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1aul","e:1aun","e:1auo","e:1aup"]
+.s "cm:T51"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1b9m","e:1b9n","e:1b9o","e:1b9p"]
+.s "cm:T52"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1bdx","e:1bdy","e:1bdz","e:1be0"]
+.s "cm:T53"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1bis","e:1bit","e:1biu","e:1biv"]
+.s "cm:T54"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1bor","e:1bos","e:1bot","e:1bow"]
+.s "cm:T55"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1bs6","e:1bs7","e:1bs8","e:1bsa"]
+.s "cm:T56"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1btx","e:1bty","e:1btz","e:1bu0"]
+.s "cm:T57"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1c1d","e:1c1e","e:1c1f","e:1c1g"]
+.s "cm:T58"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1c5c","e:1c5d","e:1c5e","e:1c5f"]
+.s "cm:T59"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1c8n","e:1c8o","e:1c8p","e:1c8q"]
+.s "cm:T60"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1cfm","e:1cfn","e:1cfo","e:1cfq"]
+.s "cm:T61"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1cko","e:1ckp","e:1ckq","e:1ckr"]
+.s "cm:T62"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1cob","e:1cod","e:1coe","e:1cof"]
+.s "cm:T63"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1crr","e:1crs","e:1crt","e:1cru"]
+.s "cm:T64"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dbu","e:1dbv","e:1dbw","e:1dbx"]
+.s "cm:T65"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dd0","e:1dd2","e:1dd3","e:1dd4"]
+.s "cm:T66"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dna","e:1dnb","e:1dnc","e:1dnd"]
+.s "cm:T67"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dns","e:1dnw","e:1dnx","e:1dny"]
+.s "cm:T68"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dqc","e:1dqd","e:1dqe","e:1dqf"]
+.s "cm:T69"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dqs","e:1dqt","e:1dqu","e:1dqv"]
+.s "cm:T70"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ds9","e:1dsa","e:1dsb","e:1dsc"]
+.s "cm:T71"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1dud","e:1due","e:1duf","e:1dug"]
+.s "cm:T73"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1e0b","e:1e0c","e:1e0d","e:1e0e"]
+.s "cm:T74"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1e1h","e:1e1i","e:1e1j","e:1e1k"]
+.s "cm:T75"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1e4l","e:1e4m","e:1e4n","e:1e4o"]
+.s "cm:T76"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1e7r","e:1e7s","e:1e7t","e:1e7u"]
+.s "cm:T78"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1eam","e:1ean","e:1eap","e:1eaq"]
+.s "cm:T79"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1eg7","e:1eg9","e:1ega","e:1egb"]
+.s "cm:T80"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1el7","e:1el8","e:1el9","e:1ela"]
+.s "cm:T81"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1evh","e:1evi","e:1evj","e:1evk"]
+.s "cm:T82"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1f7w","e:1f7x","e:1f7y","e:1f7z"]
+.s "cm:T83"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1flx","e:1fly","e:1flz","e:1fm0"]
+.s "cm:T84"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1fzl","e:1fzm","e:1fzn","e:1fzo"]
+.s "cm:T85"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1gfi","e:1gfk","e:1gfl","e:1gfm"]
+.s "cm:T88"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1h9y","e:1h9z","e:1ha0","e:1ha1"]
+.s "cm:V00"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1hg7","e:1hg8","e:1hga","e:1hgb"]
+.s "cm:V01"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1hp1","e:1hp2","e:1hp3","e:1hp4"]
+.s "cm:V02"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1hst","e:1hsu","e:1hsv","e:1hsx"]
+.s "cm:V03"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1hwm","e:1hwn","e:1hwo","e:1hwp"]
+.s "cm:V04"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1i0i","e:1i0j","e:1i0k","e:1i0l"]
+.s "cm:V05"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1i4a","e:1i4b","e:1i4e","e:1i4f"]
+.s "cm:V06"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1i88","e:1i89","e:1i8a","e:1i8b"]
+.s "cm:V09"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ic0","e:1ic1","e:1ic3","e:1ic4"]
+.s "cm:V10"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1idn","e:1ido","e:1idp","e:1idq"]
+.s "cm:V11"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1iek","e:1iel","e:1iem","e:1ien"]
+.s "cm:V12"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ifh","e:1ifi","e:1ifj","e:1ifk"]
+.s "cm:V13"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ige","e:1igf","e:1igg","e:1igh"]
+.s "cm:V14"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ihe","e:1ihf","e:1ihg","e:1ihh"]
+.s "cm:V15"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1iib","e:1iic","e:1iid","e:1iie"]
+.s "cm:V16"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ija","e:1ijb","e:1ijc","e:1ijd"]
+.s "cm:V17"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ik8","e:1ik9","e:1ika","e:1ikb"]
+.s "cm:V18"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1il9","e:1ila","e:1ilc","e:1ild"]
+.s "cm:V19"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1im6","e:1im7","e:1im9","e:1ima"]
+.s "cm:V20"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ipa","e:1ipc","e:1ipd","e:1ipe"]
+.s "cm:V21"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1irj","e:1irk","e:1irl","e:1irm"]
+.s "cm:V22"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1its","e:1itt","e:1itu","e:1itv"]
+.s "cm:V23"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ivz","e:1iw0","e:1iw1","e:1iw2"]
+.s "cm:V24"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1iy9","e:1iyb","e:1iyc","e:1iyd"]
+.s "cm:V25"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1j0i","e:1j0j","e:1j0k","e:1j0l"]
+.s "cm:V26"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1j2s","e:1j2t","e:1j2u","e:1j2v"]
+.s "cm:V27"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1j4z","e:1j50","e:1j51","e:1j53"]
+.s "cm:V28"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1j7c","e:1j7d","e:1j7e","e:1j7f"]
+.s "cm:V29"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1j9k","e:1j9l","e:1j9m","e:1j9n"]
+.s "cm:V30"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jfl","e:1jfm","e:1jfn","e:1jfo"]
+.s "cm:V31"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jgo","e:1jgp","e:1jgq","e:1jgr"]
+.s "cm:V32"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jht","e:1jhu","e:1jhv","e:1jhw"]
+.s "cm:V33"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jiw","e:1jix","e:1jiz","e:1jj0"]
+.s "cm:V34"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jk2","e:1jk3","e:1jk4","e:1jk5"]
+.s "cm:V35"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jl7","e:1jl8","e:1jl9","e:1jla"]
+.s "cm:V36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jmd","e:1jme","e:1jmf","e:1jmg"]
+.s "cm:V37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jng","e:1jnh","e:1jni","e:1jnj"]
+.s "cm:V38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1joq","e:1jor","e:1jos","e:1jot"]
+.s "cm:V39"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jpu","e:1jpv","e:1jpw","e:1jpx"]
+.s "cm:V40"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jsy","e:1jsz","e:1jt0","e:1jt1"]
+.s "cm:V41"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ju1","e:1ju4","e:1ju5","e:1ju6"]
+.s "cm:V42"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jv6","e:1jv7","e:1jv8","e:1jv9"]
+.s "cm:V43"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1jwa","e:1jwb","e:1jwc","e:1jwd"]
+.s "cm:V44"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k0s","e:1k0t","e:1k0u","e:1k0w"]
+.s "cm:V45"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k1w","e:1k1x","e:1k1y","e:1k1z"]
+.s "cm:V46"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k32","e:1k33","e:1k34","e:1k35"]
+.s "cm:V47"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k46","e:1k47","e:1k48","e:1k4a"]
+.s "cm:V48"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k5d","e:1k5e","e:1k5f","e:1k5g"]
+.s "cm:V49"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k6i","e:1k6j","e:1k6k","e:1k6l"]
+.s "cm:V50"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1k9l","e:1k9m","e:1k9n","e:1k9o"]
+.s "cm:V51"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kao","e:1kap","e:1kar","e:1kas"]
+.s "cm:V52"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kbs","e:1kbt","e:1kbu","e:1kbv"]
+.s "cm:V53"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kcx","e:1kcy","e:1kcz","e:1kd0"]
+.s "cm:V54"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ke2","e:1ke3","e:1ke5","e:1ke6"]
+.s "cm:V55"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kf6","e:1kf7","e:1kf8","e:1kf9"]
+.s "cm:V56"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kgd","e:1kge","e:1kgf","e:1kgg"]
+.s "cm:V57"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1khg","e:1khh","e:1khj","e:1khk"]
+.s "cm:V58"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kin","e:1kio","e:1kip","e:1kit"]
+.s "cm:V59"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kjt","e:1kju","e:1kjv","e:1kjw"]
+.s "cm:V60"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kmu","e:1kmv","e:1kmw","e:1kmx"]
+.s "cm:V61"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1knx","e:1kny","e:1knz","e:1ko1"]
+.s "cm:V62"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kp2","e:1kp3","e:1kp4","e:1kp5"]
+.s "cm:V63"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kq5","e:1kq7","e:1kq8","e:1kq9"]
+.s "cm:V64"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1krb","e:1krc","e:1krd","e:1krf"]
+.s "cm:V65"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ksg","e:1ksh","e:1ksi","e:1ksj"]
+.s "cm:V66"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ktm","e:1ktn","e:1kto","e:1ktp"]
+.s "cm:V67"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kup","e:1kuq","e:1kur","e:1kut"]
+.s "cm:V68"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kvx","e:1kvy","e:1kvz","e:1kw0"]
+.s "cm:V69"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kx1","e:1kx2","e:1kx3","e:1kx4"]
+.s "cm:V70"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1kzw","e:1kzx","e:1kzy","e:1kzz"]
+.s "cm:V71"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l12","e:1l13","e:1l14","e:1l15"]
+.s "cm:V72"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l26","e:1l28","e:1l29","e:1l2a"]
+.s "cm:V73"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l3a","e:1l3b","e:1l3c","e:1l3d"]
+.s "cm:V74"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l4h","e:1l4i","e:1l4j","e:1l4k"]
+.s "cm:V75"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l5k","e:1l5m","e:1l5n","e:1l5o"]
+.s "cm:V76"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l6q","e:1l6r","e:1l6s","e:1l6u"]
+.s "cm:V77"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l7v","e:1l7w","e:1l7x","e:1l7y"]
+.s "cm:V78"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1l92","e:1l93","e:1l94","e:1l95"]
+.s "cm:V79"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1la5","e:1la6","e:1la8","e:1la9"]
+.s "cm:V80"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lcw","e:1lcx","e:1lcy","e:1ld0"]
+.s "cm:V81"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1li6","e:1li7","e:1li8","e:1lia"]
+.s "cm:V82"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lkh","e:1lki","e:1lkj","e:1lkk"]
+.s "cm:V83"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lmj","e:1lml","e:1lmm","e:1lmn"]
+.s "cm:V84"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lny","e:1lnz","e:1lo0","e:1lo1"]
+.s "cm:V85"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lpf","e:1lpg","e:1lph","e:1lpi"]
+.s "cm:V86"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lqq","e:1lqr","e:1lqs","e:1lqt"]
+.s "cm:V87"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1lyo","e:1lyp","e:1lyq","e:1lyr"]
+.s "cm:V88"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1m00","e:1m01","e:1m02","e:1m03"]
+.s "cm:V89"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1m17","e:1m18","e:1m19","e:1m1a"]
+.s "cm:V90"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1m2i","e:1m2j","e:1m2k","e:1m2l"]
+.s "cm:V91"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1m9t","e:1m9u","e:1m9v","e:1m9w"]
+.s "cm:V92"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1mhh","e:1mhi","e:1mhj","e:1mhk"]
+.s "cm:V93"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1mml","e:1mmm","e:1mmn","e:1mmp"]
+.s "cm:V94"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1mw3","e:1mw4","e:1mw5","e:1mw6"]
+.s "cm:V95"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1myv","e:1myw","e:1myx","e:1myy"]
+.s "cm:V96"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1n3h","e:1n3i","e:1n3j","e:1n3k"]
+.s "cm:V97"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1n6h","e:1n6i","e:1n6j","e:1n6k"]
+.s "cm:V98"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1n8y","e:1n8z","e:1n90","e:1n91"]
+.s "cm:V99"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1n9x","e:1n9y","e:1n9z","e:1na0"]
+.s "cm:W00"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nas","e:1nat","e:1nau","e:1nav"]
+.s "cm:W01"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nbq","e:1nbr","e:1nbs","e:1nbt"]
+.s "cm:W03"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ndc","e:1ndd","e:1nde","e:1ndf"]
+.s "cm:W04"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ndo","e:1ndp","e:1ndq","e:1ndr"]
+.s "cm:W05"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ne2","e:1ne3","e:1ne4","e:1ne6"]
+.s "cm:W06"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nem","e:1nen","e:1neo","e:1nep"]
+.s "cm:W07"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1new","e:1nex","e:1ney","e:1nez"]
+.s "cm:W08"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"},{"note":"Fall from stool"}]|["e:1nf6","e:1nf7","e:1nf8","e:1nf9","e:1nfa"]
+.s "cm:W09"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nfj","e:1nfk","e:1nfl","e:1nfm"]
+.s "cm:W10"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ng9","e:1nga","e:1ngc","e:1ngd"]
+.s "cm:W11"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nh2","e:1nh3","e:1nh4","e:1nh5"]
+.s "cm:W12"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nhc","e:1nhd","e:1nhe","e:1nhf"]
+.s "cm:W13"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nhm","e:1nhn","e:1nho","e:1nhp"]
+.s "cm:W14"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1niw","e:1nix","e:1niy","e:1niz"]
+.s "cm:W15"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nj6","e:1nj7","e:1nj8","e:1nj9"]
+.s "cm:W16"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1njn","e:1njo","e:1njq","e:1njr"]
+.s "cm:W17"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nsw","e:1nsx","e:1nsz","e:1nt0"]
+.s "cm:W18"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nuc","e:1nud","e:1nue","e:1nuf"]
+.s "cm:W19"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nx0","e:1nx1","e:1nx2","e:1nx3"]
+.s "cm:W20"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nxs","e:1nxt","e:1nxu","e:1nxw"]
+.s "cm:W21"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1nyo","e:1nyp","e:1nyq","e:1nyr"]
+.s "cm:W22"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o22","e:1o23","e:1o24","e:1o25"]
+.s "cm:W23"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o44","e:1o45","e:1o46","e:1o47"]
+.s "cm:W24"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o4r","e:1o4s","e:1o4t","e:1o4u"]
+.s "cm:W25"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o5o","e:1o5p","e:1o5q","e:1o5r"]
+.s "cm:W26"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o60","e:1o61","e:1o62","e:1o63"]
+.s "cm:W27"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o6x","e:1o6y","e:1o6z","e:1o70"]
+.s "cm:W28"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o8n","e:1o8o","e:1o8q","e:1o8r"]
+.s "cm:W29"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1o93","e:1o94","e:1o95","e:1o96"]
+.s "cm:W30"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oaq","e:1oar","e:1oas","e:1oat"]
+.s "cm:W31"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oc7","e:1oc8","e:1oc9","e:1oca"]
+.s "cm:W32"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ofc","e:1ofd","e:1ofe","e:1off"]
+.s "cm:W33"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oga","e:1ogb","e:1ogc","e:1ogd"]
+.s "cm:W34"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oih","e:1oii","e:1oij","e:1oil"]
+.s "cm:W35"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1okr","e:1oks","e:1okt","e:1oku"]
+.s "cm:W36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ol0","e:1ol2","e:1ol3","e:1ol4"]
+.s "cm:W37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1olr","e:1ols","e:1olt","e:1olu"]
+.s "cm:W38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1om7","e:1om8","e:1oma","e:1omb"]
+.s "cm:W39"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1omh","e:1omi","e:1omj","e:1oml"]
+.s "cm:W40"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1omy","e:1omz","e:1on0","e:1on1"]
+.s "cm:W42"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ooc","e:1ood","e:1ooe","e:1oog"]
+.s "cm:W44"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ooz","e:1op0","e:1op2","e:1op3"]
+.s "cm:W45"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ouz","e:1ov0","e:1ov1","e:1ov2"]
+.s "cm:W46"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ovl","e:1ovm","e:1ovn","e:1ovo"]
+.s "cm:W49"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1owa","e:1owb","e:1owc","e:1owd"]
+.s "cm:W50"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oxh","e:1oxi","e:1oxj","e:1oxk"]
+.s "cm:W51"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oyn","e:1oyo","e:1oyp","e:1oyq"]
+.s "cm:W52"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1oyz","e:1oz0","e:1oz1","e:1oz2"]
+.s "cm:W53"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ozc","e:1ozd","e:1oze","e:1ozf"]
+.s "cm:W54"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p0r","e:1p0t","e:1p0u","e:1p0v"]
+.s "cm:W55"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p1l","e:1p1m","e:1p1n","e:1p1o"]
+.s "cm:W56"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p4u","e:1p4v","e:1p4w","e:1p4x"]
+.s "cm:W57"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p7t","e:1p7u","e:1p7w","e:1p7x"]
+.s "cm:W58"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p83","e:1p84","e:1p85","e:1p87"]
+.s "cm:W59"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1p9d","e:1p9e","e:1p9g","e:1p9h"]
+.s "cm:W60"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pbj","e:1pbm","e:1pbn","e:1pbo"]
+.s "cm:W61"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pbx","e:1pby","e:1pbz","e:1pc0"]
+.s "cm:W62"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pfi","e:1pfj","e:1pfk","e:1pfm"]
+.s "cm:W64"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pg6","e:1pg8","e:1pg9","e:1pga"]
+.s "cm:W65"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pgq","e:1pgr","e:1pgs","e:1pgu"]
+.s "cm:W67"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ph3","e:1ph5","e:1ph6","e:1ph7"]
+.s "cm:W69"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1phl","e:1phm","e:1phn","e:1pho"]
+.s "cm:W73"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pi1","e:1pi3","e:1pi4","e:1pi5"]
+.s "cm:W74"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pie","e:1pif","e:1pig","e:1pih"]
+.s "cm:W85"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pj2","e:1pj3","e:1pj4","e:1pj5"]
+.s "cm:W86"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pjc","e:1pjd","e:1pje","e:1pjf"]
+.s "cm:W88"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pka","e:1pkb","e:1pkc","e:1pkd"]
+.s "cm:W89"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pkz","e:1pl0","e:1pl1","e:1pl2"]
+.s "cm:W90"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1plo","e:1plp","e:1plq","e:1pls"]
+.s "cm:W92"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pmb","e:1pmc","e:1pme","e:1pmf"]
+.s "cm:W93"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pml","e:1pmm","e:1pmn","e:1pmp"]
+.s "cm:W94"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pns","e:1pnt","e:1pnu","e:1pnv"]
+.s "cm:W99"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ppb","e:1ppc","e:1ppd","e:1ppe"]
+.s "cm:X00"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pq2","e:1pq4","e:1pq5","e:1pq6"]
+.s "cm:X01"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pr5","e:1pr6","e:1pr7","e:1pr8"]
+.s "cm:X02"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1prz","e:1ps0","e:1ps1","e:1ps2"]
+.s "cm:X03"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pt2","e:1pt3","e:1pt4","e:1pt5"]
+.s "cm:X04"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pu0","e:1pu1","e:1pu2","e:1pu5"]
+.s "cm:X05"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pui","e:1puj","e:1puk","e:1pul"]
+.s "cm:X06"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1puy","e:1puz","e:1pv0","e:1pv2"]
+.s "cm:X08"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pvl","e:1pvm","e:1pvo","e:1pvp"]
+.s "cm:X10"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pxb","e:1pxc","e:1pxd","e:1pxe"]
+.s "cm:X11"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1py0","e:1py1","e:1py2","e:1py3"]
+.s "cm:X12"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pyx","e:1pyy","e:1pyz","e:1pz0"]
+.s "cm:X13"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pz7","e:1pz8","e:1pz9","e:1pza"]
+.s "cm:X14"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1pzo","e:1pzp","e:1pzq","e:1pzr"]
+.s "cm:X15"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q0b","e:1q0c","e:1q0d","e:1q0e"]
+.s "cm:X16"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q1d","e:1q1e","e:1q1f","e:1q1g"]
+.s "cm:X17"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q1q","e:1q1r","e:1q1s","e:1q1u"]
+.s "cm:X18"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q22","e:1q23","e:1q25","e:1q26"]
+.s "cm:X19"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q2e","e:1q2g","e:1q2h","e:1q2i"]
+.s "cm:X30"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q2z","e:1q30","e:1q32","e:1q33"]
+.s "cm:X31"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q3k","e:1q3l","e:1q3m","e:1q3n"]
+.s "cm:X32"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q3y","e:1q40","e:1q41","e:1q42"]
+.s "cm:X34"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q4b","e:1q4c","e:1q4d","e:1q4e"]
+.s "cm:X35"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q4n","e:1q4o","e:1q4p","e:1q4q"]
+.s "cm:X36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q53","e:1q54","e:1q55","e:1q56"]
+.s "cm:X37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q5k","e:1q5l","e:1q5m","e:1q5n"]
+.s "cm:X38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q7k","e:1q7l","e:1q7m","e:1q7n"]
+.s "cm:X39"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q7u","e:1q7v","e:1q7w","e:1q7x"]
+.s "cm:X50"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1q8o","e:1q8p","e:1q8q","e:1q8r"]
+.s "cm:X52"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qa6","e:1qa7","e:1qa8","e:1qa9"]
+.s "cm:X58"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qaj","e:1qak","e:1qal","e:1qam"]
+.s "cm:X71"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qay","e:1qaz","e:1qb0","e:1qb1"]
+.s "cm:X72"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qby","e:1qc0","e:1qc1","e:1qc2"]
+.s "cm:X73"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qcb","e:1qcc","e:1qcd","e:1qce"]
+.s "cm:X74"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qd2","e:1qd3","e:1qd4","e:1qd5"]
+.s "cm:X75"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qe1","e:1qe2","e:1qe3","e:1qe4"]
+.s "cm:X76"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qeb","e:1qec","e:1qed","e:1qee"]
+.s "cm:X77"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qel","e:1qem","e:1qen","e:1qeo"]
+.s "cm:X78"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qff","e:1qfg","e:1qfh","e:1qfi"]
+.s "cm:X79"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qg6","e:1qg7","e:1qg8","e:1qg9"]
+.s "cm:X80"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qgi","e:1qgj","e:1qgk","e:1qgl"]
+.s "cm:X81"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qgs","e:1qgt","e:1qgu","e:1qgv"]
+.s "cm:X82"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qhc","e:1qhd","e:1qhe","e:1qhf"]
+.s "cm:X83"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qi1","e:1qi2","e:1qi3","e:1qi4"]
+.s "cm:X92"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qj1","e:1qj2","e:1qj3","e:1qj4"]
+.s "cm:X93"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qk1","e:1qk3","e:1qk4","e:1qk5"]
+.s "cm:X94"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qke","e:1qkf","e:1qkg","e:1qkh"]
+.s "cm:X95"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1ql4","e:1ql5","e:1ql6","e:1ql7"]
+.s "cm:X96"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qm7","e:1qm9","e:1qma","e:1qmb"]
+.s "cm:X97"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qnb","e:1qnc","e:1qnd","e:1qne"]
+.s "cm:X98"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qnl","e:1qnm","e:1qnn","e:1qno"]
+.s "cm:X99"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qoh","e:1qoi","e:1qoj","e:1qok"]
+.s "cm:Y00"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qpd","e:1qpe","e:1qpf","e:1qpg"]
+.s "cm:Y01"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qpn","e:1qpo","e:1qpp","e:1qpq"]
+.s "cm:Y02"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qpw","e:1qpy","e:1qpz","e:1qq0"]
+.s "cm:Y03"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qqg","e:1qqh","e:1qqi","e:1qqk"]
+.s "cm:Y04"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qr1","e:1qr2","e:1qr3","e:1qr4"]
+.s "cm:Y08"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1qz3","e:1qz4","e:1qz5","e:1qz7"]
+.s "cm:Y21"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r0d","e:1r0f","e:1r0g","e:1r0h"]
+.s "cm:Y22"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r1i","e:1r1j","e:1r1k","e:1r1l"]
+.s "cm:Y23"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r1u","e:1r1v","e:1r1w","e:1r1x"]
+.s "cm:Y24"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r2o","e:1r2p","e:1r2q","e:1r2r"]
+.s "cm:Y25"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r3e","e:1r3f","e:1r3g","e:1r3i"]
+.s "cm:Y26"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r3o","e:1r3p","e:1r3q","e:1r3r"]
+.s "cm:Y27"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r3y","e:1r3z","e:1r40","e:1r41"]
+.s "cm:Y28"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r4t","e:1r4u","e:1r4v","e:1r4w"]
+.s "cm:Y29"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r5j","e:1r5k","e:1r5l","e:1r5m"]
+.s "cm:Y30"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r5v","e:1r5w","e:1r5x","e:1r5z"]
+.s "cm:Y31"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r65","e:1r66","e:1r67","e:1r68"]
+.s "cm:Y32"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r6f","e:1r6g","e:1r6h","e:1r6i"]
+.s "cm:Y33"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r6p","e:1r6q","e:1r6r","e:1r6s"]
+.s "cm:Y35"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1r73","e:1r74","e:1r75","e:1r77"]
+.s "cm:Y36"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1rja","e:1rjb","e:1rjc","e:1rjd"]
+.s "cm:Y37"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1s0x","e:1s0y","e:1s0z","e:1s10"]
+.s "cm:Y38"
+seventh_characters|[{"character":"A","meaning":"initial encounter"},{"character":"D","meaning":"subsequent encounter"},{"character":"S","meaning":"sequela"}]|["e:1sh7","e:1sh8","e:1sh9","e:1sha"]
+.end 508 07f70c779d26812e6186c0e7fc80a439639f7837171a0ae136da50e9056151be

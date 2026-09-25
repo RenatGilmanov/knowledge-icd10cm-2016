@@ -1,0 +1,431 @@
+{
+  "format": "FreeFact 3 named, self-contained category shards",
+  "release": "ICD-10-CM:2026-04-01",
+  "scope": "ICD-10-CM April 1–September 30, 2026",
+  "facts": 809979,
+  "categories": {
+    "classification/hierarchy": 47213,
+    "classification/identifier": 47200,
+    "classification/notation": 246,
+    "classification/sections": 289,
+    "classification/seventh_character": 51305,
+    "classification/short_title": 98186,
+    "classification/status": 98186,
+    "classification/title": 98623,
+    "coding/caution": 3,
+    "coding/convention": 6,
+    "guideline/poa": 9,
+    "guideline/rule": 439,
+    "guideline/section": 997,
+    "index/book": 2,
+    "index/caution": 3,
+    "index/disease": 241285,
+    "index/drug": 14992,
+    "index/external": 23755,
+    "index/modifier": 15275,
+    "index/neoplasm": 4067,
+    "index/notation": 4,
+    "index/reference": 4,
+    "index/synonym": 2,
+    "instruction/code_also": 320,
+    "instruction/code_first": 363,
+    "instruction/convention": 7,
+    "instruction/excludes1": 2644,
+    "instruction/excludes2": 1165,
+    "instruction/includes": 415,
+    "instruction/inclusion_terms": 6809,
+    "instruction/neoplasm_table": 1,
+    "instruction/notes": 86,
+    "instruction/seventh_character": 508,
+    "instruction/seventh_character_applicability": 508,
+    "instruction/use_additional_code": 844,
+    "release/change": 47,
+    "release/edition": 2,
+    "release/summary": 4,
+    "table/drug": 43225,
+    "table/neoplasm": 10939,
+    "table/visual_impairment": 1
+  },
+  "shards": [
+    {
+      "path": "classification--hierarchy.ffl",
+      "category": "classification/hierarchy",
+      "facts": 47213,
+      "bytes": 1992487,
+      "tokens": 1071562,
+      "sha256": "52f06ad1777abfb8848aaf33d8d8e84cbffedfc4518331fa2d7ea07393fb4a15",
+      "source_sha256": "b9cacfcd17418cd480ba1c374673d04a8327b49d1e335f461f68583523dfe69b"
+    },
+    {
+      "path": "classification--identifier.ffl",
+      "category": "classification/identifier",
+      "facts": 47200,
+      "bytes": 2076416,
+      "tokens": 1031196,
+      "sha256": "6d0c4c67bad5c4bc44d65b3c5ca0b4f614784a6de8ceb5d203f81acd245bd3d8",
+      "source_sha256": "67c8677e34fde56ed66a217f0d8d042ff481d289bda64055e13425f01f609757"
+    },
+    {
+      "path": "classification--notation.ffl",
+      "category": "classification/notation",
+      "facts": 246,
+      "bytes": 12648,
+      "tokens": 4973,
+      "sha256": "62c3f4a9f90bf9194441d8393978ab935e943f4f255064f5b33df9d240fc9eb1",
+      "source_sha256": "188d70fb24ce818dc815631b9f99220e6640383a0eca3602188b614ebc015cd4"
+    },
+    {
+      "path": "classification--sections.ffl",
+      "category": "classification/sections",
+      "facts": 289,
+      "bytes": 41747,
+      "tokens": 11836,
+      "sha256": "13d0f73c277ed8b22fe7573aeb1d768b1f9944f39e2377619358d59361cf4bbe",
+      "source_sha256": "d4e1b30fe68972bb33fbd20ab3d7b07652462830710fa0ef90fb144e1b837e76"
+    },
+    {
+      "path": "classification--seventh_character.ffl",
+      "category": "classification/seventh_character",
+      "facts": 51305,
+      "bytes": 4495389,
+      "tokens": 1951017,
+      "sha256": "9010895d4dc1738641e4f06fd4cd09c5eb39c4de46420220e0153460460af0e0",
+      "source_sha256": "92716cd2f05606cf2e069ca79cea1a9ad6ec06f117b603798747417ce450bf0b"
+    },
+    {
+      "path": "classification--short_title.ffl",
+      "category": "classification/short_title",
+      "facts": 98186,
+      "bytes": 8741484,
+      "tokens": 3150746,
+      "sha256": "b9b770efd5b56e5a3f45616acad61106994487a3aa24c1897cbd9477216a7ca2",
+      "source_sha256": "66b72ce814e57201785ac302e3d935eeacbad32631e06e48b31f839790838c5b"
+    },
+    {
+      "path": "classification--status.ffl",
+      "category": "classification/status",
+      "facts": 98186,
+      "bytes": 11324121,
+      "tokens": 3684167,
+      "sha256": "cea1328bcb1c9015057c459225dd2a35a5b80cd2ce20994a61740025f795e37f",
+      "source_sha256": "2c1c6c6baa5bd5a5e18112f00bd0b0e824246d7088ead32082bb19a5fe7894e2"
+    },
+    {
+      "path": "classification--title.ffl",
+      "category": "classification/title",
+      "facts": 98623,
+      "bytes": 11600599,
+      "tokens": 3852877,
+      "sha256": "3f9401ec4bbe6095bcbc66d307e88f3cf2dc8cbee7192308238304475bb43fb7",
+      "source_sha256": "5c4f93a555d27ac980f4d174bdccef3b80a99eb31eb2aba23b968889e391d7e7"
+    },
+    {
+      "path": "coding--caution.ffl",
+      "category": "coding/caution",
+      "facts": 3,
+      "bytes": 757,
+      "tokens": 247,
+      "sha256": "a9108a2c4813e5200277fd0aab670c468cb90fc9621f12a7a499be406988e68a",
+      "source_sha256": "7ffa82ee60c25abfae6f66c1de83525eea0977f676a8162eba310f6a396778ea"
+    },
+    {
+      "path": "coding--convention.ffl",
+      "category": "coding/convention",
+      "facts": 6,
+      "bytes": 1115,
+      "tokens": 334,
+      "sha256": "dcbe12bcd6a0b99bd74b813453db68132dba9d3de3abef8e3310495bd3b0ff03",
+      "source_sha256": "5336b7172d4ad0de0721a177d2c34f5b06e0cd398b21831cb16a374e1aa3cbbe"
+    },
+    {
+      "path": "guideline--poa.ffl",
+      "category": "guideline/poa",
+      "facts": 9,
+      "bytes": 917,
+      "tokens": 283,
+      "sha256": "2ea55d27ae170a7de566a6ee18ced34cb78ab1d34fb36d95b976d11d4d6b4374",
+      "source_sha256": "b01b36e6d4e887aafb33ed58d4c84f6c9b9916fae1d9378f3e1ba36f599058a0"
+    },
+    {
+      "path": "guideline--rule.ffl",
+      "category": "guideline/rule",
+      "facts": 439,
+      "bytes": 276303,
+      "tokens": 62848,
+      "sha256": "9baffd11932cf4d69f06df129594522c93a2c5efcbc27f1d42a56d96d619d2af",
+      "source_sha256": "4645da1d87b14434a4d65cf3388b05b202b5d9b90b127b2a2bec6173f80ee003"
+    },
+    {
+      "path": "guideline--section.ffl",
+      "category": "guideline/section",
+      "facts": 997,
+      "bytes": 60393,
+      "tokens": 22059,
+      "sha256": "8d9f99fada5777e4f0be3654719299f4c1eb8b3fdfb1939538cc9464145217e5",
+      "source_sha256": "02fe5c069186a4c3ab1312236698352a6b7ba61e137493f7cbe74015675ce66e"
+    },
+    {
+      "path": "index--book.ffl",
+      "category": "index/book",
+      "facts": 2,
+      "bytes": 508,
+      "tokens": 179,
+      "sha256": "c99e8d20c0606a9545f5648b3dadaafb0254335079416c7a21d2c9fc718a07ae",
+      "source_sha256": "89e8cc4261749fb41bf0b6e97ea6eb1dc9649feca16c9a9c88f97c0e59d6c694"
+    },
+    {
+      "path": "index--caution.ffl",
+      "category": "index/caution",
+      "facts": 3,
+      "bytes": 668,
+      "tokens": 247,
+      "sha256": "43fddb0578c107f9b82bbbc57044e5163d5c4b5096661b19fe7fcf3407e7a3b9",
+      "source_sha256": "b7cf82240b2e5c16b457db82211d33bbe1e42b185146b33479a50af0a0b4ea80"
+    },
+    {
+      "path": "index--disease.ffl",
+      "category": "index/disease",
+      "facts": 241285,
+      "bytes": 10640919,
+      "tokens": 5129240,
+      "sha256": "24875544da9d0c6f5e6411ea2623a83f74774055e1bd6dee33d530cbaaa26e74",
+      "source_sha256": "75cff9cb34be0d862e0f746a8a3ba1671bf674aee819511109324e2ec8967249"
+    },
+    {
+      "path": "index--drug.ffl",
+      "category": "index/drug",
+      "facts": 14992,
+      "bytes": 637663,
+      "tokens": 316814,
+      "sha256": "99af2ea3b2581223e1afc18cdb632d1333c1cfe3af0c0b18717d2ed43dcde04e",
+      "source_sha256": "8055d326b6634c234bdd87d8d86c152798cc21c858eee450103f5d3ce3b602d6"
+    },
+    {
+      "path": "index--external.ffl",
+      "category": "index/external",
+      "facts": 23755,
+      "bytes": 1069354,
+      "tokens": 494301,
+      "sha256": "7dfbabfefd14ef6f52c8986351f3657cff2d57b13194260b659b425d7226fb66",
+      "source_sha256": "1297535d45367e60a671f120828c82c492fe7528c6b46a99e9be13e80460cf42"
+    },
+    {
+      "path": "index--modifier.ffl",
+      "category": "index/modifier",
+      "facts": 15275,
+      "bytes": 1166823,
+      "tokens": 476515,
+      "sha256": "d34092e65e488c8ffbe168065aa2d62234bee9b30d56d5d06ac6bd441156a0b4",
+      "source_sha256": "03886c21fb4396a4d4e8c87e5ec5b450b71f6e3bc3e82a6a74bacaf9a4fc80bd"
+    },
+    {
+      "path": "index--neoplasm.ffl",
+      "category": "index/neoplasm",
+      "facts": 4067,
+      "bytes": 197680,
+      "tokens": 99186,
+      "sha256": "8f68937a7286d5c58f06f3229ad3cd8b1deed1aaea96002711f4cf0b37baf6d5",
+      "source_sha256": "1fc74744cfee3ee1136a9273149e227da06421bc3f003b35f7172c2f3fa2cd1a"
+    },
+    {
+      "path": "index--notation.ffl",
+      "category": "index/notation",
+      "facts": 4,
+      "bytes": 868,
+      "tokens": 346,
+      "sha256": "aed48fe23dfc0f52c5b095e6d0c771d280a4669d526c39ca3ca7c964bc732839",
+      "source_sha256": "7c69ed4a2296f3d3aaa9a0370e999793f90879f9235a6ef0603635d650245a93"
+    },
+    {
+      "path": "index--reference.ffl",
+      "category": "index/reference",
+      "facts": 4,
+      "bytes": 685,
+      "tokens": 285,
+      "sha256": "28b09d4e0fdb45abd09ea7cbabad315d506e4ba96783c0aedfe0471d8732d569",
+      "source_sha256": "5906d52f1c46b42a42c5a167687ceb311f87a64e78bdd5452cf3e154108a973e"
+    },
+    {
+      "path": "index--synonym.ffl",
+      "category": "index/synonym",
+      "facts": 2,
+      "bytes": 495,
+      "tokens": 170,
+      "sha256": "9dddcc7698414de364c199ce3124d98e14b7a2130cba086c9d4afc1bf1b1d9c8",
+      "source_sha256": "30dfb5d367adee6efb62cb9584614b8f21d052d17d50fd9749bec541de813c74"
+    },
+    {
+      "path": "instruction--code_also.ffl",
+      "category": "instruction/code_also",
+      "facts": 320,
+      "bytes": 45381,
+      "tokens": 17879,
+      "sha256": "afd545bc088e3c101de1c9ca2fdc296295378f34c89c8c61c92176ccc6cc2a05",
+      "source_sha256": "abd414d276fae40866fede06a057491a5fcb90ff6547925d7681ca436f15c1bb"
+    },
+    {
+      "path": "instruction--code_first.ffl",
+      "category": "instruction/code_first",
+      "facts": 363,
+      "bytes": 54327,
+      "tokens": 21983,
+      "sha256": "d9af82db3f562ffaffa9b6baff730fb3935bf65c5465e76d5d5d93e42850b160",
+      "source_sha256": "3a08c3d7787aea9d8503fe00a5a6b57baee52cff72c2b6702224b93228f4ae49"
+    },
+    {
+      "path": "instruction--convention.ffl",
+      "category": "instruction/convention",
+      "facts": 7,
+      "bytes": 3335,
+      "tokens": 866,
+      "sha256": "dee0f71721d600064025f336775f4fee3c44220cc51913ec5bc2e04c8ed72e2a",
+      "source_sha256": "54f2bb6bd3e44ea5194044b4fe19ffe76144b294dc1dab75e4c22f17bbb8021b"
+    },
+    {
+      "path": "instruction--excludes1.ffl",
+      "category": "instruction/excludes1",
+      "facts": 2644,
+      "bytes": 400003,
+      "tokens": 165123,
+      "sha256": "b95f342722a14fd61a4d01663a0a2c343900cad873a764b14f69cf0b18e04894",
+      "source_sha256": "8b130554d8d18fa8cb543e6a62025e83781d69429fdb6826f6d9c5785ad2d5d3"
+    },
+    {
+      "path": "instruction--excludes2.ffl",
+      "category": "instruction/excludes2",
+      "facts": 1165,
+      "bytes": 184847,
+      "tokens": 74647,
+      "sha256": "7f3b1da96bdb3c583e0dd0a61a0a565df93a526e6c96aaaa613de60e834530dd",
+      "source_sha256": "a37f52f9ae1254e0b8c20db30e4d17cdd82b4d1b06175fc76ee8a54f4bb0c2ed"
+    },
+    {
+      "path": "instruction--includes.ffl",
+      "category": "instruction/includes",
+      "facts": 415,
+      "bytes": 68334,
+      "tokens": 23926,
+      "sha256": "4a46faa1023db58bdd6f14398904c49bd48e2487f9ca0e319ab1ea53fba4915d",
+      "source_sha256": "c361519dc6b6246e22252db9eb0716a250151e1cc4a3023aa422b585b00909b8"
+    },
+    {
+      "path": "instruction--inclusion_terms.ffl",
+      "category": "instruction/inclusion_terms",
+      "facts": 6809,
+      "bytes": 965520,
+      "tokens": 348955,
+      "sha256": "1b4ced1baeda49544ac544d42f6d79460e11d4796ad160df90f22ceefb0f4205",
+      "source_sha256": "f919d17e9ce3eb56e772e63c202932423b8e6a7221c7f2ddc6299e0e53987024"
+    },
+    {
+      "path": "instruction--neoplasm_table.ffl",
+      "category": "instruction/neoplasm_table",
+      "facts": 1,
+      "bytes": 1633,
+      "tokens": 417,
+      "sha256": "2e54952c11acfe3ac8acec36c0ffa7177a11eabab7a355bb9d75eb7a781820b7",
+      "source_sha256": "043a1cc82de665a886834422c31c3d96c4a7c77279cea79e45426f98d26f1c9c"
+    },
+    {
+      "path": "instruction--notes.ffl",
+      "category": "instruction/notes",
+      "facts": 86,
+      "bytes": 33058,
+      "tokens": 8413,
+      "sha256": "fb7a55d02aa18b68df289907d86787ca4b22a1506dcd9f5b4269b68aa34ead36",
+      "source_sha256": "fb6ff5b08ecc34521cccb6c4e58b44d72814fc2dc7365e1026fb5bfacc4c903e"
+    },
+    {
+      "path": "instruction--seventh_character.ffl",
+      "category": "instruction/seventh_character",
+      "facts": 508,
+      "bytes": 128065,
+      "tokens": 38706,
+      "sha256": "0d0d5465c0dbb6fc02692b02388d6065f3869eea494ebccb1012a54c6891f3e2",
+      "source_sha256": "9e11e2560d060a737f91d43f1e39d94cae5354e8c9d8a6118b6770555f958d76"
+    },
+    {
+      "path": "instruction--seventh_character_applicability.ffl",
+      "category": "instruction/seventh_character_applicability",
+      "facts": 508,
+      "bytes": 80039,
+      "tokens": 25427,
+      "sha256": "0434bdb96e98a32252a88e3135726d29e8fb692da946c4743e6ffb37d5fae6a3",
+      "source_sha256": "573461b331fc856442a59b42f10aa303c45c92f7e139997c430d92db410933d2"
+    },
+    {
+      "path": "instruction--use_additional_code.ffl",
+      "category": "instruction/use_additional_code",
+      "facts": 844,
+      "bytes": 130504,
+      "tokens": 46492,
+      "sha256": "fef5b0578209f586ce0c2baf4c025603a07c747535e3b157bec434b61dff0ebf",
+      "source_sha256": "12b3326f85d85a8eeba66989093823a95a721db001fb1f87d0d286b0dbb9541a"
+    },
+    {
+      "path": "release--change.ffl",
+      "category": "release/change",
+      "facts": 47,
+      "bytes": 15501,
+      "tokens": 5191,
+      "sha256": "d824595834fae74d4dc559de0ed48d7c85ecd17d759e05abb506a1d855624a6a",
+      "source_sha256": "51c78b1078ca066baf41359345afee447cc4d21a45529db31748d649caf31bb4"
+    },
+    {
+      "path": "release--edition.ffl",
+      "category": "release/edition",
+      "facts": 2,
+      "bytes": 514,
+      "tokens": 187,
+      "sha256": "32947770093ca45f0170cb4b15e5e4beed275eddac9224ae219eb9ec20f27d8a",
+      "source_sha256": "e747faf6ecbc91ba0454c06c1e678cbd027d424dfa21d40d99e9a698fa12c6d2"
+    },
+    {
+      "path": "release--summary.ffl",
+      "category": "release/summary",
+      "facts": 4,
+      "bytes": 982,
+      "tokens": 376,
+      "sha256": "478c54aaf67ee99bdada06a85e5d143b5e69b6ddbad4a53c44fa07ed6ac0c26a",
+      "source_sha256": "b894fa436dc3d6f3f8e63df038f3f2ec0ab65103a98533ed27248ffec95ea699"
+    },
+    {
+      "path": "table--drug.ffl",
+      "category": "table/drug",
+      "facts": 43225,
+      "bytes": 3238239,
+      "tokens": 1315915,
+      "sha256": "33719d1f0e288322263908e8be91ac3708ded0996e5886c0e1e4d4b8f08630d0",
+      "source_sha256": "534c01660f7045b77253c3a0fcba9d507fb23633dcc8b97167d463c956e6e7fb"
+    },
+    {
+      "path": "table--neoplasm.ffl",
+      "category": "table/neoplasm",
+      "facts": 10939,
+      "bytes": 713494,
+      "tokens": 263435,
+      "sha256": "d0f839f882ea81345d3e01bd3b9344e8100a7edecc774d9455069f9c66568547",
+      "source_sha256": "2732fe8c0b275916ef90aaf9a8cc6640abf5d65be63e7d90a9d2495b335befd7"
+    },
+    {
+      "path": "table--visual_impairment.ffl",
+      "category": "table/visual_impairment",
+      "facts": 1,
+      "bytes": 1261,
+      "tokens": 404,
+      "sha256": "9cd63e70ee4d928eada1efd3754d5affa21ba4148ad49fc79f1202521852029d",
+      "source_sha256": "83ce65e80144b54751ab73f9c65cbabec7f23ddedffa0cec0a9ffba3d8de24e5"
+    }
+  ],
+  "source_manifest_sha256": "d1fd964240835b63ac2ea139660b73d35bb54b5d234a5efc3db206a0db97f0f2",
+  "canonical_set_sha256": "1e7aa0a8eeeb18ce6ece01a99a4f796b14a7741398ca2b3f3c8d3751523ec458",
+  "semantic_set_sha256": "11a2e9ce2584e61f374b670c52ce92ed5c666527bb4fd57b0f6b1bd060866661",
+  "token_measurement": {
+    "tokenizer": "cl100k_base",
+    "tokens": 23719770,
+    "all_headers_comments_and_footers_included": true,
+    "external_dictionary": false
+  },
+  "layout": "category-readable",
+  "encoding": "ffl3-named"
+}

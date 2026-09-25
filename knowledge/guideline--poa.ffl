@@ -1,0 +1,21 @@
+.ffl 3
+.release "ICD-10-CM:2026-04-01"
+# Exact domain facts; read each rule in its subject and qualifier scope.
+# predicate|JSON value|evidence[|JSON qualifiers]; arrays retain order.
+# This selection does not establish complete clinical guideline applicability.
+.cat guideline/poa
+.s "poa:N"
+definition|"not present at the time of inpatient admission"|"e:55"
+label|"No"|"e:1zt"
+.s "poa:U"
+definition|"documentation is insufficient to determine if condition is present on admission"|"e:55"
+label|"Unknown"|"e:1zt"
+.s "poa:Unreported/Not used"
+label|"(Exempt from POA reporting)"|"e:1zt"
+.s "poa:W"
+definition|"provider is unable to clinically determine whether condition was present on admission or not"|"e:55"
+label|"Clinically undetermined"|"e:1zt"
+.s "poa:Y"
+definition|"present at the time of inpatient admission"|"e:55"
+label|"Yes"|"e:1zt"
+.end 9 46bce634ee2a54b868f839ba38b01a11216edbb1d14ede7bc0df1fd4a4dfca97
